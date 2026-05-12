@@ -1,0 +1,61 @@
+# Secrets
+.env
+*.env
+*.pem
+*.key
+*.crt
+credentials.*
+secrets.*
+passwords.*
+local_notes/
+admin/secrets/
+secrets/
+
+# VM files
+*.vdi
+*.vmdk
+*.ova
+*.ovf
+*.iso
+*.qcow2
+*.vbox
+*.vmx
+*.nvram
+
+# Logs and bulky data
+*.log
+*.evtx
+*.pcap
+*.pcapng
+*.zip
+*.7z
+*.tar
+*.gz
+*.rar
+
+# Databases
+*.db
+*.sqlite
+*.sqlite3
+*.dump
+
+# Python
+__pycache__/
+.venv/
+venv/
+*.pyc
+.pytest_cache/
+
+# Node
+node_modules/
+dist/
+build/
+
+# OS
+.DS_Store
+Thumbs.db
+desktop.ini
+
+# IDE
+.vscode/settings.json
+.idea/
