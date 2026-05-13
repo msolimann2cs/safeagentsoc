@@ -8,7 +8,7 @@ Phase 1: Lab Foundation.
 
 ## Current Sprint
 
-Sprint 3 completed: Windows endpoint deployment.
+Sprint 4 completed: Linux endpoint deployment.
 
 ## Phase 1 Goal
 

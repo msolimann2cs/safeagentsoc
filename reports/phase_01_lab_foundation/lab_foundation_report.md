@@ -81,3 +81,40 @@ Sysmon was installed on the endpoint to provide detailed Windows telemetry, incl
 ### Snapshot
 
 A VMware snapshot named `win-agent-sysmon-working` was created after confirming that the Windows endpoint was active in Wazuh and Sysmon was installed.
+
+## 6. Linux Endpoint Onboarding
+
+The Linux endpoint `safesoc-lnx-01` was configured as a monitored Ubuntu endpoint in the SafeAgentSOC lab. The VM was assigned static IP `10.10.10.31` on the VMware VMnet10 network with default gateway `10.10.10.2`.
+
+The endpoint was validated for network connectivity to the Wazuh server at `10.10.10.10`, including dashboard, enrollment, communication, and API ports. The Wazuh agent was installed using the official Linux deployment method and configured to communicate with the Wazuh manager at `10.10.10.10`.
+
+SSH and sudo/auth activity were generated safely inside the lab. Local Linux logs were verified using `journalctl` or `/var/log/auth.log`, then the same events were verified in Wazuh Threat Hunting using DQL filters for `agent.name: "safesoc-lnx-01"` and event-specific terms such as `ssh`, `sshd`, `failed`, `accepted`, and `sudo`.
+
+### Linux Endpoint Configuration
+
+| Field | Value |
+|---|---|
+| VM Name | safesoc-lnx-01 |
+| IP Address | 10.10.10.31 |
+| Gateway | 10.10.10.2 |
+| Wazuh Manager | 10.10.10.10 |
+| Wazuh Agent Service | wazuh-agent |
+| SSH Service | ssh |
+| Log Sources | journald, auth/sudo/SSH events |
+
+### Evidence
+
+| Evidence ID | Description |
+|---|---|
+| E-P1-020 | Linux static IP configured |
+| E-P1-021 | Linux endpoint can reach Wazuh |
+| E-P1-022 | Wazuh agent installed and running |
+| E-P1-023 | Linux endpoint active in Wazuh |
+| E-P1-024 | SSH event generated locally |
+| E-P1-025 | SSH/auth event visible in Wazuh |
+| E-P1-026 | sudo event generated locally |
+| E-P1-027 | sudo/auth event visible in Wazuh |
+
+### Snapshot
+
+A VMware snapshot named `linux-agent-working` was created after confirming that the Linux endpoint was active in Wazuh and Linux SSH/sudo telemetry was visible.

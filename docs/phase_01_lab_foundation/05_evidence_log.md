@@ -17,3 +17,11 @@
 | 2026-05-13 | E-P1-015 | 2026-05-13_win01_sysmon-local-process-event.png | Screenshot | Sysmon local process event generated | Windows telemetry |
 | 2026-05-13 | E-P1-016 | 2026-05-13_win01_process-event-in-wazuh.png | Screenshot | Wazuh received Windows process/Sysmon event | Log ingestion proof |
 | 2026-05-13 | E-P1-017 | 2026-05-13_win01_login-event-in-wazuh.png | Screenshot | Wazuh received Windows login/security event | Log ingestion proof |
+| 2026-05-13 | E-P1-020 | 2026-05-13_lnx01_hostname-ip.png | Screenshot | Linux endpoint hostname and static IP configured | Linux endpoint |
+| 2026-05-13 | E-P1-021 | 2026-05-13_lnx01_connectivity-to-wazuh.png | Screenshot | Linux endpoint can reach Wazuh ports | Linux endpoint |
+| 2026-05-13 | E-P1-022 | 2026-05-13_lnx01_wazuh-agent-installed.png | Screenshot | Wazuh agent installed and running | Linux endpoint |
+| 2026-05-13 | E-P1-023 | 2026-05-13_lnx01_agent-active-in-wazuh.png | Screenshot | Linux endpoint active in Wazuh | Linux endpoint |
+| 2026-05-13 | E-P1-024 | 2026-05-13_lnx01_ssh-event-local.png | Screenshot | SSH event generated locally | Linux telemetry |
+| 2026-05-13 | E-P1-025 | 2026-05-13_lnx01_ssh-event-in-wazuh.png | Screenshot | Wazuh received Linux SSH/auth event | Log ingestion proof |
+| 2026-05-13 | E-P1-026 | 2026-05-13_lnx01_sudo-event-local.png | Screenshot | sudo event generated locally | Linux telemetry |
+| 2026-05-13 | E-P1-027 | 2026-05-13_lnx01_sudo-event-in-wazuh.png | Screenshot | Wazuh received Linux sudo/auth event | Log ingestion proof |
