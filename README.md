@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 # SafeAgentSOC
 
 SafeAgentSOC is a GRC-aware, tool-constrained AI SOC co-analyst prototype for reducing SOC alert fatigue through SIEM telemetry, alert normalization, incident case-building, context enrichment, LLM-assisted hypothesis generation, graph validation, risk scoring, GRC policy guardrails, constrained action recommendations, and human-in-the-loop approval.
@@ -50,3 +51,6 @@ This project is conducted only inside a controlled lab environment. It does not 
 
 Phase 2 will focus on telemetry scenarios and dataset creation.
 
+=======
+# safeagentsoc
+>>>>>>> f8467cef03b5888f73ff6246979e76d32f73b841
