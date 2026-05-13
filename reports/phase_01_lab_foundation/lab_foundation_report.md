@@ -2,119 +2,104 @@
 
 ## 1. Objective
 
-Establish the Month 2 SOC lab foundation for SafeAgentSOC.
+The objective of this phase was to build the SafeAgentSOC lab foundation by deploying a Wazuh-based SIEM/XDR environment, onboarding Windows and Linux endpoints, configuring endpoint telemetry, and proving that meaningful endpoint events are ingested into Wazuh.
 
-## 2. Scope
+## 2. Lab Architecture
 
-Deploy a Wazuh server and prepare the lab environment for endpoint onboarding and evidence capture.
+The lab uses VMware Workstation Pro with VMnet10 as an isolated NAT network. The final subnet is `10.10.10.0/24`.
 
-## 3. Summary
+| Address | Meaning |
+|---|---|
+| 10.10.10.1 | Windows host-side VMware VMnet10 adapter |
+| 10.10.10.2 | VMware NAT gateway |
+| 10.10.10.10 | Wazuh server |
+| 10.10.10.21 | Windows endpoint |
+| 10.10.10.31 | Linux endpoint |
 
-The lab foundation focused on host folder structure, virtual machine planning, Wazuh server deployment, and documentation discipline.
+## 3. VM Inventory
+
+| VM Name | Role | IP | Status |
+|---|---|---:|---|
+| safesoc-wazuh-01 | Wazuh server, indexer, dashboard | 10.10.10.10 | Complete |
+| safesoc-win-01 | Windows endpoint, Wazuh agent, Sysmon | 10.10.10.21 | Complete |
+| safesoc-lnx-01 | Linux endpoint, Wazuh agent | 10.10.10.31 | Complete |
 
 ## 4. Wazuh Server Deployment
 
-The Wazuh server was deployed on the VM `safesoc-wazuh-01` using the official Wazuh all-in-one installation assistant. This deployment installed the Wazuh server, Wazuh indexer, and Wazuh dashboard on a single host.
+The Wazuh server was deployed on `safesoc-wazuh-01`. It hosts the Wazuh manager, indexer, and dashboard. The dashboard was successfully accessed from the host PC at `https://10.10.10.10`.
 
-| Field | Value |
-|---|---|
-| VM Name | safesoc-wazuh-01 |
-| Hostname | safesoc-wazuh-01 |
-| IP Address | 10.10.10.10 |
-| OS | Ubuntu 24.04 |
-| CPU | 4 vCPU |
-| RAM | 8 GB |
-| Disk | 100 GB |
-| Dashboard URL | https://10.10.10.10 |
-
-Before installation, the VM was validated for static IP configuration, default gateway connectivity, internet connectivity, DNS resolution, and sufficient system resources.
-
-The Wazuh dashboard was successfully accessed from the host PC using `https://10.10.10.10`. The generated credentials were stored locally outside GitHub. After installation, Wazuh package repository updates were disabled to avoid accidental upgrades that could break the lab environment.
-
-### Evidence
-
-| Evidence ID | Description |
-|---|---|
-| E-P1-003 | Wazuh server static IP configured |
-| E-P1-004 | Wazuh installation completed |
-| E-P1-005 | Wazuh dashboard reachable |
-| E-P1-006 | Wazuh dashboard overview visible |
-| E-P1-007 | Wazuh services running |
-
-### Snapshot
-
-A VMware snapshot named `wazuh-installed-working` was created after confirming that the dashboard was reachable and credentials were stored safely.
+Evidence:
+- Wazuh services running
+- Wazuh ports listening
+- Dashboard login page reachable
+- Dashboard overview accessible after authentication
 
 ## 5. Windows Endpoint Onboarding
 
-The Windows endpoint `safesoc-win-01` was configured as the first monitored endpoint in the SafeAgentSOC lab. The VM was assigned a static IP address of `10.10.10.21` on the VMware VMnet10 lab network, with the corrected VMware NAT gateway `10.10.10.2`.
+The Windows endpoint `safesoc-win-01` was configured with static IP `10.10.10.21`, enrolled into Wazuh using the Windows Wazuh agent, and configured with Sysmon for endpoint telemetry.
 
-The endpoint was validated for connectivity to the Wazuh server at `10.10.10.10`, including dashboard access and agent communication/enrollment ports. The Wazuh agent was installed and enrolled using the Wazuh dashboard deployment instructions. After installation, the Windows endpoint appeared as active in the Wazuh dashboard.
-
-Sysmon was installed on the endpoint to provide detailed Windows telemetry, including process creation events. The Wazuh agent configuration was updated to collect the `Microsoft-Windows-Sysmon/Operational` event channel. Safe test events were generated using benign commands such as launching Notepad, opening Calculator, and running basic PowerShell commands.
-
-### Windows Endpoint Configuration
-
-| Field | Value |
-|---|---|
-| VM Name | safesoc-win-01 |
-| IP Address | 10.10.10.21 |
-| Gateway | 10.10.10.2 |
-| Wazuh Manager | 10.10.10.10 |
-| Wazuh Agent Service | WazuhSvc |
-| Sysmon Service | Sysmon64 |
-| Sysmon Channel | Microsoft-Windows-Sysmon/Operational |
-
-### Evidence
-
-| Evidence ID | Description |
-|---|---|
-| E-P1-010 | Windows static IP configured |
-| E-P1-011 | Windows endpoint can reach Wazuh |
-| E-P1-012 | Wazuh agent installed and running |
-| E-P1-013 | Windows endpoint active in Wazuh |
-| E-P1-014 | Sysmon installed |
-| E-P1-015 | Sysmon local process event generated |
-| E-P1-016 | Wazuh received Windows process/Sysmon event |
-| E-P1-017 | Wazuh received Windows login/security event |
-
-### Snapshot
-
-A VMware snapshot named `win-agent-sysmon-working` was created after confirming that the Windows endpoint was active in Wazuh and Sysmon was installed.
+Verified telemetry:
+- Windows agent active in Wazuh
+- Sysmon process events
+- Windows login/security events
 
 ## 6. Linux Endpoint Onboarding
 
-The Linux endpoint `safesoc-lnx-01` was configured as a monitored Ubuntu endpoint in the SafeAgentSOC lab. The VM was assigned static IP `10.10.10.31` on the VMware VMnet10 network with default gateway `10.10.10.2`.
+The Linux endpoint `safesoc-lnx-01` was configured with static IP `10.10.10.31`, enrolled into Wazuh using the Linux Wazuh agent, and used to generate SSH/auth and sudo telemetry.
 
-The endpoint was validated for network connectivity to the Wazuh server at `10.10.10.10`, including dashboard, enrollment, communication, and API ports. The Wazuh agent was installed using the official Linux deployment method and configured to communicate with the Wazuh manager at `10.10.10.10`.
+Verified telemetry:
+- Linux agent active in Wazuh
+- SSH/auth events
+- sudo/auth events
 
-SSH and sudo/auth activity were generated safely inside the lab. Local Linux logs were verified using `journalctl` or `/var/log/auth.log`, then the same events were verified in Wazuh Threat Hunting using DQL filters for `agent.name: "safesoc-lnx-01"` and event-specific terms such as `ssh`, `sshd`, `failed`, `accepted`, and `sudo`.
+## 7. Final Log Ingestion Proof
 
-### Linux Endpoint Configuration
+Sprint 5 validated that Wazuh receives meaningful telemetry from both Windows and Linux endpoints.
 
-| Field | Value |
+| Evidence ID | Source VM | Event Type | Visible in Wazuh? |
+|---|---|---|---|
+| E-P1-031 | safesoc-win-01 | Sysmon/process event | Yes |
+| E-P1-032 | safesoc-win-01 | Login/security event | Yes |
+| E-P1-033 | safesoc-lnx-01 | SSH/auth event | Yes |
+| E-P1-034 | safesoc-lnx-01 | sudo/auth event | Yes |
+
+## 8. Problems Faced and Fixes
+
+| Problem | Cause | Fix |
+|---|---|---|
+| Static IP but no internet | Used host VMnet10 adapter as gateway | Corrected NAT gateway to 10.10.10.2 |
+| Duplicate static and DHCP IPs | Multiple Netplan/cloud-init configs | Disabled conflicting configs |
+| NetworkManager error | Renderer mismatch | Switched to systemd-networkd |
+| Evidence scattered across sprints | Screenshots captured during implementation | Created final evidence index |
+
+## 9. Snapshots
+
+| VM | Snapshot | Purpose |
+|---|---|---|
+| safesoc-wazuh-01 | wazuh-installed-working | Restore Wazuh server after working install |
+| safesoc-win-01 | win-agent-sysmon-working | Restore Windows endpoint after Wazuh/Sysmon setup |
+| safesoc-lnx-01 | linux-agent-working | Restore Linux endpoint after Wazuh agent setup |
+
+## 10. Success Criteria
+
+| Success Criteria | Status |
 |---|---|
-| VM Name | safesoc-lnx-01 |
-| IP Address | 10.10.10.31 |
-| Gateway | 10.10.10.2 |
-| Wazuh Manager | 10.10.10.10 |
-| Wazuh Agent Service | wazuh-agent |
-| SSH Service | ssh |
-| Log Sources | journald, auth/sudo/SSH events |
+| Wazuh dashboard reachable | Complete |
+| Windows endpoint active in Wazuh | Complete |
+| Linux endpoint active in Wazuh | Complete |
+| Sysmon installed | Complete |
+| Windows event visible in Wazuh | Complete |
+| Linux SSH/auth event visible in Wazuh | Complete |
+| Linux sudo event visible in Wazuh | Complete |
+| Network diagram complete | Complete |
+| VM inventory complete | Complete |
+| Evidence log complete | Complete |
 
-### Evidence
+## 11. Readiness for Next Phase
 
-| Evidence ID | Description |
-|---|---|
-| E-P1-020 | Linux static IP configured |
-| E-P1-021 | Linux endpoint can reach Wazuh |
-| E-P1-022 | Wazuh agent installed and running |
-| E-P1-023 | Linux endpoint active in Wazuh |
-| E-P1-024 | SSH event generated locally |
-| E-P1-025 | SSH/auth event visible in Wazuh |
-| E-P1-026 | sudo event generated locally |
-| E-P1-027 | sudo/auth event visible in Wazuh |
+The lab is ready for the next phase: telemetry scenario design and dataset creation. The environment can now generate and collect endpoint telemetry from both Windows and Linux systems through Wazuh.
 
-### Snapshot
+## 12. Conclusion
 
-A VMware snapshot named `linux-agent-working` was created after confirming that the Linux endpoint was active in Wazuh and Linux SSH/sudo telemetry was visible.
+Phase 1 successfully established the SafeAgentSOC lab foundation. The completed environment provides a working SIEM/XDR base with Windows and Linux telemetry sources, validated agent connectivity, endpoint event ingestion, troubleshooting documentation, and reusable VM snapshots.
+

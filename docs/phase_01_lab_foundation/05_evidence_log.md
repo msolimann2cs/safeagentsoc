@@ -1,27 +1,41 @@
-# Evidence Log
+# Phase 1 Evidence Log
 
-| Date | Evidence ID | File | Type | What it proves | Related deliverable |
-|---|---|---|---|---|---|
-| 2026-05-13 | E-P1-003 | 2026-05-13_wazuh01_static-ip.png | Screenshot | Wazuh server static IP and route configured | Wazuh deployment |
-| 2026-05-13 | E-P1-004 | 2026-05-13_wazuh01_connectivity.png | Screenshot | Wazuh server internet and DNS connectivity working | Wazuh deployment |
-| 2026-05-13 | E-P1-005 | 2026-05-13_wazuh_services-running.png | Screenshot | Wazuh manager, indexer, and dashboard active | Wazuh deployment |
-| 2026-05-13 | E-P1-006 | 2026-05-13_wazuh_ports-listening.png | Screenshot | Wazuh dashboard, API, enrollment, and agent ports listening | Wazuh deployment |
-| 2026-05-13 | E-P1-007 | 2026-05-13_wazuh_dashboard_login.png | Screenshot | Dashboard reachable from host PC | Wazuh deployment |
-| 2026-05-13 | E-P1-008 | 2026-05-13_wazuh_dashboard_overview.png | Screenshot | Dashboard login successful | Wazuh deployment |
-| 2026-05-13 | E-P1-009 | 2026-05-13_vmware_vmnet10_nat-gateway.png | Screenshot | Corrected VMware NAT gateway to 10.10.10.2 | Network troubleshooting |
-| 2026-05-13 | E-P1-010 | 2026-05-13_win01_static-ip.png | Screenshot | Windows endpoint static IP configured | Windows endpoint |
-| 2026-05-13 | E-P1-011 | 2026-05-13_win01_connectivity-to-wazuh.png | Screenshot | Windows endpoint can reach Wazuh ports | Windows endpoint |
-| 2026-05-13 | E-P1-012 | 2026-05-13_win01_wazuh-agent-installed.png | Screenshot | Wazuh agent installed and running | Windows endpoint |
-| 2026-05-13 | E-P1-013 | 2026-05-13_win01_agent-active-in-wazuh.png | Screenshot | Windows endpoint active in Wazuh | Windows endpoint |
-| 2026-05-13 | E-P1-014 | 2026-05-13_win01_sysmon-installed.png | Screenshot | Sysmon installed on Windows endpoint | Windows endpoint |
-| 2026-05-13 | E-P1-015 | 2026-05-13_win01_sysmon-local-process-event.png | Screenshot | Sysmon local process event generated | Windows telemetry |
-| 2026-05-13 | E-P1-016 | 2026-05-13_win01_process-event-in-wazuh.png | Screenshot | Wazuh received Windows process/Sysmon event | Log ingestion proof |
-| 2026-05-13 | E-P1-017 | 2026-05-13_win01_login-event-in-wazuh.png | Screenshot | Wazuh received Windows login/security event | Log ingestion proof |
-| 2026-05-13 | E-P1-020 | 2026-05-13_lnx01_hostname-ip.png | Screenshot | Linux endpoint hostname and static IP configured | Linux endpoint |
-| 2026-05-13 | E-P1-021 | 2026-05-13_lnx01_connectivity-to-wazuh.png | Screenshot | Linux endpoint can reach Wazuh ports | Linux endpoint |
-| 2026-05-13 | E-P1-022 | 2026-05-13_lnx01_wazuh-agent-installed.png | Screenshot | Wazuh agent installed and running | Linux endpoint |
-| 2026-05-13 | E-P1-023 | 2026-05-13_lnx01_agent-active-in-wazuh.png | Screenshot | Linux endpoint active in Wazuh | Linux endpoint |
-| 2026-05-13 | E-P1-024 | 2026-05-13_lnx01_ssh-event-local.png | Screenshot | SSH event generated locally | Linux telemetry |
-| 2026-05-13 | E-P1-025 | 2026-05-13_lnx01_ssh-event-in-wazuh.png | Screenshot | Wazuh received Linux SSH/auth event | Log ingestion proof |
-| 2026-05-13 | E-P1-026 | 2026-05-13_lnx01_sudo-event-local.png | Screenshot | sudo event generated locally | Linux telemetry |
-| 2026-05-13 | E-P1-027 | 2026-05-13_lnx01_sudo-event-in-wazuh.png | Screenshot | Wazuh received Linux sudo/auth event | Log ingestion proof |
+## Evidence Storage
+
+Full evidence is stored locally outside GitHub:
+
+```text
+C:\D-Drive\Seneca\Co op\SafeAgentSOC\07_evidence\phase_01_lab_foundation
+```
+
+## Evidence Index
+
+| Evidence ID | File | What it proves | Sprint |
+|---|---|---|---|
+| E-P1-001 | phase_01_lab_network.png | Final lab topology | Sprint 1 |
+| E-P1-002 | vmware_vmnet10_nat-gateway.png | Corrected NAT gateway is 10.10.10.2 | Sprint 1/2 |
+| E-P1-003 | wazuh01_static-ip.png | Wazuh server static IP configured | Sprint 2 |
+| E-P1-004 | wazuh01_connectivity.png | Wazuh server internet/DNS connectivity | Sprint 2 |
+| E-P1-005 | wazuh_services-running.png | Wazuh manager, indexer, dashboard active | Sprint 2 |
+| E-P1-006 | wazuh_ports-listening.png | Wazuh ports listening | Sprint 2 |
+| E-P1-007 | wazuh_dashboard_login.png | Dashboard reachable from host PC | Sprint 2 |
+| E-P1-008 | wazuh_dashboard_overview.png | Dashboard login successful | Sprint 2 |
+| E-P1-010 | win01_static-ip.png | Windows endpoint static IP configured | Sprint 3 |
+| E-P1-011 | win01_connectivity-to-wazuh.png | Windows endpoint can reach Wazuh | Sprint 3 |
+| E-P1-012 | win01_wazuh-agent-installed.png | Windows Wazuh agent installed | Sprint 3 |
+| E-P1-013 | win01_agent-active-in-wazuh.png | Windows endpoint active in Wazuh | Sprint 3 |
+| E-P1-014 | win01_sysmon-installed.png | Sysmon installed | Sprint 3 |
+| E-P1-015 | win01_process-event-in-wazuh.png | Windows Sysmon/process event visible | Sprint 3/5 |
+| E-P1-016 | win01_login-event-in-wazuh.png | Windows login/security event visible | Sprint 3/5 |
+| E-P1-020 | lnx01_hostname-ip.png | Linux endpoint static IP configured | Sprint 4 |
+| E-P1-021 | lnx01_connectivity-to-wazuh.png | Linux endpoint can reach Wazuh | Sprint 4 |
+| E-P1-022 | lnx01_wazuh-agent-installed.png | Linux Wazuh agent installed | Sprint 4 |
+| E-P1-023 | lnx01_agent-active-in-wazuh.png | Linux endpoint active in Wazuh | Sprint 4 |
+| E-P1-024 | lnx01_ssh-event-in-wazuh.png | Linux SSH/auth event visible | Sprint 4/5 |
+| E-P1-025 | lnx01_sudo-event-in-wazuh.png | Linux sudo/auth event visible | Sprint 4/5 |
+| E-P1-030 | sprint5_agents-active.png | Both agents active together | Sprint 5 |
+| E-P1-031 | sprint5_win_sysmon_process_event.png | Fresh Windows process event ingested | Sprint 5 |
+| E-P1-032 | sprint5_win_login_event.png | Fresh Windows login event ingested | Sprint 5 |
+| E-P1-033 | sprint5_lnx_ssh_event.png | Fresh Linux SSH event ingested | Sprint 5 |
+| E-P1-034 | sprint5_lnx_sudo_event.png | Fresh Linux sudo event ingested | Sprint 5 |
+
