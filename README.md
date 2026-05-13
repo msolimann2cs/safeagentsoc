@@ -8,7 +8,7 @@ Phase 1: Lab Foundation.
 
 ## Current Sprint
 
-Sprint 2 completed: Wazuh server deployment.
+Sprint 3 completed: Windows endpoint deployment.
 
 ## Phase 1 Goal
 

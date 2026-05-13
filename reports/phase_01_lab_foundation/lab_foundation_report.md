@@ -45,13 +45,39 @@ The Wazuh dashboard was successfully accessed from the host PC using `https://10
 
 A VMware snapshot named `wazuh-installed-working` was created after confirming that the dashboard was reachable and credentials were stored safely.
 
-## 5. Success Criteria
+## 5. Windows Endpoint Onboarding
 
-| Criterion | Status |
+The Windows endpoint `safesoc-win-01` was configured as the first monitored endpoint in the SafeAgentSOC lab. The VM was assigned a static IP address of `10.10.10.21` on the VMware VMnet10 lab network, with the corrected VMware NAT gateway `10.10.10.2`.
+
+The endpoint was validated for connectivity to the Wazuh server at `10.10.10.10`, including dashboard access and agent communication/enrollment ports. The Wazuh agent was installed and enrolled using the Wazuh dashboard deployment instructions. After installation, the Windows endpoint appeared as active in the Wazuh dashboard.
+
+Sysmon was installed on the endpoint to provide detailed Windows telemetry, including process creation events. The Wazuh agent configuration was updated to collect the `Microsoft-Windows-Sysmon/Operational` event channel. Safe test events were generated using benign commands such as launching Notepad, opening Calculator, and running basic PowerShell commands.
+
+### Windows Endpoint Configuration
+
+| Field | Value |
 |---|---|
-| Wazuh dashboard reachable | Complete |
+| VM Name | safesoc-win-01 |
+| IP Address | 10.10.10.21 |
+| Gateway | 10.10.10.2 |
+| Wazuh Manager | 10.10.10.10 |
+| Wazuh Agent Service | WazuhSvc |
+| Sysmon Service | Sysmon64 |
+| Sysmon Channel | Microsoft-Windows-Sysmon/Operational |
 
-## 6. Next Steps
+### Evidence
 
-Proceed to endpoint onboarding and lab evidence capture.
+| Evidence ID | Description |
+|---|---|
+| E-P1-010 | Windows static IP configured |
+| E-P1-011 | Windows endpoint can reach Wazuh |
+| E-P1-012 | Wazuh agent installed and running |
+| E-P1-013 | Windows endpoint active in Wazuh |
+| E-P1-014 | Sysmon installed |
+| E-P1-015 | Sysmon local process event generated |
+| E-P1-016 | Wazuh received Windows process/Sysmon event |
+| E-P1-017 | Wazuh received Windows login/security event |
 
+### Snapshot
+
+A VMware snapshot named `win-agent-sysmon-working` was created after confirming that the Windows endpoint was active in Wazuh and Sysmon was installed.
