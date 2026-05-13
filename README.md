@@ -8,7 +8,7 @@ Phase 1: Lab Foundation.
 
 ## Current Sprint
 
-Sprint 0: Workspace and documentation setup.
+Sprint 2 completed: Wazuh server deployment.
 
 ## Phase 1 Goal
 

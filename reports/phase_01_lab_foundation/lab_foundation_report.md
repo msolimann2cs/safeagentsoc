@@ -2,91 +2,56 @@
 
 ## 1. Objective
 
-The objective of this phase was to build the technical SOC lab foundation, deploy Wazuh as the SIEM/XDR platform, connect Windows and Linux endpoints, and prove that endpoint security events are ingested into Wazuh.
+Establish the Month 2 SOC lab foundation for SafeAgentSOC.
 
-## 2. Lab Architecture
+## 2. Scope
 
-The SafeAgentSOC lab foundation uses a small isolated virtual network containing one Wazuh server and two monitored endpoints. The Wazuh server acts as the central SIEM/XDR platform, while the Windows and Linux endpoints act as telemetry sources.
+Deploy a Wazuh server and prepare the lab environment for endpoint onboarding and evidence capture.
 
-The selected lab network is `SafeAgentSOC-LabNet` using the `10.10.10.0/24` address range. The Wazuh server is assigned `10.10.10.10`, the Windows endpoint is assigned `10.10.10.21`, and the Linux endpoint is assigned `10.10.10.31`.
+## 3. Summary
 
-The lab is designed to support controlled defensive telemetry collection only. It is not used for testing third-party systems.
+The lab foundation focused on host folder structure, virtual machine planning, Wazuh server deployment, and documentation discipline.
 
-### Network Diagram
+## 4. Wazuh Server Deployment
 
-The network diagram is stored at:
+The Wazuh server was deployed on the VM `safesoc-wazuh-01` using the official Wazuh all-in-one installation assistant. This deployment installed the Wazuh server, Wazuh indexer, and Wazuh dashboard on a single host.
 
-```text
-diagrams/network/phase_01_lab_network.png
-IP Address Plan
-HostIPPurpose
-safesoc-wazuh-0110.10.10.10Wazuh server, dashboard, manager
-safesoc-win-0110.10.10.21Windows endpoint telemetry
-safesoc-lnx-0110.10.10.31Linux endpoint telemetry
-3. VM Inventory
-VM NameRoleOSIPCPURAMDiskStatus
-safesoc-wazuh-01Wazuh serverUbuntu Server 24.04 LTS10.10.10.104 vCPU8 GB100 GBPlanned
-safesoc-win-01Windows endpointWindows 10/1110.10.10.212 vCPU4 GB60 GBPlanned
-safesoc-lnx-01Linux endpointUbuntu Server 24.04 LTS10.10.10.312 vCPU2 GB30 GBPlanned
-4. Wazuh Server Deployment
+| Field | Value |
+|---|---|
+| VM Name | safesoc-wazuh-01 |
+| Hostname | safesoc-wazuh-01 |
+| IP Address | 10.10.10.10 |
+| OS | Ubuntu 24.04 |
+| CPU | 4 vCPU |
+| RAM | 8 GB |
+| Disk | 100 GB |
+| Dashboard URL | https://10.10.10.10 |
 
-TBD
+Before installation, the VM was validated for static IP configuration, default gateway connectivity, internet connectivity, DNS resolution, and sufficient system resources.
 
-Include:
+The Wazuh dashboard was successfully accessed from the host PC using `https://10.10.10.10`. The generated credentials were stored locally outside GitHub. After installation, Wazuh package repository updates were disabled to avoid accidental upgrades that could break the lab environment.
 
-Installation method
-System resources
-Dashboard URL
-Screenshots
-Issues and fixes
-5. Windows Endpoint Onboarding
+### Evidence
 
-TBD
+| Evidence ID | Description |
+|---|---|
+| E-P1-003 | Wazuh server static IP configured |
+| E-P1-004 | Wazuh installation completed |
+| E-P1-005 | Wazuh dashboard reachable |
+| E-P1-006 | Wazuh dashboard overview visible |
+| E-P1-007 | Wazuh services running |
 
-Include:
+### Snapshot
 
-Wazuh agent installation
-Sysmon installation
-Windows test events
-Screenshots
-6. Linux Endpoint Onboarding
+A VMware snapshot named `wazuh-installed-working` was created after confirming that the dashboard was reachable and credentials were stored safely.
 
-TBD
+## 5. Success Criteria
 
-Include:
+| Criterion | Status |
+|---|---|
+| Wazuh dashboard reachable | Complete |
 
-Wazuh agent installation
-SSH/auth logs
-sudo logs
-Screenshots
-7. Log Ingestion Proof
-Evidence IDSource VMEvent TypeVisible in Wazuh?Screenshot
-TBDsafesoc-win-01Login eventTBDTBD
-TBDsafesoc-win-01Sysmon process eventTBDTBD
-TBDsafesoc-lnx-01SSH/auth eventTBDTBD
-TBDsafesoc-lnx-01sudo eventTBDTBD
-8. Problems Faced and Fixes
-ProblemCauseFixLesson Learned
-TBDTBDTBDTBD
-9. Evidence Index
-Evidence IDFileDescription
-E-P1-0012026-05-12_phase1_network_diagram.pngLab topology and IP plan
-E-P1-002phase_01_lab_network.drawioEditable network diagram
-10. Success Criteria
-Success CriteriaStatus
-Wazuh dashboard reachablePending
-Windows endpoint active in WazuhPending
-Linux endpoint active in WazuhPending
-Sysmon installedPending
-Windows event visible in WazuhPending
-Linux auth/sudo/SSH event visible in WazuhPending
-Network diagram completeIn progress
-VM inventory completeIn progress
-Evidence log completeIn progress
-11. Readiness for Next Phase
+## 6. Next Steps
 
-The next phase will focus on telemetry scenarios and dataset creation. The lab foundation will be ready when Wazuh receives reliable telemetry from both Windows and Linux endpoints.
+Proceed to endpoint onboarding and lab evidence capture.
 
-12. Conclusion
-
-TBD
