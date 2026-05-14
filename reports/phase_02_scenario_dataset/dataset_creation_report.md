@@ -112,3 +112,32 @@ The attack-like scenarios cover the following ATT&CK techniques:
 Benign and noisy scenarios were not force-mapped to ATT&CK. This preserves label quality and prevents artificial technique inflation. Attack-like scenarios are mapped only when the observable behavior clearly resembles a technique. All planned execution remains inside the SafeAgentSOC lab, and high-risk actions such as malware execution, credential dumping, destructive persistence, third-party scanning, and real exfiltration are excluded.
 
 Sprint 2 produced the human-readable scenario catalog, MITRE mapping table, machine-readable scenario catalog, MITRE mapping CSV, and coverage matrix. No scenarios were executed during this sprint.
+
+## Sprint 2: Scenario Catalog, Campaign Design, and MITRE Mapping
+
+Sprint 2 finalized the Phase 2 scenario catalog, campaign design, simulated-only gap register, and MITRE mapping. The catalog now supports manual adversary emulation, Atomic Red Team validation, and MITRE Caldera campaign emulation while explicitly reserving unsafe techniques as simulated-only documentation.
+
+### Scenario Coverage
+
+| Category | Scenarios |
+|---|---|
+| Windows attack-like | S01, S02, S03, S04 |
+| Linux attack-like | S07, S08, S09, S10 |
+| Benign | S05, S11 |
+| Noise | S06 |
+| Ambiguous/noise | S12 |
+
+### Campaign Coverage
+
+| Campaign | Target | Purpose |
+|---|---|---|
+| C-WIN-01 | safesoc-win-01 | Windows foothold-to-staging emulation |
+| C-LNX-01 | safesoc-lnx-01 | Linux access-to-persistence emulation |
+
+### Simulated-Only Gaps
+
+Unsafe techniques such as credential dumping, ransomware-like encryption, /etc/shadow dumping, and real exfiltration are documented only as simulated-only gaps. They are included in methodology and limitations, but they are not executed.
+
+### Research-Quality Controls
+
+Benign and noisy scenarios were not force-mapped to ATT&CK. Attack-like scenarios are mapped conservatively and kept explainable. Campaigns are designed for later manual, Atomic Red Team, and Caldera-based validation in future sprints. No scenarios, Atomic tests, or Caldera operations were executed during Sprint 2.

@@ -1,0 +1,41 @@
+campaign_catalog_version: 0.2.0
+phase: phase_02_scenario_dataset
+
+campaigns:
+  - campaign_id: C-WIN-01
+    name: Windows Foothold-to-Staging Emulation
+    target: safesoc-win-01
+    ground_truth: emulated_malicious
+    execution_modes: [manual, atomic_red_team, caldera]
+    stages:
+      - order: 1
+        scenario_id: S01
+        technique_id: T1059.001
+      - order: 2
+        scenario_id: S02
+        technique_id: T1082/T1033/T1016
+      - order: 3
+        scenario_id: S03
+        technique_id: T1053.005
+      - order: 4
+        scenario_id: S04
+        technique_id: T1560.001
+
+  - campaign_id: C-LNX-01
+    name: Linux Access-to-Persistence Emulation
+    target: safesoc-lnx-01
+    ground_truth: emulated_malicious
+    execution_modes: [manual, atomic_red_team, caldera]
+    stages:
+      - order: 1
+        scenario_id: S07
+        technique_id: T1110.001
+      - order: 2
+        scenario_id: S08
+        technique_id: T1548.003
+      - order: 3
+        scenario_id: S09
+        technique_id: T1082/T1033/T1016
+      - order: 4
+        scenario_id: S10
+        technique_id: T1053.003

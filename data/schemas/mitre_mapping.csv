@@ -1,18 +1,15 @@
-scenario_id,scenario_name,platform,scenario_type,mitre_tactic,mitre_technique_id,mitre_technique_name,mapping_confidence,observable_signal,notes
-S01,Windows PowerShell execution,Windows,attack_like,Execution,T1059.001,PowerShell,high,PowerShell process/Sysmon event,Benign commands simulate script execution telemetry
-S02,Windows discovery sequence,Windows,attack_like,Discovery,T1082,System Information Discovery,high,systeminfo/host details,Read-only discovery
-S02,Windows discovery sequence,Windows,attack_like,Discovery,T1033,System Owner/User Discovery,high,whoami/user commands,Read-only discovery
-S02,Windows discovery sequence,Windows,attack_like,Discovery,T1016,System Network Configuration Discovery,high,ipconfig/network details,Read-only discovery
-S03,Windows scheduled task marker,Windows,attack_like,Persistence,T1053.005,Scheduled Task,medium,schtasks process/task creation,Harmless task removed after run
-S04,Windows archive and staging behavior,Windows,attack_like,Collection,T1560.001,Archive via Utility,medium,archive file creation,Test files only no exfiltration
-S05,Windows normal admin maintenance,Windows,benign,N/A,N/A,N/A,high,admin command telemetry,Benign maintenance
-S06,Windows repeated benign noise,Windows,nois?e,N/A,N/A,N/A,high,repeated benign process telemetry,Duplicate suppression candidate
-S07,Linux SSH failed login pattern,Linux,attack_like,Credential Access,T1110.001,Password Guessing,medium,failed SSH login,Controlled failed attempts only
-S08,Linux sudo authentication pattern,Linux,attack_like,Privilege Escalation,T1548.003,Sudo and Sudo Caching,medium,sudo/PAM logs,Authentication behavior not exploitation
-S09,Linux discovery sequence,Linux,attack_like,Discovery,T1082,System Information Discovery,high,uname/system details,Read-only discovery
-S09,Linux discovery sequence,Linux,attack_like,Discovery,T1033,System Owner/User Discovery,high,whoami/id,Read-only discovery
-S09,Linux discovery sequence,Linux,attack_like,Discovery,T1016,System Network Configuration Discovery,high,ip a/network details,Read-only discovery
-S10,Linux cron marker,Linux,attack_like,Persistence,T1053.003,Cron,medium,crontab/cron logs,Harmless marker removed after run
-S11,Linux normal admin maintenance,Linux,benign,N/A,N/A,N/A,high,admin maintenance telemetry,Benign maintenance
-S12,Repeated typo/noisy authentication,Cross-endpoint,ambiguous_noise,N/A,N/A,N/A,medium,failed auth then success,False-positive-like noise
-
+id,type,platform,tactic,technique_id,technique_name,confidence,notes
+S01,scenario,Windows,Execution,T1059.001,PowerShell,high,Manual Atomic and Caldera-supported
+S02,scenario,Windows,Discovery,T1082,System Information Discovery,high,Windows discovery
+S02,scenario,Windows,Discovery,T1033,System Owner/User Discovery,high,Windows user discovery
+S02,scenario,Windows,Discovery,T1016,System Network Configuration Discovery,high,Windows network discovery
+S03,scenario,Windows,Persistence,T1053.005,Scheduled Task,medium,Harmless marker task
+S04,scenario,Windows,Collection,T1560.001,Archive via Utility,medium,Synthetic archive only
+S07,scenario,Linux,Credential Access,T1110.001,Password Guessing,medium,Controlled failed login only
+S08,scenario,Linux,Privilege Escalation,T1548.003,Sudo and Sudo Caching,medium,Sudo/PAM telemetry
+S09,scenario,Linux,Discovery,T1082,System Information Discovery,high,Linux discovery
+S09,scenario,Linux,Discovery,T1033,System Owner/User Discovery,high,Linux user discovery
+S09,scenario,Linux,Discovery,T1016,System Network Configuration Discovery,high,Linux network discovery
+S10,scenario,Linux,Persistence,T1053.003,Cron,medium,Harmless cron marker
+C-WIN-01,campaign,Windows,Multiple,Multiple,Windows campaign chain,high,PowerShell discovery scheduled task archive
+C-LNX-01,campaign,Linux,Multiple,Multiple,Linux campaign chain,high,SSH sudo discovery cron
