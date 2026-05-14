@@ -59,3 +59,25 @@ desktop.ini
 # IDE
 .vscode/settings.json
 .idea/
+
+# SafeAgentSOC local datasets and evidence
+06_data/
+07_evidence/
+08_reports/
+01_admin/secrets/
+SafeAgentSOC-VMs/
+
+# Raw security telemetry
+*.jsonl
+*.evtx
+*.pcap
+*.pcapng
+*.log
+
+# Allow small intentional samples only
+!data/samples/**/*.jsonl
+!data/samples/**/*.json
+!data/schemas/**/*.json
+!data/schemas/**/*.yaml
+!data/schemas/**/*.yml
+!data/schemas/**/*.csv

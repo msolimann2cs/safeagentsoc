@@ -1,0 +1,3 @@
+label_id,alert_uid,scenario_id,run_id,agent_name,timestamp,label,event_role,mitre_tactic,mitre_technique_id,rule_id,rule_description,confidence,ground_truth_summary,notes
+L-P2-000001,TBD,S01,S01-R001,safesoc-win-01,TBD,attack_like,trigger,Execution,T1059.001,TBD,TBD,high,TBD,TBD
+

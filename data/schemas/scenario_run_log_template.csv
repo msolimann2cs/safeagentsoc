@@ -1,0 +1,3 @@
+run_id,scenario_id,scenario_name,scenario_type,host,operator,start_ts,end_ts,commands_file,evidence_ids,wazuh_query,expected_signal,cleanup_status,notes
+S01-R001,S01,TBD,TBD,TBD,Mohamed,TBD,TBD,TBD,TBD,TBD,TBD,TBD,TBD
+

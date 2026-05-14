@@ -1,0 +1,43 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "title": "SafeAgentSOC Phase 2 Ground Truth Label Schema",
+  "type": "object",
+  "required": [
+    "label_id",
+    "alert_uid",
+    "scenario_id",
+    "run_id",
+    "agent_name",
+    "timestamp",
+    "label",
+    "event_role",
+    "confidence"
+  ],
+  "properties": {
+    "label_id": { "type": "string" },
+    "alert_uid": { "type": "string" },
+    "scenario_id": { "type": "string" },
+    "run_id": { "type": "string" },
+    "agent_name": { "type": "string" },
+    "timestamp": { "type": "string" },
+    "label": {
+      "type": "string",
+      "enum": ["attack_like", "benign", "noise", "false_positive_candidate", "ambiguous"]
+    },
+    "event_role": {
+      "type": "string",
+      "enum": ["trigger", "supporting", "duplicate", "noise", "unrelated"]
+    },
+    "mitre_tactic": { "type": "string" },
+    "mitre_technique_id": { "type": "string" },
+    "rule_id": { "type": "string" },
+    "rule_description": { "type": "string" },
+    "confidence": {
+      "type": "string",
+      "enum": ["high", "medium", "low"]
+    },
+    "ground_truth_summary": { "type": "string" },
+    "notes": { "type": "string" }
+  }
+}
+

@@ -1,0 +1,49 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "title": "SafeAgentSOC Phase 2 Scenario Schema",
+  "type": "object",
+  "required": [
+    "scenario_id",
+    "name",
+    "type",
+    "platform",
+    "objective",
+    "safety_rating",
+    "commands",
+    "expected_wazuh_signal",
+    "cleanup"
+  ],
+  "properties": {
+    "scenario_id": { "type": "string" },
+    "name": { "type": "string" },
+    "type": {
+      "type": "string",
+      "enum": ["attack_like", "benign", "noise", "ambiguous"]
+    },
+    "platform": {
+      "type": "string",
+      "enum": ["Windows", "Linux", "Cross-endpoint"]
+    },
+    "objective": { "type": "string" },
+    "mitre": {
+      "type": "array",
+      "items": {
+        "type": "object",
+        "properties": {
+          "tactic": { "type": "string" },
+          "technique_id": { "type": "string" },
+          "technique_name": { "type": "string" },
+          "mapping_confidence": { "type": "string" }
+        }
+      }
+    },
+    "safety_rating": {
+      "type": "string",
+      "enum": ["low", "medium", "high"]
+    },
+    "commands": { "type": "array", "items": { "type": "string" } },
+    "expected_wazuh_signal": { "type": "array", "items": { "type": "string" } },
+    "cleanup": { "type": "array", "items": { "type": "string" } }
+  }
+}
+

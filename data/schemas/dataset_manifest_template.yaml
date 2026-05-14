@@ -1,0 +1,43 @@
+dataset_name: safeagentsoc_phase_02_wazuh_alerts
+version: 0.1.0
+created_date: 2026-05-13
+phase: phase_02_scenario_dataset
+lab_network:
+  virtualization: VMware Workstation Pro
+  network: VMnet10
+  subnet: 10.10.10.0/24
+  host_adapter: 10.10.10.1
+  nat_gateway: 10.10.10.2
+wazuh_server:
+  hostname: safesoc-wazuh-01
+  ip: 10.10.10.10
+endpoints:
+  - hostname: safesoc-win-01
+    ip: 10.10.10.21
+    platform: Windows
+    telemetry: [Wazuh Agent, Sysmon, Windows Security]
+  - hostname: safesoc-lnx-01
+    ip: 10.10.10.31
+    platform: Linux
+    telemetry: [Wazuh Agent, SSH, sudo, auth, journald]
+targets:
+  minimum_alerts: 300
+  strong_target_alerts: 600
+  upper_target_alerts: 1000
+counts:
+  total_alerts: TBD
+  scenario_count: TBD
+  label_count: TBD
+  windows_alerts: TBD
+  linux_alerts: TBD
+files:
+  raw_alerts: raw/wazuh_alerts_phase2_full.jsonl
+  labels: labels/ground_truth_labels.csv
+  run_log: manifests/scenario_run_log.csv
+  mitre_mapping: manifests/mitre_mapping.csv
+known_limitations:
+  - Single-operator lab dataset
+  - Lab-generated telemetry only
+  - No production data
+  - No destructive tests
+

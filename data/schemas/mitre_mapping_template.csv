@@ -1,0 +1,4 @@
+scenario_id,scenario_name,platform,scenario_type,mitre_tactic,mitre_technique_id,mitre_technique_name,mapping_confidence,notes
+S01,PowerShell execution,Windows,attack_like,Execution,T1059.001,Command and Scripting Interpreter: PowerShell,high,Benign PowerShell commands used to simulate suspicious execution telemetry
+S05,Normal admin maintenance,Windows,benign,N/A,N/A,N/A,high,Benign scenario should not be forced into adversarial mapping
+
