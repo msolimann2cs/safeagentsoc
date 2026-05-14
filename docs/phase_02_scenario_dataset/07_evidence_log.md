@@ -43,3 +43,13 @@ YYYY-MM-DD_SXX_RYYY_description.png
 | E-P2-011 | 2026-05-13_phase2_sprint1_detection-matrix.png | Screenshot | Expected Wazuh signals and DQL queries defined before scenario execution |
 | E-P2-012 | 2026-05-13_phase2_sprint1_quality-gate.png | Screenshot | Scenario execution quality gate defined |
 | E-P2-013 | 2026-05-13_phase2_sprint1_git-status.png | Screenshot | Sprint 1 files ready for commit |
+
+## Sprint 2 Evidence
+
+| Evidence ID | File | Type | What it proves |
+|---|---|---|---|
+| E-P2-020 | 2026-05-13_phase2_sprint2_scenario-catalog.png | Screenshot | Official S01 to S12 scenario catalog created |
+| E-P2-021 | 2026-05-13_phase2_sprint2_mitre-mapping.png | Screenshot | MITRE mapping table created with confidence and N/A justification |
+| E-P2-022 | 2026-05-13_phase2_sprint2_coverage-matrix.png | Screenshot | Dataset coverage across Windows, Linux, benign, noise, and MITRE techniques validated |
+| E-P2-023 | 2026-05-13_phase2_sprint2_machine-readable-files.png | Screenshot | scenario_catalog.yaml and mitre_mapping.csv created |
+| E-P2-024 | 2026-05-13_phase2_sprint2_git-status.png | Screenshot | Sprint 2 files ready for commit |

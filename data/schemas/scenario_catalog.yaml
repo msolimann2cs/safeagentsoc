@@ -1,0 +1,259 @@
+catalog_version: 0.1.0
+phase: phase_02_scenario_dataset
+status: design_only
+execution_status: no_scenarios_executed_in_sprint_2
+
+scenarios:
+  - scenario_id: S01
+    name: Windows PowerShell execution
+    type: attack_like
+    platform: Windows
+    host: safesoc-win-01
+    ground_truth_label: attack_like
+    safety_rating: low
+    mitre:
+      - tactic: Execution
+        technique_id: T1059.001
+        technique_name: PowerShell
+        confidence: high
+    expected_local_signal:
+      - PowerShell command output
+      - Sysmon process creation event
+      - marker file under C:\SafeAgentSOC-Phase2\S01
+    expected_wazuh_query:
+      - 'agent.name: "safesoc-win-01" and powershell'
+      - 'agent.name: "safesoc-win-01" and data.win.system.providerName: "Microsoft-Windows-Sysmon"'
+    cleanup:
+      - 'Remove-Item -Recurse -Force C:\SafeAgentSOC-Phase2\S01'
+
+  - scenario_id: S02
+    name: Windows discovery sequence
+    type: attack_like
+    platform: Windows
+    host: safesoc-win-01
+    ground_truth_label: attack_like
+    safety_rating: low
+    mitre:
+      - tactic: Discovery
+        technique_id: T1082
+        technique_name: System Information Discovery
+        confidence: high
+      - tactic: Discovery
+        technique_id: T1033
+        technique_name: System Owner/User Discovery
+        confidence: high
+      - tactic: Discovery
+        technique_id: T1016
+        technique_name: System Network Configuration Discovery
+        confidence: high
+    expected_local_signal:
+      - command output for whoami, hostname, ipconfig, systeminfo
+      - process execution telemetry
+    expected_wazuh_query:
+      - 'agent.name: "safesoc-win-01" and whoami'
+      - 'agent.name: "safesoc-win-01" and systeminfo'
+    cleanup: []
+
+  - scenario_id: S03
+    name: Windows scheduled task marker
+    type: attack_like
+    platform: Windows
+    host: safesoc-win-01
+    ground_truth_label: attack_like
+    safety_rating: medium
+    mitre:
+      - tactic: Persistence
+        technique_id: T1053.005
+        technique_name: Scheduled Task
+        confidence: medium
+    expected_local_signal:
+      - schtasks command output
+      - scheduled task creation/query output
+      - process telemetry for schtasks.exe
+    expected_wazuh_query:
+      - 'agent.name: "safesoc-win-01" and schtasks'
+    cleanup:
+      - 'schtasks /Delete /TN "SafeAgentSOC_S03_Marker" /F'
+      - 'Remove-Item -Recurse -Force C:\SafeAgentSOC-Phase2\S03'
+
+  - scenario_id: S04
+    name: Windows archive and staging behavior
+    type: attack_like
+    platform: Windows
+    host: safesoc-win-01
+    ground_truth_label: attack_like
+    safety_rating: low
+    mitre:
+      - tactic: Collection
+        technique_id: T1560.001
+        technique_name: Archive via Utility
+        confidence: medium
+    expected_local_signal:
+      - Compress-Archive command output
+      - test archive file creation
+    expected_wazuh_query:
+      - 'agent.name: "safesoc-win-01" and archive'
+      - 'agent.name: "safesoc-win-01" and powershell'
+    cleanup:
+      - 'Remove-Item -Recurse -Force C:\SafeAgentSOC-Phase2\S04'
+
+  - scenario_id: S05
+    name: Windows normal admin maintenance
+    type: benign
+    platform: Windows
+    host: safesoc-win-01
+    ground_truth_label: benign
+    safety_rating: low
+    mitre:
+      - tactic: N/A
+        technique_id: N/A
+        technique_name: N/A
+        confidence: high
+    expected_local_signal:
+      - normal admin command output
+    expected_wazuh_query:
+      - 'agent.name: "safesoc-win-01"'
+    cleanup: []
+
+  - scenario_id: S06
+    name: Windows repeated benign noise
+    type: noise
+    platform: Windows
+    host: safesoc-win-01
+    ground_truth_label: noise
+    safety_rating: low
+    mitre:
+      - tactic: N/A
+        technique_id: N/A
+        technique_name: N/A
+        confidence: high
+    expected_local_signal:
+      - repeated benign process execution
+    expected_wazuh_query:
+      - 'agent.name: "safesoc-win-01" and notepad'
+    cleanup: []
+
+  - scenario_id: S07
+    name: Linux SSH failed login pattern
+    type: attack_like
+    platform: Linux
+    host: safesoc-lnx-01
+    ground_truth_label: attack_like
+    safety_rating: low
+    mitre:
+      - tactic: Credential Access
+        technique_id: T1110.001
+        technique_name: Password Guessing
+        confidence: medium
+    expected_local_signal:
+      - failed sshd authentication in journalctl or auth.log
+    expected_wazuh_query:
+      - 'agent.name: "safesoc-lnx-01" and ssh'
+      - 'agent.name: "safesoc-lnx-01" and failed'
+    cleanup: []
+
+  - scenario_id: S08
+    name: Linux sudo authentication pattern
+    type: attack_like
+    platform: Linux
+    host: safesoc-lnx-01
+    ground_truth_label: attack_like
+    safety_rating: low
+    mitre:
+      - tactic: Privilege Escalation
+        technique_id: T1548.003
+        technique_name: Sudo and Sudo Caching
+        confidence: medium
+    expected_local_signal:
+      - sudo/PAM authentication logs
+    expected_wazuh_query:
+      - 'agent.name: "safesoc-lnx-01" and sudo'
+    cleanup: []
+
+  - scenario_id: S09
+    name: Linux discovery sequence
+    type: attack_like
+    platform: Linux
+    host: safesoc-lnx-01
+    ground_truth_label: attack_like
+    safety_rating: low
+    mitre:
+      - tactic: Discovery
+        technique_id: T1082
+        technique_name: System Information Discovery
+        confidence: high
+      - tactic: Discovery
+        technique_id: T1033
+        technique_name: System Owner/User Discovery
+        confidence: high
+      - tactic: Discovery
+        technique_id: T1016
+        technique_name: System Network Configuration Discovery
+        confidence: high
+    expected_local_signal:
+      - Linux discovery command output
+    expected_wazuh_query:
+      - 'agent.name: "safesoc-lnx-01" and whoami'
+      - 'agent.name: "safesoc-lnx-01" and uname'
+    cleanup: []
+
+  - scenario_id: S10
+    name: Linux cron marker
+    type: attack_like
+    platform: Linux
+    host: safesoc-lnx-01
+    ground_truth_label: attack_like
+    safety_rating: medium
+    mitre:
+      - tactic: Persistence
+        technique_id: T1053.003
+        technique_name: Cron
+        confidence: medium
+    expected_local_signal:
+      - crontab listing
+      - cron/journald telemetry
+      - marker file creation
+    expected_wazuh_query:
+      - 'agent.name: "safesoc-lnx-01" and cron'
+    cleanup:
+      - crontab -r
+      - rm -f /tmp/safeagentsoc_s10_cron
+      - rm -rf ~/safeagentsoc_phase2/S10
+
+  - scenario_id: S11
+    name: Linux normal admin maintenance
+    type: benign
+    platform: Linux
+    host: safesoc-lnx-01
+    ground_truth_label: benign
+    safety_rating: low
+    mitre:
+      - tactic: N/A
+        technique_id: N/A
+        technique_name: N/A
+        confidence: high
+    expected_local_signal:
+      - normal admin command output
+    expected_wazuh_query:
+      - 'agent.name: "safesoc-lnx-01" and systemctl'
+      - 'agent.name: "safesoc-lnx-01"'
+    cleanup: []
+
+  - scenario_id: S12
+    name: Repeated typo and noisy authentication
+    type: ambiguous_noise
+    platform: Cross-endpoint
+    host: safesoc-win-01 or safesoc-lnx-01
+    ground_truth_label: ambiguous
+    safety_rating: low
+    mitre:
+      - tactic: N/A
+        technique_id: N/A
+        technique_name: N/A
+        confidence: medium
+    expected_local_signal:
+      - failed authentication followed by success
+    expected_wazuh_query:
+      - 'agent.name: "safesoc-lnx-01" and failed'
+      - 'agent.name: "safesoc-win-01" and data.win.system.eventID: "4625"'
+    cleanup: []

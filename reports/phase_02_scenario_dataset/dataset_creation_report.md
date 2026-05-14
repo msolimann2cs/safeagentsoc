@@ -74,3 +74,41 @@ Sprint 1 also created a detection design matrix that defines the expected local 
 The key quality gate is that no scenario may be executed until it has an objective, affected host, commands, expected Wazuh signal, MITRE mapping or N/A justification, safety rating, cleanup plan, and evidence filenames.
 
 This sprint prepares the project for Sprint 2, where the full scenario catalog and MITRE mapping table will be completed.
+
+## Sprint 2: Scenario Catalog and MITRE Mapping
+
+Sprint 2 finalized the Phase 2 scenario catalog and MITRE mapping design. The catalog contains 12 controlled scenarios across Windows, Linux, benign administrative activity, noisy repeated activity, and ambiguous authentication behavior.
+
+The catalog was designed to support research-grade evaluation rather than simple alert generation. Each scenario includes an objective, affected host, analyst hypothesis, wrong inference warning, MITRE mapping or N/A justification, expected local signal, expected Wazuh query, cleanup plan, safety rating, and expected ground-truth label.
+
+### Scenario Coverage
+
+| Category | Scenarios |
+|---|---|
+| Windows attack-like | S01, S02, S03, S04 |
+| Linux attack-like | S07, S08, S09, S10 |
+| Benign | S05, S11 |
+| Noise | S06 |
+| Ambiguous/noise | S12 |
+
+### MITRE Coverage
+
+The attack-like scenarios cover the following ATT&CK techniques:
+
+| Technique ID | Technique Name | Scenario |
+|---|---|---|
+| T1059.001 | PowerShell | S01 |
+| T1082 | System Information Discovery | S02, S09 |
+| T1033 | System Owner/User Discovery | S02, S09 |
+| T1016 | System Network Configuration Discovery | S02, S09 |
+| T1053.005 | Scheduled Task | S03 |
+| T1560.001 | Archive via Utility | S04 |
+| T1110.001 | Password Guessing | S07 |
+| T1548.003 | Sudo and Sudo Caching | S08 |
+| T1053.003 | Cron | S10 |
+
+### Research-Quality Controls
+
+Benign and noisy scenarios were not force-mapped to ATT&CK. This preserves label quality and prevents artificial technique inflation. Attack-like scenarios are mapped only when the observable behavior clearly resembles a technique. All planned execution remains inside the SafeAgentSOC lab, and high-risk actions such as malware execution, credential dumping, destructive persistence, third-party scanning, and real exfiltration are excluded.
+
+Sprint 2 produced the human-readable scenario catalog, MITRE mapping table, machine-readable scenario catalog, MITRE mapping CSV, and coverage matrix. No scenarios were executed during this sprint.
