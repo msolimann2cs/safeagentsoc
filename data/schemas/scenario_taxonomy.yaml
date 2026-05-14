@@ -1,0 +1,85 @@
+taxonomy_version: 0.1.0
+phase: phase_02_scenario_dataset
+purpose: Define scenario categories, labels, event roles, evidence requirements, and execution gates.
+
+dataset_categories:
+  attack_like_windows:
+    target_share: "25-30%"
+    label: attack_like
+    purpose: Exercise Sysmon, PowerShell, process, and Windows Security telemetry.
+  attack_like_linux:
+    target_share: "20-25%"
+    label: attack_like
+    purpose: Exercise SSH, sudo, auth, discovery, and cron-like telemetry.
+  benign_admin_activity:
+    target_share: "20-25%"
+    label: benign
+    purpose: Support false-positive handling and benign classification.
+  noisy_repeated_low_value:
+    target_share: "15-20%"
+    label: noise
+    purpose: Support alert fatigue, duplicate suppression, and case-building evaluation.
+  mixed_ambiguous:
+    target_share: "5-10%"
+    label: ambiguous
+    purpose: Support conditional labels and realistic uncertainty.
+
+labels:
+  - attack_like
+  - benign
+  - noise
+  - false_positive_candidate
+  - ambiguous
+
+event_roles:
+  - trigger
+  - supporting
+  - duplicate
+  - noise
+  - unrelated
+
+confidence_values:
+  - high
+  - medium
+  - low
+
+quality_gate:
+  required_before_execution:
+    - scenario_id
+    - scenario_name
+    - scenario_category
+    - platform
+    - affected_host
+    - objective
+    - analyst_hypothesis
+    - wrong_inference_warning
+    - mitre_mapping_or_na_justification
+    - expected_local_signal
+    - expected_wazuh_signal
+    - wazuh_query
+    - commands
+    - cleanup_commands
+    - safety_rating
+    - expected_label
+    - evidence_filenames
+    - run_log_row
+
+safety_ratings:
+  low:
+    description: Benign commands, read-only discovery, safe file creation in test folders.
+    execution: allowed
+  medium:
+    description: Creates scheduled tasks, cron jobs, temporary markers, or repeated auth failures.
+    execution: allowed_with_cleanup
+  high:
+    description: Credential dumping, malware behavior, destructive persistence, external targeting.
+    execution: skip_or_simulate
+
+evidence_required_per_run:
+  - pre_run_state
+  - commands_executed
+  - local_log_proof
+  - wazuh_results
+  - wazuh_event_details
+  - cleanup_proof_if_applicable
+

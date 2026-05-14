@@ -34,3 +34,12 @@ YYYY-MM-DD_SXX_RYYY_description.png
 |---|---|---|---|---|
 | TBD | S01 | S01-R001 | TBD | TBD |
 
+
+## Sprint 1 Evidence
+
+| Evidence ID | File | Type | What it proves |
+|---|---|---|---|
+| E-P2-010 | 2026-05-13_phase2_sprint1_taxonomy-doc.png | Screenshot | Scenario taxonomy and dataset balance defined |
+| E-P2-011 | 2026-05-13_phase2_sprint1_detection-matrix.png | Screenshot | Expected Wazuh signals and DQL queries defined before scenario execution |
+| E-P2-012 | 2026-05-13_phase2_sprint1_quality-gate.png | Screenshot | Scenario execution quality gate defined |
+| E-P2-013 | 2026-05-13_phase2_sprint1_git-status.png | Screenshot | Sprint 1 files ready for commit |

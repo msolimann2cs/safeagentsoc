@@ -74,3 +74,9 @@ All tests must run only inside the SafeAgentSOC lab. No third-party systems, no 
 - Evidence log exists.
 - Sprint 0 screenshots captured.
 
+
+## Sprint 1 Completion Note
+
+Sprint 1 defines the scenario taxonomy, dataset balance targets, expected detection signals, evidence requirements, safety ratings, and quality gate that must be satisfied before scenario execution.
+
+Sprint 1 confirms that Phase 2 will not generate random alerts. Each scenario must be traceable, reproducible, safe, labeled, and useful for later alert normalization, clustering, MITRE mapping, LLM hypothesis evaluation, graph validation, and policy-safe response evaluation.

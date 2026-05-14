@@ -1,0 +1,14 @@
+scenario_id,platform,category,host,expected_local_signal,expected_wazuh_signal,wazuh_query,event_role,safety_rating,expected_label,notes
+S01,Windows,attack_like,safesoc-win-01,PowerShell command output and Sysmon process event,PowerShell process/Sysmon alert,"agent.name: ""safesoc-win-01"" and powershell",trigger,low,attack_like,Benign PowerShell commands only
+S02,Windows,attack_like,safesoc-win-01,Discovery command output,Discovery/process telemetry,"agent.name: ""safesoc-win-01"" and (whoami or systeminfo)",trigger,low,attack_like,Read-only discovery
+S03,Windows,attack_like,safesoc-win-01,Scheduled task creation output,Scheduled task telemetry,"agent.name: ""safesoc-win-01"" and schtasks",trigger,medium,attack_like,Must delete task after run
+S04,Windows,attack_like,safesoc-win-01,Archive command output,Archive/staging telemetry,"agent.name: ""safesoc-win-01"" and archive",trigger,low,attack_like,Only test files
+S05,Windows,benign,safesoc-win-01,Admin command output,Normal admin telemetry,"agent.name: ""safesoc-win-01"" and Get-Service",supporting,low,benign,Do not force MITRE mapping
+S06,Windows,noise,safesoc-win-01,Repeated benign command output,Repeated similar process telemetry,"agent.name: ""safesoc-win-01"" and notepad",duplicate,low,noise,Used for duplicate suppression tests
+S07,Linux,attack_like,safesoc-lnx-01,journalctl/auth failed SSH entry,SSH failed authentication telemetry,"agent.name: ""safesoc-lnx-01"" and ssh",trigger,low,attack_like,Fake user only
+S08,Linux,attack_like,safesoc-lnx-01,journalctl/auth sudo entry,Sudo authentication telemetry,"agent.name: ""safesoc-lnx-01"" and sudo",trigger,low,attack_like,Safe sudo activity
+S09,Linux,attack_like,safesoc-lnx-01,Discovery command output,Linux discovery telemetry,"agent.name: ""safesoc-lnx-01"" and (whoami or uname)",trigger,low,attack_like,Read-only discovery
+S10,Linux,attack_like,safesoc-lnx-01,crontab and marker file proof,Cron-related telemetry,"agent.name: ""safesoc-lnx-01"" and cron",trigger,medium,attack_like,Must remove cron entry
+S11,Linux,benign,safesoc-lnx-01,apt/systemctl/journalctl output,Normal admin telemetry,"agent.name: ""safesoc-lnx-01"" and systemctl",supporting,low,benign,Do not force MITRE mapping
+S12,Cross-endpoint,ambiguous/noise,safesoc-win-01 or safesoc-lnx-01,Failed auth then success,Repeated auth telemetry,"agent.name: ""<agent>"" and failed",noise,low,ambiguous,False-positive-like noise
+
