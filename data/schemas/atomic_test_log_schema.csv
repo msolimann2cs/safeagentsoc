@@ -1,0 +1,2 @@
+atomic_run_id,scenario_id,run_id,technique_id,atomic_test_number,atomic_test_name,platform,host,start_ts,end_ts,commands_file,evidence_ids,wazuh_query,expected_signal,cleanup_status,notes
+

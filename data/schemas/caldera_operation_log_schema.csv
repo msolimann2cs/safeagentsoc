@@ -1,0 +1,2 @@
+operation_id,campaign_id,run_id,adversary_profile,ability_id,ability_name,agent_paw,host,start_ts,end_ts,commands_file,evidence_ids,wazuh_query,expected_signal,cleanup_status,notes
+
