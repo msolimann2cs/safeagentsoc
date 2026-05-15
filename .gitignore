@@ -81,3 +81,25 @@ SafeAgentSOC-VMs/
 !data/schemas/**/*.yaml
 !data/schemas/**/*.yml
 !data/schemas/**/*.csv
+
+# SafeAgentSOC Sprint 8 raw/private labels
+06_data/phase_02_scenario_dataset/sprint_08_ground_truth/raw_alerts_full.jsonl
+06_data/phase_02_scenario_dataset/sprint_08_ground_truth/per_run/
+06_data/phase_02_scenario_dataset/sprint_08_ground_truth/ground_truth_labels*.csv
+06_data/phase_02_scenario_dataset/sprint_08_ground_truth/alert_uid_map.csv
+
+# SafeAgentSOC Sprint 9 private casebook outputs
+06_data/phase_02_scenario_dataset/sprint_09_casebook/raw_alerts_full.jsonl
+06_data/phase_02_scenario_dataset/sprint_09_casebook/ground_truth_labels.csv
+06_data/phase_02_scenario_dataset/sprint_09_casebook/casebook_detailed.jsonl
+06_data/phase_02_scenario_dataset/sprint_09_casebook/raw_pool_rule_profile.csv
+
+# SafeAgentSOC Phase 2 private raw artifacts
+06_data/phase_02_scenario_dataset/sprint_07_raw_exports/full/
+06_data/phase_02_scenario_dataset/sprint_08_ground_truth/raw_alerts_full.jsonl
+06_data/phase_02_scenario_dataset/sprint_08_ground_truth/ground_truth_labels*.csv
+06_data/phase_02_scenario_dataset/sprint_08_ground_truth/alert_uid_map.csv
+06_data/phase_02_scenario_dataset/sprint_09_casebook/raw_alerts_full.jsonl
+06_data/phase_02_scenario_dataset/sprint_09_casebook/ground_truth_labels.csv
+06_data/phase_02_scenario_dataset/sprint_09_casebook/casebook_detailed.jsonl
+06_data/phase_02_scenario_dataset/phase_02_final_package/*.jsonl
