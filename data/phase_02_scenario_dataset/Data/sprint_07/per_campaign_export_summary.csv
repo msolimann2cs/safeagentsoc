@@ -1,0 +1,3 @@
+campaign_id,alert_count,file
+C-LNX-01,164,06_data\phase_02_scenario_dataset\sprint_07_raw_exports\per_campaign\C-LNX-01_alerts.jsonl
+C-WIN-01,12,06_data\phase_02_scenario_dataset\sprint_07_raw_exports\per_campaign\C-WIN-01_alerts.jsonl

@@ -1,0 +1,59 @@
+Full raw alerts: 6893
+
+Evidence inventory:
+.csv: 44
+.docx: 1
+.json: 9
+.jsonl: 1
+.png: 135
+
+Per-agent:
+safesoc-win-01: 1042
+safesoc-lnx-01: 5338
+safesoc-wazuh-01: 513
+unknown: 0
+
+Run marker alerts: 58
+Frozen run log rows: 22
+
+Per-run correlated alerts:
+S11-MAN-R001: 16
+S11-MAN-R002: 16
+S11-MAN-R003: 16
+S12-MAN-R002: 14
+S02-MAN-R001: 7
+S01-ART-R001: 24
+S02-ART-R001: 32
+S03-ART-R001: 8
+S04-ART-R001: 16
+C-WIN-01-CAL-R001: 2
+C-WIN-01-CAL-R002: 10
+S07-MAN-R001: 51
+S07-MAN-R002: 9
+S08-MAN-R001: 18
+S08-MAN-R002: 10
+S09-MAN-R001: 13
+S09-MAN-R002: 37
+S10-MAN-R001: 49
+S10-MAN-R002: 83
+C-LNX-01-CAL-R001: 13
+C-LNX-01-CAL-R003: 105
+C-LNX-01-CAL-R002: 46
+
+Per-scenario correlated alerts:
+S01: 24
+S02: 39
+S03: 8
+S04: 16
+S07: 60
+S08: 28
+S09: 50
+S10: 132
+S11: 48
+S12: 14
+
+Per-campaign correlated alerts:
+C-LNX-01: 164
+C-WIN-01: 12
+
+Sanitized sample alerts: 100

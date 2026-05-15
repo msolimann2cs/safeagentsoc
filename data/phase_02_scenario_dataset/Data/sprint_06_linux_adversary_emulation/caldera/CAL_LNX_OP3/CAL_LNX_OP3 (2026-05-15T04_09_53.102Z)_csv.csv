@@ -1,0 +1,54 @@
+Time Ran,Ability Name,Agent,Host,pid,Link Command,Plaintext Command
+2026-05-15T04:09:52Z,Identify active user,ebjgrn,safesoc-lnx-01,13610,whoami,whoami
+2026-05-15T04:10:17Z,Find local users,ebjgrn,safesoc-lnx-01,13619,cut -d: -f1 /etc/passwd | grep -v '_' | grep -v '#',cut -d: -f1 /etc/passwd | grep -v '_' | grep -v '#'
+2026-05-15T04:11:22Z,Find user processes,ebjgrn,safesoc-lnx-01,13628,ps aux | grep sshd,ps aux | grep sshd
+2026-05-15T04:12:27Z,Find user processes,ebjgrn,safesoc-lnx-01,13646,ps aux | grep wazuh,ps aux | grep wazuh
+2026-05-15T04:13:37Z,Find user processes,ebjgrn,safesoc-lnx-01,13666,ps aux | grep nm-openvpn,ps aux | grep nm-openvpn
+2026-05-15T04:14:37Z,Find user processes,ebjgrn,safesoc-lnx-01,13683,ps aux | grep gdm,ps aux | grep gdm
+2026-05-15T04:15:37Z,Find user processes,ebjgrn,safesoc-lnx-01,13695,ps aux | grep gnome-initial-setup,ps aux | grep gnome-initial-setup
+2026-05-15T04:16:43Z,Find user processes,ebjgrn,safesoc-lnx-01,13708,ps aux | grep colord,ps aux | grep colord
+2026-05-15T04:17:48Z,Find user processes,ebjgrn,safesoc-lnx-01,13717,ps aux | grep rtkit,ps aux | grep rtkit
+2026-05-15T04:18:58Z,Find user processes,ebjgrn,safesoc-lnx-01,13735,ps aux | grep polkitd,ps aux | grep polkitd
+2026-05-15T04:19:58Z,Find user processes,ebjgrn,safesoc-lnx-01,13762,ps aux | grep gnome-remote-desktop,ps aux | grep gnome-remote-desktop
+2026-05-15T04:20:43Z,Find user processes,ebjgrn,safesoc-lnx-01,13789,ps aux | grep hplip,ps aux | grep hplip
+2026-05-15T04:21:38Z,Find user processes,ebjgrn,safesoc-lnx-01,13801,ps aux | grep cups-browsed,ps aux | grep cups-browsed
+2026-05-15T04:22:38Z,Find user processes,ebjgrn,safesoc-lnx-01,13809,ps aux | grep geoclue,ps aux | grep geoclue
+2026-05-15T04:23:38Z,Find user processes,ebjgrn,safesoc-lnx-01,13817,ps aux | grep saned,ps aux | grep saned
+2026-05-15T04:24:33Z,Find user processes,ebjgrn,safesoc-lnx-01,13841,ps aux | grep fwupd-refresh,ps aux | grep fwupd-refresh
+2026-05-15T04:25:38Z,Find user processes,ebjgrn,safesoc-lnx-01,13851,ps aux | grep cups-pk-helper,ps aux | grep cups-pk-helper
+2026-05-15T04:26:18Z,Find user processes,ebjgrn,safesoc-lnx-01,13854,ps aux | grep speech-dispatcher,ps aux | grep speech-dispatcher
+2026-05-15T04:27:03Z,Find user processes,ebjgrn,safesoc-lnx-01,13861,ps aux | grep sssd,ps aux | grep sssd
+2026-05-15T04:27:48Z,Find user processes,ebjgrn,safesoc-lnx-01,13867,ps aux | grep tcpdump,ps aux | grep tcpdump
+2026-05-15T04:28:33Z,Find user processes,ebjgrn,safesoc-lnx-01,13873,ps aux | grep avahi,ps aux | grep avahi
+2026-05-15T04:29:23Z,Find user processes,ebjgrn,safesoc-lnx-01,13887,ps aux | grep dnsmasq,ps aux | grep dnsmasq
+2026-05-15T04:30:08Z,Find user processes,ebjgrn,safesoc-lnx-01,13893,ps aux | grep whoopsie,ps aux | grep whoopsie
+2026-05-15T04:31:13Z,Find user processes,ebjgrn,safesoc-lnx-01,13931,ps aux | grep kernoops,ps aux | grep kernoops
+2026-05-15T04:32:03Z,Find user processes,ebjgrn,safesoc-lnx-01,13934,ps aux | grep systemd-oom,ps aux | grep systemd-oom
+2026-05-15T04:32:43Z,Find user processes,ebjgrn,safesoc-lnx-01,13940,ps aux | grep tss,ps aux | grep tss
+2026-05-15T04:33:44Z,Find user processes,ebjgrn,safesoc-lnx-01,13946,ps aux | grep usbmux,ps aux | grep usbmux
+2026-05-15T04:34:24Z,Find user processes,ebjgrn,safesoc-lnx-01,13959,ps aux | grep uuidd,ps aux | grep uuidd
+2026-05-15T04:35:09Z,Find user processes,ebjgrn,safesoc-lnx-01,13966,ps aux | grep systemd-resolve,ps aux | grep systemd-resolve
+2026-05-15T04:36:04Z,Find user processes,ebjgrn,safesoc-lnx-01,13970,ps aux | grep syslog,ps aux | grep syslog
+2026-05-15T04:36:54Z,Find user processes,ebjgrn,safesoc-lnx-01,13987,ps aux | grep messagebus,ps aux | grep messagebus
+2026-05-15T04:37:39Z,Find user processes,ebjgrn,safesoc-lnx-01,13993,ps aux | grep dhcpcd,ps aux | grep dhcpcd
+2026-05-15T04:38:29Z,Find user processes,ebjgrn,safesoc-lnx-01,13999,ps aux | grep systemd-timesync,ps aux | grep systemd-timesync
+2026-05-15T04:39:29Z,Find user processes,ebjgrn,safesoc-lnx-01,14012,ps aux | grep systemd-network,ps aux | grep systemd-network
+2026-05-15T04:40:09Z,Find user processes,ebjgrn,safesoc-lnx-01,14019,ps aux | grep nobody,ps aux | grep nobody
+2026-05-15T04:41:09Z,Find user processes,ebjgrn,safesoc-lnx-01,14025,ps aux | grep irc,ps aux | grep irc
+2026-05-15T04:42:09Z,Find user processes,ebjgrn,safesoc-lnx-01,14031,ps aux | grep list,ps aux | grep list
+2026-05-15T04:43:14Z,Find user processes,ebjgrn,safesoc-lnx-01,14045,ps aux | grep backup,ps aux | grep backup
+2026-05-15T04:43:49Z,Find user processes,ebjgrn,safesoc-lnx-01,14051,ps aux | grep www-data,ps aux | grep www-data
+2026-05-15T04:44:44Z,Find user processes,ebjgrn,safesoc-lnx-01,14064,ps aux | grep proxy,ps aux | grep proxy
+2026-05-15T04:45:39Z,Find user processes,ebjgrn,safesoc-lnx-01,14071,ps aux | grep uucp,ps aux | grep uucp
+2026-05-15T04:46:24Z,Find user processes,ebjgrn,safesoc-lnx-01,14077,ps aux | grep news,ps aux | grep news
+2026-05-15T04:47:19Z,Find user processes,ebjgrn,safesoc-lnx-01,14081,ps aux | grep mail,ps aux | grep mail
+2026-05-15T04:47:54Z,Find user processes,ebjgrn,safesoc-lnx-01,14087,ps aux | grep lp,ps aux | grep lp
+2026-05-15T04:48:55Z,Find user processes,ebjgrn,safesoc-lnx-01,14103,ps aux | grep man,ps aux | grep man
+2026-05-15T04:49:50Z,Find user processes,ebjgrn,safesoc-lnx-01,14116,ps aux | grep games,ps aux | grep games
+2026-05-15T04:50:45Z,Find user processes,ebjgrn,safesoc-lnx-01,14123,ps aux | grep sync,ps aux | grep sync
+2026-05-15T04:51:35Z,Find user processes,ebjgrn,safesoc-lnx-01,14129,ps aux | grep sys,ps aux | grep sys
+2026-05-15T04:52:35Z,Find user processes,ebjgrn,safesoc-lnx-01,14135,ps aux | grep bin,ps aux | grep bin
+2026-05-15T04:53:10Z,Find user processes,ebjgrn,safesoc-lnx-01,14138,ps aux | grep daemon,ps aux | grep daemon
+2026-05-15T04:53:55Z,Find user processes,ebjgrn,safesoc-lnx-01,14145,ps aux | grep root,ps aux | grep root
+2026-05-15T04:54:55Z,Find user processes,ebjgrn,safesoc-lnx-01,14168,ps aux | grep safesoc-lnx-01,ps aux | grep safesoc-lnx-01
+2026-05-15T04:55:40Z,Permission Groups Discovery,ebjgrn,safesoc-lnx-01,14175,groups,groups

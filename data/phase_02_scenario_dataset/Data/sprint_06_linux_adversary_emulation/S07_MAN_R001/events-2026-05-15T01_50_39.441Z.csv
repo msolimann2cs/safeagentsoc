@@ -1,0 +1,52 @@
+timestamp,agent.name,rule.description,rule.level,rule.id
+"May 14, 2026 @ 21:49:54.920",safesoc-lnx-01,PAM: Login session closed.,3,5502
+"May 14, 2026 @ 21:49:54.607",safesoc-lnx-01,PAM: Login session closed.,3,5502
+"May 14, 2026 @ 21:49:50.937",safesoc-lnx-01,PAM: Login session opened.,3,5501
+"May 14, 2026 @ 21:49:50.937",safesoc-lnx-01,Multiple authentication failures followed by a success.,12,40112
+"May 14, 2026 @ 21:49:50.927",safesoc-lnx-01,PAM: Login session opened.,3,5501
+"May 14, 2026 @ 21:49:50.912",safesoc-lnx-01,Multiple authentication failures followed by a success.,12,40112
+"May 14, 2026 @ 21:49:36.905",safesoc-lnx-01,PAM: Login session closed.,3,5502
+"May 14, 2026 @ 21:49:36.902",safesoc-lnx-01,PAM: Login session opened.,3,5501
+"May 14, 2026 @ 21:49:36.902",safesoc-lnx-01,Successful sudo to ROOT executed.,3,5402
+"May 14, 2026 @ 21:49:36.637",safesoc-lnx-01,PAM: Login session opened.,3,5501
+"May 14, 2026 @ 21:49:36.637",safesoc-lnx-01,PAM: Login session closed.,3,5502
+"May 14, 2026 @ 21:49:36.595",safesoc-lnx-01,Successful sudo to ROOT executed.,3,5402
+"May 14, 2026 @ 21:49:20.907",safesoc-lnx-01,syslog: User missed the password more than one time,10,2502
+"May 14, 2026 @ 21:49:20.902",safesoc-lnx-01,sshd: authentication failed.,5,5760
+"May 14, 2026 @ 21:49:20.900",safesoc-lnx-01,syslog: User missed the password more than one time,10,2502
+"May 14, 2026 @ 21:49:20.897",safesoc-lnx-01,sshd: authentication failed.,5,5760
+"May 14, 2026 @ 21:49:16.896",safesoc-lnx-01,sshd: authentication failed.,5,5760
+"May 14, 2026 @ 21:49:14.896",safesoc-lnx-01,sshd: authentication failed.,5,5760
+"May 14, 2026 @ 21:49:14.583",safesoc-lnx-01,sshd: authentication failed.,5,5760
+"May 14, 2026 @ 21:49:10.937",safesoc-lnx-01,PAM: User login failed.,5,5503
+"May 14, 2026 @ 21:49:10.895",safesoc-lnx-01,PAM: User login failed.,5,5503
+"May 14, 2026 @ 21:48:24.873",safesoc-lnx-01,PAM: Login session closed.,3,5502
+"May 14, 2026 @ 21:48:24.870",safesoc-lnx-01,PAM: Login session opened.,3,5501
+"May 14, 2026 @ 21:48:24.870",safesoc-lnx-01,Successful sudo to ROOT executed.,3,5402
+"May 14, 2026 @ 21:48:24.572",safesoc-lnx-01,PAM: Login session closed.,3,5502
+"May 14, 2026 @ 21:48:24.570",safesoc-lnx-01,Successful sudo to ROOT executed.,3,5402
+"May 14, 2026 @ 21:48:24.570",safesoc-lnx-01,PAM: Login session opened.,3,5501
+"May 14, 2026 @ 21:48:00.864",safesoc-lnx-01,syslog: User missed the password more than one time,10,2502
+"May 14, 2026 @ 21:48:00.562",safesoc-lnx-01,syslog: User missed the password more than one time,10,2502
+"May 14, 2026 @ 21:47:58.863",safesoc-lnx-01,sshd: brute force trying to get access to the system. Non existent user.,10,5712
+"May 14, 2026 @ 21:47:58.561",safesoc-lnx-01,sshd: Attempt to login using a non-existent user,5,5710
+"May 14, 2026 @ 21:47:52.860",safesoc-lnx-01,sshd: Attempt to login using a non-existent user,5,5710
+"May 14, 2026 @ 21:47:52.560",safesoc-lnx-01,sshd: Attempt to login using a non-existent user,5,5710
+"May 14, 2026 @ 21:47:46.858",safesoc-lnx-01,sshd: Attempt to login using a non-existent user,5,5710
+"May 14, 2026 @ 21:47:46.557",safesoc-lnx-01,sshd: Attempt to login using a non-existent user,5,5710
+"May 14, 2026 @ 21:47:44.858",safesoc-lnx-01,PAM: User login failed.,5,5503
+"May 14, 2026 @ 21:47:44.557",safesoc-lnx-01,PAM: User login failed.,5,5503
+"May 14, 2026 @ 21:47:40.857",safesoc-lnx-01,sshd: Attempt to login using a non-existent user,5,5710
+"May 14, 2026 @ 21:47:40.556",safesoc-lnx-01,sshd: Attempt to login using a non-existent user,5,5710
+"May 14, 2026 @ 21:46:08.806",safesoc-lnx-01,SafeAgentSOC run end marker observed,3,100761
+"May 14, 2026 @ 21:46:08.804",safesoc-lnx-01,SafeAgentSOC S09 Linux discovery scenario marker,5,100764
+"May 14, 2026 @ 21:46:08.801",safesoc-lnx-01,SafeAgentSOC run start marker observed,3,100760
+"May 14, 2026 @ 21:46:08.532",safesoc-lnx-01,SafeAgentSOC run start marker observed,3,100760
+"May 14, 2026 @ 21:46:08.532",safesoc-lnx-01,SafeAgentSOC S09 Linux discovery scenario marker,5,100764
+"May 14, 2026 @ 21:46:08.532",safesoc-lnx-01,SafeAgentSOC run end marker observed,3,100761
+"May 14, 2026 @ 21:45:59.557",safesoc-lnx-01,PAM: Login session closed.,3,5502
+"May 14, 2026 @ 21:45:59.556",safesoc-lnx-01,PAM: Login session closed.,3,5502
+"May 14, 2026 @ 21:43:36.692",safesoc-lnx-01,Successful sudo to ROOT executed.,3,5402
+"May 14, 2026 @ 21:43:36.692",safesoc-lnx-01,PAM: Login session opened.,3,5501
+"May 14, 2026 @ 21:43:36.454",safesoc-lnx-01,PAM: Login session opened.,3,5501
+"May 14, 2026 @ 21:43:36.453",safesoc-lnx-01,Successful sudo to ROOT executed.,3,5402

@@ -1,0 +1,81 @@
+dataset_name: SafeAgentSOC Phase 2 Raw Alert Dataset
+dataset_version: phase_02_sprint_07_v1
+created_utc: "2026-05-15T05:39:19.719Z"
+source_siem: Wazuh
+lab_network: VMnet10 10.10.10.0/24
+
+hosts:
+  - hostname: safesoc-wazuh-01
+    role: Wazuh manager/indexer/dashboard
+    ip: 10.10.10.10
+  - hostname: safesoc-win-01
+    role: Windows endpoint
+    ip: 10.10.10.21
+  - hostname: safesoc-lnx-01
+    role: Linux endpoint
+    ip: 10.10.10.31
+  - hostname: safesoc-caldera-01
+    role: Caldera server
+    ip: 10.10.10.41
+  - hostname: safesoc-sim-01
+    role: simulation/operator node
+    ip: 10.10.10.42
+
+exports:
+  full_raw_alerts: full/raw_alerts_full.jsonl
+  per_agent_dir: per_agent/
+  per_scenario_dir: per_scenario/
+  per_run_dir: per_run/
+  per_campaign_dir: per_campaign/
+  sanitized_sample_dir: sanitized_sample/
+  scenario_run_log_frozen: scenario_run_log_frozen.csv
+  evidence_inventory: evidence_inventory.csv
+
+counts:
+  full_raw_alerts: 6893
+  evidence_files_inventoried: 190
+  run_marker_alerts: 58
+  frozen_run_rows: 22
+  per_run_correlated_alerts_total: 595
+  sanitized_sample_alerts: 100
+  per_agent:
+    safesoc-win-01: 1042
+    safesoc-lnx-01: 5338
+    safesoc-wazuh-01: 513
+    unknown: 0
+  per_scenario:
+    S01: 24
+    S02: 39
+    S03: 8
+    S04: 16
+    S07: 60
+    S08: 28
+    S09: 50
+    S10: 132
+    S11: 48
+    S12: 14
+  per_campaign:
+    C-LNX-01: 164
+    C-WIN-01: 12
+
+hashes:
+  full_raw_alerts_sha256: 44EF71B93BBC663FB35DB71F4FF129833BC83D244B8A133E83753FEE7FE0C0BF
+
+execution_modes:
+  - manual
+  - atomic_red_team
+  - caldera
+  - simulated_only
+  - benign
+  - noise
+
+notes:
+  - Raw data is stored locally only.
+  - Sanitized samples only may be committed to GitHub.
+  - Alerts were correlated using evidence-derived timestamp windows, agent.name matching, and campaign metadata from run IDs.
+  - RUN_ID markers were searched in full_log and included where present.
+  - Sprint 8 will create ground-truth labels and QA metrics.
+limitations:
+  - Current raw Wazuh export contains 6893 alerts; final sufficiency will be reviewed during Sprint 8 QA.
+  - Some run windows are derived from Wazuh CSV export timestamps rather than manually recorded start and end timestamps.
+  - Background Wazuh telemetry may appear in broad timestamp windows and must be reviewed during Sprint 8 labeling.

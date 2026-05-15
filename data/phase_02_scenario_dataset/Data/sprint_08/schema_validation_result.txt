@@ -1,0 +1,4 @@
+SCHEMA VALIDATION PASSED
+Rows validated: 800
+No Draft wording remains.
+No TBD_FROM_CALDERA_UI values remain.

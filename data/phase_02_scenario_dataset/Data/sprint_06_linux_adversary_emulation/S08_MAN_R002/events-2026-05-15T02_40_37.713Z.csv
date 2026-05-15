@@ -1,0 +1,11 @@
+timestamp,agent.name,rule.description,rule.level,rule.id
+"May 14, 2026 @ 22:39:44.060",safesoc-lnx-01,SafeAgentSOC run end marker observed,3,100761
+"May 14, 2026 @ 22:39:44.052",safesoc-lnx-01,SafeAgentSOC run end marker observed,3,100761
+"May 14, 2026 @ 22:39:40.051",safesoc-lnx-01,Failed attempt to run sudo.,5,5401
+"May 14, 2026 @ 22:39:39.570",safesoc-lnx-01,Failed attempt to run sudo.,5,5401
+"May 14, 2026 @ 22:39:34.051",safesoc-lnx-01,PAM: User login failed.,5,5503
+"May 14, 2026 @ 22:39:34.047",safesoc-lnx-01,SafeAgentSOC S08 Linux sudo authentication scenario marker,6,100763
+"May 14, 2026 @ 22:39:34.047",safesoc-lnx-01,SafeAgentSOC run start marker observed,3,100760
+"May 14, 2026 @ 22:39:33.569",safesoc-lnx-01,SafeAgentSOC S08 Linux sudo authentication scenario marker,6,100763
+"May 14, 2026 @ 22:39:33.566",safesoc-lnx-01,PAM: User login failed.,5,5503
+"May 14, 2026 @ 22:39:33.566",safesoc-lnx-01,SafeAgentSOC run start marker observed,3,100760

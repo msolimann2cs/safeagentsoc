@@ -1,0 +1,7 @@
+timestamp,agent.name,rule.description,rule.level,rule.id
+"May 14, 2026 @ 23:02:30.510",safesoc-lnx-01,SafeAgentSOC run end marker observed,3,100761
+"May 14, 2026 @ 23:02:30.498",safesoc-lnx-01,SafeAgentSOC run start marker observed,3,100760
+"May 14, 2026 @ 23:02:30.498",safesoc-lnx-01,SafeAgentSOC S09 Linux discovery scenario marker,5,100764
+"May 14, 2026 @ 23:02:29.997",safesoc-lnx-01,SafeAgentSOC run end marker observed,3,100761
+"May 14, 2026 @ 23:02:29.983",safesoc-lnx-01,SafeAgentSOC S09 Linux discovery scenario marker,5,100764
+"May 14, 2026 @ 23:02:29.983",safesoc-lnx-01,SafeAgentSOC run start marker observed,3,100760

@@ -1,0 +1,332 @@
+timestamp,agent.name,rule.description,rule.level,rule.id
+"May 14, 2026 @ 14:36:30.305",safesoc-win-01,Suspicious Windows cmd shell execution,3,92032
+"May 14, 2026 @ 14:36:30.290",safesoc-win-01,Powershell process spawned Windows command shell instance,4,92004
+"May 14, 2026 @ 14:36:30.239",safesoc-win-01,Suspicious Windows cmd shell execution,3,92032
+"May 14, 2026 @ 14:36:30.222",safesoc-win-01,Powershell process spawned Windows command shell instance,4,92004
+"May 14, 2026 @ 14:36:30.175",safesoc-win-01,Suspicious Windows cmd shell execution,3,92032
+"May 14, 2026 @ 14:36:30.175",safesoc-win-01,Powershell process spawned Windows command shell instance,4,92004
+"May 14, 2026 @ 14:36:30.133",safesoc-win-01,Suspicious Windows cmd shell execution,3,92032
+"May 14, 2026 @ 14:36:30.131",safesoc-win-01,Powershell process spawned Windows command shell instance,4,92004
+"May 14, 2026 @ 14:36:23.600",safesoc-win-01,Suspicious Windows cmd shell execution,3,92032
+"May 14, 2026 @ 14:36:23.585",safesoc-win-01,Powershell process spawned Windows command shell instance,4,92004
+"May 14, 2026 @ 14:36:23.535",safesoc-win-01,Suspicious Windows cmd shell execution,3,92032
+"May 14, 2026 @ 14:36:23.519",safesoc-win-01,Powershell process spawned Windows command shell instance,4,92004
+"May 14, 2026 @ 14:36:23.474",safesoc-win-01,Suspicious Windows cmd shell execution,3,92032
+"May 14, 2026 @ 14:36:23.473",safesoc-win-01,Powershell process spawned Windows command shell instance,4,92004
+"May 14, 2026 @ 14:36:23.430",safesoc-win-01,Suspicious Windows cmd shell execution,3,92032
+"May 14, 2026 @ 14:36:23.429",safesoc-win-01,Powershell process spawned Windows command shell instance,4,92004
+"May 14, 2026 @ 14:36:16.299",safesoc-win-01,Suspicious Windows cmd shell execution,3,92032
+"May 14, 2026 @ 14:36:16.297",safesoc-win-01,Powershell process spawned Windows command shell instance,4,92004
+"May 14, 2026 @ 14:36:16.283",safesoc-win-01,Suspicious Windows cmd shell execution,3,92032
+"May 14, 2026 @ 14:36:16.278",safesoc-win-01,Powershell process spawned Windows command shell instance,4,92004
+"May 14, 2026 @ 14:36:16.273",safesoc-win-01,Suspicious Windows cmd shell execution,3,92032
+"May 14, 2026 @ 14:36:16.261",safesoc-win-01,Powershell process spawned Windows command shell instance,4,92004
+"May 14, 2026 @ 14:36:16.242",safesoc-win-01,Suspicious Windows cmd shell execution,3,92032
+"May 14, 2026 @ 14:36:16.236",safesoc-win-01,Powershell process spawned Windows command shell instance,4,92004
+"May 14, 2026 @ 14:36:09.422",safesoc-win-01,Suspicious Windows cmd shell execution,3,92032
+"May 14, 2026 @ 14:36:09.406",safesoc-win-01,Powershell process spawned Windows command shell instance,4,92004
+"May 14, 2026 @ 14:36:09.357",safesoc-win-01,Suspicious Windows cmd shell execution,3,92032
+"May 14, 2026 @ 14:36:09.342",safesoc-win-01,Powershell process spawned Windows command shell instance,4,92004
+"May 14, 2026 @ 14:36:09.310",safesoc-win-01,Suspicious Windows cmd shell execution,3,92032
+"May 14, 2026 @ 14:36:09.310",safesoc-win-01,Powershell process spawned Windows command shell instance,4,92004
+"May 14, 2026 @ 14:36:09.277",safesoc-win-01,Suspicious Windows cmd shell execution,3,92032
+"May 14, 2026 @ 14:36:09.265",safesoc-win-01,Powershell process spawned Windows command shell instance,4,92004
+"May 14, 2026 @ 14:36:02.770",safesoc-win-01,Suspicious Windows cmd shell execution,3,92032
+"May 14, 2026 @ 14:36:02.752",safesoc-win-01,Powershell process spawned Windows command shell instance,4,92004
+"May 14, 2026 @ 14:36:02.703",safesoc-win-01,Suspicious Windows cmd shell execution,3,92032
+"May 14, 2026 @ 14:36:02.687",safesoc-win-01,Powershell process spawned Windows command shell instance,4,92004
+"May 14, 2026 @ 14:36:02.639",safesoc-win-01,Suspicious Windows cmd shell execution,3,92032
+"May 14, 2026 @ 14:36:02.623",safesoc-win-01,Powershell process spawned Windows command shell instance,4,92004
+"May 14, 2026 @ 14:36:02.579",safesoc-win-01,Powershell process spawned Windows command shell instance,4,92004
+"May 14, 2026 @ 14:36:02.579",safesoc-win-01,Suspicious Windows cmd shell execution,3,92032
+"May 14, 2026 @ 14:35:55.989",safesoc-win-01,Suspicious Windows cmd shell execution,3,92032
+"May 14, 2026 @ 14:35:55.973",safesoc-win-01,Powershell process spawned Windows command shell instance,4,92004
+"May 14, 2026 @ 14:35:55.925",safesoc-win-01,Suspicious Windows cmd shell execution,3,92032
+"May 14, 2026 @ 14:35:55.909",safesoc-win-01,Powershell process spawned Windows command shell instance,4,92004
+"May 14, 2026 @ 14:35:55.859",safesoc-win-01,Suspicious Windows cmd shell execution,3,92032
+"May 14, 2026 @ 14:35:55.844",safesoc-win-01,Powershell process spawned Windows command shell instance,4,92004
+"May 14, 2026 @ 14:35:55.800",safesoc-win-01,Suspicious Windows cmd shell execution,3,92032
+"May 14, 2026 @ 14:35:55.799",safesoc-win-01,Powershell process spawned Windows command shell instance,4,92004
+"May 14, 2026 @ 14:35:49.257",safesoc-win-01,Suspicious Windows cmd shell execution,3,92032
+"May 14, 2026 @ 14:35:49.242",safesoc-win-01,Powershell process spawned Windows command shell instance,4,92004
+"May 14, 2026 @ 14:35:49.192",safesoc-win-01,Suspicious Windows cmd shell execution,3,92032
+"May 14, 2026 @ 14:35:49.180",safesoc-win-01,Powershell process spawned Windows command shell instance,4,92004
+"May 14, 2026 @ 14:35:49.127",safesoc-win-01,Powershell process spawned Windows command shell instance,4,92004
+"May 14, 2026 @ 14:35:49.127",safesoc-win-01,Suspicious Windows cmd shell execution,3,92032
+"May 14, 2026 @ 14:35:49.080",safesoc-win-01,Suspicious Windows cmd shell execution,3,92032
+"May 14, 2026 @ 14:35:49.067",safesoc-win-01,Powershell process spawned Windows command shell instance,4,92004
+"May 14, 2026 @ 14:35:41.773",safesoc-win-01,Suspicious Windows cmd shell execution,3,92032
+"May 14, 2026 @ 14:35:41.765",safesoc-win-01,Powershell process spawned Windows command shell instance,4,92004
+"May 14, 2026 @ 14:35:41.745",safesoc-win-01,Suspicious Windows cmd shell execution,3,92032
+"May 14, 2026 @ 14:35:41.740",safesoc-win-01,Powershell process spawned Windows command shell instance,4,92004
+"May 14, 2026 @ 14:35:41.667",safesoc-win-01,Suspicious Windows cmd shell execution,3,92032
+"May 14, 2026 @ 14:35:41.664",safesoc-win-01,Powershell process spawned Windows command shell instance,4,92004
+"May 14, 2026 @ 14:35:41.645",safesoc-win-01,Suspicious Windows cmd shell execution,3,92032
+"May 14, 2026 @ 14:35:41.637",safesoc-win-01,Powershell process spawned Windows command shell instance,4,92004
+"May 14, 2026 @ 14:35:34.932",safesoc-win-01,Suspicious Windows cmd shell execution,3,92032
+"May 14, 2026 @ 14:35:34.913",safesoc-win-01,Powershell process spawned Windows command shell instance,4,92004
+"May 14, 2026 @ 14:35:34.866",safesoc-win-01,Suspicious Windows cmd shell execution,3,92032
+"May 14, 2026 @ 14:35:34.850",safesoc-win-01,Powershell process spawned Windows command shell instance,4,92004
+"May 14, 2026 @ 14:35:34.803",safesoc-win-01,Suspicious Windows cmd shell execution,3,92032
+"May 14, 2026 @ 14:35:34.785",safesoc-win-01,Powershell process spawned Windows command shell instance,4,92004
+"May 14, 2026 @ 14:35:34.757",safesoc-win-01,Suspicious Windows cmd shell execution,3,92032
+"May 14, 2026 @ 14:35:34.756",safesoc-win-01,Powershell process spawned Windows command shell instance,4,92004
+"May 14, 2026 @ 14:35:28.432",safesoc-win-01,Suspicious Windows cmd shell execution,3,92032
+"May 14, 2026 @ 14:35:28.401",safesoc-win-01,Powershell process spawned Windows command shell instance,4,92004
+"May 14, 2026 @ 14:35:27.396",safesoc-win-01,Suspicious Windows cmd shell execution,3,92032
+"May 14, 2026 @ 14:35:27.383",safesoc-win-01,Powershell process spawned Windows command shell instance,4,92004
+"May 14, 2026 @ 14:35:27.348",safesoc-win-01,Suspicious Windows cmd shell execution,3,92032
+"May 14, 2026 @ 14:35:27.333",safesoc-win-01,Powershell process spawned Windows command shell instance,4,92004
+"May 14, 2026 @ 14:35:27.301",safesoc-win-01,Suspicious Windows cmd shell execution,3,92032
+"May 14, 2026 @ 14:35:27.291",safesoc-win-01,Powershell process spawned Windows command shell instance,4,92004
+"May 14, 2026 @ 14:18:01.466",safesoc-win-01,Powershell process spawned powershell instance,4,92027
+"May 14, 2026 @ 14:17:56.421",safesoc-win-01,Powershell process spawned powershell instance,4,92027
+"May 14, 2026 @ 14:17:51.393",safesoc-win-01,Powershell process spawned powershell instance,4,92027
+"May 14, 2026 @ 14:17:46.355",safesoc-win-01,Powershell process spawned powershell instance,4,92027
+"May 14, 2026 @ 14:17:41.338",safesoc-win-01,Powershell process spawned powershell instance,4,92027
+"May 14, 2026 @ 14:17:36.323",safesoc-win-01,Powershell process spawned powershell instance,4,92027
+"May 14, 2026 @ 14:17:31.294",safesoc-win-01,Powershell process spawned powershell instance,4,92027
+"May 14, 2026 @ 14:17:26.278",safesoc-win-01,Powershell process spawned powershell instance,4,92027
+"May 14, 2026 @ 14:17:21.277",safesoc-win-01,Powershell process spawned powershell instance,4,92027
+"May 14, 2026 @ 14:17:16.266",safesoc-win-01,Powershell process spawned powershell instance,4,92027
+"May 14, 2026 @ 14:17:11.227",safesoc-win-01,Powershell process spawned powershell instance,4,92027
+"May 14, 2026 @ 14:17:06.161",safesoc-win-01,Powershell process spawned powershell instance,4,92027
+"May 14, 2026 @ 14:09:34.461",safesoc-win-01,Application Compatibility Database launched,12,92058
+"May 14, 2026 @ 14:06:29.592",safesoc-win-01,Software protection service scheduled successfully.,3,60642
+"May 14, 2026 @ 14:01:13.606",safesoc-win-01,Discovery activity executed,3,92031
+"May 14, 2026 @ 14:01:13.590",safesoc-win-01,A C:\\Windows\\System32\\net.exe binary was started by a Windows cmd shell,3,92036
+"May 14, 2026 @ 14:01:13.573",safesoc-win-01,Powershell process spawned Windows command shell instance,4,92004
+"May 14, 2026 @ 14:01:13.482",safesoc-win-01,Suspicious Windows cmd shell execution,3,92032
+"May 14, 2026 @ 14:01:13.451",safesoc-win-01,Powershell process spawned Windows command shell instance,4,92004
+"May 14, 2026 @ 14:01:13.358",safesoc-win-01,Suspicious Windows cmd shell execution,3,92032
+"May 14, 2026 @ 14:01:13.327",safesoc-win-01,Powershell process spawned Windows command shell instance,4,92004
+"May 14, 2026 @ 14:01:13.284",safesoc-win-01,Suspicious Windows cmd shell execution,3,92032
+"May 14, 2026 @ 14:01:13.284",safesoc-win-01,Powershell process spawned Windows command shell instance,4,92004
+"May 14, 2026 @ 14:01:09.411",safesoc-win-01,Discovery activity executed,3,92031
+"May 14, 2026 @ 14:01:09.380",safesoc-win-01,A C:\\Windows\\System32\\net.exe binary was started by a Windows cmd shell,3,92036
+"May 14, 2026 @ 14:01:09.348",safesoc-win-01,Powershell process spawned Windows command shell instance,4,92004
+"May 14, 2026 @ 14:01:09.271",safesoc-win-01,Suspicious Windows cmd shell execution,3,92032
+"May 14, 2026 @ 14:01:09.242",safesoc-win-01,Powershell process spawned Windows command shell instance,4,92004
+"May 14, 2026 @ 14:01:09.149",safesoc-win-01,Suspicious Windows cmd shell execution,3,92032
+"May 14, 2026 @ 14:01:09.148",safesoc-win-01,Powershell process spawned Windows command shell instance,4,92004
+"May 14, 2026 @ 14:01:09.101",safesoc-win-01,Suspicious Windows cmd shell execution,3,92032
+"May 14, 2026 @ 14:01:09.099",safesoc-win-01,Powershell process spawned Windows command shell instance,4,92004
+"May 14, 2026 @ 14:01:05.218",safesoc-win-01,Discovery activity executed,3,92031
+"May 14, 2026 @ 14:01:05.188",safesoc-win-01,A C:\\Windows\\System32\\net.exe binary was started by a Windows cmd shell,3,92036
+"May 14, 2026 @ 14:01:05.159",safesoc-win-01,Powershell process spawned Windows command shell instance,4,92004
+"May 14, 2026 @ 14:01:05.081",safesoc-win-01,Suspicious Windows cmd shell execution,3,92032
+"May 14, 2026 @ 14:01:05.052",safesoc-win-01,Powershell process spawned Windows command shell instance,4,92004
+"May 14, 2026 @ 14:01:04.972",safesoc-win-01,Powershell process spawned Windows command shell instance,4,92004
+"May 14, 2026 @ 14:01:04.972",safesoc-win-01,Suspicious Windows cmd shell execution,3,92032
+"May 14, 2026 @ 14:01:04.896",safesoc-win-01,Suspicious Windows cmd shell execution,3,92032
+"May 14, 2026 @ 14:01:04.866",safesoc-win-01,Powershell process spawned Windows command shell instance,4,92004
+"May 14, 2026 @ 14:01:00.968",safesoc-win-01,Discovery activity executed,3,92031
+"May 14, 2026 @ 14:01:00.938",safesoc-win-01,A C:\\Windows\\System32\\net.exe binary was started by a Windows cmd shell,3,92036
+"May 14, 2026 @ 14:01:00.909",safesoc-win-01,Powershell process spawned Windows command shell instance,4,92004
+"May 14, 2026 @ 14:01:00.845",safesoc-win-01,Suspicious Windows cmd shell execution,3,92032
+"May 14, 2026 @ 14:01:00.829",safesoc-win-01,Powershell process spawned Windows command shell instance,4,92004
+"May 14, 2026 @ 14:01:00.739",safesoc-win-01,Suspicious Windows cmd shell execution,3,92032
+"May 14, 2026 @ 14:01:00.738",safesoc-win-01,Powershell process spawned Windows command shell instance,4,92004
+"May 14, 2026 @ 14:01:00.647",safesoc-win-01,Powershell process spawned Windows command shell instance,4,92004
+"May 14, 2026 @ 14:01:00.647",safesoc-win-01,Suspicious Windows cmd shell execution,3,92032
+"May 14, 2026 @ 14:00:56.810",safesoc-win-01,Discovery activity executed,3,92031
+"May 14, 2026 @ 14:00:56.793",safesoc-win-01,A C:\\Windows\\System32\\net.exe binary was started by a Windows cmd shell,3,92036
+"May 14, 2026 @ 14:00:56.762",safesoc-win-01,Powershell process spawned Windows command shell instance,4,92004
+"May 14, 2026 @ 14:00:56.669",safesoc-win-01,Suspicious Windows cmd shell execution,3,92032
+"May 14, 2026 @ 14:00:56.639",safesoc-win-01,Powershell process spawned Windows command shell instance,4,92004
+"May 14, 2026 @ 14:00:56.546",safesoc-win-01,Suspicious Windows cmd shell execution,3,92032
+"May 14, 2026 @ 14:00:56.514",safesoc-win-01,Powershell process spawned Windows command shell instance,4,92004
+"May 14, 2026 @ 14:00:56.456",safesoc-win-01,Suspicious Windows cmd shell execution,3,92032
+"May 14, 2026 @ 14:00:56.454",safesoc-win-01,Powershell process spawned Windows command shell instance,4,92004
+"May 14, 2026 @ 14:00:52.569",safesoc-win-01,Discovery activity executed,3,92031
+"May 14, 2026 @ 14:00:52.554",safesoc-win-01,A C:\\Windows\\System32\\net.exe binary was started by a Windows cmd shell,3,92036
+"May 14, 2026 @ 14:00:52.538",safesoc-win-01,Powershell process spawned Windows command shell instance,4,92004
+"May 14, 2026 @ 14:00:52.445",safesoc-win-01,Suspicious Windows cmd shell execution,3,92032
+"May 14, 2026 @ 14:00:52.428",safesoc-win-01,Powershell process spawned Windows command shell instance,4,92004
+"May 14, 2026 @ 14:00:52.351",safesoc-win-01,Suspicious Windows cmd shell execution,3,92032
+"May 14, 2026 @ 14:00:52.334",safesoc-win-01,Powershell process spawned Windows command shell instance,4,92004
+"May 14, 2026 @ 14:00:52.280",safesoc-win-01,Suspicious Windows cmd shell execution,3,92032
+"May 14, 2026 @ 14:00:52.276",safesoc-win-01,Powershell process spawned Windows command shell instance,4,92004
+"May 14, 2026 @ 14:00:48.428",safesoc-win-01,Discovery activity executed,3,92031
+"May 14, 2026 @ 14:00:48.397",safesoc-win-01,A C:\\Windows\\System32\\net.exe binary was started by a Windows cmd shell,3,92036
+"May 14, 2026 @ 14:00:48.365",safesoc-win-01,Powershell process spawned Windows command shell instance,4,92004
+"May 14, 2026 @ 14:00:48.273",safesoc-win-01,Suspicious Windows cmd shell execution,3,92032
+"May 14, 2026 @ 14:00:48.242",safesoc-win-01,Powershell process spawned Windows command shell instance,4,92004
+"May 14, 2026 @ 14:00:48.162",safesoc-win-01,Suspicious Windows cmd shell execution,3,92032
+"May 14, 2026 @ 14:00:48.133",safesoc-win-01,Powershell process spawned Windows command shell instance,4,92004
+"May 14, 2026 @ 14:00:48.058",safesoc-win-01,Suspicious Windows cmd shell execution,3,92032
+"May 14, 2026 @ 14:00:48.057",safesoc-win-01,Powershell process spawned Windows command shell instance,4,92004
+"May 14, 2026 @ 14:00:44.210",safesoc-win-01,Discovery activity executed,3,92031
+"May 14, 2026 @ 14:00:44.180",safesoc-win-01,A C:\\Windows\\System32\\net.exe binary was started by a Windows cmd shell,3,92036
+"May 14, 2026 @ 14:00:44.147",safesoc-win-01,Powershell process spawned Windows command shell instance,4,92004
+"May 14, 2026 @ 14:00:44.068",safesoc-win-01,Suspicious Windows cmd shell execution,3,92032
+"May 14, 2026 @ 14:00:44.038",safesoc-win-01,Powershell process spawned Windows command shell instance,4,92004
+"May 14, 2026 @ 14:00:43.964",safesoc-win-01,Suspicious Windows cmd shell execution,3,92032
+"May 14, 2026 @ 14:00:43.963",safesoc-win-01,Powershell process spawned Windows command shell instance,4,92004
+"May 14, 2026 @ 14:00:43.884",safesoc-win-01,Suspicious Windows cmd shell execution,3,92032
+"May 14, 2026 @ 14:00:43.854",safesoc-win-01,Powershell process spawned Windows command shell instance,4,92004
+"May 14, 2026 @ 14:00:39.963",safesoc-win-01,Discovery activity executed,3,92031
+"May 14, 2026 @ 14:00:39.932",safesoc-win-01,A C:\\Windows\\System32\\net.exe binary was started by a Windows cmd shell,3,92036
+"May 14, 2026 @ 14:00:39.903",safesoc-win-01,Powershell process spawned Windows command shell instance,4,92004
+"May 14, 2026 @ 14:00:39.810",safesoc-win-01,Suspicious Windows cmd shell execution,3,92032
+"May 14, 2026 @ 14:00:39.777",safesoc-win-01,Powershell process spawned Windows command shell instance,4,92004
+"May 14, 2026 @ 14:00:39.700",safesoc-win-01,Suspicious Windows cmd shell execution,3,92032
+"May 14, 2026 @ 14:00:39.668",safesoc-win-01,Powershell process spawned Windows command shell instance,4,92004
+"May 14, 2026 @ 14:00:39.639",safesoc-win-01,Suspicious Windows cmd shell execution,3,92032
+"May 14, 2026 @ 14:00:39.637",safesoc-win-01,Powershell process spawned Windows command shell instance,4,92004
+"May 14, 2026 @ 14:00:35.816",safesoc-win-01,Discovery activity executed,3,92031
+"May 14, 2026 @ 14:00:35.787",safesoc-win-01,A C:\\Windows\\System32\\net.exe binary was started by a Windows cmd shell,3,92036
+"May 14, 2026 @ 14:00:35.755",safesoc-win-01,Powershell process spawned Windows command shell instance,4,92004
+"May 14, 2026 @ 14:00:35.661",safesoc-win-01,Suspicious Windows cmd shell execution,3,92032
+"May 14, 2026 @ 14:00:35.629",safesoc-win-01,Powershell process spawned Windows command shell instance,4,92004
+"May 14, 2026 @ 14:00:35.538",safesoc-win-01,Suspicious Windows cmd shell execution,3,92032
+"May 14, 2026 @ 14:00:35.506",safesoc-win-01,Powershell process spawned Windows command shell instance,4,92004
+"May 14, 2026 @ 14:00:35.423",safesoc-win-01,Suspicious Windows cmd shell execution,3,92032
+"May 14, 2026 @ 14:00:35.419",safesoc-win-01,Powershell process spawned Windows command shell instance,4,92004
+"May 14, 2026 @ 14:00:31.624",safesoc-win-01,Discovery activity executed,3,92031
+"May 14, 2026 @ 14:00:31.594",safesoc-win-01,A C:\\Windows\\System32\\net.exe binary was started by a Windows cmd shell,3,92036
+"May 14, 2026 @ 14:00:31.561",safesoc-win-01,Powershell process spawned Windows command shell instance,4,92004
+"May 14, 2026 @ 14:00:31.484",safesoc-win-01,Suspicious Windows cmd shell execution,3,92032
+"May 14, 2026 @ 14:00:31.454",safesoc-win-01,Powershell process spawned Windows command shell instance,4,92004
+"May 14, 2026 @ 14:00:31.360",safesoc-win-01,Suspicious Windows cmd shell execution,3,92032
+"May 14, 2026 @ 14:00:31.329",safesoc-win-01,Powershell process spawned Windows command shell instance,4,92004
+"May 14, 2026 @ 14:00:31.242",safesoc-win-01,Suspicious Windows cmd shell execution,3,92032
+"May 14, 2026 @ 14:00:31.241",safesoc-win-01,Powershell process spawned Windows command shell instance,4,92004
+"May 14, 2026 @ 14:00:27.267",safesoc-win-01,Discovery activity executed,3,92031
+"May 14, 2026 @ 14:00:27.217",safesoc-win-01,A C:\\Windows\\System32\\net.exe binary was started by a Windows cmd shell,3,92036
+"May 14, 2026 @ 14:00:27.200",safesoc-win-01,Powershell process spawned Windows command shell instance,4,92004
+"May 14, 2026 @ 14:00:27.152",safesoc-win-01,Suspicious Windows cmd shell execution,3,92032
+"May 14, 2026 @ 14:00:27.137",safesoc-win-01,Powershell process spawned Windows command shell instance,4,92004
+"May 14, 2026 @ 14:00:27.088",safesoc-win-01,Powershell process spawned Windows command shell instance,4,92004
+"May 14, 2026 @ 14:00:27.088",safesoc-win-01,Suspicious Windows cmd shell execution,3,92032
+"May 14, 2026 @ 14:00:27.007",safesoc-win-01,Suspicious Windows cmd shell execution,3,92032
+"May 14, 2026 @ 14:00:26.979",safesoc-win-01,Powershell process spawned Windows command shell instance,4,92004
+"May 14, 2026 @ 13:54:26.305",safesoc-win-01,Service startup type was changed,3,61104
+"May 14, 2026 @ 13:52:21.827",safesoc-win-01,Service startup type was changed,3,61104
+"May 14, 2026 @ 13:09:33.943",safesoc-win-01,Application Compatibility Database launched,12,92058
+"May 14, 2026 @ 13:08:56.845",safesoc-win-01,Powershell process spawned powershell instance,4,92027
+"May 14, 2026 @ 13:08:53.033",safesoc-win-01,Powershell process spawned powershell instance,4,92027
+"May 14, 2026 @ 13:08:50.156",safesoc-win-01,Powershell process spawned powershell instance,4,92027
+"May 14, 2026 @ 13:08:45.699",safesoc-win-01,Suspicious Windows cmd shell execution,3,92032
+"May 14, 2026 @ 13:08:45.698",safesoc-win-01,Powershell process spawned Windows command shell instance,4,92004
+"May 14, 2026 @ 13:08:42.179",safesoc-win-01,Suspicious Windows cmd shell execution,3,92032
+"May 14, 2026 @ 13:08:42.177",safesoc-win-01,Powershell process spawned Windows command shell instance,4,92004
+"May 14, 2026 @ 13:08:38.492",safesoc-win-01,Suspicious Windows cmd shell execution,3,92032
+"May 14, 2026 @ 13:08:38.491",safesoc-win-01,Powershell process spawned Windows command shell instance,4,92004
+"May 14, 2026 @ 13:08:35.107",safesoc-win-01,Discovery activity executed,3,92031
+"May 14, 2026 @ 13:08:35.106",safesoc-win-01,A C:\\Windows\\System32\\net.exe binary was started by a Windows cmd shell,3,92036
+"May 14, 2026 @ 13:08:35.105",safesoc-win-01,Powershell process spawned Windows command shell instance,4,92004
+"May 14, 2026 @ 13:08:31.809",safesoc-win-01,Discovery activity executed,3,92031
+"May 14, 2026 @ 13:08:31.808",safesoc-win-01,A C:\\Windows\\System32\\net.exe binary was started by a Windows cmd shell,3,92036
+"May 14, 2026 @ 13:08:31.807",safesoc-win-01,Powershell process spawned Windows command shell instance,4,92004
+"May 14, 2026 @ 13:08:28.711",safesoc-win-01,Suspicious Windows cmd shell execution,3,92032
+"May 14, 2026 @ 13:08:28.710",safesoc-win-01,Powershell process spawned Windows command shell instance,4,92004
+"May 14, 2026 @ 13:08:24.681",safesoc-win-01,Suspicious Windows cmd shell execution,3,92032
+"May 14, 2026 @ 13:08:24.680",safesoc-win-01,Powershell process spawned Windows command shell instance,4,92004
+"May 14, 2026 @ 13:08:18.489",safesoc-win-01,Suspicious Windows cmd shell execution,3,92032
+"May 14, 2026 @ 13:08:18.488",safesoc-win-01,Powershell process spawned Windows command shell instance,4,92004
+"May 14, 2026 @ 12:57:12.852",safesoc-win-01,Service startup type was changed,3,61104
+"May 14, 2026 @ 12:54:02.028",safesoc-win-01,Service startup type was changed,3,61104
+"May 14, 2026 @ 12:52:56.427",safesoc-win-01,Service startup type was changed,3,61104
+"May 14, 2026 @ 12:52:54.750",safesoc-win-01,Service startup type was changed,3,61104
+"May 14, 2026 @ 12:52:50.941",safesoc-win-01,The database engine is starting a new instance.,3,60805
+"May 14, 2026 @ 12:52:49.875",safesoc-win-01,Suspicious Windows cmd shell execution,3,92032
+"May 14, 2026 @ 12:52:49.700",safesoc-win-01,Windows command prompt started by an abnormal process,4,92052
+"May 14, 2026 @ 12:51:57.561",safesoc-win-01,Service startup type was changed,3,61104
+"May 14, 2026 @ 12:41:30.558",safesoc-win-01,Software protection service scheduled successfully.,3,60642
+"May 14, 2026 @ 12:31:47.577",safesoc-win-01,Discovery activity executed,3,92031
+"May 14, 2026 @ 12:31:47.576",safesoc-win-01,Discovery activity spawned via powershell execution,3,92033
+"May 14, 2026 @ 12:31:44.772",safesoc-win-01,Discovery activity executed,3,92031
+"May 14, 2026 @ 12:31:44.771",safesoc-win-01,Discovery activity spawned via powershell execution,3,92033
+"May 14, 2026 @ 12:30:40.063",safesoc-win-01,Software protection service scheduled successfully.,3,60642
+"May 14, 2026 @ 12:29:49.336",safesoc-win-01,Software protection service scheduled successfully.,3,60642
+"May 14, 2026 @ 12:29:19.536",safesoc-win-01,Service startup type was changed,3,61104
+"May 14, 2026 @ 12:28:14.526",safesoc-win-01,Sysmon - Suspicious Process - explorer.exe,12,61640
+"May 14, 2026 @ 12:28:13.441",safesoc-win-01,Software protection service scheduled successfully.,3,60642
+"May 14, 2026 @ 12:25:50.222",safesoc-win-01,Non service account logged off.,3,67023
+"May 14, 2026 @ 12:25:50.192",safesoc-win-01,Non service account logged off.,3,67023
+"May 14, 2026 @ 12:25:50.173",safesoc-win-01,Special privileges assigned to new logon.,3,67028
+"May 14, 2026 @ 12:25:50.172",safesoc-win-01,Windows Workstation Logon Success,3,60118
+"May 14, 2026 @ 12:25:50.170",safesoc-win-01,Windows Workstation Logon Success,3,60118
+"May 14, 2026 @ 12:23:45.857",safesoc-win-01,Software protection service scheduled successfully.,3,60642
+"May 14, 2026 @ 12:23:31.501",safesoc-win-01,Discovery activity executed,3,92031
+"May 14, 2026 @ 12:23:31.470",safesoc-win-01,Discovery activity executed,3,92031
+"May 14, 2026 @ 12:23:31.406",safesoc-win-01,Discovery activity executed,3,92031
+"May 14, 2026 @ 12:23:31.359",safesoc-win-01,Discovery activity executed,3,92031
+"May 14, 2026 @ 12:23:29.586",safesoc-win-01,C:\\Windows\\SysWOW64\\SecEdit.exe binary in a suspicious location launched by C:\\Windows\\SysWOW64\\WindowsPowerShell\\v1.0\\powershell.exe,4,92066
+"May 14, 2026 @ 12:23:28.616",safesoc-win-01,Powershell was used to delete files or directories,3,92021
+"May 14, 2026 @ 12:23:28.585",safesoc-win-01,C:\\Windows\\SysWOW64\\SecEdit.exe binary in a suspicious location launched by C:\\Windows\\SysWOW64\\WindowsPowerShell\\v1.0\\powershell.exe,4,92066
+"May 14, 2026 @ 12:23:27.248",safesoc-win-01,Powershell was used to delete files or directories,3,92021
+"May 14, 2026 @ 12:23:27.223",safesoc-win-01,C:\\Windows\\SysWOW64\\SecEdit.exe binary in a suspicious location launched by C:\\Windows\\SysWOW64\\WindowsPowerShell\\v1.0\\powershell.exe,4,92066
+"May 14, 2026 @ 12:23:26.730",safesoc-win-01,Registry Key Integrity Checksum Changed,5,594
+"May 14, 2026 @ 12:23:26.728",safesoc-win-01,Registry Key Integrity Checksum Changed,5,594
+"May 14, 2026 @ 12:23:26.725",safesoc-win-01,Registry Key Integrity Checksum Changed,5,594
+"May 14, 2026 @ 12:23:26.675",safesoc-win-01,Registry Key Integrity Checksum Changed,5,594
+"May 14, 2026 @ 12:23:26.587",safesoc-win-01,Registry Key Integrity Checksum Changed,5,594
+"May 14, 2026 @ 12:23:26.571",safesoc-win-01,Registry Key Integrity Checksum Changed,5,594
+"May 14, 2026 @ 12:23:26.375",safesoc-win-01,Registry Value Integrity Checksum Changed,5,750
+"May 14, 2026 @ 12:23:26.359",safesoc-win-01,Registry Value Integrity Checksum Changed,5,750
+"May 14, 2026 @ 12:23:26.359",safesoc-win-01,Registry Value Integrity Checksum Changed,5,750
+"May 14, 2026 @ 12:23:26.195",safesoc-win-01,Powershell was used to delete files or directories,3,92021
+"May 14, 2026 @ 12:23:26.149",safesoc-win-01,C:\\Windows\\SysWOW64\\SecEdit.exe binary in a suspicious location launched by C:\\Windows\\SysWOW64\\WindowsPowerShell\\v1.0\\powershell.exe,4,92066
+"May 14, 2026 @ 12:23:25.382",safesoc-win-01,Registry Key Integrity Checksum Changed,5,594
+"May 14, 2026 @ 12:23:25.354",safesoc-win-01,Registry Value Integrity Checksum Changed,5,750
+"May 14, 2026 @ 12:23:25.345",safesoc-win-01,Registry Value Integrity Checksum Changed,5,750
+"May 14, 2026 @ 12:23:25.341",safesoc-win-01,Registry Key Integrity Checksum Changed,5,594
+"May 14, 2026 @ 12:23:25.316",safesoc-win-01,Registry Key Integrity Checksum Changed,5,594
+"May 14, 2026 @ 12:23:25.307",safesoc-win-01,Registry Key Entry Added to the System,5,598
+"May 14, 2026 @ 12:23:25.277",safesoc-win-01,Registry Key Integrity Checksum Changed,5,594
+"May 14, 2026 @ 12:23:24.900",safesoc-win-01,Registry Key Integrity Checksum Changed,5,594
+"May 14, 2026 @ 12:23:24.721",safesoc-win-01,Registry Value Integrity Checksum Changed,5,750
+"May 14, 2026 @ 12:23:24.705",safesoc-win-01,Registry Key Integrity Checksum Changed,5,594
+"May 14, 2026 @ 12:23:24.697",safesoc-win-01,Registry Key Integrity Checksum Changed,5,594
+"May 14, 2026 @ 12:23:24.697",safesoc-win-01,Registry Value Integrity Checksum Changed,5,750
+"May 14, 2026 @ 12:23:24.656",safesoc-win-01,Registry Key Integrity Checksum Changed,5,594
+"May 14, 2026 @ 12:23:24.640",safesoc-win-01,Registry Key Integrity Checksum Changed,5,594
+"May 14, 2026 @ 12:23:24.593",safesoc-win-01,Powershell was used to delete files or directories,3,92021
+"May 14, 2026 @ 12:23:24.544",safesoc-win-01,C:\\Windows\\SysWOW64\\SecEdit.exe binary in a suspicious location launched by C:\\Windows\\SysWOW64\\WindowsPowerShell\\v1.0\\powershell.exe,4,92066
+"May 14, 2026 @ 12:23:23.616",safesoc-win-01,Registry Key Integrity Checksum Changed,5,594
+"May 14, 2026 @ 12:23:23.615",safesoc-win-01,Registry Key Entry Added to the System,5,598
+"May 14, 2026 @ 12:23:22.688",safesoc-win-01,Powershell was used to delete files or directories,3,92021
+"May 14, 2026 @ 12:23:22.660",safesoc-win-01,C:\\Windows\\SysWOW64\\SecEdit.exe binary in a suspicious location launched by C:\\Windows\\SysWOW64\\WindowsPowerShell\\v1.0\\powershell.exe,4,92066
+"May 14, 2026 @ 12:23:22.214",safesoc-win-01,Registry Key Integrity Checksum Changed,5,594
+"May 14, 2026 @ 12:23:22.212",safesoc-win-01,Registry Key Integrity Checksum Changed,5,594
+"May 14, 2026 @ 12:23:22.045",safesoc-win-01,Registry Key Integrity Checksum Changed,5,594
+"May 14, 2026 @ 12:23:22.028",safesoc-win-01,Registry Value Entry Added to the System,5,752
+"May 14, 2026 @ 12:23:22.024",safesoc-win-01,Registry Value Integrity Checksum Changed,5,750
+"May 14, 2026 @ 12:23:22.024",safesoc-win-01,Registry Value Integrity Checksum Changed,5,750
+"May 14, 2026 @ 12:23:21.982",safesoc-win-01,Registry Value Integrity Checksum Changed,5,750
+"May 14, 2026 @ 12:23:21.965",safesoc-win-01,Registry Value Integrity Checksum Changed,5,750
+"May 14, 2026 @ 12:23:21.949",safesoc-win-01,Registry Value Integrity Checksum Changed,5,750
+"May 14, 2026 @ 12:23:21.933",safesoc-win-01,Registry Value Integrity Checksum Changed,5,750
+"May 14, 2026 @ 12:23:21.915",safesoc-win-01,Registry Value Integrity Checksum Changed,5,750
+"May 14, 2026 @ 12:23:21.910",safesoc-win-01,Registry Value Integrity Checksum Changed,5,750
+"May 14, 2026 @ 12:23:21.910",safesoc-win-01,Registry Key Integrity Checksum Changed,5,594
+"May 14, 2026 @ 12:23:21.869",safesoc-win-01,Registry Value Integrity Checksum Changed,5,750
+"May 14, 2026 @ 12:23:21.854",safesoc-win-01,Registry Value Integrity Checksum Changed,5,750
+"May 14, 2026 @ 12:23:21.837",safesoc-win-01,Registry Key Integrity Checksum Changed,5,594
+"May 14, 2026 @ 12:23:21.822",safesoc-win-01,Registry Value Integrity Checksum Changed,5,750
+"May 14, 2026 @ 12:23:21.821",safesoc-win-01,Registry Value Integrity Checksum Changed,5,750
+"May 14, 2026 @ 12:23:21.780",safesoc-win-01,Registry Value Integrity Checksum Changed,5,750
+"May 14, 2026 @ 12:23:21.762",safesoc-win-01,Registry Value Integrity Checksum Changed,5,750
+"May 14, 2026 @ 12:23:21.752",safesoc-win-01,Registry Key Integrity Checksum Changed,5,594
+"May 14, 2026 @ 12:23:21.752",safesoc-win-01,Registry Value Integrity Checksum Changed,5,750
+"May 14, 2026 @ 12:23:21.665",safesoc-win-01,Registry Value Entry Added to the System,5,752
+"May 14, 2026 @ 12:23:21.648",safesoc-win-01,Registry Key Integrity Checksum Changed,5,594
+"May 14, 2026 @ 12:23:21.633",safesoc-win-01,Registry Value Entry Added to the System,5,752
+"May 14, 2026 @ 12:23:21.618",safesoc-win-01,Registry Value Entry Added to the System,5,752
+"May 14, 2026 @ 12:23:21.606",safesoc-win-01,Registry Value Entry Added to the System,5,752
+"May 14, 2026 @ 12:23:21.585",safesoc-win-01,Registry Key Entry Added to the System,5,598
+"May 14, 2026 @ 12:23:21.584",safesoc-win-01,Registry Value Entry Added to the System,5,752
+"May 14, 2026 @ 12:23:20.978",safesoc-win-01,Powershell was used to delete files or directories,3,92021
+"May 14, 2026 @ 12:23:20.964",safesoc-win-01,C:\\Windows\\SysWOW64\\SecEdit.exe binary in a suspicious location launched by C:\\Windows\\SysWOW64\\WindowsPowerShell\\v1.0\\powershell.exe,4,92066
+"May 14, 2026 @ 12:23:18.901",safesoc-win-01,Powershell was used to delete files or directories,3,92021
+"May 14, 2026 @ 12:23:18.832",safesoc-win-01,Registry Key Integrity Checksum Changed,5,594
+"May 14, 2026 @ 12:23:18.752",safesoc-win-01,Registry Key Integrity Checksum Changed,5,594
+"May 14, 2026 @ 12:23:17.669",safesoc-win-01,C:\\Windows\\SysWOW64\\SecEdit.exe binary in a suspicious location launched by C:\\Windows\\SysWOW64\\WindowsPowerShell\\v1.0\\powershell.exe,4,92066
+"May 14, 2026 @ 12:23:16.479",safesoc-win-01,Suspicious Windows cmd shell execution,3,92032
+"May 14, 2026 @ 12:23:16.466",safesoc-win-01,Powershell was used to delete files or directories,3,92021
+"May 14, 2026 @ 12:23:16.321",safesoc-win-01,Suspicious Windows cmd shell execution,3,92032
+"May 14, 2026 @ 12:23:16.226",safesoc-win-01,Windows command prompt started by an abnormal process,4,92052
+"May 14, 2026 @ 12:23:15.839",safesoc-win-01,License activation (slui.exe) failed.,5,60646
+"May 14, 2026 @ 12:23:15.619",safesoc-win-01,Service startup type was changed,3,61104

@@ -1,0 +1,1 @@
+S12-MAN-R001,S12,,Authentication typo noise,ambiguous_noise,noise,manual,manual,,,,,safesoc-lnx-01,msolimann,START_TIME,END_TIME,S12_commands.txt,EVD-S04-S12-R001-001;EVD-S04-S12-R001-008;EVD-S04-S12-R001-009,"agent.name:\"safesoc-lnx-01\" AND sudo",Linux sudo authentication typo noise,not_required,Controlled sudo password typo followed by successful authentication

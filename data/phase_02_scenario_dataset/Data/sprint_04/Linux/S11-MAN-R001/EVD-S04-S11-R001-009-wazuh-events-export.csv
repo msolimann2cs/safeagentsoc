@@ -1,0 +1,1 @@
+S11-MAN-R001,S11,,Linux admin maintenance,benign,benign,manual,manual,,,,,safesoc-lnx-01,msolimann,START_TIME,END_TIME,S11_commands.txt,EVD-S04-S11-R001-001;EVD-S04-S11-R001-007;EVD-S04-S11-R001-008,"agent.name:\"safesoc-lnx-01\" AND sudo",Linux benign sudo admin telemetry,not_required,Linux benign admin inspection using sudo and auth log review

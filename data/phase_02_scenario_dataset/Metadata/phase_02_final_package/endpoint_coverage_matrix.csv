@@ -1,0 +1,8 @@
+agent_name,label,count
+safesoc-lnx-01,attack_like,408
+safesoc-lnx-01,benign,48
+safesoc-lnx-01,unrelated_background,103
+safesoc-wazuh-01,unrelated_background,59
+safesoc-win-01,ambiguous_noise,14
+safesoc-win-01,attack_like,83
+safesoc-win-01,unrelated_background,85

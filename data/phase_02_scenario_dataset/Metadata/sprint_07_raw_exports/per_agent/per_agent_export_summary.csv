@@ -1,0 +1,5 @@
+agent,alert_count,file
+safesoc-win-01,1042,06_data\phase_02_scenario_dataset\sprint_07_raw_exports\per_agent\safesoc-win-01_alerts.jsonl
+safesoc-lnx-01,5338,06_data\phase_02_scenario_dataset\sprint_07_raw_exports\per_agent\safesoc-lnx-01_alerts.jsonl
+safesoc-wazuh-01,513,06_data\phase_02_scenario_dataset\sprint_07_raw_exports\per_agent\safesoc-wazuh-01_alerts.jsonl
+unknown,0,06_data\phase_02_scenario_dataset\sprint_07_raw_exports\per_agent\unknown_alerts.jsonl

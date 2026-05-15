@@ -1,0 +1,8 @@
+timestamp,agent.name,rule.description,rule.level,rule.id
+"May 14, 2026 @ 18:21:29.593",safesoc-win-01,Discovery activity executed,3,92031
+"May 14, 2026 @ 18:21:29.564",safesoc-win-01,Discovery activity spawned via powershell execution,3,92033
+"May 14, 2026 @ 18:15:06.608",safesoc-win-01,Suspicious Windows cmd shell execution,3,92032
+"May 14, 2026 @ 18:15:06.597",safesoc-win-01,Windows command prompt started by an abnormal process,4,92052
+"May 14, 2026 @ 18:11:06.586",safesoc-win-01,Service startup type was changed,3,61104
+"May 14, 2026 @ 18:09:55.448",safesoc-win-01,The CVE-2022-30168 that affected Photos was solved due to an update in the agent or feed.,3,23502
+"May 14, 2026 @ 18:09:35.760",safesoc-win-01,Application Compatibility Database launched,12,92058

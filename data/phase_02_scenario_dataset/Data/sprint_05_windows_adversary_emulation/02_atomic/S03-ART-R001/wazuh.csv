@@ -1,0 +1,8 @@
+timestamp,agent.name,rule.description,rule.level,rule.id
+"May 14, 2026 @ 19:15:49.310",safesoc-win-01,Discovery activity spawned via cmd shell execution,3,92034
+"May 14, 2026 @ 19:15:49.279",safesoc-win-01,Discovery activity spawned via cmd shell execution,3,92034
+"May 14, 2026 @ 19:15:49.248",safesoc-win-01,Value added to registry key has Base64-like pattern,10,92041
+"May 14, 2026 @ 19:15:49.231",safesoc-win-01,Windows command prompt started by an abnormal process,4,92052
+"May 14, 2026 @ 19:15:49.231",safesoc-win-01,Suspicious Windows cmd shell execution,3,92032
+"May 14, 2026 @ 19:09:36.255",safesoc-win-01,Application Compatibility Database launched,12,92058
+"May 14, 2026 @ 19:09:26.105",safesoc-win-01,Software protection service scheduled successfully.,3,60642

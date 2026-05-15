@@ -1,0 +1,5 @@
+timestamp,agent.name,rule.description,rule.level,rule.id
+"May 14, 2026 @ 23:36:21.206",safesoc-lnx-01,SafeAgentSOC simulated-only high-risk gap started,8,100780
+"May 14, 2026 @ 23:36:21.206",safesoc-lnx-01,SafeAgentSOC simulated-only high-risk gap completed,8,100781
+"May 14, 2026 @ 23:36:20.610",safesoc-lnx-01,SafeAgentSOC simulated-only high-risk gap completed,8,100781
+"May 14, 2026 @ 23:36:20.605",safesoc-lnx-01,SafeAgentSOC simulated-only high-risk gap started,8,100780

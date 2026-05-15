@@ -1,0 +1,931 @@
+timestamp,agent.name,rule.description,rule.level,rule.id
+"May 14, 2026 @ 17:50:31.703",safesoc-win-01,Software protection service scheduled successfully.,3,60642
+"May 14, 2026 @ 17:32:36.421",safesoc-win-01,Non service account logged off.,3,67023
+"May 14, 2026 @ 17:32:36.004",safesoc-win-01,Non service account logged off.,3,67023
+"May 14, 2026 @ 17:32:35.815",safesoc-win-01,Special privileges assigned to new logon.,3,67028
+"May 14, 2026 @ 17:32:35.688",safesoc-win-01,Windows Workstation Logon Success,3,60118
+"May 14, 2026 @ 17:32:35.493",safesoc-win-01,Windows Workstation Logon Success,3,60118
+"May 14, 2026 @ 17:32:30.458",safesoc-win-01,Logon Failure - Unknown user or bad password,5,60122
+"May 14, 2026 @ 17:31:58.851",safesoc-win-01,Non service account logged off.,3,67023
+"May 14, 2026 @ 17:31:58.834",safesoc-win-01,Non service account logged off.,3,67023
+"May 14, 2026 @ 17:31:58.819",safesoc-win-01,Special privileges assigned to new logon.,3,67028
+"May 14, 2026 @ 17:31:58.772",safesoc-win-01,Windows Workstation Logon Success,3,60118
+"May 14, 2026 @ 17:31:58.726",safesoc-win-01,Windows Workstation Logon Success,3,60118
+"May 14, 2026 @ 17:31:31.350",safesoc-win-01,Logon Failure - Unknown user or bad password,5,60122
+"May 14, 2026 @ 17:25:56.303",safesoc-win-01,System time changed,5,60132
+"May 14, 2026 @ 17:24:35.958",safesoc-win-01,Software protection service scheduled successfully.,3,60642
+"May 14, 2026 @ 17:09:35.593",safesoc-win-01,Application Compatibility Database launched,12,92058
+"May 14, 2026 @ 16:50:56.577",safesoc-win-01,Software protection service scheduled successfully.,3,60642
+"May 14, 2026 @ 16:46:51.261",safesoc-win-01,Software protection service scheduled successfully.,3,60642
+"May 14, 2026 @ 16:45:21.305",safesoc-win-01,Software protection service scheduled successfully.,3,60642
+"May 14, 2026 @ 16:25:46.823",safesoc-win-01,Summary event of the report's signatures.,4,60608
+"May 14, 2026 @ 16:25:45.756",safesoc-win-01,Summary event of the report's signatures.,4,60608
+"May 14, 2026 @ 16:25:44.894",safesoc-win-01,Windows System error event,5,61102
+"May 14, 2026 @ 16:24:25.075",safesoc-win-01,Software protection service scheduled successfully.,3,60642
+"May 14, 2026 @ 16:09:34.819",safesoc-win-01,Application Compatibility Database launched,12,92058
+"May 14, 2026 @ 16:03:31.213",safesoc-win-01,Software protection service scheduled successfully.,3,60642
+"May 14, 2026 @ 15:24:34.924",safesoc-win-01,Software protection service scheduled successfully.,3,60642
+"May 14, 2026 @ 15:09:34.561",safesoc-win-01,Application Compatibility Database launched,12,92058
+"May 14, 2026 @ 14:36:30.305",safesoc-win-01,Suspicious Windows cmd shell execution,3,92032
+"May 14, 2026 @ 14:36:30.290",safesoc-win-01,Powershell process spawned Windows command shell instance,4,92004
+"May 14, 2026 @ 14:36:30.239",safesoc-win-01,Suspicious Windows cmd shell execution,3,92032
+"May 14, 2026 @ 14:36:30.222",safesoc-win-01,Powershell process spawned Windows command shell instance,4,92004
+"May 14, 2026 @ 14:36:30.175",safesoc-win-01,Suspicious Windows cmd shell execution,3,92032
+"May 14, 2026 @ 14:36:30.175",safesoc-win-01,Powershell process spawned Windows command shell instance,4,92004
+"May 14, 2026 @ 14:36:30.133",safesoc-win-01,Suspicious Windows cmd shell execution,3,92032
+"May 14, 2026 @ 14:36:30.131",safesoc-win-01,Powershell process spawned Windows command shell instance,4,92004
+"May 14, 2026 @ 14:36:23.600",safesoc-win-01,Suspicious Windows cmd shell execution,3,92032
+"May 14, 2026 @ 14:36:23.585",safesoc-win-01,Powershell process spawned Windows command shell instance,4,92004
+"May 14, 2026 @ 14:36:23.535",safesoc-win-01,Suspicious Windows cmd shell execution,3,92032
+"May 14, 2026 @ 14:36:23.519",safesoc-win-01,Powershell process spawned Windows command shell instance,4,92004
+"May 14, 2026 @ 14:36:23.474",safesoc-win-01,Suspicious Windows cmd shell execution,3,92032
+"May 14, 2026 @ 14:36:23.473",safesoc-win-01,Powershell process spawned Windows command shell instance,4,92004
+"May 14, 2026 @ 14:36:23.430",safesoc-win-01,Suspicious Windows cmd shell execution,3,92032
+"May 14, 2026 @ 14:36:23.429",safesoc-win-01,Powershell process spawned Windows command shell instance,4,92004
+"May 14, 2026 @ 14:36:16.299",safesoc-win-01,Suspicious Windows cmd shell execution,3,92032
+"May 14, 2026 @ 14:36:16.297",safesoc-win-01,Powershell process spawned Windows command shell instance,4,92004
+"May 14, 2026 @ 14:36:16.283",safesoc-win-01,Suspicious Windows cmd shell execution,3,92032
+"May 14, 2026 @ 14:36:16.278",safesoc-win-01,Powershell process spawned Windows command shell instance,4,92004
+"May 14, 2026 @ 14:36:16.273",safesoc-win-01,Suspicious Windows cmd shell execution,3,92032
+"May 14, 2026 @ 14:36:16.261",safesoc-win-01,Powershell process spawned Windows command shell instance,4,92004
+"May 14, 2026 @ 14:36:16.242",safesoc-win-01,Suspicious Windows cmd shell execution,3,92032
+"May 14, 2026 @ 14:36:16.236",safesoc-win-01,Powershell process spawned Windows command shell instance,4,92004
+"May 14, 2026 @ 14:36:09.422",safesoc-win-01,Suspicious Windows cmd shell execution,3,92032
+"May 14, 2026 @ 14:36:09.406",safesoc-win-01,Powershell process spawned Windows command shell instance,4,92004
+"May 14, 2026 @ 14:36:09.357",safesoc-win-01,Suspicious Windows cmd shell execution,3,92032
+"May 14, 2026 @ 14:36:09.342",safesoc-win-01,Powershell process spawned Windows command shell instance,4,92004
+"May 14, 2026 @ 14:36:09.310",safesoc-win-01,Suspicious Windows cmd shell execution,3,92032
+"May 14, 2026 @ 14:36:09.310",safesoc-win-01,Powershell process spawned Windows command shell instance,4,92004
+"May 14, 2026 @ 14:36:09.277",safesoc-win-01,Suspicious Windows cmd shell execution,3,92032
+"May 14, 2026 @ 14:36:09.265",safesoc-win-01,Powershell process spawned Windows command shell instance,4,92004
+"May 14, 2026 @ 14:36:02.770",safesoc-win-01,Suspicious Windows cmd shell execution,3,92032
+"May 14, 2026 @ 14:36:02.752",safesoc-win-01,Powershell process spawned Windows command shell instance,4,92004
+"May 14, 2026 @ 14:36:02.703",safesoc-win-01,Suspicious Windows cmd shell execution,3,92032
+"May 14, 2026 @ 14:36:02.687",safesoc-win-01,Powershell process spawned Windows command shell instance,4,92004
+"May 14, 2026 @ 14:36:02.639",safesoc-win-01,Suspicious Windows cmd shell execution,3,92032
+"May 14, 2026 @ 14:36:02.623",safesoc-win-01,Powershell process spawned Windows command shell instance,4,92004
+"May 14, 2026 @ 14:36:02.579",safesoc-win-01,Powershell process spawned Windows command shell instance,4,92004
+"May 14, 2026 @ 14:36:02.579",safesoc-win-01,Suspicious Windows cmd shell execution,3,92032
+"May 14, 2026 @ 14:35:55.989",safesoc-win-01,Suspicious Windows cmd shell execution,3,92032
+"May 14, 2026 @ 14:35:55.973",safesoc-win-01,Powershell process spawned Windows command shell instance,4,92004
+"May 14, 2026 @ 14:35:55.925",safesoc-win-01,Suspicious Windows cmd shell execution,3,92032
+"May 14, 2026 @ 14:35:55.909",safesoc-win-01,Powershell process spawned Windows command shell instance,4,92004
+"May 14, 2026 @ 14:35:55.859",safesoc-win-01,Suspicious Windows cmd shell execution,3,92032
+"May 14, 2026 @ 14:35:55.844",safesoc-win-01,Powershell process spawned Windows command shell instance,4,92004
+"May 14, 2026 @ 14:35:55.800",safesoc-win-01,Suspicious Windows cmd shell execution,3,92032
+"May 14, 2026 @ 14:35:55.799",safesoc-win-01,Powershell process spawned Windows command shell instance,4,92004
+"May 14, 2026 @ 14:35:49.257",safesoc-win-01,Suspicious Windows cmd shell execution,3,92032
+"May 14, 2026 @ 14:35:49.242",safesoc-win-01,Powershell process spawned Windows command shell instance,4,92004
+"May 14, 2026 @ 14:35:49.192",safesoc-win-01,Suspicious Windows cmd shell execution,3,92032
+"May 14, 2026 @ 14:35:49.180",safesoc-win-01,Powershell process spawned Windows command shell instance,4,92004
+"May 14, 2026 @ 14:35:49.127",safesoc-win-01,Powershell process spawned Windows command shell instance,4,92004
+"May 14, 2026 @ 14:35:49.127",safesoc-win-01,Suspicious Windows cmd shell execution,3,92032
+"May 14, 2026 @ 14:35:49.080",safesoc-win-01,Suspicious Windows cmd shell execution,3,92032
+"May 14, 2026 @ 14:35:49.067",safesoc-win-01,Powershell process spawned Windows command shell instance,4,92004
+"May 14, 2026 @ 14:35:41.773",safesoc-win-01,Suspicious Windows cmd shell execution,3,92032
+"May 14, 2026 @ 14:35:41.765",safesoc-win-01,Powershell process spawned Windows command shell instance,4,92004
+"May 14, 2026 @ 14:35:41.745",safesoc-win-01,Suspicious Windows cmd shell execution,3,92032
+"May 14, 2026 @ 14:35:41.740",safesoc-win-01,Powershell process spawned Windows command shell instance,4,92004
+"May 14, 2026 @ 14:35:41.667",safesoc-win-01,Suspicious Windows cmd shell execution,3,92032
+"May 14, 2026 @ 14:35:41.664",safesoc-win-01,Powershell process spawned Windows command shell instance,4,92004
+"May 14, 2026 @ 14:35:41.645",safesoc-win-01,Suspicious Windows cmd shell execution,3,92032
+"May 14, 2026 @ 14:35:41.637",safesoc-win-01,Powershell process spawned Windows command shell instance,4,92004
+"May 14, 2026 @ 14:35:34.932",safesoc-win-01,Suspicious Windows cmd shell execution,3,92032
+"May 14, 2026 @ 14:35:34.913",safesoc-win-01,Powershell process spawned Windows command shell instance,4,92004
+"May 14, 2026 @ 14:35:34.866",safesoc-win-01,Suspicious Windows cmd shell execution,3,92032
+"May 14, 2026 @ 14:35:34.850",safesoc-win-01,Powershell process spawned Windows command shell instance,4,92004
+"May 14, 2026 @ 14:35:34.803",safesoc-win-01,Suspicious Windows cmd shell execution,3,92032
+"May 14, 2026 @ 14:35:34.785",safesoc-win-01,Powershell process spawned Windows command shell instance,4,92004
+"May 14, 2026 @ 14:35:34.757",safesoc-win-01,Suspicious Windows cmd shell execution,3,92032
+"May 14, 2026 @ 14:35:34.756",safesoc-win-01,Powershell process spawned Windows command shell instance,4,92004
+"May 14, 2026 @ 14:35:28.432",safesoc-win-01,Suspicious Windows cmd shell execution,3,92032
+"May 14, 2026 @ 14:35:28.401",safesoc-win-01,Powershell process spawned Windows command shell instance,4,92004
+"May 14, 2026 @ 14:35:27.396",safesoc-win-01,Suspicious Windows cmd shell execution,3,92032
+"May 14, 2026 @ 14:35:27.383",safesoc-win-01,Powershell process spawned Windows command shell instance,4,92004
+"May 14, 2026 @ 14:35:27.348",safesoc-win-01,Suspicious Windows cmd shell execution,3,92032
+"May 14, 2026 @ 14:35:27.333",safesoc-win-01,Powershell process spawned Windows command shell instance,4,92004
+"May 14, 2026 @ 14:35:27.301",safesoc-win-01,Suspicious Windows cmd shell execution,3,92032
+"May 14, 2026 @ 14:35:27.291",safesoc-win-01,Powershell process spawned Windows command shell instance,4,92004
+"May 14, 2026 @ 14:18:01.466",safesoc-win-01,Powershell process spawned powershell instance,4,92027
+"May 14, 2026 @ 14:17:56.421",safesoc-win-01,Powershell process spawned powershell instance,4,92027
+"May 14, 2026 @ 14:17:51.393",safesoc-win-01,Powershell process spawned powershell instance,4,92027
+"May 14, 2026 @ 14:17:46.355",safesoc-win-01,Powershell process spawned powershell instance,4,92027
+"May 14, 2026 @ 14:17:41.338",safesoc-win-01,Powershell process spawned powershell instance,4,92027
+"May 14, 2026 @ 14:17:36.323",safesoc-win-01,Powershell process spawned powershell instance,4,92027
+"May 14, 2026 @ 14:17:31.294",safesoc-win-01,Powershell process spawned powershell instance,4,92027
+"May 14, 2026 @ 14:17:26.278",safesoc-win-01,Powershell process spawned powershell instance,4,92027
+"May 14, 2026 @ 14:17:21.277",safesoc-win-01,Powershell process spawned powershell instance,4,92027
+"May 14, 2026 @ 14:17:16.266",safesoc-win-01,Powershell process spawned powershell instance,4,92027
+"May 14, 2026 @ 14:17:11.227",safesoc-win-01,Powershell process spawned powershell instance,4,92027
+"May 14, 2026 @ 14:17:06.161",safesoc-win-01,Powershell process spawned powershell instance,4,92027
+"May 14, 2026 @ 14:09:34.461",safesoc-win-01,Application Compatibility Database launched,12,92058
+"May 14, 2026 @ 14:06:29.592",safesoc-win-01,Software protection service scheduled successfully.,3,60642
+"May 14, 2026 @ 14:01:13.606",safesoc-win-01,Discovery activity executed,3,92031
+"May 14, 2026 @ 14:01:13.590",safesoc-win-01,A C:\\Windows\\System32\\net.exe binary was started by a Windows cmd shell,3,92036
+"May 14, 2026 @ 14:01:13.573",safesoc-win-01,Powershell process spawned Windows command shell instance,4,92004
+"May 14, 2026 @ 14:01:13.482",safesoc-win-01,Suspicious Windows cmd shell execution,3,92032
+"May 14, 2026 @ 14:01:13.451",safesoc-win-01,Powershell process spawned Windows command shell instance,4,92004
+"May 14, 2026 @ 14:01:13.358",safesoc-win-01,Suspicious Windows cmd shell execution,3,92032
+"May 14, 2026 @ 14:01:13.327",safesoc-win-01,Powershell process spawned Windows command shell instance,4,92004
+"May 14, 2026 @ 14:01:13.284",safesoc-win-01,Suspicious Windows cmd shell execution,3,92032
+"May 14, 2026 @ 14:01:13.284",safesoc-win-01,Powershell process spawned Windows command shell instance,4,92004
+"May 14, 2026 @ 14:01:09.411",safesoc-win-01,Discovery activity executed,3,92031
+"May 14, 2026 @ 14:01:09.380",safesoc-win-01,A C:\\Windows\\System32\\net.exe binary was started by a Windows cmd shell,3,92036
+"May 14, 2026 @ 14:01:09.348",safesoc-win-01,Powershell process spawned Windows command shell instance,4,92004
+"May 14, 2026 @ 14:01:09.271",safesoc-win-01,Suspicious Windows cmd shell execution,3,92032
+"May 14, 2026 @ 14:01:09.242",safesoc-win-01,Powershell process spawned Windows command shell instance,4,92004
+"May 14, 2026 @ 14:01:09.149",safesoc-win-01,Suspicious Windows cmd shell execution,3,92032
+"May 14, 2026 @ 14:01:09.148",safesoc-win-01,Powershell process spawned Windows command shell instance,4,92004
+"May 14, 2026 @ 14:01:09.101",safesoc-win-01,Suspicious Windows cmd shell execution,3,92032
+"May 14, 2026 @ 14:01:09.099",safesoc-win-01,Powershell process spawned Windows command shell instance,4,92004
+"May 14, 2026 @ 14:01:05.218",safesoc-win-01,Discovery activity executed,3,92031
+"May 14, 2026 @ 14:01:05.188",safesoc-win-01,A C:\\Windows\\System32\\net.exe binary was started by a Windows cmd shell,3,92036
+"May 14, 2026 @ 14:01:05.159",safesoc-win-01,Powershell process spawned Windows command shell instance,4,92004
+"May 14, 2026 @ 14:01:05.081",safesoc-win-01,Suspicious Windows cmd shell execution,3,92032
+"May 14, 2026 @ 14:01:05.052",safesoc-win-01,Powershell process spawned Windows command shell instance,4,92004
+"May 14, 2026 @ 14:01:04.972",safesoc-win-01,Suspicious Windows cmd shell execution,3,92032
+"May 14, 2026 @ 14:01:04.972",safesoc-win-01,Powershell process spawned Windows command shell instance,4,92004
+"May 14, 2026 @ 14:01:04.896",safesoc-win-01,Suspicious Windows cmd shell execution,3,92032
+"May 14, 2026 @ 14:01:04.866",safesoc-win-01,Powershell process spawned Windows command shell instance,4,92004
+"May 14, 2026 @ 14:01:00.968",safesoc-win-01,Discovery activity executed,3,92031
+"May 14, 2026 @ 14:01:00.938",safesoc-win-01,A C:\\Windows\\System32\\net.exe binary was started by a Windows cmd shell,3,92036
+"May 14, 2026 @ 14:01:00.909",safesoc-win-01,Powershell process spawned Windows command shell instance,4,92004
+"May 14, 2026 @ 14:01:00.845",safesoc-win-01,Suspicious Windows cmd shell execution,3,92032
+"May 14, 2026 @ 14:01:00.829",safesoc-win-01,Powershell process spawned Windows command shell instance,4,92004
+"May 14, 2026 @ 14:01:00.739",safesoc-win-01,Suspicious Windows cmd shell execution,3,92032
+"May 14, 2026 @ 14:01:00.738",safesoc-win-01,Powershell process spawned Windows command shell instance,4,92004
+"May 14, 2026 @ 14:01:00.647",safesoc-win-01,Powershell process spawned Windows command shell instance,4,92004
+"May 14, 2026 @ 14:01:00.647",safesoc-win-01,Suspicious Windows cmd shell execution,3,92032
+"May 14, 2026 @ 14:00:56.810",safesoc-win-01,Discovery activity executed,3,92031
+"May 14, 2026 @ 14:00:56.793",safesoc-win-01,A C:\\Windows\\System32\\net.exe binary was started by a Windows cmd shell,3,92036
+"May 14, 2026 @ 14:00:56.762",safesoc-win-01,Powershell process spawned Windows command shell instance,4,92004
+"May 14, 2026 @ 14:00:56.669",safesoc-win-01,Suspicious Windows cmd shell execution,3,92032
+"May 14, 2026 @ 14:00:56.639",safesoc-win-01,Powershell process spawned Windows command shell instance,4,92004
+"May 14, 2026 @ 14:00:56.546",safesoc-win-01,Suspicious Windows cmd shell execution,3,92032
+"May 14, 2026 @ 14:00:56.514",safesoc-win-01,Powershell process spawned Windows command shell instance,4,92004
+"May 14, 2026 @ 14:00:56.456",safesoc-win-01,Suspicious Windows cmd shell execution,3,92032
+"May 14, 2026 @ 14:00:56.454",safesoc-win-01,Powershell process spawned Windows command shell instance,4,92004
+"May 14, 2026 @ 14:00:52.569",safesoc-win-01,Discovery activity executed,3,92031
+"May 14, 2026 @ 14:00:52.554",safesoc-win-01,A C:\\Windows\\System32\\net.exe binary was started by a Windows cmd shell,3,92036
+"May 14, 2026 @ 14:00:52.538",safesoc-win-01,Powershell process spawned Windows command shell instance,4,92004
+"May 14, 2026 @ 14:00:52.445",safesoc-win-01,Suspicious Windows cmd shell execution,3,92032
+"May 14, 2026 @ 14:00:52.428",safesoc-win-01,Powershell process spawned Windows command shell instance,4,92004
+"May 14, 2026 @ 14:00:52.351",safesoc-win-01,Suspicious Windows cmd shell execution,3,92032
+"May 14, 2026 @ 14:00:52.334",safesoc-win-01,Powershell process spawned Windows command shell instance,4,92004
+"May 14, 2026 @ 14:00:52.280",safesoc-win-01,Suspicious Windows cmd shell execution,3,92032
+"May 14, 2026 @ 14:00:52.276",safesoc-win-01,Powershell process spawned Windows command shell instance,4,92004
+"May 14, 2026 @ 14:00:48.428",safesoc-win-01,Discovery activity executed,3,92031
+"May 14, 2026 @ 14:00:48.397",safesoc-win-01,A C:\\Windows\\System32\\net.exe binary was started by a Windows cmd shell,3,92036
+"May 14, 2026 @ 14:00:48.365",safesoc-win-01,Powershell process spawned Windows command shell instance,4,92004
+"May 14, 2026 @ 14:00:48.273",safesoc-win-01,Suspicious Windows cmd shell execution,3,92032
+"May 14, 2026 @ 14:00:48.242",safesoc-win-01,Powershell process spawned Windows command shell instance,4,92004
+"May 14, 2026 @ 14:00:48.162",safesoc-win-01,Suspicious Windows cmd shell execution,3,92032
+"May 14, 2026 @ 14:00:48.133",safesoc-win-01,Powershell process spawned Windows command shell instance,4,92004
+"May 14, 2026 @ 14:00:48.058",safesoc-win-01,Suspicious Windows cmd shell execution,3,92032
+"May 14, 2026 @ 14:00:48.057",safesoc-win-01,Powershell process spawned Windows command shell instance,4,92004
+"May 14, 2026 @ 14:00:44.210",safesoc-win-01,Discovery activity executed,3,92031
+"May 14, 2026 @ 14:00:44.180",safesoc-win-01,A C:\\Windows\\System32\\net.exe binary was started by a Windows cmd shell,3,92036
+"May 14, 2026 @ 14:00:44.147",safesoc-win-01,Powershell process spawned Windows command shell instance,4,92004
+"May 14, 2026 @ 14:00:44.068",safesoc-win-01,Suspicious Windows cmd shell execution,3,92032
+"May 14, 2026 @ 14:00:44.038",safesoc-win-01,Powershell process spawned Windows command shell instance,4,92004
+"May 14, 2026 @ 14:00:43.964",safesoc-win-01,Suspicious Windows cmd shell execution,3,92032
+"May 14, 2026 @ 14:00:43.963",safesoc-win-01,Powershell process spawned Windows command shell instance,4,92004
+"May 14, 2026 @ 14:00:43.884",safesoc-win-01,Suspicious Windows cmd shell execution,3,92032
+"May 14, 2026 @ 14:00:43.854",safesoc-win-01,Powershell process spawned Windows command shell instance,4,92004
+"May 14, 2026 @ 14:00:39.963",safesoc-win-01,Discovery activity executed,3,92031
+"May 14, 2026 @ 14:00:39.932",safesoc-win-01,A C:\\Windows\\System32\\net.exe binary was started by a Windows cmd shell,3,92036
+"May 14, 2026 @ 14:00:39.903",safesoc-win-01,Powershell process spawned Windows command shell instance,4,92004
+"May 14, 2026 @ 14:00:39.810",safesoc-win-01,Suspicious Windows cmd shell execution,3,92032
+"May 14, 2026 @ 14:00:39.777",safesoc-win-01,Powershell process spawned Windows command shell instance,4,92004
+"May 14, 2026 @ 14:00:39.700",safesoc-win-01,Suspicious Windows cmd shell execution,3,92032
+"May 14, 2026 @ 14:00:39.668",safesoc-win-01,Powershell process spawned Windows command shell instance,4,92004
+"May 14, 2026 @ 14:00:39.639",safesoc-win-01,Suspicious Windows cmd shell execution,3,92032
+"May 14, 2026 @ 14:00:39.637",safesoc-win-01,Powershell process spawned Windows command shell instance,4,92004
+"May 14, 2026 @ 14:00:35.816",safesoc-win-01,Discovery activity executed,3,92031
+"May 14, 2026 @ 14:00:35.787",safesoc-win-01,A C:\\Windows\\System32\\net.exe binary was started by a Windows cmd shell,3,92036
+"May 14, 2026 @ 14:00:35.755",safesoc-win-01,Powershell process spawned Windows command shell instance,4,92004
+"May 14, 2026 @ 14:00:35.661",safesoc-win-01,Suspicious Windows cmd shell execution,3,92032
+"May 14, 2026 @ 14:00:35.629",safesoc-win-01,Powershell process spawned Windows command shell instance,4,92004
+"May 14, 2026 @ 14:00:35.538",safesoc-win-01,Suspicious Windows cmd shell execution,3,92032
+"May 14, 2026 @ 14:00:35.506",safesoc-win-01,Powershell process spawned Windows command shell instance,4,92004
+"May 14, 2026 @ 14:00:35.423",safesoc-win-01,Suspicious Windows cmd shell execution,3,92032
+"May 14, 2026 @ 14:00:35.419",safesoc-win-01,Powershell process spawned Windows command shell instance,4,92004
+"May 14, 2026 @ 14:00:31.624",safesoc-win-01,Discovery activity executed,3,92031
+"May 14, 2026 @ 14:00:31.594",safesoc-win-01,A C:\\Windows\\System32\\net.exe binary was started by a Windows cmd shell,3,92036
+"May 14, 2026 @ 14:00:31.561",safesoc-win-01,Powershell process spawned Windows command shell instance,4,92004
+"May 14, 2026 @ 14:00:31.484",safesoc-win-01,Suspicious Windows cmd shell execution,3,92032
+"May 14, 2026 @ 14:00:31.454",safesoc-win-01,Powershell process spawned Windows command shell instance,4,92004
+"May 14, 2026 @ 14:00:31.360",safesoc-win-01,Suspicious Windows cmd shell execution,3,92032
+"May 14, 2026 @ 14:00:31.329",safesoc-win-01,Powershell process spawned Windows command shell instance,4,92004
+"May 14, 2026 @ 14:00:31.242",safesoc-win-01,Suspicious Windows cmd shell execution,3,92032
+"May 14, 2026 @ 14:00:31.241",safesoc-win-01,Powershell process spawned Windows command shell instance,4,92004
+"May 14, 2026 @ 14:00:27.267",safesoc-win-01,Discovery activity executed,3,92031
+"May 14, 2026 @ 14:00:27.217",safesoc-win-01,A C:\\Windows\\System32\\net.exe binary was started by a Windows cmd shell,3,92036
+"May 14, 2026 @ 14:00:27.200",safesoc-win-01,Powershell process spawned Windows command shell instance,4,92004
+"May 14, 2026 @ 14:00:27.152",safesoc-win-01,Suspicious Windows cmd shell execution,3,92032
+"May 14, 2026 @ 14:00:27.137",safesoc-win-01,Powershell process spawned Windows command shell instance,4,92004
+"May 14, 2026 @ 14:00:27.088",safesoc-win-01,Powershell process spawned Windows command shell instance,4,92004
+"May 14, 2026 @ 14:00:27.088",safesoc-win-01,Suspicious Windows cmd shell execution,3,92032
+"May 14, 2026 @ 14:00:27.007",safesoc-win-01,Suspicious Windows cmd shell execution,3,92032
+"May 14, 2026 @ 14:00:26.979",safesoc-win-01,Powershell process spawned Windows command shell instance,4,92004
+"May 14, 2026 @ 13:54:26.305",safesoc-win-01,Service startup type was changed,3,61104
+"May 14, 2026 @ 13:52:21.827",safesoc-win-01,Service startup type was changed,3,61104
+"May 14, 2026 @ 13:09:33.943",safesoc-win-01,Application Compatibility Database launched,12,92058
+"May 14, 2026 @ 13:08:56.845",safesoc-win-01,Powershell process spawned powershell instance,4,92027
+"May 14, 2026 @ 13:08:53.033",safesoc-win-01,Powershell process spawned powershell instance,4,92027
+"May 14, 2026 @ 13:08:50.156",safesoc-win-01,Powershell process spawned powershell instance,4,92027
+"May 14, 2026 @ 13:08:45.699",safesoc-win-01,Suspicious Windows cmd shell execution,3,92032
+"May 14, 2026 @ 13:08:45.698",safesoc-win-01,Powershell process spawned Windows command shell instance,4,92004
+"May 14, 2026 @ 13:08:42.179",safesoc-win-01,Suspicious Windows cmd shell execution,3,92032
+"May 14, 2026 @ 13:08:42.177",safesoc-win-01,Powershell process spawned Windows command shell instance,4,92004
+"May 14, 2026 @ 13:08:38.492",safesoc-win-01,Suspicious Windows cmd shell execution,3,92032
+"May 14, 2026 @ 13:08:38.491",safesoc-win-01,Powershell process spawned Windows command shell instance,4,92004
+"May 14, 2026 @ 13:08:35.107",safesoc-win-01,Discovery activity executed,3,92031
+"May 14, 2026 @ 13:08:35.106",safesoc-win-01,A C:\\Windows\\System32\\net.exe binary was started by a Windows cmd shell,3,92036
+"May 14, 2026 @ 13:08:35.105",safesoc-win-01,Powershell process spawned Windows command shell instance,4,92004
+"May 14, 2026 @ 13:08:31.809",safesoc-win-01,Discovery activity executed,3,92031
+"May 14, 2026 @ 13:08:31.808",safesoc-win-01,A C:\\Windows\\System32\\net.exe binary was started by a Windows cmd shell,3,92036
+"May 14, 2026 @ 13:08:31.807",safesoc-win-01,Powershell process spawned Windows command shell instance,4,92004
+"May 14, 2026 @ 13:08:28.711",safesoc-win-01,Suspicious Windows cmd shell execution,3,92032
+"May 14, 2026 @ 13:08:28.710",safesoc-win-01,Powershell process spawned Windows command shell instance,4,92004
+"May 14, 2026 @ 13:08:24.681",safesoc-win-01,Suspicious Windows cmd shell execution,3,92032
+"May 14, 2026 @ 13:08:24.680",safesoc-win-01,Powershell process spawned Windows command shell instance,4,92004
+"May 14, 2026 @ 13:08:18.489",safesoc-win-01,Suspicious Windows cmd shell execution,3,92032
+"May 14, 2026 @ 13:08:18.488",safesoc-win-01,Powershell process spawned Windows command shell instance,4,92004
+"May 14, 2026 @ 12:57:12.852",safesoc-win-01,Service startup type was changed,3,61104
+"May 14, 2026 @ 12:54:02.028",safesoc-win-01,Service startup type was changed,3,61104
+"May 14, 2026 @ 12:52:56.427",safesoc-win-01,Service startup type was changed,3,61104
+"May 14, 2026 @ 12:52:54.750",safesoc-win-01,Service startup type was changed,3,61104
+"May 14, 2026 @ 12:52:50.941",safesoc-win-01,The database engine is starting a new instance.,3,60805
+"May 14, 2026 @ 12:52:49.875",safesoc-win-01,Suspicious Windows cmd shell execution,3,92032
+"May 14, 2026 @ 12:52:49.700",safesoc-win-01,Windows command prompt started by an abnormal process,4,92052
+"May 14, 2026 @ 12:51:57.561",safesoc-win-01,Service startup type was changed,3,61104
+"May 14, 2026 @ 12:41:30.558",safesoc-win-01,Software protection service scheduled successfully.,3,60642
+"May 14, 2026 @ 12:31:47.577",safesoc-win-01,Discovery activity executed,3,92031
+"May 14, 2026 @ 12:31:47.576",safesoc-win-01,Discovery activity spawned via powershell execution,3,92033
+"May 14, 2026 @ 12:31:44.772",safesoc-win-01,Discovery activity executed,3,92031
+"May 14, 2026 @ 12:31:44.771",safesoc-win-01,Discovery activity spawned via powershell execution,3,92033
+"May 14, 2026 @ 12:30:40.063",safesoc-win-01,Software protection service scheduled successfully.,3,60642
+"May 14, 2026 @ 12:29:49.336",safesoc-win-01,Software protection service scheduled successfully.,3,60642
+"May 14, 2026 @ 12:29:19.536",safesoc-win-01,Service startup type was changed,3,61104
+"May 14, 2026 @ 12:28:14.526",safesoc-win-01,Sysmon - Suspicious Process - explorer.exe,12,61640
+"May 14, 2026 @ 12:28:13.441",safesoc-win-01,Software protection service scheduled successfully.,3,60642
+"May 14, 2026 @ 12:25:50.222",safesoc-win-01,Non service account logged off.,3,67023
+"May 14, 2026 @ 12:25:50.192",safesoc-win-01,Non service account logged off.,3,67023
+"May 14, 2026 @ 12:25:50.173",safesoc-win-01,Special privileges assigned to new logon.,3,67028
+"May 14, 2026 @ 12:25:50.172",safesoc-win-01,Windows Workstation Logon Success,3,60118
+"May 14, 2026 @ 12:25:50.170",safesoc-win-01,Windows Workstation Logon Success,3,60118
+"May 14, 2026 @ 12:23:45.857",safesoc-win-01,Software protection service scheduled successfully.,3,60642
+"May 14, 2026 @ 12:23:31.501",safesoc-win-01,Discovery activity executed,3,92031
+"May 14, 2026 @ 12:23:31.470",safesoc-win-01,Discovery activity executed,3,92031
+"May 14, 2026 @ 12:23:31.406",safesoc-win-01,Discovery activity executed,3,92031
+"May 14, 2026 @ 12:23:31.359",safesoc-win-01,Discovery activity executed,3,92031
+"May 14, 2026 @ 12:23:29.586",safesoc-win-01,C:\\Windows\\SysWOW64\\SecEdit.exe binary in a suspicious location launched by C:\\Windows\\SysWOW64\\WindowsPowerShell\\v1.0\\powershell.exe,4,92066
+"May 14, 2026 @ 12:23:28.616",safesoc-win-01,Powershell was used to delete files or directories,3,92021
+"May 14, 2026 @ 12:23:28.585",safesoc-win-01,C:\\Windows\\SysWOW64\\SecEdit.exe binary in a suspicious location launched by C:\\Windows\\SysWOW64\\WindowsPowerShell\\v1.0\\powershell.exe,4,92066
+"May 14, 2026 @ 12:23:27.248",safesoc-win-01,Powershell was used to delete files or directories,3,92021
+"May 14, 2026 @ 12:23:27.223",safesoc-win-01,C:\\Windows\\SysWOW64\\SecEdit.exe binary in a suspicious location launched by C:\\Windows\\SysWOW64\\WindowsPowerShell\\v1.0\\powershell.exe,4,92066
+"May 14, 2026 @ 12:23:26.730",safesoc-win-01,Registry Key Integrity Checksum Changed,5,594
+"May 14, 2026 @ 12:23:26.728",safesoc-win-01,Registry Key Integrity Checksum Changed,5,594
+"May 14, 2026 @ 12:23:26.725",safesoc-win-01,Registry Key Integrity Checksum Changed,5,594
+"May 14, 2026 @ 12:23:26.675",safesoc-win-01,Registry Key Integrity Checksum Changed,5,594
+"May 14, 2026 @ 12:23:26.587",safesoc-win-01,Registry Key Integrity Checksum Changed,5,594
+"May 14, 2026 @ 12:23:26.571",safesoc-win-01,Registry Key Integrity Checksum Changed,5,594
+"May 14, 2026 @ 12:23:26.375",safesoc-win-01,Registry Value Integrity Checksum Changed,5,750
+"May 14, 2026 @ 12:23:26.359",safesoc-win-01,Registry Value Integrity Checksum Changed,5,750
+"May 14, 2026 @ 12:23:26.359",safesoc-win-01,Registry Value Integrity Checksum Changed,5,750
+"May 14, 2026 @ 12:23:26.195",safesoc-win-01,Powershell was used to delete files or directories,3,92021
+"May 14, 2026 @ 12:23:26.149",safesoc-win-01,C:\\Windows\\SysWOW64\\SecEdit.exe binary in a suspicious location launched by C:\\Windows\\SysWOW64\\WindowsPowerShell\\v1.0\\powershell.exe,4,92066
+"May 14, 2026 @ 12:23:25.382",safesoc-win-01,Registry Key Integrity Checksum Changed,5,594
+"May 14, 2026 @ 12:23:25.354",safesoc-win-01,Registry Value Integrity Checksum Changed,5,750
+"May 14, 2026 @ 12:23:25.345",safesoc-win-01,Registry Value Integrity Checksum Changed,5,750
+"May 14, 2026 @ 12:23:25.341",safesoc-win-01,Registry Key Integrity Checksum Changed,5,594
+"May 14, 2026 @ 12:23:25.316",safesoc-win-01,Registry Key Integrity Checksum Changed,5,594
+"May 14, 2026 @ 12:23:25.307",safesoc-win-01,Registry Key Entry Added to the System,5,598
+"May 14, 2026 @ 12:23:25.277",safesoc-win-01,Registry Key Integrity Checksum Changed,5,594
+"May 14, 2026 @ 12:23:24.900",safesoc-win-01,Registry Key Integrity Checksum Changed,5,594
+"May 14, 2026 @ 12:23:24.721",safesoc-win-01,Registry Value Integrity Checksum Changed,5,750
+"May 14, 2026 @ 12:23:24.705",safesoc-win-01,Registry Key Integrity Checksum Changed,5,594
+"May 14, 2026 @ 12:23:24.697",safesoc-win-01,Registry Key Integrity Checksum Changed,5,594
+"May 14, 2026 @ 12:23:24.697",safesoc-win-01,Registry Value Integrity Checksum Changed,5,750
+"May 14, 2026 @ 12:23:24.656",safesoc-win-01,Registry Key Integrity Checksum Changed,5,594
+"May 14, 2026 @ 12:23:24.640",safesoc-win-01,Registry Key Integrity Checksum Changed,5,594
+"May 14, 2026 @ 12:23:24.593",safesoc-win-01,Powershell was used to delete files or directories,3,92021
+"May 14, 2026 @ 12:23:24.544",safesoc-win-01,C:\\Windows\\SysWOW64\\SecEdit.exe binary in a suspicious location launched by C:\\Windows\\SysWOW64\\WindowsPowerShell\\v1.0\\powershell.exe,4,92066
+"May 14, 2026 @ 12:23:23.616",safesoc-win-01,Registry Key Integrity Checksum Changed,5,594
+"May 14, 2026 @ 12:23:23.615",safesoc-win-01,Registry Key Entry Added to the System,5,598
+"May 14, 2026 @ 12:23:22.688",safesoc-win-01,Powershell was used to delete files or directories,3,92021
+"May 14, 2026 @ 12:23:22.660",safesoc-win-01,C:\\Windows\\SysWOW64\\SecEdit.exe binary in a suspicious location launched by C:\\Windows\\SysWOW64\\WindowsPowerShell\\v1.0\\powershell.exe,4,92066
+"May 14, 2026 @ 12:23:22.214",safesoc-win-01,Registry Key Integrity Checksum Changed,5,594
+"May 14, 2026 @ 12:23:22.212",safesoc-win-01,Registry Key Integrity Checksum Changed,5,594
+"May 14, 2026 @ 12:23:22.045",safesoc-win-01,Registry Key Integrity Checksum Changed,5,594
+"May 14, 2026 @ 12:23:22.028",safesoc-win-01,Registry Value Entry Added to the System,5,752
+"May 14, 2026 @ 12:23:22.024",safesoc-win-01,Registry Value Integrity Checksum Changed,5,750
+"May 14, 2026 @ 12:23:22.024",safesoc-win-01,Registry Value Integrity Checksum Changed,5,750
+"May 14, 2026 @ 12:23:21.982",safesoc-win-01,Registry Value Integrity Checksum Changed,5,750
+"May 14, 2026 @ 12:23:21.965",safesoc-win-01,Registry Value Integrity Checksum Changed,5,750
+"May 14, 2026 @ 12:23:21.949",safesoc-win-01,Registry Value Integrity Checksum Changed,5,750
+"May 14, 2026 @ 12:23:21.933",safesoc-win-01,Registry Value Integrity Checksum Changed,5,750
+"May 14, 2026 @ 12:23:21.915",safesoc-win-01,Registry Value Integrity Checksum Changed,5,750
+"May 14, 2026 @ 12:23:21.910",safesoc-win-01,Registry Value Integrity Checksum Changed,5,750
+"May 14, 2026 @ 12:23:21.910",safesoc-win-01,Registry Key Integrity Checksum Changed,5,594
+"May 14, 2026 @ 12:23:21.869",safesoc-win-01,Registry Value Integrity Checksum Changed,5,750
+"May 14, 2026 @ 12:23:21.854",safesoc-win-01,Registry Value Integrity Checksum Changed,5,750
+"May 14, 2026 @ 12:23:21.837",safesoc-win-01,Registry Key Integrity Checksum Changed,5,594
+"May 14, 2026 @ 12:23:21.822",safesoc-win-01,Registry Value Integrity Checksum Changed,5,750
+"May 14, 2026 @ 12:23:21.821",safesoc-win-01,Registry Value Integrity Checksum Changed,5,750
+"May 14, 2026 @ 12:23:21.780",safesoc-win-01,Registry Value Integrity Checksum Changed,5,750
+"May 14, 2026 @ 12:23:21.762",safesoc-win-01,Registry Value Integrity Checksum Changed,5,750
+"May 14, 2026 @ 12:23:21.752",safesoc-win-01,Registry Key Integrity Checksum Changed,5,594
+"May 14, 2026 @ 12:23:21.752",safesoc-win-01,Registry Value Integrity Checksum Changed,5,750
+"May 14, 2026 @ 12:23:21.665",safesoc-win-01,Registry Value Entry Added to the System,5,752
+"May 14, 2026 @ 12:23:21.648",safesoc-win-01,Registry Key Integrity Checksum Changed,5,594
+"May 14, 2026 @ 12:23:21.633",safesoc-win-01,Registry Value Entry Added to the System,5,752
+"May 14, 2026 @ 12:23:21.618",safesoc-win-01,Registry Value Entry Added to the System,5,752
+"May 14, 2026 @ 12:23:21.606",safesoc-win-01,Registry Value Entry Added to the System,5,752
+"May 14, 2026 @ 12:23:21.585",safesoc-win-01,Registry Key Entry Added to the System,5,598
+"May 14, 2026 @ 12:23:21.584",safesoc-win-01,Registry Value Entry Added to the System,5,752
+"May 14, 2026 @ 12:23:20.978",safesoc-win-01,Powershell was used to delete files or directories,3,92021
+"May 14, 2026 @ 12:23:20.964",safesoc-win-01,C:\\Windows\\SysWOW64\\SecEdit.exe binary in a suspicious location launched by C:\\Windows\\SysWOW64\\WindowsPowerShell\\v1.0\\powershell.exe,4,92066
+"May 14, 2026 @ 12:23:18.901",safesoc-win-01,Powershell was used to delete files or directories,3,92021
+"May 14, 2026 @ 12:23:18.832",safesoc-win-01,Registry Key Integrity Checksum Changed,5,594
+"May 14, 2026 @ 12:23:18.752",safesoc-win-01,Registry Key Integrity Checksum Changed,5,594
+"May 14, 2026 @ 12:23:17.669",safesoc-win-01,C:\\Windows\\SysWOW64\\SecEdit.exe binary in a suspicious location launched by C:\\Windows\\SysWOW64\\WindowsPowerShell\\v1.0\\powershell.exe,4,92066
+"May 14, 2026 @ 12:23:16.479",safesoc-win-01,Suspicious Windows cmd shell execution,3,92032
+"May 14, 2026 @ 12:23:16.466",safesoc-win-01,Powershell was used to delete files or directories,3,92021
+"May 14, 2026 @ 12:23:16.321",safesoc-win-01,Suspicious Windows cmd shell execution,3,92032
+"May 14, 2026 @ 12:23:16.226",safesoc-win-01,Windows command prompt started by an abnormal process,4,92052
+"May 14, 2026 @ 12:23:15.839",safesoc-win-01,License activation (slui.exe) failed.,5,60646
+"May 14, 2026 @ 12:23:15.619",safesoc-win-01,Service startup type was changed,3,61104
+"May 13, 2026 @ 19:03:18.090",safesoc-win-01,Wazuh agent disconnected.,3,504
+"May 13, 2026 @ 18:38:17.412",safesoc-win-01,Suspicious Windows cmd shell execution,3,92032
+"May 13, 2026 @ 18:38:17.411",safesoc-win-01,Windows command prompt started by an abnormal process,4,92052
+"May 13, 2026 @ 18:37:44.393",safesoc-win-01,Service startup type was changed,3,61104
+"May 13, 2026 @ 18:37:16.951",safesoc-win-01,Suspicious Windows cmd shell execution,3,92032
+"May 13, 2026 @ 18:37:16.929",safesoc-win-01,Windows command prompt started by an abnormal process,4,92052
+"May 13, 2026 @ 18:35:23.526",safesoc-win-01,Software protection service scheduled successfully.,3,60642
+"May 13, 2026 @ 18:30:22.986",safesoc-win-01,The VSS service is shutting down due to idle timeout.,5,60702
+"May 13, 2026 @ 18:29:48.322",safesoc-win-01,Software protection service scheduled successfully.,3,60642
+"May 13, 2026 @ 18:28:22.546",safesoc-win-01,Summary event of the report's signatures.,4,60608
+"May 13, 2026 @ 18:28:22.545",safesoc-win-01,Summary event of the report's signatures.,4,60608
+"May 13, 2026 @ 18:28:14.881",safesoc-win-01,Software protection service scheduled successfully.,3,60642
+"May 13, 2026 @ 18:28:12.596",safesoc-win-01,The Windows search service started.,3,60668
+"May 13, 2026 @ 18:28:08.364",safesoc-win-01,Discovery activity executed,3,92031
+"May 13, 2026 @ 18:28:08.308",safesoc-win-01,Discovery activity executed,3,92031
+"May 13, 2026 @ 18:28:08.281",safesoc-win-01,Discovery activity executed,3,92031
+"May 13, 2026 @ 18:28:08.246",safesoc-win-01,Discovery activity executed,3,92031
+"May 13, 2026 @ 18:28:06.041",safesoc-win-01,C:\\Windows\\SysWOW64\\SecEdit.exe binary in a suspicious location launched by C:\\Windows\\SysWOW64\\WindowsPowerShell\\v1.0\\powershell.exe,4,92066
+"May 13, 2026 @ 18:28:04.782",safesoc-win-01,Powershell was used to delete files or directories,3,92021
+"May 13, 2026 @ 18:28:03.846",safesoc-win-01,C:\\Windows\\SysWOW64\\SecEdit.exe binary in a suspicious location launched by C:\\Windows\\SysWOW64\\WindowsPowerShell\\v1.0\\powershell.exe,4,92066
+"May 13, 2026 @ 18:28:03.751",safesoc-win-01,Powershell was used to delete files or directories,3,92021
+"May 13, 2026 @ 18:28:02.177",safesoc-win-01,C:\\Windows\\SysWOW64\\SecEdit.exe binary in a suspicious location launched by C:\\Windows\\SysWOW64\\WindowsPowerShell\\v1.0\\powershell.exe,4,92066
+"May 13, 2026 @ 18:28:01.076",safesoc-win-01,Powershell was used to delete files or directories,3,92021
+"May 13, 2026 @ 18:28:01.061",safesoc-win-01,C:\\Windows\\SysWOW64\\SecEdit.exe binary in a suspicious location launched by C:\\Windows\\SysWOW64\\WindowsPowerShell\\v1.0\\powershell.exe,4,92066
+"May 13, 2026 @ 18:27:59.774",safesoc-win-01,Powershell was used to delete files or directories,3,92021
+"May 13, 2026 @ 18:27:58.699",safesoc-win-01,C:\\Windows\\SysWOW64\\SecEdit.exe binary in a suspicious location launched by C:\\Windows\\SysWOW64\\WindowsPowerShell\\v1.0\\powershell.exe,4,92066
+"May 13, 2026 @ 18:27:57.177",safesoc-win-01,Powershell was used to delete files or directories,3,92021
+"May 13, 2026 @ 18:27:55.906",safesoc-win-01,C:\\Windows\\SysWOW64\\SecEdit.exe binary in a suspicious location launched by C:\\Windows\\SysWOW64\\WindowsPowerShell\\v1.0\\powershell.exe,4,92066
+"May 13, 2026 @ 18:27:54.378",safesoc-win-01,Powershell was used to delete files or directories,3,92021
+"May 13, 2026 @ 18:27:53.195",safesoc-win-01,C:\\Windows\\SysWOW64\\SecEdit.exe binary in a suspicious location launched by C:\\Windows\\SysWOW64\\WindowsPowerShell\\v1.0\\powershell.exe,4,92066
+"May 13, 2026 @ 18:27:51.785",safesoc-win-01,Windows application error event.,9,60602
+"May 13, 2026 @ 18:27:51.533",safesoc-win-01,Windows application error event.,9,60602
+"May 13, 2026 @ 18:27:50.765",safesoc-win-01,Powershell was used to delete files or directories,3,92021
+"May 13, 2026 @ 18:27:48.377",safesoc-win-01,C:\\Windows\\SysWOW64\\SecEdit.exe binary in a suspicious location launched by C:\\Windows\\SysWOW64\\WindowsPowerShell\\v1.0\\powershell.exe,4,92066
+"May 13, 2026 @ 18:27:44.864",safesoc-win-01,License activation (slui.exe) failed.,5,60646
+"May 13, 2026 @ 18:27:39.197",safesoc-win-01,License activation (slui.exe) failed.,5,60646
+"May 13, 2026 @ 18:27:36.897",safesoc-win-01,Service startup type was changed,3,61104
+"May 13, 2026 @ 18:27:26.291",safesoc-win-01,Powershell was used to delete files or directories,3,92021
+"May 13, 2026 @ 18:27:24.464",safesoc-win-01,Special privileges assigned to new logon.,3,67028
+"May 13, 2026 @ 18:27:24.366",safesoc-win-01,Windows Workstation Logon Success,3,60118
+"May 13, 2026 @ 18:27:23.767",safesoc-win-01,Windows Workstation Logon Success,3,60118
+"May 13, 2026 @ 18:27:22.090",safesoc-win-01,Wazuh agent started.,3,503
+"May 13, 2026 @ 16:33:13.704",safesoc-win-01,Wazuh agent disconnected.,3,504
+"May 13, 2026 @ 16:07:43.905",safesoc-win-01,Service startup type was changed,3,61104
+"May 13, 2026 @ 16:07:27.693",safesoc-win-01,Suspicious Windows cmd shell execution,3,92032
+"May 13, 2026 @ 16:07:27.691",safesoc-win-01,Windows command prompt started by an abnormal process,4,92052
+"May 13, 2026 @ 16:07:19.159",safesoc-win-01,Service startup type was changed,3,61104
+"May 13, 2026 @ 16:07:16.932",safesoc-win-01,Service startup type was changed,3,61104
+"May 13, 2026 @ 16:06:35.319",safesoc-win-01,Service startup type was changed,3,61104
+"May 13, 2026 @ 16:06:28.400",safesoc-win-01,Suspicious Windows cmd shell execution,3,92032
+"May 13, 2026 @ 16:06:27.171",safesoc-win-01,Windows command prompt started by an abnormal process,4,92052
+"May 13, 2026 @ 16:01:52.770",safesoc-win-01,Service startup type was changed,3,61104
+"May 13, 2026 @ 15:59:28.485",safesoc-win-01,Service startup type was changed,3,61104
+"May 13, 2026 @ 15:55:52.959",safesoc-win-01,Logon Failure - Unknown user or bad password,5,60122
+"May 13, 2026 @ 15:54:46.357",safesoc-win-01,Discovery activity executed,3,92031
+"May 13, 2026 @ 15:54:46.310",safesoc-win-01,Discovery activity executed,3,92031
+"May 13, 2026 @ 15:54:46.263",safesoc-win-01,Discovery activity executed,3,92031
+"May 13, 2026 @ 15:54:46.215",safesoc-win-01,Discovery activity executed,3,92031
+"May 13, 2026 @ 15:54:43.879",safesoc-win-01,C:\\Windows\\SysWOW64\\SecEdit.exe binary in a suspicious location launched by C:\\Windows\\SysWOW64\\WindowsPowerShell\\v1.0\\powershell.exe,4,92066
+"May 13, 2026 @ 15:54:42.316",safesoc-win-01,Powershell was used to delete files or directories,3,92021
+"May 13, 2026 @ 15:54:42.302",safesoc-win-01,C:\\Windows\\SysWOW64\\SecEdit.exe binary in a suspicious location launched by C:\\Windows\\SysWOW64\\WindowsPowerShell\\v1.0\\powershell.exe,4,92066
+"May 13, 2026 @ 15:54:41.036",safesoc-win-01,Powershell was used to delete files or directories,3,92021
+"May 13, 2026 @ 15:54:40.833",safesoc-win-01,C:\\Windows\\SysWOW64\\SecEdit.exe binary in a suspicious location launched by C:\\Windows\\SysWOW64\\WindowsPowerShell\\v1.0\\powershell.exe,4,92066
+"May 13, 2026 @ 15:54:39.331",safesoc-win-01,Powershell was used to delete files or directories,3,92021
+"May 13, 2026 @ 15:54:39.304",safesoc-win-01,C:\\Windows\\SysWOW64\\SecEdit.exe binary in a suspicious location launched by C:\\Windows\\SysWOW64\\WindowsPowerShell\\v1.0\\powershell.exe,4,92066
+"May 13, 2026 @ 15:54:37.152",safesoc-win-01,Powershell was used to delete files or directories,3,92021
+"May 13, 2026 @ 15:54:37.121",safesoc-win-01,C:\\Windows\\SysWOW64\\SecEdit.exe binary in a suspicious location launched by C:\\Windows\\SysWOW64\\WindowsPowerShell\\v1.0\\powershell.exe,4,92066
+"May 13, 2026 @ 15:54:35.430",safesoc-win-01,Powershell was used to delete files or directories,3,92021
+"May 13, 2026 @ 15:54:35.384",safesoc-win-01,C:\\Windows\\SysWOW64\\SecEdit.exe binary in a suspicious location launched by C:\\Windows\\SysWOW64\\WindowsPowerShell\\v1.0\\powershell.exe,4,92066
+"May 13, 2026 @ 15:54:33.556",safesoc-win-01,Powershell was used to delete files or directories,3,92021
+"May 13, 2026 @ 15:54:33.541",safesoc-win-01,C:\\Windows\\SysWOW64\\SecEdit.exe binary in a suspicious location launched by C:\\Windows\\SysWOW64\\WindowsPowerShell\\v1.0\\powershell.exe,4,92066
+"May 13, 2026 @ 15:54:31.553",safesoc-win-01,Powershell was used to delete files or directories,3,92021
+"May 13, 2026 @ 15:54:31.523",safesoc-win-01,C:\\Windows\\SysWOW64\\SecEdit.exe binary in a suspicious location launched by C:\\Windows\\SysWOW64\\WindowsPowerShell\\v1.0\\powershell.exe,4,92066
+"May 13, 2026 @ 15:54:26.146",safesoc-win-01,Powershell was used to delete files or directories,3,92021
+"May 13, 2026 @ 15:54:25.770",safesoc-win-01,Wazuh agent started.,3,503
+"May 13, 2026 @ 15:54:25.126",safesoc-win-01,Wazuh agent stopped.,3,506
+"May 13, 2026 @ 15:52:21.406",safesoc-win-01,Wazuh agent started.,3,503
+"May 13, 2026 @ 15:52:20.067",safesoc-win-01,Wazuh agent stopped.,3,506
+"May 13, 2026 @ 15:52:18.408",safesoc-win-01,Software protection service scheduled successfully.,3,60642
+"May 13, 2026 @ 15:46:22.666",safesoc-win-01,Service startup type was changed,3,61104
+"May 13, 2026 @ 15:46:21.136",safesoc-win-01,New Windows Service Created,5,61138
+"May 13, 2026 @ 15:46:18.029",safesoc-win-01,New Windows Service Created,5,61138
+"May 13, 2026 @ 15:46:02.837",safesoc-win-01,New Windows Service Created,5,61138
+"May 13, 2026 @ 15:46:02.836",safesoc-win-01,New Windows Service Created,5,61138
+"May 13, 2026 @ 15:45:11.893",safesoc-win-01,SCA summary: CIS Microsoft Windows 11 Enterprise Benchmark v3.0.0: Score less than 30% (26),9,19005
+"May 13, 2026 @ 15:44:52.332",safesoc-win-01,SCA summary: CIS Microsoft Windows 11 Enterprise Benchmark v3.0.0: Score less than 30% (26),9,19005
+"May 13, 2026 @ 15:44:48.475",safesoc-win-01,CIS Microsoft Windows 11 Enterprise Benchmark v3.0.0: Ensure 'Enable optional updates' is set to 'Disabled'.,3,19008
+"May 13, 2026 @ 15:44:48.444",safesoc-win-01,CIS Microsoft Windows 11 Enterprise Benchmark v3.0.0: Ensure 'Select when Quality Updates are received' is set to 'Enabled: 0 days'.,3,19009
+"May 13, 2026 @ 15:44:48.382",safesoc-win-01,CIS Microsoft Windows 11 Enterprise Benchmark v3.0.0: Ensure 'Select when Preview Builds and Feature Updates are received' is set to 'Enabled: 180 or more days'.,7,19007
+"May 13, 2026 @ 15:44:48.076",safesoc-win-01,CIS Microsoft Windows 11 Enterprise Benchmark v3.0.0: Ensure 'Manage preview builds' is set to 'Disabled'.,3,19008
+"May 13, 2026 @ 15:44:48.044",safesoc-win-01,"CIS Microsoft Windows 11 Enterprise Benchmark v3.0.0: Ensure 'Remove access to ""Pause updates"" feature' is set to 'Enabled'.",7,19007
+"May 13, 2026 @ 15:44:48.014",safesoc-win-01,CIS Microsoft Windows 11 Enterprise Benchmark v3.0.0: Ensure 'Enable features introduced via servicing that are off by default' is set to 'Disabled'.,3,19008
+"May 13, 2026 @ 15:44:47.966",safesoc-win-01,CIS Microsoft Windows 11 Enterprise Benchmark v3.0.0: Ensure 'Configure Automatic Updates: Scheduled install day' is set to '0 - Every day'.,3,19009
+"May 13, 2026 @ 15:44:47.935",safesoc-win-01,CIS Microsoft Windows 11 Enterprise Benchmark v3.0.0: Ensure 'Configure Automatic Updates' is set to 'Enabled'.,3,19008
+"May 13, 2026 @ 15:44:47.904",safesoc-win-01,CIS Microsoft Windows 11 Enterprise Benchmark v3.0.0: Ensure 'No auto-restart with logged on users for scheduled automatic updates installations' is set to 'Disabled'.,3,19008
+"May 13, 2026 @ 15:44:47.873",safesoc-win-01,CIS Microsoft Windows 11 Enterprise Benchmark v3.0.0: Ensure 'Prevent users from modifying settings' is set to 'Enabled'.,7,19007
+"May 13, 2026 @ 15:44:47.842",safesoc-win-01,CIS Microsoft Windows 11 Enterprise Benchmark v3.0.0: Ensure 'Allow networking in Windows Sandbox' is set to 'Disabled'.,7,19007
+"May 13, 2026 @ 15:44:47.781",safesoc-win-01,CIS Microsoft Windows 11 Enterprise Benchmark v3.0.0: Ensure 'Allow clipboard sharing with Windows Sandbox' is set to 'Disabled'.,7,19007
+"May 13, 2026 @ 15:44:47.750",safesoc-win-01,CIS Microsoft Windows 11 Enterprise Benchmark v3.0.0: Ensure 'Allow Remote Shell Access' is set to 'Disabled'.,7,19007
+"May 13, 2026 @ 15:44:47.719",safesoc-win-01,CIS Microsoft Windows 11 Enterprise Benchmark v3.0.0: Ensure 'Disallow WinRM from storing RunAs credentials' is set to 'Enabled'.,7,19007
+"May 13, 2026 @ 15:44:47.687",safesoc-win-01,CIS Microsoft Windows 11 Enterprise Benchmark v3.0.0: Ensure 'Allow unencrypted traffic' is set to 'Disabled'.,3,19008
+"May 13, 2026 @ 15:44:47.657",safesoc-win-01,CIS Microsoft Windows 11 Enterprise Benchmark v3.0.0: Ensure 'Allow remote server management through WinRM' is set to 'Disabled'.,3,19008
+"May 13, 2026 @ 15:44:47.627",safesoc-win-01,CIS Microsoft Windows 11 Enterprise Benchmark v3.0.0: Ensure 'Allow Basic authentication' is set to 'Disabled'.,3,19008
+"May 13, 2026 @ 15:44:47.594",safesoc-win-01,CIS Microsoft Windows 11 Enterprise Benchmark v3.0.0: Ensure 'Disallow Digest authentication' is set to 'Enabled'.,7,19007
+"May 13, 2026 @ 15:44:47.564",safesoc-win-01,CIS Microsoft Windows 11 Enterprise Benchmark v3.0.0: Ensure 'Allow unencrypted traffic' is set to 'Disabled'.,3,19008
+"May 13, 2026 @ 15:44:47.517",safesoc-win-01,CIS Microsoft Windows 11 Enterprise Benchmark v3.0.0: Ensure 'Allow Basic authentication' is set to 'Disabled'.,3,19008
+"May 13, 2026 @ 15:44:47.486",safesoc-win-01,CIS Microsoft Windows 11 Enterprise Benchmark v3.0.0: Ensure 'Turn on PowerShell Transcription' is set to 'Enabled'.,7,19007
+"May 13, 2026 @ 15:44:47.456",safesoc-win-01,CIS Microsoft Windows 11 Enterprise Benchmark v3.0.0: Ensure 'Turn on PowerShell Script Block Logging' is set to 'Enabled'.,3,19008
+"May 13, 2026 @ 15:44:47.425",safesoc-win-01,CIS Microsoft Windows 11 Enterprise Benchmark v3.0.0: Ensure 'Sign-in and lock last interactive user automatically after a restart' is set to 'Disabled'.,7,19007
+"May 13, 2026 @ 15:44:47.410",safesoc-win-01,CIS Microsoft Windows 11 Enterprise Benchmark v3.0.0: Ensure 'Enable MPR notifications for the system' is set to 'Disabled'.,7,19007
+"May 13, 2026 @ 15:44:47.346",safesoc-win-01,CIS Microsoft Windows 11 Enterprise Benchmark v3.0.0: Ensure 'Prevent Internet Explorer security prompt for Windows Installer scripts' is set to 'Disabled'.,3,19008
+"May 13, 2026 @ 15:44:47.316",safesoc-win-01,CIS Microsoft Windows 11 Enterprise Benchmark v3.0.0: Ensure 'Always install with elevated privileges' is set to 'Disabled'.,3,19008
+"May 13, 2026 @ 15:44:47.285",safesoc-win-01,CIS Microsoft Windows 11 Enterprise Benchmark v3.0.0: Ensure 'Allow user control over installs' is set to 'Disabled'.,3,19008
+"May 13, 2026 @ 15:44:47.254",safesoc-win-01,"CIS Microsoft Windows 11 Enterprise Benchmark v3.0.0: Ensure 'Allow Windows Ink Workspace' is set to 'Enabled: On, but disallow access above lock' OR 'Enabled: Disabled'.",7,19007
+"May 13, 2026 @ 15:44:47.192",safesoc-win-01,CIS Microsoft Windows 11 Enterprise Benchmark v3.0.0: Ensure 'Allow suggested apps in Windows Ink Workspace' is set to 'Disabled'.,7,19007
+"May 13, 2026 @ 15:44:47.164",safesoc-win-01,CIS Microsoft Windows 11 Enterprise Benchmark v3.0.0: Ensure 'Enable ESS with Supported Peripherals' is set to 'Enabled: 1'.,3,19008
+"May 13, 2026 @ 15:44:47.145",safesoc-win-01,CIS Microsoft Windows 11 Enterprise Benchmark v3.0.0: Ensure 'Enables or disables Windows Game Recording and Broadcasting' is set to 'Disabled'.,7,19007
+"May 13, 2026 @ 15:44:47.115",safesoc-win-01,CIS Microsoft Windows 11 Enterprise Benchmark v3.0.0: Ensure 'Configure Windows Defender SmartScreen' is set to 'Enabled: Warn and prevent bypass'.,7,19007
+"May 13, 2026 @ 15:44:47.053",safesoc-win-01,CIS Microsoft Windows 11 Enterprise Benchmark v3.0.0: Ensure 'Service Enabled' is set to 'Enabled'.,7,19007
+"May 13, 2026 @ 15:44:47.022",safesoc-win-01,CIS Microsoft Windows 11 Enterprise Benchmark v3.0.0: Ensure 'Notify Unsafe App' is set to 'Enabled'.,7,19007
+"May 13, 2026 @ 15:44:47.006",safesoc-win-01,CIS Microsoft Windows 11 Enterprise Benchmark v3.0.0: Ensure 'Notify Password Reuse' is set to 'Enabled'.,7,19007
+"May 13, 2026 @ 15:44:46.975",safesoc-win-01,CIS Microsoft Windows 11 Enterprise Benchmark v3.0.0: Ensure 'Notify Malicious' is set to 'Enabled'.,7,19007
+"May 13, 2026 @ 15:44:46.915",safesoc-win-01,CIS Microsoft Windows 11 Enterprise Benchmark v3.0.0: Ensure 'Automatic Data Collection' is set to 'Enabled'.,7,19007
+"May 13, 2026 @ 15:44:46.883",safesoc-win-01,CIS Microsoft Windows 11 Enterprise Benchmark v3.0.0: Ensure 'Allow widgets' is set to 'Disabled'.,7,19007
+"May 13, 2026 @ 15:44:46.559",safesoc-win-01,CIS Microsoft Windows 11 Enterprise Benchmark v3.0.0: Ensure 'Turn off the Store application' is set to 'Enabled'.,7,19007
+"May 13, 2026 @ 15:44:46.543",safesoc-win-01,CIS Microsoft Windows 11 Enterprise Benchmark v3.0.0: Ensure 'Turn off the offer to update to the latest version of Windows' is set to 'Enabled'.,7,19007
+"May 13, 2026 @ 15:44:46.513",safesoc-win-01,CIS Microsoft Windows 11 Enterprise Benchmark v3.0.0: Ensure 'Turn off Automatic Download and Install of updates' is set to 'Disabled'.,3,19008
+"May 13, 2026 @ 15:44:46.451",safesoc-win-01,CIS Microsoft Windows 11 Enterprise Benchmark v3.0.0: Ensure 'Only display the private store within the Microsoft Store' is set to 'Enabled'.,7,19007
+"May 13, 2026 @ 15:44:46.420",safesoc-win-01,CIS Microsoft Windows 11 Enterprise Benchmark v3.0.0: Ensure 'Disable all apps from Microsoft Store' is set to 'Disabled'.,7,19007
+"May 13, 2026 @ 15:44:46.388",safesoc-win-01,CIS Microsoft Windows 11 Enterprise Benchmark v3.0.0: Ensure 'Turn off KMS Client Online AVS Validation' is set to 'Enabled'.,7,19007
+"May 13, 2026 @ 15:44:46.327",safesoc-win-01,CIS Microsoft Windows 11 Enterprise Benchmark v3.0.0: Ensure 'Allow search highlights' is set to 'Disabled'.,7,19007
+"May 13, 2026 @ 15:44:46.296",safesoc-win-01,CIS Microsoft Windows 11 Enterprise Benchmark v3.0.0: Ensure 'Allow search and Cortana to use location' is set to 'Disabled'.,7,19007
+"May 13, 2026 @ 15:44:46.265",safesoc-win-01,CIS Microsoft Windows 11 Enterprise Benchmark v3.0.0: Ensure 'Allow indexing of encrypted files' is set to 'Disabled'.,3,19008
+"May 13, 2026 @ 15:44:46.234",safesoc-win-01,CIS Microsoft Windows 11 Enterprise Benchmark v3.0.0: Ensure 'Allow Cortana above lock screen' is set to 'Disabled'.,7,19007
+"May 13, 2026 @ 15:44:46.184",safesoc-win-01,CIS Microsoft Windows 11 Enterprise Benchmark v3.0.0: Ensure 'Allow Cloud Search' is set to 'Enabled: Disable Cloud Search'.,7,19007
+"May 13, 2026 @ 15:44:46.184",safesoc-win-01,CIS Microsoft Windows 11 Enterprise Benchmark v3.0.0: Ensure 'Allow Cortana' is set to 'Disabled'.,7,19007
+"May 13, 2026 @ 15:44:46.143",safesoc-win-01,CIS Microsoft Windows 11 Enterprise Benchmark v3.0.0: Ensure 'Prevent downloading of enclosures' is set to 'Enabled'.,7,19007
+"May 13, 2026 @ 15:44:46.112",safesoc-win-01,CIS Microsoft Windows 11 Enterprise Benchmark v3.0.0: Ensure 'Do not delete temp folders upon exit' is set to 'Disabled'.,3,19008
+"May 13, 2026 @ 15:44:46.081",safesoc-win-01,CIS Microsoft Windows 11 Enterprise Benchmark v3.0.0: Ensure 'Set time limit for disconnected sessions' is set to 'Enabled: 1 minute'.,7,19007
+"May 13, 2026 @ 15:44:46.019",safesoc-win-01,"CIS Microsoft Windows 11 Enterprise Benchmark v3.0.0: Ensure 'Set time limit for active but idle Remote Desktop Services sessions' is set to 'Enabled: 15 minutes or less, but not Never (0)'.",7,19007
+"May 13, 2026 @ 15:44:45.988",safesoc-win-01,CIS Microsoft Windows 11 Enterprise Benchmark v3.0.0: Ensure 'Set client connection encryption level' is set to 'Enabled: High Level'.,3,19008
+"May 13, 2026 @ 15:44:45.958",safesoc-win-01,CIS Microsoft Windows 11 Enterprise Benchmark v3.0.0: Ensure 'Require user authentication for remote connections by using Network Level Authentication' is set to 'Enabled'.,3,19008
+"May 13, 2026 @ 15:44:45.895",safesoc-win-01,CIS Microsoft Windows 11 Enterprise Benchmark v3.0.0: Ensure 'Require use of specific security layer for remote (RDP) connections' is set to 'Enabled: SSL'.,7,19007
+"May 13, 2026 @ 15:44:45.865",safesoc-win-01,CIS Microsoft Windows 11 Enterprise Benchmark v3.0.0: Ensure 'Require secure RPC communication' is set to 'Enabled'.,7,19007
+"May 13, 2026 @ 15:44:45.833",safesoc-win-01,CIS Microsoft Windows 11 Enterprise Benchmark v3.0.0: Ensure 'Always prompt for password upon connection' is set to 'Enabled'.,7,19007
+"May 13, 2026 @ 15:44:45.803",safesoc-win-01,CIS Microsoft Windows 11 Enterprise Benchmark v3.0.0: Ensure 'Do not allow WebAuthn redirection' is set to 'Enabled'.,7,19007
+"May 13, 2026 @ 15:44:45.772",safesoc-win-01,CIS Microsoft Windows 11 Enterprise Benchmark v3.0.0: Ensure 'Do not allow supported Plug and Play device redirection' is set to 'Enabled'.,7,19007
+"May 13, 2026 @ 15:44:45.712",safesoc-win-01,CIS Microsoft Windows 11 Enterprise Benchmark v3.0.0: Ensure 'Do not allow LPT port redirection' is set to 'Enabled'.,7,19007
+"May 13, 2026 @ 15:44:45.695",safesoc-win-01,CIS Microsoft Windows 11 Enterprise Benchmark v3.0.0: Ensure 'Do not allow location redirection' is set to 'Enabled'.,7,19007
+"May 13, 2026 @ 15:44:45.665",safesoc-win-01,CIS Microsoft Windows 11 Enterprise Benchmark v3.0.0: Ensure 'Do not allow drive redirection' is set to 'Enabled'.,7,19007
+"May 13, 2026 @ 15:44:45.635",safesoc-win-01,CIS Microsoft Windows 11 Enterprise Benchmark v3.0.0: Ensure 'Do not allow COM port redirection' is set to 'Enabled'.,7,19007
+"May 13, 2026 @ 15:44:45.573",safesoc-win-01,CIS Microsoft Windows 11 Enterprise Benchmark v3.0.0: Ensure 'Allow UI Automation redirection' is set to 'Disabled'.,7,19007
+"May 13, 2026 @ 15:44:45.542",safesoc-win-01,CIS Microsoft Windows 11 Enterprise Benchmark v3.0.0: Ensure 'Allow users to connect remotely by using Remote Desktop Services' is set to 'Disabled'.,3,19008
+"May 13, 2026 @ 15:44:45.511",safesoc-win-01,CIS Microsoft Windows 11 Enterprise Benchmark v3.0.0: Ensure 'Do not allow passwords to be saved' is set to 'Enabled'.,7,19007
+"May 13, 2026 @ 15:44:45.481",safesoc-win-01,CIS Microsoft Windows 11 Enterprise Benchmark v3.0.0: Ensure 'Disable Cloud Clipboard integration for server-to-client data transfer' is set to 'Enabled'.,7,19007
+"May 13, 2026 @ 15:44:45.419",safesoc-win-01,CIS Microsoft Windows 11 Enterprise Benchmark v3.0.0: Ensure 'Turn off Push To Install service' is set to 'Enabled'.,7,19007
+"May 13, 2026 @ 15:44:45.389",safesoc-win-01,CIS Microsoft Windows 11 Enterprise Benchmark v3.0.0: Ensure 'Prevent the usage of OneDrive for file storage' is set to 'Enabled'.,7,19007
+"May 13, 2026 @ 15:44:45.358",safesoc-win-01,CIS Microsoft Windows 11 Enterprise Benchmark v3.0.0: Ensure 'Enable news and interests on the taskbar' is set to 'Disabled'.,7,19007
+"May 13, 2026 @ 15:44:45.312",safesoc-win-01,CIS Microsoft Windows 11 Enterprise Benchmark v3.0.0: Ensure 'Turn on Microsoft Defender Application Guard in Managed Mode' is set to 'Enabled: 1'.,7,19007
+"May 13, 2026 @ 15:44:45.281",safesoc-win-01,CIS Microsoft Windows 11 Enterprise Benchmark v3.0.0: Ensure 'Configure Microsoft Defender Application Guard clipboard settings: Clipboard behavior setting' is set to 'Enabled: Enable clipboard operation from an isolated session to the host'.,7,19007
+"May 13, 2026 @ 15:44:44.943",safesoc-win-01,CIS Microsoft Windows 11 Enterprise Benchmark v3.0.0: Ensure 'Allow files to download and save to the host operating system from Microsoft Defender Application Guard' is set to 'Disabled'.,7,19007
+"May 13, 2026 @ 15:44:44.912",safesoc-win-01,CIS Microsoft Windows 11 Enterprise Benchmark v3.0.0: Ensure 'Allow data persistence for Microsoft Defender Application Guard' is set to 'Disabled'.,7,19007
+"May 13, 2026 @ 15:44:44.881",safesoc-win-01,CIS Microsoft Windows 11 Enterprise Benchmark v3.0.0: Ensure 'Allow camera and microphone access in Microsoft Defender Application Guard' is set to 'Disabled'.,7,19007
+"May 13, 2026 @ 15:44:44.818",safesoc-win-01,CIS Microsoft Windows 11 Enterprise Benchmark v3.0.0: Ensure 'Allow auditing events in Microsoft Defender Application Guard' is set to 'Enabled'.,7,19007
+"May 13, 2026 @ 15:44:44.788",safesoc-win-01,CIS Microsoft Windows 11 Enterprise Benchmark v3.0.0: Ensure 'Turn off Microsoft Defender AntiVirus' is set to 'Disabled'.,3,19008
+"May 13, 2026 @ 15:44:44.757",safesoc-win-01,CIS Microsoft Windows 11 Enterprise Benchmark v3.0.0: Ensure 'Configure detection for potentially unwanted applications' is set to 'Enabled: Block'.,7,19007
+"May 13, 2026 @ 15:44:44.726",safesoc-win-01,CIS Microsoft Windows 11 Enterprise Benchmark v3.0.0: Ensure 'Turn on e-mail scanning' is set to 'Enabled'.,7,19007
+"May 13, 2026 @ 15:44:44.664",safesoc-win-01,CIS Microsoft Windows 11 Enterprise Benchmark v3.0.0: Ensure 'Scan removable drives' is set to 'Enabled'.,7,19007
+"May 13, 2026 @ 15:44:44.633",safesoc-win-01,CIS Microsoft Windows 11 Enterprise Benchmark v3.0.0: Ensure 'Scan packed executables' is set to 'Enabled'.,3,19008
+"May 13, 2026 @ 15:44:44.602",safesoc-win-01,CIS Microsoft Windows 11 Enterprise Benchmark v3.0.0: Ensure 'Configure Watson events' is set to 'Disabled'.,7,19007
+"May 13, 2026 @ 15:44:44.541",safesoc-win-01,CIS Microsoft Windows 11 Enterprise Benchmark v3.0.0: Ensure 'Turn on script scanning' is set to 'Enabled'.,3,19008
+"May 13, 2026 @ 15:44:44.510",safesoc-win-01,CIS Microsoft Windows 11 Enterprise Benchmark v3.0.0: Ensure 'Turn on behavior monitoring' is set to 'Enabled'.,3,19008
+"May 13, 2026 @ 15:44:44.480",safesoc-win-01,CIS Microsoft Windows 11 Enterprise Benchmark v3.0.0: Ensure 'Turn off real-time protection' is set to 'Disabled'.,3,19008
+"May 13, 2026 @ 15:44:44.447",safesoc-win-01,CIS Microsoft Windows 11 Enterprise Benchmark v3.0.0: Ensure 'Scan all downloaded files and attachments' is set to 'Enabled'.,3,19008
+"May 13, 2026 @ 15:44:44.386",safesoc-win-01,CIS Microsoft Windows 11 Enterprise Benchmark v3.0.0: Ensure 'Enable file hash computation feature' is set to 'Enabled'.,7,19007
+"May 13, 2026 @ 15:44:44.354",safesoc-win-01,CIS Microsoft Windows 11 Enterprise Benchmark v3.0.0: Ensure 'Prevent users and apps from accessing dangerous websites' is set to 'Enabled: Block'.,7,19007
+"May 13, 2026 @ 15:44:44.323",safesoc-win-01,CIS Microsoft Windows 11 Enterprise Benchmark v3.0.0: Ensure 'Configure Attack Surface Reduction rules: Set the state for each ASR rule' is configured.,7,19007
+"May 13, 2026 @ 15:44:44.293",safesoc-win-01,CIS Microsoft Windows 11 Enterprise Benchmark v3.0.0: Ensure 'Configure Attack Surface Reduction rules' is set to 'Enabled'.,7,19007
+"May 13, 2026 @ 15:44:44.247",safesoc-win-01,CIS Microsoft Windows 11 Enterprise Benchmark v3.0.0: Ensure 'Join Microsoft MAPS' is set to 'Disabled'.,3,19008
+"May 13, 2026 @ 15:44:44.214",safesoc-win-01,CIS Microsoft Windows 11 Enterprise Benchmark v3.0.0: Ensure 'Configure local setting override for reporting to Microsoft MAPS' is set to 'Disabled'.,3,19008
+"May 13, 2026 @ 15:44:44.183",safesoc-win-01,CIS Microsoft Windows 11 Enterprise Benchmark v3.0.0: Ensure 'Block all consumer Microsoft account user authentication' is set to 'Enabled'.,7,19007
+"May 13, 2026 @ 15:44:44.163",safesoc-win-01,CIS Microsoft Windows 11 Enterprise Benchmark v3.0.0: Ensure 'Allow Message Service Cloud Sync' is set to 'Disabled'.,7,19007
+"May 13, 2026 @ 15:44:44.106",safesoc-win-01,CIS Microsoft Windows 11 Enterprise Benchmark v3.0.0: Ensure 'Turn off location' is set to 'Enabled'.,7,19007
+"May 13, 2026 @ 15:44:44.074",safesoc-win-01,CIS Microsoft Windows 11 Enterprise Benchmark v3.0.0: Ensure 'Turn off shell protocol protected mode' is set to 'Disabled'.,3,19008
+"May 13, 2026 @ 15:44:44.044",safesoc-win-01,CIS Microsoft Windows 11 Enterprise Benchmark v3.0.0: Ensure 'Turn off heap termination on corruption' is set to 'Disabled'.,3,19008
+"May 13, 2026 @ 15:44:44.012",safesoc-win-01,CIS Microsoft Windows 11 Enterprise Benchmark v3.0.0: Ensure 'Turn off Data Execution Prevention for Explorer' is set to 'Disabled'.,3,19008
+"May 13, 2026 @ 15:44:43.951",safesoc-win-01,"CIS Microsoft Windows 11 Enterprise Benchmark v3.0.0: Ensure 'Turn off account-based insights, recent, favorite, and recommended files in File Explorer' is set to 'Enabled'.",7,19007
+"May 13, 2026 @ 15:44:43.920",safesoc-win-01,"CIS Microsoft Windows 11 Enterprise Benchmark v3.0.0: Ensure 'System: Specify the maximum log file size (KB)' is set to 'Enabled: 32,768 or greater'.",7,19007
+"May 13, 2026 @ 15:44:43.889",safesoc-win-01,CIS Microsoft Windows 11 Enterprise Benchmark v3.0.0: Ensure 'System: Control Event Log behavior when the log file reaches its maximum size' is set to 'Disabled'.,3,19008
+"May 13, 2026 @ 15:44:43.859",safesoc-win-01,"CIS Microsoft Windows 11 Enterprise Benchmark v3.0.0: Ensure 'Setup: Specify the maximum log file size (KB)' is set to 'Enabled: 32,768 or greater'.",7,19007
+"May 13, 2026 @ 15:44:43.797",safesoc-win-01,CIS Microsoft Windows 11 Enterprise Benchmark v3.0.0: Ensure 'Setup: Control Event Log behavior when the log file reaches its maximum size' is set to 'Disabled'.,3,19008
+"May 13, 2026 @ 15:44:43.781",safesoc-win-01,"CIS Microsoft Windows 11 Enterprise Benchmark v3.0.0: Ensure 'Security: Specify the maximum log file size (KB)' is set to 'Enabled: 196,608 or greater'.",7,19007
+"May 13, 2026 @ 15:44:43.765",safesoc-win-01,CIS Microsoft Windows 11 Enterprise Benchmark v3.0.0: Ensure 'Security: Control Event Log behavior when the log file reaches its maximum size' is set to 'Disabled'.,3,19008
+"May 13, 2026 @ 15:44:43.749",safesoc-win-01,"CIS Microsoft Windows 11 Enterprise Benchmark v3.0.0: Ensure 'Application: Specify the maximum log file size (KB)' is set to 'Enabled: 32,768 or greater'.",7,19007
+"May 13, 2026 @ 15:44:43.688",safesoc-win-01,CIS Microsoft Windows 11 Enterprise Benchmark v3.0.0: Ensure 'Application: Control Event Log behavior when the log file reaches its maximum size' is set to 'Disabled'.,3,19008
+"May 13, 2026 @ 15:44:43.439",safesoc-win-01,CIS Microsoft Windows 11 Enterprise Benchmark v3.0.0: Ensure 'Enable App Installer ms-appinstaller protocol' is set to 'Disabled'.,7,19007
+"May 13, 2026 @ 15:44:43.346",safesoc-win-01,CIS Microsoft Windows 11 Enterprise Benchmark v3.0.0: Ensure 'Enable App Installer Hash Override' is set to 'Disabled'.,7,19007
+"May 13, 2026 @ 15:44:43.316",safesoc-win-01,CIS Microsoft Windows 11 Enterprise Benchmark v3.0.0: Ensure 'Enable App Installer Experimental Features' is set to 'Disabled'.,7,19007
+"May 13, 2026 @ 15:44:43.284",safesoc-win-01,CIS Microsoft Windows 11 Enterprise Benchmark v3.0.0: Ensure 'Enable App Installer' is set to 'Disabled'.,7,19007
+"May 13, 2026 @ 15:44:43.223",safesoc-win-01,CIS Microsoft Windows 11 Enterprise Benchmark v3.0.0: Ensure 'Download Mode' is NOT set to 'Enabled: Internet'.,3,19009
+"May 13, 2026 @ 15:44:43.193",safesoc-win-01,CIS Microsoft Windows 11 Enterprise Benchmark v3.0.0: Ensure 'Toggle user control over Insider builds' is set to 'Disabled'.,7,19007
+"May 13, 2026 @ 15:44:43.163",safesoc-win-01,CIS Microsoft Windows 11 Enterprise Benchmark v3.0.0: Ensure 'Limit Dump Collection' is set to 'Enabled'.,7,19007
+"May 13, 2026 @ 15:44:43.100",safesoc-win-01,CIS Microsoft Windows 11 Enterprise Benchmark v3.0.0: Ensure 'Limit Diagnostic Log Collection' is set to 'Enabled'.,7,19007
+"May 13, 2026 @ 15:44:43.069",safesoc-win-01,CIS Microsoft Windows 11 Enterprise Benchmark v3.0.0: Ensure 'Enable OneSettings Auditing' is set to 'Enabled'.,7,19007
+"May 13, 2026 @ 15:44:43.038",safesoc-win-01,CIS Microsoft Windows 11 Enterprise Benchmark v3.0.0: Ensure 'Do not show feedback notifications' is set to 'Enabled'.,7,19007
+"May 13, 2026 @ 15:44:43.008",safesoc-win-01,CIS Microsoft Windows 11 Enterprise Benchmark v3.0.0: Ensure 'Disable OneSettings Downloads' is set to 'Enabled'.,7,19007
+"May 13, 2026 @ 15:44:42.976",safesoc-win-01,CIS Microsoft Windows 11 Enterprise Benchmark v3.0.0: Ensure 'Configure Authenticated Proxy usage for the Connected User Experience and Telemetry service' is set to 'Enabled: Disable Authenticated Proxy usage'.,7,19007
+"May 13, 2026 @ 15:44:42.915",safesoc-win-01,CIS Microsoft Windows 11 Enterprise Benchmark v3.0.0: Ensure 'Allow Diagnostic Data' is set to 'Enabled: Diagnostic data off (not recommended)' or 'Enabled: Send required diagnostic data'.,7,19007
+"May 13, 2026 @ 15:44:42.886",safesoc-win-01,CIS Microsoft Windows 11 Enterprise Benchmark v3.0.0: Ensure 'Prevent the use of security questions for local accounts' is set to 'Enabled'.,7,19007
+"May 13, 2026 @ 15:44:42.853",safesoc-win-01,CIS Microsoft Windows 11 Enterprise Benchmark v3.0.0: Ensure 'Enumerate administrator accounts on elevation' is set to 'Disabled'.,3,19008
+"May 13, 2026 @ 15:44:42.822",safesoc-win-01,CIS Microsoft Windows 11 Enterprise Benchmark v3.0.0: Ensure 'Do not display the password reveal button' is set to 'Enabled'.,7,19007
+"May 13, 2026 @ 15:44:42.761",safesoc-win-01,CIS Microsoft Windows 11 Enterprise Benchmark v3.0.0: Ensure 'Require pin for pairing' is set to 'Enabled: First Time' OR 'Enabled: Always'.,7,19007
+"May 13, 2026 @ 15:44:42.729",safesoc-win-01,CIS Microsoft Windows 11 Enterprise Benchmark v3.0.0: Ensure 'Turn off Microsoft consumer experiences' is set to 'Enabled'.,7,19007
+"May 13, 2026 @ 15:44:42.699",safesoc-win-01,CIS Microsoft Windows 11 Enterprise Benchmark v3.0.0: Ensure 'Turn off cloud optimized content' is set to 'Enabled'.,7,19007
+"May 13, 2026 @ 15:44:42.668",safesoc-win-01,CIS Microsoft Windows 11 Enterprise Benchmark v3.0.0: Ensure 'Turn off cloud consumer account state content' is set to 'Enabled'.,7,19007
+"May 13, 2026 @ 15:44:42.638",safesoc-win-01,CIS Microsoft Windows 11 Enterprise Benchmark v3.0.0: Ensure 'Allow Use of Camera' is set to 'Disabled'.,7,19007
+"May 13, 2026 @ 15:44:42.602",safesoc-win-01,CIS Microsoft Windows 11 Enterprise Benchmark v3.0.0: Ensure 'Disable new DMA devices when this computer is locked' is set to 'Enabled'.,7,19007
+"May 13, 2026 @ 15:44:42.561",safesoc-win-01,CIS Microsoft Windows 11 Enterprise Benchmark v3.0.0: Ensure 'Deny write access to removable drives not protected by BitLocker: Do not allow write access to devices configured in another organization' is set to 'Enabled: False'.,7,19007
+"May 13, 2026 @ 15:44:42.531",safesoc-win-01,CIS Microsoft Windows 11 Enterprise Benchmark v3.0.0: Ensure 'Deny write access to removable drives not protected by BitLocker' is set to 'Enabled'.,7,19007
+"May 13, 2026 @ 15:44:42.483",safesoc-win-01,CIS Microsoft Windows 11 Enterprise Benchmark v3.0.0: Ensure 'Configure use of smart cards on removable data drives: Require use of smart cards on removable data drives' is set to 'Enabled: True'.,7,19007
+"May 13, 2026 @ 15:44:42.454",safesoc-win-01,CIS Microsoft Windows 11 Enterprise Benchmark v3.0.0: Ensure 'Configure use of smart cards on removable data drives' is set to 'Enabled'.,7,19007
+"May 13, 2026 @ 15:44:42.437",safesoc-win-01,CIS Microsoft Windows 11 Enterprise Benchmark v3.0.0: Ensure 'Configure use of passwords for removable data drives' is set to 'Disabled'.,7,19007
+"May 13, 2026 @ 15:44:42.406",safesoc-win-01,CIS Microsoft Windows 11 Enterprise Benchmark v3.0.0: Ensure 'Configure use of hardware-based encryption for removable data drives' is set to 'Disabled'.,7,19007
+"May 13, 2026 @ 15:44:42.344",safesoc-win-01,CIS Microsoft Windows 11 Enterprise Benchmark v3.0.0: Ensure 'Choose how BitLocker-protected removable drives can be recovered: Do not enable BitLocker until recovery information is stored to AD DS for removable data drives' is set to 'Enabled: False'.,7,19007
+"May 13, 2026 @ 15:44:42.313",safesoc-win-01,CIS Microsoft Windows 11 Enterprise Benchmark v3.0.0: Ensure 'Choose how BitLocker-protected removable drives can be recovered: Configure storage of BitLocker recovery information to AD DS:' is set to 'Enabled: Backup recovery passwords and key packages'.,7,19007
+"May 13, 2026 @ 15:44:42.282",safesoc-win-01,CIS Microsoft Windows 11 Enterprise Benchmark v3.0.0: Ensure 'Choose how BitLocker-protected removable drives can be recovered: Save BitLocker recovery information to AD DS for removable data drives' is set to 'Enabled: False'.,7,19007
+"May 13, 2026 @ 15:44:42.251",safesoc-win-01,CIS Microsoft Windows 11 Enterprise Benchmark v3.0.0: Ensure 'Choose how BitLocker-protected removable drives can be recovered: Omit recovery options from the BitLocker setup wizard' is set to 'Enabled: True'.,7,19007
+"May 13, 2026 @ 15:44:42.190",safesoc-win-01,CIS Microsoft Windows 11 Enterprise Benchmark v3.0.0: Ensure 'Choose how BitLocker-protected removable drives can be recovered: Recovery Key' is set to 'Enabled: Do not allow 256-bit recovery key'.,7,19007
+"May 13, 2026 @ 15:44:42.161",safesoc-win-01,CIS Microsoft Windows 11 Enterprise Benchmark v3.0.0: Ensure 'Choose how BitLocker-protected removable drives can be recovered: Recovery Password' is set to 'Enabled: Do not allow 48-digit recovery password'.,7,19007
+"May 13, 2026 @ 15:44:42.144",safesoc-win-01,CIS Microsoft Windows 11 Enterprise Benchmark v3.0.0: Ensure 'Choose how BitLocker-protected removable drives can be recovered: Allow data recovery agent' is set to 'Enabled: True'.,7,19007
+"May 13, 2026 @ 15:44:41.804",safesoc-win-01,CIS Microsoft Windows 11 Enterprise Benchmark v3.0.0: Ensure 'Choose how BitLocker-protected removable drives can be recovered' is set to 'Enabled'.,7,19007
+"May 13, 2026 @ 15:44:41.744",safesoc-win-01,CIS Microsoft Windows 11 Enterprise Benchmark v3.0.0: Ensure 'Allow access to BitLocker-protected removable data drives from earlier versions of Windows' is set to 'Disabled'.,7,19007
+"May 13, 2026 @ 15:44:41.727",safesoc-win-01,CIS Microsoft Windows 11 Enterprise Benchmark v3.0.0: Ensure 'Require additional authentication at startup: Configure TPM startup key and PIN:' is set to 'Enabled: Do not allow startup key and PIN with TPM'.,7,19007
+"May 13, 2026 @ 15:44:41.697",safesoc-win-01,CIS Microsoft Windows 11 Enterprise Benchmark v3.0.0: Ensure 'Require additional authentication at startup: Configure TPM startup key:' is set to 'Enabled: Do not allow startup key with TPM'.,7,19007
+"May 13, 2026 @ 15:44:41.666",safesoc-win-01,CIS Microsoft Windows 11 Enterprise Benchmark v3.0.0: Ensure 'Require additional authentication at startup: Configure TPM startup PIN:' is set to 'Enabled: Require startup PIN with TPM'.,7,19007
+"May 13, 2026 @ 15:44:41.636",safesoc-win-01,CIS Microsoft Windows 11 Enterprise Benchmark v3.0.0: Ensure 'Require additional authentication at startup: Configure TPM startup:' is set to 'Enabled: Do not allow TPM'.,7,19007
+"May 13, 2026 @ 15:44:41.606",safesoc-win-01,CIS Microsoft Windows 11 Enterprise Benchmark v3.0.0: Ensure 'Require additional authentication at startup: Allow BitLocker without a compatible TPM' is set to 'Enabled: False'.,7,19007
+"May 13, 2026 @ 15:44:41.543",safesoc-win-01,CIS Microsoft Windows 11 Enterprise Benchmark v3.0.0: Ensure 'Require additional authentication at startup' is set to 'Enabled'.,7,19007
+"May 13, 2026 @ 15:44:41.512",safesoc-win-01,CIS Microsoft Windows 11 Enterprise Benchmark v3.0.0: Ensure 'Configure use of passwords for operating system drives' is set to 'Disabled'.,7,19007
+"May 13, 2026 @ 15:44:41.481",safesoc-win-01,CIS Microsoft Windows 11 Enterprise Benchmark v3.0.0: Ensure 'Configure use of hardware-based encryption for operating system drives' is set to 'Disabled'.,7,19007
+"May 13, 2026 @ 15:44:41.462",safesoc-win-01,CIS Microsoft Windows 11 Enterprise Benchmark v3.0.0: Ensure 'Choose how BitLocker-protected operating system drives can be recovered: Do not enable BitLocker until recovery information is stored to AD DS for operating system drives' is set to 'Enabled: True'.,7,19007
+"May 13, 2026 @ 15:44:41.419",safesoc-win-01,CIS Microsoft Windows 11 Enterprise Benchmark v3.0.0: Ensure 'Choose how BitLocker-protected operating system drives can be recovered: Configure storage of BitLocker recovery information to AD DS:' is set to 'Enabled: Store recovery passwords and key packages'.,7,19007
+"May 13, 2026 @ 15:44:41.390",safesoc-win-01,CIS Microsoft Windows 11 Enterprise Benchmark v3.0.0: Ensure 'Choose how BitLocker-protected operating system drives can be recovered: Allow data recovery agent' is set to 'Enabled: False'.,7,19007
+"May 13, 2026 @ 15:44:41.372",safesoc-win-01,CIS Microsoft Windows 11 Enterprise Benchmark v3.0.0: Ensure 'Choose how BitLocker-protected operating system drives can be recovered: Omit recovery options from the BitLocker setup wizard' is set to 'Enabled: True'.,7,19007
+"May 13, 2026 @ 15:44:41.371",safesoc-win-01,CIS Microsoft Windows 11 Enterprise Benchmark v3.0.0: Ensure 'Choose how BitLocker-protected operating system drives can be recovered: Recovery Key' is set to 'Enabled: Do not allow 256-bit recovery key'.,7,19007
+"May 13, 2026 @ 15:44:41.371",safesoc-win-01,CIS Microsoft Windows 11 Enterprise Benchmark v3.0.0: Ensure 'Choose how BitLocker-protected operating system drives can be recovered: Recovery Password' is set to 'Enabled: Require 48-digit recovery password'.,7,19007
+"May 13, 2026 @ 15:44:41.323",safesoc-win-01,CIS Microsoft Windows 11 Enterprise Benchmark v3.0.0: Ensure 'Choose how BitLocker-protected operating system drives can be recovered: Allow data recovery agent' is set to 'Enabled: False'.,7,19007
+"May 13, 2026 @ 15:44:41.279",safesoc-win-01,CIS Microsoft Windows 11 Enterprise Benchmark v3.0.0: Ensure 'Choose how BitLocker-protected operating system drives can be recovered' is set to 'Enabled'.,7,19007
+"May 13, 2026 @ 15:44:41.218",safesoc-win-01,CIS Microsoft Windows 11 Enterprise Benchmark v3.0.0: Ensure 'Allow Secure Boot for integrity validation' is set to 'Enabled'.,7,19007
+"May 13, 2026 @ 15:44:41.187",safesoc-win-01,CIS Microsoft Windows 11 Enterprise Benchmark v3.0.0: Ensure 'Allow enhanced PINs for startup' is set to 'Enabled'.,7,19007
+"May 13, 2026 @ 15:44:41.164",safesoc-win-01,CIS Microsoft Windows 11 Enterprise Benchmark v3.0.0: Ensure 'Configure use of smart cards on fixed data drives: Require use of smart cards on fixed data drives' is set to 'Enabled: True'.,7,19007
+"May 13, 2026 @ 15:44:41.140",safesoc-win-01,CIS Microsoft Windows 11 Enterprise Benchmark v3.0.0: Ensure 'Configure use of smart cards on fixed data drives' is set to 'Enabled'.,7,19007
+"May 13, 2026 @ 15:44:41.124",safesoc-win-01,CIS Microsoft Windows 11 Enterprise Benchmark v3.0.0: Ensure 'Configure use of passwords for fixed data drives' is set to 'Disabled'.,7,19007
+"May 13, 2026 @ 15:44:41.063",safesoc-win-01,CIS Microsoft Windows 11 Enterprise Benchmark v3.0.0: Ensure 'Configure use of hardware-based encryption for fixed data drives' is set to 'Disabled'.,7,19007
+"May 13, 2026 @ 15:44:41.032",safesoc-win-01,CIS Microsoft Windows 11 Enterprise Benchmark v3.0.0: Ensure 'Choose how BitLocker-protected fixed drives can be recovered: Do not enable BitLocker until recovery information is stored to AD DS for fixed data drives' is set to 'Enabled: False'.,7,19007
+"May 13, 2026 @ 15:44:41.001",safesoc-win-01,CIS Microsoft Windows 11 Enterprise Benchmark v3.0.0: Ensure 'Choose how BitLocker-protected fixed drives can be recovered: Configure storage of BitLocker recovery information to AD DS' is set to 'Enabled: Backup recovery passwords and key packages'.,7,19007
+"May 13, 2026 @ 15:44:40.954",safesoc-win-01,CIS Microsoft Windows 11 Enterprise Benchmark v3.0.0: Ensure 'Choose how BitLocker-protected fixed drives can be recovered: Save BitLocker recovery information to AD DS for fixed data drives' is set to 'Enabled: False'.,7,19007
+"May 13, 2026 @ 15:44:40.935",safesoc-win-01,CIS Microsoft Windows 11 Enterprise Benchmark v3.0.0: Ensure 'Choose how BitLocker-protected fixed drives can be recovered: Omit recovery options from the BitLocker setup wizard' is set to 'Enabled: True'.,7,19007
+"May 13, 2026 @ 15:44:40.893",safesoc-win-01,CIS Microsoft Windows 11 Enterprise Benchmark v3.0.0: Ensure 'Choose how BitLocker-protected fixed drives can be recovered: Recovery Key' is set to 'Enabled: Allow 256-bit recovery key' or higher.,7,19007
+"May 13, 2026 @ 15:44:40.878",safesoc-win-01,CIS Microsoft Windows 11 Enterprise Benchmark v3.0.0: Ensure 'Choose how BitLocker-protected fixed drives can be recovered: Recovery Password' is set to 'Enabled: Allow 48-digit recovery password' or higher.,7,19007
+"May 13, 2026 @ 15:44:40.846",safesoc-win-01,CIS Microsoft Windows 11 Enterprise Benchmark v3.0.0: Ensure 'Choose how BitLocker-protected fixed drives can be recovered: Allow data recovery agent' is set to 'Enabled: True'.,7,19007
+"May 13, 2026 @ 15:44:40.815",safesoc-win-01,CIS Microsoft Windows 11 Enterprise Benchmark v3.0.0: Ensure 'Choose how BitLocker-protected fixed drives can be recovered' is set to 'Enabled'.,7,19007
+"May 13, 2026 @ 15:44:40.784",safesoc-win-01,CIS Microsoft Windows 11 Enterprise Benchmark v3.0.0: Ensure 'Allow access to BitLocker-protected fixed data drives from earlier versions of Windows' is set to 'Disabled'.,7,19007
+"May 13, 2026 @ 15:44:40.754",safesoc-win-01,CIS Microsoft Windows 11 Enterprise Benchmark v3.0.0: Ensure 'Configure enhanced anti-spoofing' is set to 'Enabled'.,7,19007
+"May 13, 2026 @ 15:44:40.707",safesoc-win-01,CIS Microsoft Windows 11 Enterprise Benchmark v3.0.0: Ensure 'Turn off Autoplay' is set to 'Enabled: All drives'.,7,19007
+"May 13, 2026 @ 15:44:40.676",safesoc-win-01,CIS Microsoft Windows 11 Enterprise Benchmark v3.0.0: Ensure 'Set the default behavior for AutoRun' is set to 'Enabled: Do not execute any autorun commands'.,7,19007
+"May 13, 2026 @ 15:44:40.382",safesoc-win-01,CIS Microsoft Windows 11 Enterprise Benchmark v3.0.0: Ensure 'Disallow Autoplay for non-volume devices' is set to 'Enabled'.,7,19007
+"May 13, 2026 @ 15:44:40.351",safesoc-win-01,CIS Microsoft Windows 11 Enterprise Benchmark v3.0.0: Ensure 'Block launching Universal Windows apps with Windows Runtime API access from hosted content.' is set to 'Enabled'.,7,19007
+"May 13, 2026 @ 15:44:40.322",safesoc-win-01,CIS Microsoft Windows 11 Enterprise Benchmark v3.0.0: Ensure 'Allow Microsoft accounts to be optional' is set to 'Enabled'.,7,19007
+"May 13, 2026 @ 15:44:40.270",safesoc-win-01,CIS Microsoft Windows 11 Enterprise Benchmark v3.0.0: Ensure 'Let Windows apps activate with voice while the system is locked' is set to 'Enabled: Force Deny'.,7,19007
+"May 13, 2026 @ 15:44:40.228",safesoc-win-01,CIS Microsoft Windows 11 Enterprise Benchmark v3.0.0: Ensure 'Prevent non-admin users from installing packaged Windows apps' is set to 'Enabled'.,7,19007
+"May 13, 2026 @ 15:44:40.198",safesoc-win-01,CIS Microsoft Windows 11 Enterprise Benchmark v3.0.0: Ensure 'Allow a Windows app to share application data between users' is set to 'Disabled'.,3,19008
+"May 13, 2026 @ 15:44:40.153",safesoc-win-01,CIS Microsoft Windows 11 Enterprise Benchmark v3.0.0: Ensure 'Enable Windows NTP Server' is set to 'Disabled'.,3,19008
+"May 13, 2026 @ 15:44:40.135",safesoc-win-01,CIS Microsoft Windows 11 Enterprise Benchmark v3.0.0: Ensure 'Enable Windows NTP Client' is set to 'Enabled'.,7,19007
+"May 13, 2026 @ 15:44:40.104",safesoc-win-01,CIS Microsoft Windows 11 Enterprise Benchmark v3.0.0: Ensure 'Turn off the advertising ID' is set to 'Enabled'.,7,19007
+"May 13, 2026 @ 15:44:40.073",safesoc-win-01,CIS Microsoft Windows 11 Enterprise Benchmark v3.0.0: Ensure 'Enable/Disable PerfTrack' is set to 'Disabled'.,7,19007
+"May 13, 2026 @ 15:44:40.012",safesoc-win-01,CIS Microsoft Windows 11 Enterprise Benchmark v3.0.0: Ensure 'Microsoft Support Diagnostic Tool: Turn on MSDT interactive communication with support provider' is set to 'Disabled'.,7,19007
+"May 13, 2026 @ 15:44:39.982",safesoc-win-01,CIS Microsoft Windows 11 Enterprise Benchmark v3.0.0: Ensure 'Restrict Unauthenticated RPC clients' is set to 'Enabled: Authenticated'.,3,19008
+"May 13, 2026 @ 15:44:39.951",safesoc-win-01,CIS Microsoft Windows 11 Enterprise Benchmark v3.0.0: Ensure 'Enable RPC Endpoint Mapper Client Authentication' is set to 'Enabled'.,7,19007
+"May 13, 2026 @ 15:44:39.919",safesoc-win-01,CIS Microsoft Windows 11 Enterprise Benchmark v3.0.0: Ensure 'Configure Solicited Remote Assistance' is set to 'Disabled'.,7,19007
+"May 13, 2026 @ 15:44:39.899",safesoc-win-01,CIS Microsoft Windows 11 Enterprise Benchmark v3.0.0: Ensure 'Configure Offer Remote Assistance' is set to 'Disabled'.,3,19008
+"May 13, 2026 @ 15:44:39.857",safesoc-win-01,CIS Microsoft Windows 11 Enterprise Benchmark v3.0.0: Ensure 'Require a password when a computer wakes (plugged in)' is set to 'Enabled'.,3,19008
+"May 13, 2026 @ 15:44:39.826",safesoc-win-01,CIS Microsoft Windows 11 Enterprise Benchmark v3.0.0: Ensure 'Require a password when a computer wakes (on battery)' is set to 'Enabled'.,3,19008
+"May 13, 2026 @ 15:44:39.795",safesoc-win-01,CIS Microsoft Windows 11 Enterprise Benchmark v3.0.0: Ensure 'Allow standby states (S1-S3) when sleeping (plugged in)' is set to 'Disabled'.,7,19007
+"May 13, 2026 @ 15:44:39.779",safesoc-win-01,CIS Microsoft Windows 11 Enterprise Benchmark v3.0.0: Ensure 'Allow standby states (S1-S3) when sleeping (on battery)' is set to 'Disabled'.,7,19007
+"May 13, 2026 @ 15:44:39.718",safesoc-win-01,CIS Microsoft Windows 11 Enterprise Benchmark v3.0.0: Ensure 'Allow network connectivity during connected-standby (plugged in)' is set to 'Disabled'.,7,19007
+"May 13, 2026 @ 15:44:39.687",safesoc-win-01,CIS Microsoft Windows 11 Enterprise Benchmark v3.0.0: Ensure 'Allow network connectivity during connected-standby (on battery)' is set to 'Disabled'.,7,19007
+"May 13, 2026 @ 15:44:39.656",safesoc-win-01,CIS Microsoft Windows 11 Enterprise Benchmark v3.0.0: Ensure 'Allow upload of User Activities' is set to 'Disabled'.,7,19007
+"May 13, 2026 @ 15:44:39.626",safesoc-win-01,CIS Microsoft Windows 11 Enterprise Benchmark v3.0.0: Ensure 'Allow Clipboard synchronization across devices' is set to 'Disabled'.,7,19007
+"May 13, 2026 @ 15:44:39.563",safesoc-win-01,CIS Microsoft Windows 11 Enterprise Benchmark v3.0.0: Ensure 'Turn on convenience PIN sign-in' is set to 'Disabled'.,3,19008
+"May 13, 2026 @ 15:44:39.542",safesoc-win-01,CIS Microsoft Windows 11 Enterprise Benchmark v3.0.0: Ensure 'Turn off picture password sign-in' is set to 'Enabled'.,7,19007
+"May 13, 2026 @ 15:44:39.501",safesoc-win-01,CIS Microsoft Windows 11 Enterprise Benchmark v3.0.0: Ensure 'Turn off app notifications on the lock screen' is set to 'Enabled'.,7,19007
+"May 13, 2026 @ 15:44:39.469",safesoc-win-01,CIS Microsoft Windows 11 Enterprise Benchmark v3.0.0: Ensure 'Enumerate local users on domain-joined computers' is set to 'Disabled'.,3,19008
+"May 13, 2026 @ 15:44:39.439",safesoc-win-01,CIS Microsoft Windows 11 Enterprise Benchmark v3.0.0: Ensure 'Do not enumerate connected users on domain-joined computers' is set to 'Enabled'.,7,19007
+"May 13, 2026 @ 15:44:39.377",safesoc-win-01,CIS Microsoft Windows 11 Enterprise Benchmark v3.0.0: Ensure 'Do not display network selection UI' is set to 'Enabled'.,7,19007
+"May 13, 2026 @ 15:44:39.345",safesoc-win-01,CIS Microsoft Windows 11 Enterprise Benchmark v3.0.0: Ensure 'Block user from showing account details on sign-in' is set to 'Enabled'.,7,19007
+"May 13, 2026 @ 15:44:39.314",safesoc-win-01,CIS Microsoft Windows 11 Enterprise Benchmark v3.0.0: Ensure 'Disallow copying of user input methods to the system account for sign-in' is set to 'Enabled'.,7,19007
+"May 13, 2026 @ 15:44:39.267",safesoc-win-01,CIS Microsoft Windows 11 Enterprise Benchmark v3.0.0: Ensure 'Configures LSASS to run as a protected process' is set to 'Enabled: Enabled with UEFI Lock'.,7,19007
+"May 13, 2026 @ 15:44:39.238",safesoc-win-01,CIS Microsoft Windows 11 Enterprise Benchmark v3.0.0: Ensure 'Allow Custom SSPs and APs to be loaded into LSASS' is set to 'Disabled'.,7,19007
+"May 13, 2026 @ 15:44:39.221",safesoc-win-01,CIS Microsoft Windows 11 Enterprise Benchmark v3.0.0: Ensure 'Post-authentication actions: Actions' is set to 'Enabled: Reset the password and logoff the managed account' or higher.,7,19007
+"May 13, 2026 @ 15:44:39.190",safesoc-win-01,"CIS Microsoft Windows 11 Enterprise Benchmark v3.0.0: Ensure 'Post-authentication actions: Grace period (hours)' is set to 'Enabled: 8 or fewer hours, but not 0'.",7,19007
+"May 13, 2026 @ 15:44:39.160",safesoc-win-01,CIS Microsoft Windows 11 Enterprise Benchmark v3.0.0: Ensure 'Password Settings: Password Age (Days)' is set to 'Enabled: 30 or fewer'.,7,19007
+"May 13, 2026 @ 15:44:39.113",safesoc-win-01,CIS Microsoft Windows 11 Enterprise Benchmark v3.0.0: Ensure 'Password Settings: Password Length' is set to 'Enabled: 15 or more'.,7,19007
+"May 13, 2026 @ 15:44:38.774",safesoc-win-01,CIS Microsoft Windows 11 Enterprise Benchmark v3.0.0: Ensure 'Password Settings: Password Complexity' is set to 'Enabled: Large letters + small letters + numbers + special characters'.,7,19007
+"May 13, 2026 @ 15:44:38.743",safesoc-win-01,CIS Microsoft Windows 11 Enterprise Benchmark v3.0.0: Ensure 'Enable password encryption' is set to 'Enabled'.,7,19007
+"May 13, 2026 @ 15:44:38.712",safesoc-win-01,CIS Microsoft Windows 11 Enterprise Benchmark v3.0.0: Ensure 'Do not allow password expiration time longer than required by policy' is set to 'Enabled'.,7,19007
+"May 13, 2026 @ 15:44:38.665",safesoc-win-01,CIS Microsoft Windows 11 Enterprise Benchmark v3.0.0: Ensure 'Configure password backup directory' is set to 'Enabled: Active Directory' or 'Enabled: Azure Active Directory'.,7,19007
+"May 13, 2026 @ 15:44:38.634",safesoc-win-01,CIS Microsoft Windows 11 Enterprise Benchmark v3.0.0: Ensure 'Enumeration policy for external devices incompatible with Kernel DMA Protection' is set to 'Enabled: Block All'.,7,19007
+"May 13, 2026 @ 15:44:38.603",safesoc-win-01,CIS Microsoft Windows 11 Enterprise Benchmark v3.0.0: Ensure 'Support device authentication using certificate' is set to 'Enabled: Automatic'.,3,19009
+"May 13, 2026 @ 15:44:38.589",safesoc-win-01,CIS Microsoft Windows 11 Enterprise Benchmark v3.0.0: Ensure 'Turn off Windows Error Reporting' is set to 'Enabled'.,7,19007
+"May 13, 2026 @ 15:44:38.555",safesoc-win-01,CIS Microsoft Windows 11 Enterprise Benchmark v3.0.0: Ensure 'Turn off Windows Customer Experience Improvement Program' is set to 'Enabled'.,7,19007
+"May 13, 2026 @ 15:44:38.493",safesoc-win-01,CIS Microsoft Windows 11 Enterprise Benchmark v3.0.0: Ensure 'Turn off the Windows Messenger Customer Experience Improvement Program' is set to 'Enabled'.,7,19007
+"May 13, 2026 @ 15:44:38.463",safesoc-win-01,"CIS Microsoft Windows 11 Enterprise Benchmark v3.0.0: Ensure 'Turn off the ""Publish to Web"" task for files and folders' is set to 'Enabled'.",7,19007
+"May 13, 2026 @ 15:44:38.447",safesoc-win-01,"CIS Microsoft Windows 11 Enterprise Benchmark v3.0.0: Ensure 'Turn off the ""Order Prints"" picture task' is set to 'Enabled'.",7,19007
+"May 13, 2026 @ 15:44:38.384",safesoc-win-01,CIS Microsoft Windows 11 Enterprise Benchmark v3.0.0: Ensure 'Turn off Search Companion content file updates' is set to 'Enabled'.,7,19007
+"May 13, 2026 @ 15:44:38.368",safesoc-win-01,CIS Microsoft Windows 11 Enterprise Benchmark v3.0.0: Ensure 'Turn off Registration if URL connection is referring to Microsoft.com' is set to 'Enabled'.,7,19007
+"May 13, 2026 @ 15:44:38.336",safesoc-win-01,CIS Microsoft Windows 11 Enterprise Benchmark v3.0.0: Ensure 'Turn off printing over HTTP' is set to 'Enabled'.,7,19007
+"May 13, 2026 @ 15:44:38.306",safesoc-win-01,CIS Microsoft Windows 11 Enterprise Benchmark v3.0.0: Ensure 'Turn off Internet download for Web publishing and online ordering wizards' is set to 'Enabled'.,7,19007
+"May 13, 2026 @ 15:44:38.244",safesoc-win-01,CIS Microsoft Windows 11 Enterprise Benchmark v3.0.0: Ensure 'Turn off Internet Connection Wizard if URL connection is referring to Microsoft.com' is set to 'Enabled'.,7,19007
+"May 13, 2026 @ 15:44:38.213",safesoc-win-01,CIS Microsoft Windows 11 Enterprise Benchmark v3.0.0: Ensure 'Turn off handwriting recognition error reporting' is set to 'Enabled'.,7,19007
+"May 13, 2026 @ 15:44:38.181",safesoc-win-01,CIS Microsoft Windows 11 Enterprise Benchmark v3.0.0: Ensure 'Turn off handwriting personalization data sharing' is set to 'Enabled'.,7,19007
+"May 13, 2026 @ 15:44:38.141",safesoc-win-01,CIS Microsoft Windows 11 Enterprise Benchmark v3.0.0: Ensure 'Turn off downloading of print drivers over HTTP' is set to 'Enabled'.,7,19007
+"May 13, 2026 @ 15:44:38.120",safesoc-win-01,CIS Microsoft Windows 11 Enterprise Benchmark v3.0.0: Ensure 'Turn off access to the Store' is set to 'Enabled'.,7,19007
+"May 13, 2026 @ 15:44:38.090",safesoc-win-01,CIS Microsoft Windows 11 Enterprise Benchmark v3.0.0: Ensure 'Turn off background refresh of Group Policy' is set to 'Disabled'.,3,19008
+"May 13, 2026 @ 15:44:38.059",safesoc-win-01,CIS Microsoft Windows 11 Enterprise Benchmark v3.0.0: Ensure 'Continue experiences on this device' is set to 'Disabled'.,7,19007
+"May 13, 2026 @ 15:44:37.997",safesoc-win-01,CIS Microsoft Windows 11 Enterprise Benchmark v3.0.0: Ensure 'Configure security policy processing: Process even if the Group Policy objects have not changed' is set to 'Enabled: TRUE'.,7,19007
+"May 13, 2026 @ 15:44:37.966",safesoc-win-01,CIS Microsoft Windows 11 Enterprise Benchmark v3.0.0: Ensure 'Configure security policy processing: Do not apply during periodic background processing' is set to 'Enabled: FALSE'.,7,19007
+"May 13, 2026 @ 15:44:37.935",safesoc-win-01,CIS Microsoft Windows 11 Enterprise Benchmark v3.0.0: Ensure 'Configure registry policy processing: Process even if the Group Policy objects have not changed' is set to 'Enabled: TRUE'.,7,19007
+"May 13, 2026 @ 15:44:37.904",safesoc-win-01,CIS Microsoft Windows 11 Enterprise Benchmark v3.0.0: Ensure 'Configure registry policy processing: Do not apply during periodic background processing' is set to 'Enabled: FALSE'.,7,19007
+"May 13, 2026 @ 15:44:37.843",safesoc-win-01,"CIS Microsoft Windows 11 Enterprise Benchmark v3.0.0: Ensure 'Boot-Start Driver Initialization Policy' is set to 'Enabled: Good, unknown and bad but critical'.",7,19007
+"May 13, 2026 @ 15:44:37.827",safesoc-win-01,CIS Microsoft Windows 11 Enterprise Benchmark v3.0.0: Ensure 'Prevent device metadata retrieval from the Internet' is set to 'Enabled'.,7,19007
+"May 13, 2026 @ 15:44:37.795",safesoc-win-01,CIS Microsoft Windows 11 Enterprise Benchmark v3.0.0: Ensure 'Prevent installation of devices using drivers that match these device setup classes: Also apply to matching devices that are already installed.' is set to 'True'.,7,19007
+"May 13, 2026 @ 15:44:37.764",safesoc-win-01,CIS Microsoft Windows 11 Enterprise Benchmark v3.0.0: Ensure 'Prevent installation of devices using drivers that match these device setup classes: Prevent installation of devices using drivers for these device setup' is set to 'IEEE 1394 device setup classes'.,7,19007
+"May 13, 2026 @ 15:44:37.703",safesoc-win-01,CIS Microsoft Windows 11 Enterprise Benchmark v3.0.0: Ensure 'Prevent installation of devices using drivers that match these device setup classes' is set to 'Enabled'.,7,19007
+"May 13, 2026 @ 15:44:37.672",safesoc-win-01,CIS Microsoft Windows 11 Enterprise Benchmark v3.0.0: Ensure 'Prevent installation of devices that match any of these device IDs: Also apply to matching devices that are already installed.' is set to 'True'.,7,19007
+"May 13, 2026 @ 15:44:37.641",safesoc-win-01,CIS Microsoft Windows 11 Enterprise Benchmark v3.0.0: Ensure 'Prevent installation of devices that match any of these device IDs: Prevent installation of devices that match any of these device IDs' is set to 'PCI\CC_0C0A'.,7,19007
+"May 13, 2026 @ 15:44:37.609",safesoc-win-01,CIS Microsoft Windows 11 Enterprise Benchmark v3.0.0: Ensure 'Prevent installation of devices that match any of these device IDs' is set to 'Enabled'.,7,19007
+"May 13, 2026 @ 15:44:37.318",safesoc-win-01,CIS Microsoft Windows 11 Enterprise Benchmark v3.0.0: Ensure 'Turn On Virtualization Based Security: Kernel-mode Hardware-enforced Stack Protection' is set to 'Enabled: Enabled in enforcement mode'.,7,19007
+"May 13, 2026 @ 15:44:37.286",safesoc-win-01,CIS Microsoft Windows 11 Enterprise Benchmark v3.0.0: Ensure 'Turn On Virtualization Based Security: Credential Guard Configuration' is set to 'Enabled with UEFI lock'.,7,19007
+"May 13, 2026 @ 15:44:37.254",safesoc-win-01,CIS Microsoft Windows 11 Enterprise Benchmark v3.0.0: Ensure 'Turn On Virtualization Based Security: Require UEFI Memory Attributes Table' is set to 'True (checked)'.,7,19007
+"May 13, 2026 @ 15:44:37.224",safesoc-win-01,CIS Microsoft Windows 11 Enterprise Benchmark v3.0.0: Ensure 'Turn On Virtualization Based Security: Virtualization Based Protection of Code Integrity' is set to 'Enabled with UEFI lock'.,7,19007
+"May 13, 2026 @ 15:44:37.192",safesoc-win-01,CIS Microsoft Windows 11 Enterprise Benchmark v3.0.0: Ensure 'Turn On Virtualization Based Security: Select Platform Security Level' is set to 'Secure Boot' or higher.,7,19007
+"May 13, 2026 @ 15:44:37.147",safesoc-win-01,CIS Microsoft Windows 11 Enterprise Benchmark v3.0.0: Ensure 'Turn On Virtualization Based Security' is set to 'Enabled'.,7,19007
+"May 13, 2026 @ 15:44:37.117",safesoc-win-01,CIS Microsoft Windows 11 Enterprise Benchmark v3.0.0: Ensure 'Remote host allows delegation of non- exportable credentials' is set to 'Enabled'.,7,19007
+"May 13, 2026 @ 15:44:37.084",safesoc-win-01,CIS Microsoft Windows 11 Enterprise Benchmark v3.0.0: Ensure 'Encryption Oracle Remediation' is set to 'Enabled: Force Updated Clients'.,7,19007
+"May 13, 2026 @ 15:44:37.037",safesoc-win-01,CIS Microsoft Windows 11 Enterprise Benchmark v3.0.0: Ensure 'Include command line in process creation events' is set to 'Enabled'.,7,19007
+"May 13, 2026 @ 15:44:37.022",safesoc-win-01,CIS Microsoft Windows 11 Enterprise Benchmark v3.0.0: Ensure 'Remove Personalized Website Recommendations from the Recommended section in the Start Menu' is set to 'Enabled'.,7,19007
+"May 13, 2026 @ 15:44:36.991",safesoc-win-01,CIS Microsoft Windows 11 Enterprise Benchmark v3.0.0: Ensure 'Turn off notifications network usage' is set to 'Enabled'.,7,19007
+"May 13, 2026 @ 15:44:36.960",safesoc-win-01,CIS Microsoft Windows 11 Enterprise Benchmark v3.0.0: Ensure 'Point and Print Restrictions: When updating drivers for an existing connection' is set to 'Enabled: Show warning and elevation prompt'.,7,19007
+"May 13, 2026 @ 15:44:36.898",safesoc-win-01,CIS Microsoft Windows 11 Enterprise Benchmark v3.0.0: Ensure 'Point and Print Restrictions: When installing drivers for a new connection' is set to 'Enabled: Show warning and elevation prompt'.,3,19008
+"May 13, 2026 @ 15:44:36.867",safesoc-win-01,CIS Microsoft Windows 11 Enterprise Benchmark v3.0.0: Ensure 'Manage processing of Queue-specific files' is set to 'Enabled: Limit Queue-specific files to Color profiles'.,7,19007
+"May 13, 2026 @ 15:44:36.836",safesoc-win-01,CIS Microsoft Windows 11 Enterprise Benchmark v3.0.0: Ensure 'Limits print driver installation to Administrators' is set to 'Enabled'.,7,19007
+"May 13, 2026 @ 15:44:36.806",safesoc-win-01,CIS Microsoft Windows 11 Enterprise Benchmark v3.0.0: Ensure 'Configure RPC over TCP port' is set to 'Enabled: 0'.,7,19007
+"May 13, 2026 @ 15:44:36.744",safesoc-win-01,CIS Microsoft Windows 11 Enterprise Benchmark v3.0.0: Ensure 'Configure RPC listener settings: Authentication protocol to use for incoming RPC connections:' is set to 'Enabled: Negotiate' or higher.,7,19007
+"May 13, 2026 @ 15:44:36.713",safesoc-win-01,CIS Microsoft Windows 11 Enterprise Benchmark v3.0.0: Ensure 'Configure RPC listener settings: Protocols to allow for incoming RPC connections' is set to 'Enabled: RPC over TCP'.,7,19007
+"May 13, 2026 @ 15:44:36.682",safesoc-win-01,CIS Microsoft Windows 11 Enterprise Benchmark v3.0.0: Ensure 'Configure RPC connection settings: Use authentication for outgoing RPC connections' is set to 'Enabled: Default'.,7,19007
+"May 13, 2026 @ 15:44:36.652",safesoc-win-01,CIS Microsoft Windows 11 Enterprise Benchmark v3.0.0: Ensure 'Configure RPC connection settings: Protocol to use for outgoing RPC connections' is set to 'Enabled: RPC over TCP'.,7,19007
+"May 13, 2026 @ 15:44:36.590",safesoc-win-01,CIS Microsoft Windows 11 Enterprise Benchmark v3.0.0: Ensure 'Configure Redirection Guard' is set to 'Enabled: Redirection Guard Enabled'.,7,19007
+"May 13, 2026 @ 15:44:36.559",safesoc-win-01,CIS Microsoft Windows 11 Enterprise Benchmark v3.0.0: Ensure 'Allow Print Spooler to accept client connections' is set to 'Disabled'.,7,19007
+"May 13, 2026 @ 15:44:36.543",safesoc-win-01,"CIS Microsoft Windows 11 Enterprise Benchmark v3.0.0: Ensure 'Allow Windows to automatically connect to suggested open hotspots, to networks shared by contacts, and to hotspots offering paid services' is set to 'Disabled'.",7,19007
+"May 13, 2026 @ 15:44:36.514",safesoc-win-01,CIS Microsoft Windows 11 Enterprise Benchmark v3.0.0: Ensure 'Prohibit connection to non-domain networks when connected to domain authenticated network' is set to 'Enabled'.,7,19007
+"May 13, 2026 @ 15:44:36.481",safesoc-win-01,CIS Microsoft Windows 11 Enterprise Benchmark v3.0.0: Ensure 'Minimize the number of simultaneous connections to the Internet or a Windows Domain' is set to 'Enabled: 3 = Prevent Wi-Fi when on Ethernet'.,7,19007
+"May 13, 2026 @ 15:44:36.420",safesoc-win-01,CIS Microsoft Windows 11 Enterprise Benchmark v3.0.0: Ensure 'Prohibit access of the Windows Connect Now wizards' is set to 'Enabled'.,7,19007
+"May 13, 2026 @ 15:44:36.389",safesoc-win-01,CIS Microsoft Windows 11 Enterprise Benchmark v3.0.0: Ensure 'Configuration of wireless settings using Windows Connect Now' is set to 'Disabled'.,7,19007
+"May 13, 2026 @ 15:44:36.358",safesoc-win-01,CIS Microsoft Windows 11 Enterprise Benchmark v3.0.0: Disable IPv6 (Ensure TCPIP6 Parameter 'DisabledComponents' is set to '0xff (255)').,7,19007
+"May 13, 2026 @ 15:44:36.297",safesoc-win-01,"CIS Microsoft Windows 11 Enterprise Benchmark v3.0.0: Ensure 'Hardened UNC Paths' is set to 'Enabled, with ""Require Mutual Authentication"" and ""Require Integrity"" set for all NETLOGON and SYSVOL shares'.",7,19007
+"May 13, 2026 @ 15:44:36.266",safesoc-win-01,CIS Microsoft Windows 11 Enterprise Benchmark v3.0.0: Ensure 'Require domain users to elevate when setting a network's location' is set to 'Enabled'.,7,19007
+"May 13, 2026 @ 15:44:36.235",safesoc-win-01,CIS Microsoft Windows 11 Enterprise Benchmark v3.0.0: Ensure 'Prohibit use of Internet Connection Sharing on your DNS domain network' is set to 'Enabled'.,7,19007
+"May 13, 2026 @ 15:44:36.219",safesoc-win-01,CIS Microsoft Windows 11 Enterprise Benchmark v3.0.0: Ensure 'Prohibit installation and configuration of Network Bridge on your DNS domain network' is set to 'Enabled'.,7,19007
+"May 13, 2026 @ 15:44:36.188",safesoc-win-01,CIS Microsoft Windows 11 Enterprise Benchmark v3.0.0: Ensure 'Turn off Microsoft Peer-to-Peer Networking Services' is set to 'Enabled'.,7,19007
+"May 13, 2026 @ 15:44:35.847",safesoc-win-01,CIS Microsoft Windows 11 Enterprise Benchmark v3.0.0: Ensure 'Turn on Responder (RSPNDR) driver' is set to 'Disabled'.,3,19008
+"May 13, 2026 @ 15:44:35.816",safesoc-win-01,CIS Microsoft Windows 11 Enterprise Benchmark v3.0.0: Ensure 'Turn on Mapper I/O (LLTDIO) driver' is set to 'Disabled'.,3,19008
+"May 13, 2026 @ 15:44:35.785",safesoc-win-01,CIS Microsoft Windows 11 Enterprise Benchmark v3.0.0: Ensure 'Enable insecure guest logons' is set to 'Disabled'.,7,19007
+"May 13, 2026 @ 15:44:35.755",safesoc-win-01,CIS Microsoft Windows 11 Enterprise Benchmark v3.0.0: Ensure 'Enable Font Providers' is set to 'Disabled'.,7,19007
+"May 13, 2026 @ 15:44:35.692",safesoc-win-01,CIS Microsoft Windows 11 Enterprise Benchmark v3.0.0: Ensure 'Turn off multicast name resolution' is set to 'Enabled'.,7,19007
+"May 13, 2026 @ 15:44:35.676",safesoc-win-01,CIS Microsoft Windows 11 Enterprise Benchmark v3.0.0: Ensure 'Configure NetBIOS settings' is set to 'Enabled: Disable NetBIOS name resolution on public networks'.,3,19008
+"May 13, 2026 @ 15:44:35.646",safesoc-win-01,CIS Microsoft Windows 11 Enterprise Benchmark v3.0.0: Ensure 'Configure DNS over HTTPS (DoH) name resolution' is set to 'Enabled: Allow DoH' or higher.,7,19007
+"May 13, 2026 @ 15:44:35.609",safesoc-win-01,CIS Microsoft Windows 11 Enterprise Benchmark v3.0.0: Ensure 'MSS: (WarningLevel) Percentage threshold for the security event log at which the system will generate a warning' is set to 'Enabled: 90% or less'.,3,19008
+"May 13, 2026 @ 15:44:35.568",safesoc-win-01,CIS Microsoft Windows 11 Enterprise Benchmark v3.0.0: Ensure 'MSS: (TcpMaxDataRetransmissions) How many times unacknowledged data is retransmitted' is set to 'Enabled: 3'.,7,19007
+"May 13, 2026 @ 15:44:35.537",safesoc-win-01,CIS Microsoft Windows 11 Enterprise Benchmark v3.0.0: Ensure 'MSS: (TcpMaxDataRetransmissions IPv6) How many times unacknowledged data is retransmitted' is set to 'Enabled: 3'.,7,19007
+"May 13, 2026 @ 15:44:35.507",safesoc-win-01,CIS Microsoft Windows 11 Enterprise Benchmark v3.0.0: Ensure 'MSS: (ScreenSaverGracePeriod) The time in seconds before the screen saver grace period expires' is set to 'Enabled: 5 or fewer seconds'.,3,19008
+"May 13, 2026 @ 15:44:35.475",safesoc-win-01,CIS Microsoft Windows 11 Enterprise Benchmark v3.0.0: Ensure 'MSS: (SafeDllSearchMode) Enable Safe DLL search mode' is set to 'Enabled'.,3,19008
+"May 13, 2026 @ 15:44:35.429",safesoc-win-01,CIS Microsoft Windows 11 Enterprise Benchmark v3.0.0: Ensure 'MSS: (PerformRouterDiscovery) Allow IRDP to detect and configure Default Gateway addresses' is set to 'Disabled'.,7,19007
+"May 13, 2026 @ 15:44:35.398",safesoc-win-01,CIS Microsoft Windows 11 Enterprise Benchmark v3.0.0: Ensure 'MSS: (NoNameReleaseOnDemand) Allow the computer to ignore NetBIOS name release requests except from WINS servers' is set to 'Enabled'.,3,19008
+"May 13, 2026 @ 15:44:35.368",safesoc-win-01,"CIS Microsoft Windows 11 Enterprise Benchmark v3.0.0: Ensure 'MSS: (KeepAliveTime) How often keep-alive packets are sent in milliseconds' is set to 'Enabled: 300,000 or 5 minutes'.",7,19007
+"May 13, 2026 @ 15:44:35.337",safesoc-win-01,CIS Microsoft Windows 11 Enterprise Benchmark v3.0.0: Ensure 'MSS: (EnableICMPRedirect) Allow ICMP redirects to override OSPF generated routes' is set to 'Disabled'.,7,19007
+"May 13, 2026 @ 15:44:35.277",safesoc-win-01,CIS Microsoft Windows 11 Enterprise Benchmark v3.0.0: Ensure 'MSS: (DisableSavePassword) Prevent the dial-up password from being saved' is set to 'Enabled'.,7,19007
+"May 13, 2026 @ 15:44:35.244",safesoc-win-01,"CIS Microsoft Windows 11 Enterprise Benchmark v3.0.0: Ensure 'MSS: (DisableIPSourceRouting) IP source routing protection level ' is set to 'Enabled: Highest protection, source routing is completely disabled'.",7,19007
+"May 13, 2026 @ 15:44:35.214",safesoc-win-01,"CIS Microsoft Windows 11 Enterprise Benchmark v3.0.0: Ensure 'MSS: (DisableIPSourceRouting IPv6) IP source routing protection level is set to 'Enabled: Highest protection, source routing is completely disabled'.",7,19007
+"May 13, 2026 @ 15:44:35.183",safesoc-win-01,CIS Microsoft Windows 11 Enterprise Benchmark v3.0.0: Ensure 'MSS: (AutoAdminLogon) Enable Automatic Logon' is set to 'Disabled'.,3,19008
+"May 13, 2026 @ 15:44:35.163",safesoc-win-01,CIS Microsoft Windows 11 Enterprise Benchmark v3.0.0: Ensure 'WDigest Authentication' is set to 'Disabled'.,3,19008
+"May 13, 2026 @ 15:44:35.104",safesoc-win-01,CIS Microsoft Windows 11 Enterprise Benchmark v3.0.0: Ensure 'NetBT NodeType configuration' is set to 'Enabled: P-node (recommended)'.,7,19007
+"May 13, 2026 @ 15:44:35.074",safesoc-win-01,CIS Microsoft Windows 11 Enterprise Benchmark v3.0.0: Ensure 'Enable Structured Exception Handling Overwrite Protection (SEHOP)' is set to 'Enabled'.,7,19007
+"May 13, 2026 @ 15:44:35.043",safesoc-win-01,CIS Microsoft Windows 11 Enterprise Benchmark v3.0.0: Ensure 'Enable Certificate Padding' is set to 'Enabled'.,7,19007
+"May 13, 2026 @ 15:44:35.012",safesoc-win-01,CIS Microsoft Windows 11 Enterprise Benchmark v3.0.0: Ensure 'Configure SMB v1 server' is set to 'Disabled'.,3,19008
+"May 13, 2026 @ 15:44:34.982",safesoc-win-01,CIS Microsoft Windows 11 Enterprise Benchmark v3.0.0: Ensure 'Configure SMB v1 client driver' is set to 'Enabled: Disable driver (recommended)'.,3,19008
+"May 13, 2026 @ 15:44:34.935",safesoc-win-01,CIS Microsoft Windows 11 Enterprise Benchmark v3.0.0: Ensure 'Configure RPC packet level privacy setting for incoming connections' is set to 'Enabled'.,3,19008
+"May 13, 2026 @ 15:44:34.905",safesoc-win-01,CIS Microsoft Windows 11 Enterprise Benchmark v3.0.0: Ensure 'Apply UAC restrictions to local accounts on network logons' is set to 'Enabled'.,3,19008
+"May 13, 2026 @ 15:44:34.873",safesoc-win-01,CIS Microsoft Windows 11 Enterprise Benchmark v3.0.0: Ensure 'Allow Online Tips' is set to 'Disabled'.,7,19007
+"May 13, 2026 @ 15:44:34.842",safesoc-win-01,CIS Microsoft Windows 11 Enterprise Benchmark v3.0.0: Ensure 'Allow users to enable online speech recognition services' is set to 'Disabled'.,7,19007
+"May 13, 2026 @ 15:44:34.796",safesoc-win-01,CIS Microsoft Windows 11 Enterprise Benchmark v3.0.0: Ensure 'Prevent enabling lock screen slide show' is set to 'Enabled'.,7,19007
+"May 13, 2026 @ 15:44:34.780",safesoc-win-01,CIS Microsoft Windows 11 Enterprise Benchmark v3.0.0: Ensure 'Prevent enabling lock screen camera' is set to 'Enabled'.,7,19007
+"May 13, 2026 @ 15:44:34.765",safesoc-win-01,CIS Microsoft Windows 11 Enterprise Benchmark v3.0.0: Ensure 'Audit System Integrity' is set to 'Success and Failure'.,3,19008
+"May 13, 2026 @ 15:44:34.701",safesoc-win-01,CIS Microsoft Windows 11 Enterprise Benchmark v3.0.0: Ensure 'Audit Security System Extension' is set to include 'Success'.,7,19007
+"May 13, 2026 @ 15:44:34.671",safesoc-win-01,CIS Microsoft Windows 11 Enterprise Benchmark v3.0.0: Ensure 'Audit Security State Change' is set to include 'Success'.,3,19008
+"May 13, 2026 @ 15:44:34.639",safesoc-win-01,CIS Microsoft Windows 11 Enterprise Benchmark v3.0.0: Ensure 'Audit Other System Events' is set to 'Success and Failure'.,3,19008
+"May 13, 2026 @ 15:44:34.608",safesoc-win-01,CIS Microsoft Windows 11 Enterprise Benchmark v3.0.0: Ensure 'Audit IPsec Driver' is set to 'Success and Failure'.,7,19007
+"May 13, 2026 @ 15:44:34.284",safesoc-win-01,CIS Microsoft Windows 11 Enterprise Benchmark v3.0.0: Ensure 'Audit Sensitive Privilege Use' is set to 'Success and Failure'.,7,19007
+"May 13, 2026 @ 15:44:34.284",safesoc-win-01,CIS Microsoft Windows 11 Enterprise Benchmark v3.0.0: Ensure 'Audit Other Policy Change Events' is set to include 'Failure'.,7,19007
+"May 13, 2026 @ 15:44:34.283",safesoc-win-01,CIS Microsoft Windows 11 Enterprise Benchmark v3.0.0: Ensure 'Audit MPSSVC Rule-Level Policy Change' is set to 'Success and Failure'.,7,19007
+"May 13, 2026 @ 15:44:34.282",safesoc-win-01,CIS Microsoft Windows 11 Enterprise Benchmark v3.0.0: Ensure 'Audit Authorization Policy Change' is set to include 'Success'.,7,19007
+"May 13, 2026 @ 15:44:34.224",safesoc-win-01,CIS Microsoft Windows 11 Enterprise Benchmark v3.0.0: Ensure 'Audit Authentication Policy Change' is set to include 'Success'.,3,19008
+"May 13, 2026 @ 15:44:34.224",safesoc-win-01,CIS Microsoft Windows 11 Enterprise Benchmark v3.0.0: Ensure 'Audit Audit Policy Change' is set to include 'Success'.,3,19008
+"May 13, 2026 @ 15:44:34.189",safesoc-win-01,CIS Microsoft Windows 11 Enterprise Benchmark v3.0.0: Ensure 'Audit Removable Storage' is set to 'Success and Failure'.,7,19007
+"May 13, 2026 @ 15:44:34.164",safesoc-win-01,CIS Microsoft Windows 11 Enterprise Benchmark v3.0.0: Ensure 'Audit Other Object Access Events' is set to 'Success and Failure'.,7,19007
+"May 13, 2026 @ 15:44:34.145",safesoc-win-01,CIS Microsoft Windows 11 Enterprise Benchmark v3.0.0: Ensure 'Audit File Share' is set to 'Success and Failure'.,7,19007
+"May 13, 2026 @ 15:44:34.143",safesoc-win-01,CIS Microsoft Windows 11 Enterprise Benchmark v3.0.0: Ensure 'Audit Detailed File Share' is set to include 'Failure'.,7,19007
+"May 13, 2026 @ 15:44:34.095",safesoc-win-01,CIS Microsoft Windows 11 Enterprise Benchmark v3.0.0: Ensure 'Audit Special Logon' is set to include 'Success'.,3,19008
+"May 13, 2026 @ 15:44:34.065",safesoc-win-01,CIS Microsoft Windows 11 Enterprise Benchmark v3.0.0: Ensure 'Audit Other Logon/Logoff Events' is set to 'Success and Failure'.,7,19007
+"May 13, 2026 @ 15:44:34.047",safesoc-win-01,CIS Microsoft Windows 11 Enterprise Benchmark v3.0.0: Ensure 'Audit Logon' is set to 'Success and Failure'.,3,19008
+"May 13, 2026 @ 15:44:33.938",safesoc-win-01,CIS Microsoft Windows 11 Enterprise Benchmark v3.0.0: Ensure 'Audit Logoff' is set to include 'Success'.,3,19008
+"May 13, 2026 @ 15:44:33.921",safesoc-win-01,CIS Microsoft Windows 11 Enterprise Benchmark v3.0.0: Ensure 'Audit Group Membership' is set to include 'Success'.,7,19007
+"May 13, 2026 @ 15:44:33.870",safesoc-win-01,CIS Microsoft Windows 11 Enterprise Benchmark v3.0.0: Ensure 'Audit Account Lockout' is set to include 'Failure'.,7,19007
+"May 13, 2026 @ 15:44:33.846",safesoc-win-01,CIS Microsoft Windows 11 Enterprise Benchmark v3.0.0: Ensure 'Audit Process Creation' is set to include 'Success'.,7,19007
+"May 13, 2026 @ 15:44:33.812",safesoc-win-01,CIS Microsoft Windows 11 Enterprise Benchmark v3.0.0: Ensure 'Audit PNP Activity' is set to include 'Success'.,7,19007
+"May 13, 2026 @ 15:44:33.723",safesoc-win-01,CIS Microsoft Windows 11 Enterprise Benchmark v3.0.0: Ensure 'Audit User Account Management' is set to 'Success and Failure'.,7,19007
+"May 13, 2026 @ 15:44:33.692",safesoc-win-01,CIS Microsoft Windows 11 Enterprise Benchmark v3.0.0: Ensure 'Audit Security Group Management' is set to include 'Success'.,3,19008
+"May 13, 2026 @ 15:44:33.661",safesoc-win-01,CIS Microsoft Windows 11 Enterprise Benchmark v3.0.0: Ensure 'Audit Application Group Management' is set to 'Success and Failure'.,7,19007
+"May 13, 2026 @ 15:44:33.631",safesoc-win-01,CIS Microsoft Windows 11 Enterprise Benchmark v3.0.0: Ensure 'Audit Credential Validation' is set to 'Success and Failure'.,7,19007
+"May 13, 2026 @ 15:44:33.538",safesoc-win-01,CIS Microsoft Windows 11 Enterprise Benchmark v3.0.0: Ensure 'Windows Firewall: Public: Logging: Log successful connections' is set to 'Yes'.,7,19007
+"May 13, 2026 @ 15:44:33.508",safesoc-win-01,CIS Microsoft Windows 11 Enterprise Benchmark v3.0.0: Ensure 'Windows Firewall: Public: Logging: Log dropped packets' is set to 'Yes'.,7,19007
+"May 13, 2026 @ 15:44:33.476",safesoc-win-01,"CIS Microsoft Windows 11 Enterprise Benchmark v3.0.0: Ensure 'Windows Firewall: Public: Logging: Size limit (KB)' is set to '16,384 KB or greater'.",7,19007
+"May 13, 2026 @ 15:44:33.446",safesoc-win-01,CIS Microsoft Windows 11 Enterprise Benchmark v3.0.0: Ensure 'Windows Firewall: Public: Logging: Name' is set to '%SystemRoot%\System32\logfiles\firewall\publicfw.log'.,7,19007
+"May 13, 2026 @ 15:44:33.415",safesoc-win-01,CIS Microsoft Windows 11 Enterprise Benchmark v3.0.0: Ensure 'Windows Firewall: Public: Settings: Apply local connection security rules' is set to 'No'.,7,19007
+"May 13, 2026 @ 15:44:33.323",safesoc-win-01,CIS Microsoft Windows 11 Enterprise Benchmark v3.0.0: Ensure 'Windows Firewall: Public: Settings: Apply local firewall rules' is set to 'No'.,7,19007
+"May 13, 2026 @ 15:44:33.293",safesoc-win-01,CIS Microsoft Windows 11 Enterprise Benchmark v3.0.0: Ensure 'Windows Firewall: Public: Settings: Display a notification' is set to 'No'.,7,19007
+"May 13, 2026 @ 15:44:33.276",safesoc-win-01,CIS Microsoft Windows 11 Enterprise Benchmark v3.0.0: Ensure 'Windows Firewall: Public: Inbound connections' is set to 'Block (default)'.,3,19008
+"May 13, 2026 @ 15:44:33.246",safesoc-win-01,CIS Microsoft Windows 11 Enterprise Benchmark v3.0.0: Ensure 'Windows Firewall: Public: Firewall state' is set to 'On (recommended)'.,3,19008
+"May 13, 2026 @ 15:44:33.153",safesoc-win-01,CIS Microsoft Windows 11 Enterprise Benchmark v3.0.0: Ensure 'Windows Firewall: Private: Logging: Log successful connections' is set to 'Yes'.,7,19007
+"May 13, 2026 @ 15:44:33.122",safesoc-win-01,CIS Microsoft Windows 11 Enterprise Benchmark v3.0.0: Ensure 'Windows Firewall: Private: Logging: Log dropped packets' is set to 'Yes'.,7,19007
+"May 13, 2026 @ 15:44:33.091",safesoc-win-01,"CIS Microsoft Windows 11 Enterprise Benchmark v3.0.0: Ensure 'Windows Firewall: Private: Logging: Size limit (KB)' is set to '16,384 KB or greater'.",7,19007
+"May 13, 2026 @ 15:44:33.060",safesoc-win-01,CIS Microsoft Windows 11 Enterprise Benchmark v3.0.0: Ensure 'Windows Firewall: Private: Logging: Name' is set to '%SystemRoot%\System32\logfiles\firewall\privatefw.log'.,7,19007
+"May 13, 2026 @ 15:44:32.968",safesoc-win-01,CIS Microsoft Windows 11 Enterprise Benchmark v3.0.0: Ensure 'Windows Firewall: Private: Settings: Display a notification' is set to 'No'.,7,19007
+"May 13, 2026 @ 15:44:32.643",safesoc-win-01,CIS Microsoft Windows 11 Enterprise Benchmark v3.0.0: Ensure 'Windows Firewall: Private: Inbound connections' is set to 'Block (default)'.,3,19008
+"May 13, 2026 @ 15:44:32.612",safesoc-win-01,CIS Microsoft Windows 11 Enterprise Benchmark v3.0.0: Ensure 'Windows Firewall: Private: Firewall state' is set to 'On (recommended)'.,3,19008
+"May 13, 2026 @ 15:44:32.581",safesoc-win-01,CIS Microsoft Windows 11 Enterprise Benchmark v3.0.0: Ensure 'Windows Firewall: Domain: Logging: Log successful connections' is set to 'Yes'.,7,19007
+"May 13, 2026 @ 15:44:32.550",safesoc-win-01,CIS Microsoft Windows 11 Enterprise Benchmark v3.0.0: Ensure 'Windows Firewall: Domain: Logging: Log dropped packets' is set to 'Yes'.,7,19007
+"May 13, 2026 @ 15:44:32.459",safesoc-win-01,"CIS Microsoft Windows 11 Enterprise Benchmark v3.0.0: Ensure 'Windows Firewall: Domain: Logging: Size limit (KB)' is set to '16,384 KB or greater'.",7,19007
+"May 13, 2026 @ 15:44:32.427",safesoc-win-01,CIS Microsoft Windows 11 Enterprise Benchmark v3.0.0: Ensure 'Windows Firewall: Domain: Logging: Name' is set to '%SystemRoot%System32\logfiles\firewall\domainfw.log'.,7,19007
+"May 13, 2026 @ 15:44:32.396",safesoc-win-01,CIS Microsoft Windows 11 Enterprise Benchmark v3.0.0: Ensure 'Windows Firewall: Domain: Settings: Display a notification' is set to 'No'.,7,19007
+"May 13, 2026 @ 15:44:32.366",safesoc-win-01,CIS Microsoft Windows 11 Enterprise Benchmark v3.0.0: Ensure 'Windows Firewall: Domain: Inbound connections' is set to 'Block (default)'.,3,19008
+"May 13, 2026 @ 15:44:32.274",safesoc-win-01,CIS Microsoft Windows 11 Enterprise Benchmark v3.0.0: Ensure 'Windows Firewall: Domain: Firewall state' is set to 'On (recommended)'.,3,19008
+"May 13, 2026 @ 15:44:32.244",safesoc-win-01,CIS Microsoft Windows 11 Enterprise Benchmark v3.0.0: Ensure 'Xbox Live Networking Service (XboxNetApiSvc)' is set to 'Disabled'.,7,19007
+"May 13, 2026 @ 15:44:32.212",safesoc-win-01,CIS Microsoft Windows 11 Enterprise Benchmark v3.0.0: Ensure 'Xbox Live Game Save (XblGameSave)' is set to 'Disabled'.,7,19007
+"May 13, 2026 @ 15:44:32.181",safesoc-win-01,CIS Microsoft Windows 11 Enterprise Benchmark v3.0.0: Ensure 'Xbox Live Auth Manager (XblAuthManager)' is set to 'Disabled'.,7,19007
+"May 13, 2026 @ 15:44:32.104",safesoc-win-01,CIS Microsoft Windows 11 Enterprise Benchmark v3.0.0: Ensure 'Xbox Accessory Management Service (XboxGipSvc)' is set to 'Disabled'.,7,19007
+"May 13, 2026 @ 15:44:32.076",safesoc-win-01,CIS Microsoft Windows 11 Enterprise Benchmark v3.0.0: Ensure 'World Wide Web Publishing Service (W3SVC)' is set to 'Disabled' or 'Not Installed'.,3,19008
+"May 13, 2026 @ 15:44:32.075",safesoc-win-01,CIS Microsoft Windows 11 Enterprise Benchmark v3.0.0: Ensure 'Windows Remote Management (WS- Management) (WinRM)' is set to 'Disabled'.,7,19007
+"May 13, 2026 @ 15:44:32.057",safesoc-win-01,CIS Microsoft Windows 11 Enterprise Benchmark v3.0.0: Ensure 'Windows PushToInstall Service (PushToInstall)' is set to 'Disabled'.,7,19007
+"May 13, 2026 @ 15:44:32.026",safesoc-win-01,CIS Microsoft Windows 11 Enterprise Benchmark v3.0.0: Ensure 'Windows Push Notifications System Service (WpnService)' is set to 'Disabled'.,7,19007
+"May 13, 2026 @ 15:44:31.959",safesoc-win-01,CIS Microsoft Windows 11 Enterprise Benchmark v3.0.0: Ensure 'Windows Mobile Hotspot Service (icssvc)' is set to 'Disabled'.,7,19007
+"May 13, 2026 @ 15:44:31.959",safesoc-win-01,CIS Microsoft Windows 11 Enterprise Benchmark v3.0.0: Ensure 'Windows Media Player Network Sharing Service (WMPNetworkSvc)' is set to 'Disabled' or 'Not Installed'.,7,19007
+"May 13, 2026 @ 15:44:31.933",safesoc-win-01,CIS Microsoft Windows 11 Enterprise Benchmark v3.0.0: Ensure 'Windows Event Collector (Wecsvc)' is set to 'Disabled'.,7,19007
+"May 13, 2026 @ 15:44:31.840",safesoc-win-01,CIS Microsoft Windows 11 Enterprise Benchmark v3.0.0: Ensure 'Windows Error Reporting Service (WerSvc)' is set to 'Disabled'.,7,19007
+"May 13, 2026 @ 15:44:31.809",safesoc-win-01,CIS Microsoft Windows 11 Enterprise Benchmark v3.0.0: Ensure 'Web Management Service (WMSvc)' is set to 'Disabled' or 'Not Installed'.,3,19008
+"May 13, 2026 @ 15:44:31.780",safesoc-win-01,CIS Microsoft Windows 11 Enterprise Benchmark v3.0.0: Ensure 'UPnP Device Host (upnphost)' is set to 'Disabled'.,7,19007
+"May 13, 2026 @ 15:44:31.749",safesoc-win-01,CIS Microsoft Windows 11 Enterprise Benchmark v3.0.0: Ensure 'SSDP Discovery (SSDPSRV)' is set to 'Disabled'.,7,19007
+"May 13, 2026 @ 15:44:31.686",safesoc-win-01,CIS Microsoft Windows 11 Enterprise Benchmark v3.0.0: Ensure 'Special Administration Console Helper (sacsvr)' is set to 'Disabled' or 'Not Installed'.,3,19008
+"May 13, 2026 @ 15:44:31.654",safesoc-win-01,CIS Microsoft Windows 11 Enterprise Benchmark v3.0.0: Ensure 'SNMP Service (SNMP)' is set to 'Disabled' or 'Not Installed'.,3,19008
+"May 13, 2026 @ 15:44:31.624",safesoc-win-01,CIS Microsoft Windows 11 Enterprise Benchmark v3.0.0: Ensure 'Simple TCP/IP Services (simptcp)' is set to 'Disabled' or 'Not Installed'.,3,19008
+"May 13, 2026 @ 15:44:31.593",safesoc-win-01,CIS Microsoft Windows 11 Enterprise Benchmark v3.0.0: Ensure 'Server (LanmanServer)' is set to 'Disabled'.,7,19007
+"May 13, 2026 @ 15:44:31.516",safesoc-win-01,CIS Microsoft Windows 11 Enterprise Benchmark v3.0.0: Ensure 'Routing and Remote Access (RemoteAccess)' is set to 'Disabled'.,3,19008
+"May 13, 2026 @ 15:44:31.485",safesoc-win-01,CIS Microsoft Windows 11 Enterprise Benchmark v3.0.0: Ensure 'Remote Registry (RemoteRegistry)' is set to 'Disabled'.,3,19008
+"May 13, 2026 @ 15:44:31.455",safesoc-win-01,CIS Microsoft Windows 11 Enterprise Benchmark v3.0.0: Ensure 'Remote Procedure Call (RPC) Locator (RpcLocator)' is set to 'Disabled'.,7,19007
+"May 13, 2026 @ 15:44:31.424",safesoc-win-01,CIS Microsoft Windows 11 Enterprise Benchmark v3.0.0: Ensure 'Remote Desktop Services UserMode Port Redirector (UmRdpService)' is set to 'Disabled'.,7,19007
+"May 13, 2026 @ 15:44:31.331",safesoc-win-01,CIS Microsoft Windows 11 Enterprise Benchmark v3.0.0: Ensure 'Remote Desktop Services (TermService)' is set to 'Disabled'.,7,19007
+"May 13, 2026 @ 15:44:31.314",safesoc-win-01,CIS Microsoft Windows 11 Enterprise Benchmark v3.0.0: Ensure 'Remote Desktop Configuration (SessionEnv)' is set to 'Disabled'.,7,19007
+"May 13, 2026 @ 15:44:30.998",safesoc-win-01,CIS Microsoft Windows 11 Enterprise Benchmark v3.0.0: Ensure 'Problem Reports and Solutions Control Panel Support (wercplsupport)' is set to 'Disabled'.,7,19007
+"May 13, 2026 @ 15:44:30.998",safesoc-win-01,CIS Microsoft Windows 11 Enterprise Benchmark v3.0.0: Ensure 'Remote Access Auto Connection Manager (RasAuto)' is set to 'Disabled'.,7,19007
+"May 13, 2026 @ 15:44:30.929",safesoc-win-01,CIS Microsoft Windows 11 Enterprise Benchmark v3.0.0: Ensure 'Print Spooler (Spooler)' is set to 'Disabled'.,7,19007
+"May 13, 2026 @ 15:44:30.898",safesoc-win-01,CIS Microsoft Windows 11 Enterprise Benchmark v3.0.0: Ensure 'PNRP Machine Name Publication Service (PNRPAutoReg)' is set to 'Disabled'.,3,19009
+"May 13, 2026 @ 15:44:30.874",safesoc-win-01,CIS Microsoft Windows 11 Enterprise Benchmark v3.0.0: Ensure 'Peer Networking Identity Manager (p2pimsvc)' is set to 'Disabled'.,3,19009
+"May 13, 2026 @ 15:44:30.872",safesoc-win-01,CIS Microsoft Windows 11 Enterprise Benchmark v3.0.0: Ensure 'Peer Networking Grouping (p2psvc)' is set to 'Disabled'.,3,19009
+"May 13, 2026 @ 15:44:30.859",safesoc-win-01,CIS Microsoft Windows 11 Enterprise Benchmark v3.0.0: Ensure 'Peer Name Resolution Protocol (PNRPsvc)' is set to 'Disabled'.,3,19009
+"May 13, 2026 @ 15:44:30.774",safesoc-win-01,CIS Microsoft Windows 11 Enterprise Benchmark v3.0.0: Ensure 'OpenSSH SSH Server (sshd)' is set to 'Disabled' or 'Not Installed'.,3,19008
+"May 13, 2026 @ 15:44:30.746",safesoc-win-01,CIS Microsoft Windows 11 Enterprise Benchmark v3.0.0: Ensure 'Microsoft iSCSI Initiator Service (MSiSCSI)' is set to 'Disabled'.,7,19007
+"May 13, 2026 @ 15:44:30.745",safesoc-win-01,CIS Microsoft Windows 11 Enterprise Benchmark v3.0.0: Ensure 'Microsoft FTP Service (FTPSVC)' is set to 'Disabled' or 'Not Installed'.,3,19008
+"May 13, 2026 @ 15:44:30.671",safesoc-win-01,CIS Microsoft Windows 11 Enterprise Benchmark v3.0.0: Ensure 'LxssManager (LxssManager)' is set to 'Disabled' or 'Not Installed'.,3,19008
+"May 13, 2026 @ 15:44:30.636",safesoc-win-01,CIS Microsoft Windows 11 Enterprise Benchmark v3.0.0: Ensure 'Link-Layer Topology Discovery Mapper (lltdsvc)' is set to 'Disabled'.,7,19007
+"May 13, 2026 @ 15:44:30.606",safesoc-win-01,CIS Microsoft Windows 11 Enterprise Benchmark v3.0.0: Ensure 'Infrared monitor service (irmon)' is set to 'Disabled' or 'Not Installed'.,3,19008
+"May 13, 2026 @ 15:44:30.575",safesoc-win-01,CIS Microsoft Windows 11 Enterprise Benchmark v3.0.0: Ensure 'IIS Admin Service (IISADMIN)' is set to 'Disabled' or 'Not Installed'.,3,19008
+"May 13, 2026 @ 15:44:30.509",safesoc-win-01,CIS Microsoft Windows 11 Enterprise Benchmark v3.0.0: Ensure 'Geolocation Service (lfsvc)' is set to 'Disabled'.,7,19007
+"May 13, 2026 @ 15:44:30.478",safesoc-win-01,CIS Microsoft Windows 11 Enterprise Benchmark v3.0.0: Ensure 'Downloaded Maps Manager (MapsBroker)' is set to 'Disabled'.,7,19007
+"May 13, 2026 @ 15:44:30.447",safesoc-win-01,CIS Microsoft Windows 11 Enterprise Benchmark v3.0.0: Ensure 'Computer Browser (Browser)' is set to 'Disabled' or 'Not Installed'.,3,19009
+"May 13, 2026 @ 15:44:30.417",safesoc-win-01,CIS Microsoft Windows 11 Enterprise Benchmark v3.0.0: Ensure 'Bluetooth Support Service (bthserv)' is set to 'Disabled'.,7,19007
+"May 13, 2026 @ 15:44:30.354",safesoc-win-01,CIS Microsoft Windows 11 Enterprise Benchmark v3.0.0: Ensure 'Bluetooth Audio Gateway Service (BTAGService)' is set to 'Disabled'.,7,19007
+"May 13, 2026 @ 15:44:30.330",safesoc-win-01,CIS Microsoft Windows 11 Enterprise Benchmark v3.0.0: Ensure 'User Account Control: Virtualize file and registry write failures to per-user locations' is set to 'Enabled'.,3,19008
+"May 13, 2026 @ 15:44:30.308",safesoc-win-01,CIS Microsoft Windows 11 Enterprise Benchmark v3.0.0: Ensure 'User Account Control: Switch to the secure desktop when prompting for elevation' is set to 'Enabled'.,3,19008
+"May 13, 2026 @ 15:44:30.276",safesoc-win-01,CIS Microsoft Windows 11 Enterprise Benchmark v3.0.0: Ensure 'User Account Control: Run all administrators in Admin Approval Mode' is set to 'Enabled'.,3,19008
+"May 13, 2026 @ 15:44:30.183",safesoc-win-01,CIS Microsoft Windows 11 Enterprise Benchmark v3.0.0: Ensure 'User Account Control: Only elevate UIAccess applications that are installed in secure locations' is set to 'Enabled'.,3,19008
+"May 13, 2026 @ 15:44:30.163",safesoc-win-01,CIS Microsoft Windows 11 Enterprise Benchmark v3.0.0: Ensure 'User Account Control: Detect application installations and prompt for elevation' is set to 'Enabled'.,3,19008
+"May 13, 2026 @ 15:44:30.137",safesoc-win-01,CIS Microsoft Windows 11 Enterprise Benchmark v3.0.0: Ensure 'User Account Control: Behavior of the elevation prompt for standard users' is set to 'Automatically deny elevation requests'.,7,19007
+"May 13, 2026 @ 15:44:30.121",safesoc-win-01,CIS Microsoft Windows 11 Enterprise Benchmark v3.0.0: Ensure 'User Account Control: Behavior of the elevation prompt for administrators in Admin Approval Mode' is set to 'Prompt for consent on the secure desktop'.,7,19007
+"May 13, 2026 @ 15:44:30.028",safesoc-win-01,CIS Microsoft Windows 11 Enterprise Benchmark v3.0.0: Ensure 'User Account Control: Admin Approval Mode for the Built-in Administrator account' is set to 'Enabled'.,7,19007
+"May 13, 2026 @ 15:44:29.997",safesoc-win-01,CIS Microsoft Windows 11 Enterprise Benchmark v3.0.0: Ensure 'System objects: Strengthen default permissions of internal system objects (e.g. Symbolic Links)' is set to 'Enabled'.,3,19008
+"May 13, 2026 @ 15:44:29.967",safesoc-win-01,CIS Microsoft Windows 11 Enterprise Benchmark v3.0.0: Ensure 'System objects: Require case insensitivity for non-Windows subsystems' is set to 'Enabled'.,3,19008
+"May 13, 2026 @ 15:44:29.937",safesoc-win-01,CIS Microsoft Windows 11 Enterprise Benchmark v3.0.0: Ensure 'Network security: Restrict NTLM: Outgoing NTLM traffic to remote servers' is set to 'Audit all' or higher.,7,19007
+"May 13, 2026 @ 15:44:29.854",safesoc-win-01,CIS Microsoft Windows 11 Enterprise Benchmark v3.0.0: Ensure 'Network security: Restrict NTLM: Audit Incoming NTLM Traffic' is set to 'Enable auditing for all accounts'.,7,19007
+"May 13, 2026 @ 15:44:29.813",safesoc-win-01,"CIS Microsoft Windows 11 Enterprise Benchmark v3.0.0: Ensure 'Network security: Minimum session security for NTLM SSP based (including secure RPC) servers' is set to 'Require NTLMv2 session security, Require 128-bit encryption'.",7,19007
+"May 13, 2026 @ 15:44:29.781",safesoc-win-01,"CIS Microsoft Windows 11 Enterprise Benchmark v3.0.0: Ensure 'Network security: Minimum session security for NTLM SSP based (including secure RPC) clients' is set to 'Require NTLMv2 session security, Require 128-bit encryption'.",7,19007
+"May 13, 2026 @ 15:44:29.751",safesoc-win-01,CIS Microsoft Windows 11 Enterprise Benchmark v3.0.0: Ensure 'Network security: LDAP client signing requirements' is set to 'Negotiate signing' or higher.,3,19008
+"May 13, 2026 @ 15:44:29.364",safesoc-win-01,CIS Microsoft Windows 11 Enterprise Benchmark v3.0.0: Ensure 'Network security: LAN Manager authentication level' is set to 'Send NTLMv2 response only. Refuse LM & NTLM'.,7,19007
+"May 13, 2026 @ 15:44:29.334",safesoc-win-01,CIS Microsoft Windows 11 Enterprise Benchmark v3.0.0: Ensure 'Network security: Force logoff when logon hours expire' is set to 'Enabled'.,3,19008
+"May 13, 2026 @ 15:44:29.302",safesoc-win-01,CIS Microsoft Windows 11 Enterprise Benchmark v3.0.0: Ensure 'Network security: Do not store LAN Manager hash value on next password change' is set to 'Enabled'.,3,19008
+"May 13, 2026 @ 15:44:29.272",safesoc-win-01,"CIS Microsoft Windows 11 Enterprise Benchmark v3.0.0: Ensure 'Network security: Configure encryption types allowed for Kerberos' is set to 'AES128_HMAC_SHA1, AES256_HMAC_SHA1, Future encryption types'.",7,19007
+"May 13, 2026 @ 15:44:29.179",safesoc-win-01,CIS Microsoft Windows 11 Enterprise Benchmark v3.0.0: Ensure 'Network Security: Allow PKU2U authentication requests to this computer to use online identities' is set to 'Disabled'.,3,19008
+"May 13, 2026 @ 15:44:29.149",safesoc-win-01,CIS Microsoft Windows 11 Enterprise Benchmark v3.0.0: Ensure 'Network security: Allow LocalSystem NULL session fallback' is set to 'Disabled'.,3,19008
+"May 13, 2026 @ 15:44:29.118",safesoc-win-01,CIS Microsoft Windows 11 Enterprise Benchmark v3.0.0: Ensure 'Network security: Allow Local System to use computer identity for NTLM' is set to 'Enabled'.,7,19007
+"May 13, 2026 @ 15:44:29.087",safesoc-win-01,CIS Microsoft Windows 11 Enterprise Benchmark v3.0.0: Ensure 'Network access: Sharing and security model for local accounts' is set to 'Classic - local users authenticate as themselves'.,3,19008
+"May 13, 2026 @ 15:44:29.009",safesoc-win-01,CIS Microsoft Windows 11 Enterprise Benchmark v3.0.0: Ensure 'Network access: Shares that can be accessed anonymously' is set to 'None'.,3,19008
+"May 13, 2026 @ 15:44:28.978",safesoc-win-01,CIS Microsoft Windows 11 Enterprise Benchmark v3.0.0: Ensure 'Network access: Restrict clients allowed to make remote calls to SAM' is set to 'Administrators: Remote Access: Allow'.,3,19008
+"May 13, 2026 @ 15:44:28.947",safesoc-win-01,CIS Microsoft Windows 11 Enterprise Benchmark v3.0.0: Ensure 'Network access: Restrict anonymous access to Named Pipes and Shares' is set to 'Enabled'.,3,19008
+"May 13, 2026 @ 15:44:28.932",safesoc-win-01,CIS Microsoft Windows 11 Enterprise Benchmark v3.0.0: Ensure 'Network access: Remotely accessible registry paths and sub-paths' is configured.,3,19008
+"May 13, 2026 @ 15:44:28.839",safesoc-win-01,CIS Microsoft Windows 11 Enterprise Benchmark v3.0.0: Ensure 'Network access: Remotely accessible registry paths' is configured.,3,19008
+"May 13, 2026 @ 15:44:28.809",safesoc-win-01,CIS Microsoft Windows 11 Enterprise Benchmark v3.0.0: Ensure 'Network access: Named Pipes that can be accessed anonymously' is set to 'None'.,3,19008
+"May 13, 2026 @ 15:44:28.778",safesoc-win-01,CIS Microsoft Windows 11 Enterprise Benchmark v3.0.0: Ensure 'Network access: Let Everyone permissions apply to anonymous users' is set to 'Disabled'.,3,19008
+"May 13, 2026 @ 15:44:28.746",safesoc-win-01,CIS Microsoft Windows 11 Enterprise Benchmark v3.0.0: Ensure 'Network access: Do not allow storage of passwords and credentials for network authentication' is set to 'Enabled'.,7,19007
+"May 13, 2026 @ 15:44:28.654",safesoc-win-01,CIS Microsoft Windows 11 Enterprise Benchmark v3.0.0: Ensure 'Network access: Do not allow anonymous enumeration of SAM accounts and shares' is set to 'Enabled'.,7,19007
+"May 13, 2026 @ 15:44:28.624",safesoc-win-01,CIS Microsoft Windows 11 Enterprise Benchmark v3.0.0: Ensure 'Network access: Do not allow anonymous enumeration of SAM accounts' is set to 'Enabled'.,3,19008
+"May 13, 2026 @ 15:44:28.593",safesoc-win-01,CIS Microsoft Windows 11 Enterprise Benchmark v3.0.0: Ensure 'Microsoft network server: Server SPN target name validation level' is set to 'Accept if provided by client' or higher.,7,19007
+"May 13, 2026 @ 15:44:28.566",safesoc-win-01,CIS Microsoft Windows 11 Enterprise Benchmark v3.0.0: Ensure 'Microsoft network server: Disconnect clients when logon hours expire' is set to 'Enabled'.,3,19008
+"May 13, 2026 @ 15:44:28.531",safesoc-win-01,CIS Microsoft Windows 11 Enterprise Benchmark v3.0.0: Ensure 'Microsoft network server: Digitally sign communications (if client agrees)' is set to 'Enabled'.,7,19007
+"May 13, 2026 @ 15:44:28.438",safesoc-win-01,CIS Microsoft Windows 11 Enterprise Benchmark v3.0.0: Ensure 'Microsoft network server: Digitally sign communications (always)' is set to 'Enabled'.,7,19007
+"May 13, 2026 @ 15:44:28.407",safesoc-win-01,CIS Microsoft Windows 11 Enterprise Benchmark v3.0.0: Ensure 'Microsoft network server: Amount of idle time required before suspending session' is set to '15 or fewer minute(s)'.,3,19008
+"May 13, 2026 @ 15:44:28.377",safesoc-win-01,CIS Microsoft Windows 11 Enterprise Benchmark v3.0.0: Ensure 'Microsoft network client: Send unencrypted password to third-party SMB servers' is set to 'Disabled'.,3,19008
+"May 13, 2026 @ 15:44:28.346",safesoc-win-01,CIS Microsoft Windows 11 Enterprise Benchmark v3.0.0: Ensure 'Microsoft network client: Digitally sign communications (if server agrees)' is set to 'Enabled'.,3,19008
+"May 13, 2026 @ 15:44:28.252",safesoc-win-01,CIS Microsoft Windows 11 Enterprise Benchmark v3.0.0: Ensure 'Microsoft network client: Digitally sign communications (always)' is set to 'Enabled'.,7,19007
+"May 13, 2026 @ 15:44:28.222",safesoc-win-01,CIS Microsoft Windows 11 Enterprise Benchmark v3.0.0: Ensure 'Interactive logon: Smart card removal behavior' is set to 'Lock Workstation' or higher.,7,19007
+"May 13, 2026 @ 15:44:28.192",safesoc-win-01,CIS Microsoft Windows 11 Enterprise Benchmark v3.0.0: Ensure 'Interactive logon: Prompt user to change password before expiration' is set to 'between 5 and 14 days'.,3,19008
+"May 13, 2026 @ 15:44:28.163",safesoc-win-01,CIS Microsoft Windows 11 Enterprise Benchmark v3.0.0: Ensure 'Interactive logon: Number of previous logons to cache (in case domain controller is not available)' is set to '4 or fewer logon(s)'.,7,19007
+"May 13, 2026 @ 15:44:28.086",safesoc-win-01,CIS Microsoft Windows 11 Enterprise Benchmark v3.0.0: Configure 'Interactive logon: Message title for users attempting to log on'.,7,19007
+"May 13, 2026 @ 15:44:28.067",safesoc-win-01,CIS Microsoft Windows 11 Enterprise Benchmark v3.0.0: Configure 'Interactive logon: Message text for users attempting to log on'.,7,19007
+"May 13, 2026 @ 15:44:28.040",safesoc-win-01,"CIS Microsoft Windows 11 Enterprise Benchmark v3.0.0: Ensure 'Interactive logon: Machine inactivity limit' is set to '900 or fewer second(s), but not 0'.",7,19007
+"May 13, 2026 @ 15:44:28.005",safesoc-win-01,"CIS Microsoft Windows 11 Enterprise Benchmark v3.0.0: Ensure 'Interactive logon: Machine account lockout threshold' is set to '10 or fewer invalid logon attempts, but not 0'.",7,19007
+"May 13, 2026 @ 15:44:27.927",safesoc-win-01,CIS Microsoft Windows 11 Enterprise Benchmark v3.0.0: Ensure 'Interactive logon: Don't display last signed-in' is set to 'Enabled'.,7,19007
+"May 13, 2026 @ 15:44:27.896",safesoc-win-01,CIS Microsoft Windows 11 Enterprise Benchmark v3.0.0: Ensure 'Interactive logon: Do not require CTRL+ALT+DEL' is set to 'Disabled'.,7,19007
+"May 13, 2026 @ 15:44:27.587",safesoc-win-01,CIS Microsoft Windows 11 Enterprise Benchmark v3.0.0: Ensure 'Domain member: Require strong (Windows 2000 or later) session key' is set to 'Enabled'.,3,19008
+"May 13, 2026 @ 15:44:27.556",safesoc-win-01,"CIS Microsoft Windows 11 Enterprise Benchmark v3.0.0: Ensure 'Domain member: Maximum machine account password age' is set to '30 or fewer days, but not 0'.",3,19008
+"May 13, 2026 @ 15:44:27.464",safesoc-win-01,CIS Microsoft Windows 11 Enterprise Benchmark v3.0.0: Ensure 'Domain member: Disable machine account password changes' is set to 'Disabled'.,3,19008
+"May 13, 2026 @ 15:44:27.443",safesoc-win-01,CIS Microsoft Windows 11 Enterprise Benchmark v3.0.0: Ensure 'Domain member: Digitally sign secure channel data (when possible)' is set to 'Enabled'.,3,19008
+"May 13, 2026 @ 15:44:27.402",safesoc-win-01,CIS Microsoft Windows 11 Enterprise Benchmark v3.0.0: Ensure 'Domain member: Digitally encrypt secure channel data (when possible)' is set to 'Enabled'.,3,19008
+"May 13, 2026 @ 15:44:27.371",safesoc-win-01,CIS Microsoft Windows 11 Enterprise Benchmark v3.0.0: Ensure 'Domain member: Digitally encrypt or sign secure channel data (always)' is set to 'Enabled'.,3,19008
+"May 13, 2026 @ 15:44:27.278",safesoc-win-01,CIS Microsoft Windows 11 Enterprise Benchmark v3.0.0: Ensure 'Devices: Prevent users from installing printer drivers' is set to 'Enabled'.,7,19007
+"May 13, 2026 @ 15:44:27.248",safesoc-win-01,CIS Microsoft Windows 11 Enterprise Benchmark v3.0.0: Ensure 'Audit: Shut down system immediately if unable to log security audits' is set to 'Disabled'.,3,19008
+"May 13, 2026 @ 15:44:27.217",safesoc-win-01,CIS Microsoft Windows 11 Enterprise Benchmark v3.0.0: Ensure 'Audit: Force audit policy subcategory settings (Windows Vista or later) to override audit policy category settings' is set to 'Enabled'.,7,19007
+"May 13, 2026 @ 15:44:27.186",safesoc-win-01,CIS Microsoft Windows 11 Enterprise Benchmark v3.0.0: Configure 'Accounts: Rename guest account'.,7,19007
+"May 13, 2026 @ 15:44:27.109",safesoc-win-01,CIS Microsoft Windows 11 Enterprise Benchmark v3.0.0: Configure 'Accounts: Rename administrator account'.,7,19007
+"May 13, 2026 @ 15:44:27.079",safesoc-win-01,CIS Microsoft Windows 11 Enterprise Benchmark v3.0.0: Ensure 'Accounts: Limit local account use of blank passwords to console logon only' is set to 'Enabled'.,3,19008
+"May 13, 2026 @ 15:44:27.048",safesoc-win-01,CIS Microsoft Windows 11 Enterprise Benchmark v3.0.0: Ensure 'Accounts: Guest account status' is set to 'Disabled'.,3,19008
+"May 13, 2026 @ 15:44:27.018",safesoc-win-01,CIS Microsoft Windows 11 Enterprise Benchmark v3.0.0: Ensure 'Accounts: Block Microsoft accounts' is set to 'Users can't add or log on with Microsoft accounts'.,7,19007
+"May 13, 2026 @ 15:44:26.925",safesoc-win-01,CIS Microsoft Windows 11 Enterprise Benchmark v3.0.0: Ensure 'Reset account lockout counter after' is set to '15 or more minute(s)'.,7,19007
+"May 13, 2026 @ 15:44:26.894",safesoc-win-01,"CIS Microsoft Windows 11 Enterprise Benchmark v3.0.0: Ensure 'Account lockout threshold' is set to '5 or fewer invalid logon attempt(s), but not 0'.",7,19007
+"May 13, 2026 @ 15:44:26.864",safesoc-win-01,CIS Microsoft Windows 11 Enterprise Benchmark v3.0.0: Ensure 'Account lockout duration' is set to '15 or more minute(s)'.,7,19007
+"May 13, 2026 @ 15:44:26.833",safesoc-win-01,CIS Microsoft Windows 11 Enterprise Benchmark v3.0.0: Ensure 'Relax minimum password length limits' is set to 'Enabled'.,7,19007
+"May 13, 2026 @ 15:44:26.802",safesoc-win-01,CIS Microsoft Windows 11 Enterprise Benchmark v3.0.0: Ensure 'Minimum password length' is set to '14 or more character(s)'.,7,19007
+"May 13, 2026 @ 15:44:26.709",safesoc-win-01,CIS Microsoft Windows 11 Enterprise Benchmark v3.0.0: Ensure 'Minimum password age' is set to '1 or more day(s)'.,7,19007
+"May 13, 2026 @ 15:44:26.678",safesoc-win-01,"CIS Microsoft Windows 11 Enterprise Benchmark v3.0.0: Ensure 'Maximum password age' is set to '365 or fewer days, but not 0'.",3,19008
+"May 13, 2026 @ 15:44:26.662",safesoc-win-01,CIS Microsoft Windows 11 Enterprise Benchmark v3.0.0: Ensure 'Enforce password history' is set to '24 or more password(s)'.,7,19007
+"May 13, 2026 @ 15:44:08.136",safesoc-win-01,Software protection service scheduled successfully.,3,60642
+"May 13, 2026 @ 15:44:05.215",safesoc-win-01,Wazuh agent started.,3,503
+"May 13, 2026 @ 15:44:04.641",safesoc-win-01,Wazuh agent stopped.,3,506
+"May 13, 2026 @ 15:44:02.527",safesoc-win-01,New wazuh agent connected.,3,501

@@ -1,0 +1,7 @@
+timestamp,agent.name,rule.description,rule.level,rule.id
+"May 14, 2026 @ 23:34:49.177",safesoc-lnx-01,SafeAgentSOC simulated credential dumping gap marker,10,100782
+"May 14, 2026 @ 23:34:49.176",safesoc-lnx-01,SafeAgentSOC simulated credential dumping gap marker,10,100782
+"May 14, 2026 @ 23:34:48.599",safesoc-lnx-01,SafeAgentSOC simulated credential dumping gap marker,10,100782
+"May 14, 2026 @ 23:34:48.580",safesoc-lnx-01,SafeAgentSOC simulated credential dumping gap marker,10,100782
+"May 14, 2026 @ 23:34:31.170",safesoc-lnx-01,PAM: Login session closed.,3,5502
+"May 14, 2026 @ 23:34:30.576",safesoc-lnx-01,PAM: Login session closed.,3,5502

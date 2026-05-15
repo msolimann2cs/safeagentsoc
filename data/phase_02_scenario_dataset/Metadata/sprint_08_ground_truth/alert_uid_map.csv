@@ -1,0 +1,596 @@
+alert_uid,timestamp,agent_name,rule_id,rule_description,source_run
+ALERT-939476A8BF516E30,2026-05-14T23:41:36.705-0400,safesoc-lnx-01,5402,Successful sudo to ROOT executed.,C-LNX-01-CAL-R001
+ALERT-5B982204218E8B15,2026-05-14T23:41:36.705-0400,safesoc-lnx-01,5501,PAM: Login session opened.,C-LNX-01-CAL-R001
+ALERT-50CAAC0A95F045B8,2026-05-14T23:41:37.307-0400,safesoc-lnx-01,5402,Successful sudo to ROOT executed.,C-LNX-01-CAL-R001
+ALERT-1CD67E9F7F441169,2026-05-14T23:41:37.307-0400,safesoc-lnx-01,5501,PAM: Login session opened.,C-LNX-01-CAL-R001
+ALERT-3C139C9EA59D6AA5,2026-05-14T23:41:37.311-0400,safesoc-lnx-01,2901,New dpkg (Debian Package) requested to install.,C-LNX-01-CAL-R001
+ALERT-F448F208283FD85E,2026-05-14T23:41:37.328-0400,safesoc-lnx-01,2904,Dpkg (Debian Package) half configured.,C-LNX-01-CAL-R001
+ALERT-431ECCF4A088C9AB,2026-05-14T23:41:37.330-0400,safesoc-lnx-01,2902,New dpkg (Debian Package) installed.,C-LNX-01-CAL-R001
+ALERT-CE4A13BE778D3E2D,2026-05-14T23:41:37.335-0400,safesoc-lnx-01,2904,Dpkg (Debian Package) half configured.,C-LNX-01-CAL-R001
+ALERT-BD031D2CEEC3BA5C,2026-05-14T23:41:38.707-0400,safesoc-lnx-01,2902,New dpkg (Debian Package) installed.,C-LNX-01-CAL-R001
+ALERT-A57B1C491294A5AE,2026-05-14T23:41:39.323-0400,safesoc-lnx-01,5502,PAM: Login session closed.,C-LNX-01-CAL-R001
+ALERT-5410A591ADDD1117,2026-05-14T23:41:39.323-0400,safesoc-lnx-01,5502,PAM: Login session closed.,C-LNX-01-CAL-R001
+ALERT-E4376BADD32B886D,2026-05-14T23:42:38.724-0400,safesoc-lnx-01,5501,PAM: Login session opened.,C-LNX-01-CAL-R001
+ALERT-FC2C44F58A9115F4,2026-05-14T23:42:39.324-0400,safesoc-lnx-01,5501,PAM: Login session opened.,C-LNX-01-CAL-R001
+ALERT-561FB6D199940F1C,2026-05-15T00:12:25.208-0400,safesoc-lnx-01,92604,Processes running for all users were queried with ps command.,C-LNX-01-CAL-R002
+ALERT-D33329D0398DE5E9,2026-05-15T00:13:37.238-0400,safesoc-lnx-01,92604,Processes running for all users were queried with ps command.,C-LNX-01-CAL-R002
+ALERT-319CCDE655311608,2026-05-15T00:14:35.246-0400,safesoc-lnx-01,92604,Processes running for all users were queried with ps command.,C-LNX-01-CAL-R002
+ALERT-4E48943D1FB4B605,2026-05-15T00:15:35.267-0400,safesoc-lnx-01,92604,Processes running for all users were queried with ps command.,C-LNX-01-CAL-R002
+ALERT-A1220A2648FB0DAA,2026-05-15T00:16:43.322-0400,safesoc-lnx-01,92604,Processes running for all users were queried with ps command.,C-LNX-01-CAL-R002
+ALERT-A591C7557ECCEB16,2026-05-15T00:17:47.297-0400,safesoc-lnx-01,92604,Processes running for all users were queried with ps command.,C-LNX-01-CAL-R002
+ALERT-8886D78D94AD800D,2026-05-15T00:18:55.313-0400,safesoc-lnx-01,92604,Processes running for all users were queried with ps command.,C-LNX-01-CAL-R002
+ALERT-56E5215B1774D9BD,2026-05-15T00:19:55.349-0400,safesoc-lnx-01,92604,Processes running for all users were queried with ps command.,C-LNX-01-CAL-R002
+ALERT-D333DCF417EBA53B,2026-05-15T00:20:39.359-0400,safesoc-lnx-01,92604,Processes running for all users were queried with ps command.,C-LNX-01-CAL-R002
+ALERT-585DD3F6152E6CA5,2026-05-15T00:21:37.372-0400,safesoc-lnx-01,92604,Processes running for all users were queried with ps command.,C-LNX-01-CAL-R002
+ALERT-0E36E33EAB78C7F9,2026-05-15T00:22:37.386-0400,safesoc-lnx-01,92604,Processes running for all users were queried with ps command.,C-LNX-01-CAL-R002
+ALERT-E9DD862B632660E7,2026-05-15T00:23:35.406-0400,safesoc-lnx-01,92604,Processes running for all users were queried with ps command.,C-LNX-01-CAL-R002
+ALERT-D0A9E728D7C1698C,2026-05-15T00:24:29.451-0400,safesoc-lnx-01,92604,Processes running for all users were queried with ps command.,C-LNX-01-CAL-R002
+ALERT-E7E9E15ED9F70D35,2026-05-15T00:25:35.434-0400,safesoc-lnx-01,92604,Processes running for all users were queried with ps command.,C-LNX-01-CAL-R002
+ALERT-45EFA995E37102F8,2026-05-15T00:26:17.443-0400,safesoc-lnx-01,92604,Processes running for all users were queried with ps command.,C-LNX-01-CAL-R002
+ALERT-E1DDFE2BEA2A83C4,2026-05-15T00:26:59.493-0400,safesoc-lnx-01,92604,Processes running for all users were queried with ps command.,C-LNX-01-CAL-R002
+ALERT-3F74861696BA1246,2026-05-15T00:27:45.506-0400,safesoc-lnx-01,92604,Processes running for all users were queried with ps command.,C-LNX-01-CAL-R002
+ALERT-8C5FEED7F848D6A3,2026-05-15T00:28:31.519-0400,safesoc-lnx-01,92604,Processes running for all users were queried with ps command.,C-LNX-01-CAL-R002
+ALERT-6EB90D9669A9EA66,2026-05-15T00:29:22.184-0400,safesoc-lnx-01,92604,Processes running for all users were queried with ps command.,C-LNX-01-CAL-R002
+ALERT-9BFA3724D0BAC2E6,2026-05-15T00:30:07.545-0400,safesoc-lnx-01,92604,Processes running for all users were queried with ps command.,C-LNX-01-CAL-R002
+ALERT-72F26E87464E67FC,2026-05-15T00:31:11.531-0400,safesoc-lnx-01,92604,Processes running for all users were queried with ps command.,C-LNX-01-CAL-R002
+ALERT-9E5D5E7591D2BA84,2026-05-15T00:32:03.577-0400,safesoc-lnx-01,92604,Processes running for all users were queried with ps command.,C-LNX-01-CAL-R002
+ALERT-F0B0033875C6224D,2026-05-15T00:32:42.280-0400,safesoc-lnx-01,92604,Processes running for all users were queried with ps command.,C-LNX-01-CAL-R002
+ALERT-561FB6D199940F1C,2026-05-15T00:12:25.208-0400,safesoc-lnx-01,92604,Processes running for all users were queried with ps command.,C-LNX-01-CAL-R002
+ALERT-D33329D0398DE5E9,2026-05-15T00:13:37.238-0400,safesoc-lnx-01,92604,Processes running for all users were queried with ps command.,C-LNX-01-CAL-R002
+ALERT-319CCDE655311608,2026-05-15T00:14:35.246-0400,safesoc-lnx-01,92604,Processes running for all users were queried with ps command.,C-LNX-01-CAL-R002
+ALERT-4E48943D1FB4B605,2026-05-15T00:15:35.267-0400,safesoc-lnx-01,92604,Processes running for all users were queried with ps command.,C-LNX-01-CAL-R002
+ALERT-A1220A2648FB0DAA,2026-05-15T00:16:43.322-0400,safesoc-lnx-01,92604,Processes running for all users were queried with ps command.,C-LNX-01-CAL-R002
+ALERT-A591C7557ECCEB16,2026-05-15T00:17:47.297-0400,safesoc-lnx-01,92604,Processes running for all users were queried with ps command.,C-LNX-01-CAL-R002
+ALERT-8886D78D94AD800D,2026-05-15T00:18:55.313-0400,safesoc-lnx-01,92604,Processes running for all users were queried with ps command.,C-LNX-01-CAL-R002
+ALERT-56E5215B1774D9BD,2026-05-15T00:19:55.349-0400,safesoc-lnx-01,92604,Processes running for all users were queried with ps command.,C-LNX-01-CAL-R002
+ALERT-D333DCF417EBA53B,2026-05-15T00:20:39.359-0400,safesoc-lnx-01,92604,Processes running for all users were queried with ps command.,C-LNX-01-CAL-R002
+ALERT-585DD3F6152E6CA5,2026-05-15T00:21:37.372-0400,safesoc-lnx-01,92604,Processes running for all users were queried with ps command.,C-LNX-01-CAL-R002
+ALERT-0E36E33EAB78C7F9,2026-05-15T00:22:37.386-0400,safesoc-lnx-01,92604,Processes running for all users were queried with ps command.,C-LNX-01-CAL-R002
+ALERT-E9DD862B632660E7,2026-05-15T00:23:35.406-0400,safesoc-lnx-01,92604,Processes running for all users were queried with ps command.,C-LNX-01-CAL-R002
+ALERT-D0A9E728D7C1698C,2026-05-15T00:24:29.451-0400,safesoc-lnx-01,92604,Processes running for all users were queried with ps command.,C-LNX-01-CAL-R002
+ALERT-E7E9E15ED9F70D35,2026-05-15T00:25:35.434-0400,safesoc-lnx-01,92604,Processes running for all users were queried with ps command.,C-LNX-01-CAL-R002
+ALERT-45EFA995E37102F8,2026-05-15T00:26:17.443-0400,safesoc-lnx-01,92604,Processes running for all users were queried with ps command.,C-LNX-01-CAL-R002
+ALERT-E1DDFE2BEA2A83C4,2026-05-15T00:26:59.493-0400,safesoc-lnx-01,92604,Processes running for all users were queried with ps command.,C-LNX-01-CAL-R002
+ALERT-3F74861696BA1246,2026-05-15T00:27:45.506-0400,safesoc-lnx-01,92604,Processes running for all users were queried with ps command.,C-LNX-01-CAL-R002
+ALERT-8C5FEED7F848D6A3,2026-05-15T00:28:31.519-0400,safesoc-lnx-01,92604,Processes running for all users were queried with ps command.,C-LNX-01-CAL-R002
+ALERT-6EB90D9669A9EA66,2026-05-15T00:29:22.184-0400,safesoc-lnx-01,92604,Processes running for all users were queried with ps command.,C-LNX-01-CAL-R002
+ALERT-9BFA3724D0BAC2E6,2026-05-15T00:30:07.545-0400,safesoc-lnx-01,92604,Processes running for all users were queried with ps command.,C-LNX-01-CAL-R002
+ALERT-72F26E87464E67FC,2026-05-15T00:31:11.531-0400,safesoc-lnx-01,92604,Processes running for all users were queried with ps command.,C-LNX-01-CAL-R002
+ALERT-9E5D5E7591D2BA84,2026-05-15T00:32:03.577-0400,safesoc-lnx-01,92604,Processes running for all users were queried with ps command.,C-LNX-01-CAL-R002
+ALERT-F0B0033875C6224D,2026-05-15T00:32:42.280-0400,safesoc-lnx-01,92604,Processes running for all users were queried with ps command.,C-LNX-01-CAL-R002
+ALERT-445EBFAE665C8BF8,2026-05-15T00:00:17.017-0400,safesoc-lnx-01,92604,Processes running for all users were queried with ps command.,C-LNX-01-CAL-R003
+ALERT-B11027386A50F2C0,2026-05-15T00:00:21.067-0400,safesoc-lnx-01,80730,Auditd: SELinux permission check.,C-LNX-01-CAL-R003
+ALERT-561FB6D199940F1C,2026-05-15T00:12:25.208-0400,safesoc-lnx-01,92604,Processes running for all users were queried with ps command.,C-LNX-01-CAL-R003
+ALERT-D33329D0398DE5E9,2026-05-15T00:13:37.238-0400,safesoc-lnx-01,92604,Processes running for all users were queried with ps command.,C-LNX-01-CAL-R003
+ALERT-319CCDE655311608,2026-05-15T00:14:35.246-0400,safesoc-lnx-01,92604,Processes running for all users were queried with ps command.,C-LNX-01-CAL-R003
+ALERT-4E48943D1FB4B605,2026-05-15T00:15:35.267-0400,safesoc-lnx-01,92604,Processes running for all users were queried with ps command.,C-LNX-01-CAL-R003
+ALERT-A1220A2648FB0DAA,2026-05-15T00:16:43.322-0400,safesoc-lnx-01,92604,Processes running for all users were queried with ps command.,C-LNX-01-CAL-R003
+ALERT-A591C7557ECCEB16,2026-05-15T00:17:47.297-0400,safesoc-lnx-01,92604,Processes running for all users were queried with ps command.,C-LNX-01-CAL-R003
+ALERT-8886D78D94AD800D,2026-05-15T00:18:55.313-0400,safesoc-lnx-01,92604,Processes running for all users were queried with ps command.,C-LNX-01-CAL-R003
+ALERT-56E5215B1774D9BD,2026-05-15T00:19:55.349-0400,safesoc-lnx-01,92604,Processes running for all users were queried with ps command.,C-LNX-01-CAL-R003
+ALERT-D333DCF417EBA53B,2026-05-15T00:20:39.359-0400,safesoc-lnx-01,92604,Processes running for all users were queried with ps command.,C-LNX-01-CAL-R003
+ALERT-585DD3F6152E6CA5,2026-05-15T00:21:37.372-0400,safesoc-lnx-01,92604,Processes running for all users were queried with ps command.,C-LNX-01-CAL-R003
+ALERT-0E36E33EAB78C7F9,2026-05-15T00:22:37.386-0400,safesoc-lnx-01,92604,Processes running for all users were queried with ps command.,C-LNX-01-CAL-R003
+ALERT-E9DD862B632660E7,2026-05-15T00:23:35.406-0400,safesoc-lnx-01,92604,Processes running for all users were queried with ps command.,C-LNX-01-CAL-R003
+ALERT-D0A9E728D7C1698C,2026-05-15T00:24:29.451-0400,safesoc-lnx-01,92604,Processes running for all users were queried with ps command.,C-LNX-01-CAL-R003
+ALERT-E7E9E15ED9F70D35,2026-05-15T00:25:35.434-0400,safesoc-lnx-01,92604,Processes running for all users were queried with ps command.,C-LNX-01-CAL-R003
+ALERT-45EFA995E37102F8,2026-05-15T00:26:17.443-0400,safesoc-lnx-01,92604,Processes running for all users were queried with ps command.,C-LNX-01-CAL-R003
+ALERT-E1DDFE2BEA2A83C4,2026-05-15T00:26:59.493-0400,safesoc-lnx-01,92604,Processes running for all users were queried with ps command.,C-LNX-01-CAL-R003
+ALERT-3F74861696BA1246,2026-05-15T00:27:45.506-0400,safesoc-lnx-01,92604,Processes running for all users were queried with ps command.,C-LNX-01-CAL-R003
+ALERT-8C5FEED7F848D6A3,2026-05-15T00:28:31.519-0400,safesoc-lnx-01,92604,Processes running for all users were queried with ps command.,C-LNX-01-CAL-R003
+ALERT-6EB90D9669A9EA66,2026-05-15T00:29:22.184-0400,safesoc-lnx-01,92604,Processes running for all users were queried with ps command.,C-LNX-01-CAL-R003
+ALERT-9BFA3724D0BAC2E6,2026-05-15T00:30:07.545-0400,safesoc-lnx-01,92604,Processes running for all users were queried with ps command.,C-LNX-01-CAL-R003
+ALERT-72F26E87464E67FC,2026-05-15T00:31:11.531-0400,safesoc-lnx-01,92604,Processes running for all users were queried with ps command.,C-LNX-01-CAL-R003
+ALERT-9E5D5E7591D2BA84,2026-05-15T00:32:03.577-0400,safesoc-lnx-01,92604,Processes running for all users were queried with ps command.,C-LNX-01-CAL-R003
+ALERT-F0B0033875C6224D,2026-05-15T00:32:42.280-0400,safesoc-lnx-01,92604,Processes running for all users were queried with ps command.,C-LNX-01-CAL-R003
+ALERT-7DDC62E1001D0CE7,2026-05-15T00:33:42.303-0400,safesoc-lnx-01,92604,Processes running for all users were queried with ps command.,C-LNX-01-CAL-R003
+ALERT-9866AAFBF724F412,2026-05-15T00:34:20.313-0400,safesoc-lnx-01,92604,Processes running for all users were queried with ps command.,C-LNX-01-CAL-R003
+ALERT-F3DE08BDD78AA429,2026-05-15T00:35:07.631-0400,safesoc-lnx-01,92604,Processes running for all users were queried with ps command.,C-LNX-01-CAL-R003
+ALERT-D7F767709CF40AC5,2026-05-15T00:36:04.301-0400,safesoc-lnx-01,92604,Processes running for all users were queried with ps command.,C-LNX-01-CAL-R003
+ALERT-10696EE951A4101E,2026-05-15T00:36:50.358-0400,safesoc-lnx-01,92604,Processes running for all users were queried with ps command.,C-LNX-01-CAL-R003
+ALERT-52E11ECC383CB932,2026-05-15T00:37:35.672-0400,safesoc-lnx-01,92604,Processes running for all users were queried with ps command.,C-LNX-01-CAL-R003
+ALERT-E672B0161554767A,2026-05-15T00:38:28.388-0400,safesoc-lnx-01,92604,Processes running for all users were queried with ps command.,C-LNX-01-CAL-R003
+ALERT-6EC4F61199F29F68,2026-05-15T00:39:27.738-0400,safesoc-lnx-01,92604,Processes running for all users were queried with ps command.,C-LNX-01-CAL-R003
+ALERT-4BED18B3EE6420A6,2026-05-15T00:40:08.392-0400,safesoc-lnx-01,92604,Processes running for all users were queried with ps command.,C-LNX-01-CAL-R003
+ALERT-F02BE2253997F44A,2026-05-15T00:41:07.725-0400,safesoc-lnx-01,92604,Processes running for all users were queried with ps command.,C-LNX-01-CAL-R003
+ALERT-0F57925BED3D00B2,2026-05-15T00:42:09.736-0400,safesoc-lnx-01,92604,Processes running for all users were queried with ps command.,C-LNX-01-CAL-R003
+ALERT-29EB000C0A6C8CA7,2026-05-15T00:43:10.437-0400,safesoc-lnx-01,92604,Processes running for all users were queried with ps command.,C-LNX-01-CAL-R003
+ALERT-FB9B90C624B63F0B,2026-05-15T00:43:47.804-0400,safesoc-lnx-01,92604,Processes running for all users were queried with ps command.,C-LNX-01-CAL-R003
+ALERT-0425721CB796C438,2026-05-15T00:44:43.818-0400,safesoc-lnx-01,92604,Processes running for all users were queried with ps command.,C-LNX-01-CAL-R003
+ALERT-972B3F8C6FB1288B,2026-05-15T00:45:36.485-0400,safesoc-lnx-01,92604,Processes running for all users were queried with ps command.,C-LNX-01-CAL-R003
+ALERT-2E8CE9F4E335CC50,2026-05-15T00:46:22.534-0400,safesoc-lnx-01,92604,Processes running for all users were queried with ps command.,C-LNX-01-CAL-R003
+ALERT-919CC0AC33F6DA19,2026-05-15T00:47:18.510-0400,safesoc-lnx-01,92604,Processes running for all users were queried with ps command.,C-LNX-01-CAL-R003
+ALERT-E9391FBFA28E0F80,2026-05-15T00:47:51.834-0400,safesoc-lnx-01,92604,Processes running for all users were queried with ps command.,C-LNX-01-CAL-R003
+ALERT-5B22611803697B4C,2026-05-15T00:48:53.889-0400,safesoc-lnx-01,92604,Processes running for all users were queried with ps command.,C-LNX-01-CAL-R003
+ALERT-599856B22432307F,2026-05-15T00:49:49.910-0400,safesoc-lnx-01,92604,Processes running for all users were queried with ps command.,C-LNX-01-CAL-R003
+ALERT-4A4308F60C18E377,2026-05-15T00:50:41.923-0400,safesoc-lnx-01,92604,Processes running for all users were queried with ps command.,C-LNX-01-CAL-R003
+ALERT-564143E5F4909BB3,2026-05-15T00:51:31.933-0400,safesoc-lnx-01,92604,Processes running for all users were queried with ps command.,C-LNX-01-CAL-R003
+ALERT-0EA1ABDA3F8B8416,2026-05-15T00:52:31.930-0400,safesoc-lnx-01,92604,Processes running for all users were queried with ps command.,C-LNX-01-CAL-R003
+ALERT-ACC16580B4FF4CF4,2026-05-15T00:53:10.631-0400,safesoc-lnx-01,92604,Processes running for all users were queried with ps command.,C-LNX-01-CAL-R003
+ALERT-E0A836B687040340,2026-05-15T00:53:55.987-0400,safesoc-lnx-01,92604,Processes running for all users were queried with ps command.,C-LNX-01-CAL-R003
+ALERT-856AC44E235682C9,2026-05-15T00:54:54.005-0400,safesoc-lnx-01,92604,Processes running for all users were queried with ps command.,C-LNX-01-CAL-R003
+ALERT-DD345CD878810EDD,2026-05-15T00:55:36.666-0400,safesoc-lnx-01,92604,Processes running for all users were queried with ps command.,C-LNX-01-CAL-R003
+ALERT-445EBFAE665C8BF8,2026-05-15T00:00:17.017-0400,safesoc-lnx-01,92604,Processes running for all users were queried with ps command.,C-LNX-01-CAL-R003
+ALERT-B11027386A50F2C0,2026-05-15T00:00:21.067-0400,safesoc-lnx-01,80730,Auditd: SELinux permission check.,C-LNX-01-CAL-R003
+ALERT-561FB6D199940F1C,2026-05-15T00:12:25.208-0400,safesoc-lnx-01,92604,Processes running for all users were queried with ps command.,C-LNX-01-CAL-R003
+ALERT-D33329D0398DE5E9,2026-05-15T00:13:37.238-0400,safesoc-lnx-01,92604,Processes running for all users were queried with ps command.,C-LNX-01-CAL-R003
+ALERT-319CCDE655311608,2026-05-15T00:14:35.246-0400,safesoc-lnx-01,92604,Processes running for all users were queried with ps command.,C-LNX-01-CAL-R003
+ALERT-4E48943D1FB4B605,2026-05-15T00:15:35.267-0400,safesoc-lnx-01,92604,Processes running for all users were queried with ps command.,C-LNX-01-CAL-R003
+ALERT-A1220A2648FB0DAA,2026-05-15T00:16:43.322-0400,safesoc-lnx-01,92604,Processes running for all users were queried with ps command.,C-LNX-01-CAL-R003
+ALERT-A591C7557ECCEB16,2026-05-15T00:17:47.297-0400,safesoc-lnx-01,92604,Processes running for all users were queried with ps command.,C-LNX-01-CAL-R003
+ALERT-8886D78D94AD800D,2026-05-15T00:18:55.313-0400,safesoc-lnx-01,92604,Processes running for all users were queried with ps command.,C-LNX-01-CAL-R003
+ALERT-56E5215B1774D9BD,2026-05-15T00:19:55.349-0400,safesoc-lnx-01,92604,Processes running for all users were queried with ps command.,C-LNX-01-CAL-R003
+ALERT-D333DCF417EBA53B,2026-05-15T00:20:39.359-0400,safesoc-lnx-01,92604,Processes running for all users were queried with ps command.,C-LNX-01-CAL-R003
+ALERT-585DD3F6152E6CA5,2026-05-15T00:21:37.372-0400,safesoc-lnx-01,92604,Processes running for all users were queried with ps command.,C-LNX-01-CAL-R003
+ALERT-0E36E33EAB78C7F9,2026-05-15T00:22:37.386-0400,safesoc-lnx-01,92604,Processes running for all users were queried with ps command.,C-LNX-01-CAL-R003
+ALERT-E9DD862B632660E7,2026-05-15T00:23:35.406-0400,safesoc-lnx-01,92604,Processes running for all users were queried with ps command.,C-LNX-01-CAL-R003
+ALERT-D0A9E728D7C1698C,2026-05-15T00:24:29.451-0400,safesoc-lnx-01,92604,Processes running for all users were queried with ps command.,C-LNX-01-CAL-R003
+ALERT-E7E9E15ED9F70D35,2026-05-15T00:25:35.434-0400,safesoc-lnx-01,92604,Processes running for all users were queried with ps command.,C-LNX-01-CAL-R003
+ALERT-45EFA995E37102F8,2026-05-15T00:26:17.443-0400,safesoc-lnx-01,92604,Processes running for all users were queried with ps command.,C-LNX-01-CAL-R003
+ALERT-E1DDFE2BEA2A83C4,2026-05-15T00:26:59.493-0400,safesoc-lnx-01,92604,Processes running for all users were queried with ps command.,C-LNX-01-CAL-R003
+ALERT-3F74861696BA1246,2026-05-15T00:27:45.506-0400,safesoc-lnx-01,92604,Processes running for all users were queried with ps command.,C-LNX-01-CAL-R003
+ALERT-8C5FEED7F848D6A3,2026-05-15T00:28:31.519-0400,safesoc-lnx-01,92604,Processes running for all users were queried with ps command.,C-LNX-01-CAL-R003
+ALERT-6EB90D9669A9EA66,2026-05-15T00:29:22.184-0400,safesoc-lnx-01,92604,Processes running for all users were queried with ps command.,C-LNX-01-CAL-R003
+ALERT-9BFA3724D0BAC2E6,2026-05-15T00:30:07.545-0400,safesoc-lnx-01,92604,Processes running for all users were queried with ps command.,C-LNX-01-CAL-R003
+ALERT-72F26E87464E67FC,2026-05-15T00:31:11.531-0400,safesoc-lnx-01,92604,Processes running for all users were queried with ps command.,C-LNX-01-CAL-R003
+ALERT-9E5D5E7591D2BA84,2026-05-15T00:32:03.577-0400,safesoc-lnx-01,92604,Processes running for all users were queried with ps command.,C-LNX-01-CAL-R003
+ALERT-F0B0033875C6224D,2026-05-15T00:32:42.280-0400,safesoc-lnx-01,92604,Processes running for all users were queried with ps command.,C-LNX-01-CAL-R003
+ALERT-7DDC62E1001D0CE7,2026-05-15T00:33:42.303-0400,safesoc-lnx-01,92604,Processes running for all users were queried with ps command.,C-LNX-01-CAL-R003
+ALERT-9866AAFBF724F412,2026-05-15T00:34:20.313-0400,safesoc-lnx-01,92604,Processes running for all users were queried with ps command.,C-LNX-01-CAL-R003
+ALERT-F3DE08BDD78AA429,2026-05-15T00:35:07.631-0400,safesoc-lnx-01,92604,Processes running for all users were queried with ps command.,C-LNX-01-CAL-R003
+ALERT-D7F767709CF40AC5,2026-05-15T00:36:04.301-0400,safesoc-lnx-01,92604,Processes running for all users were queried with ps command.,C-LNX-01-CAL-R003
+ALERT-10696EE951A4101E,2026-05-15T00:36:50.358-0400,safesoc-lnx-01,92604,Processes running for all users were queried with ps command.,C-LNX-01-CAL-R003
+ALERT-52E11ECC383CB932,2026-05-15T00:37:35.672-0400,safesoc-lnx-01,92604,Processes running for all users were queried with ps command.,C-LNX-01-CAL-R003
+ALERT-E672B0161554767A,2026-05-15T00:38:28.388-0400,safesoc-lnx-01,92604,Processes running for all users were queried with ps command.,C-LNX-01-CAL-R003
+ALERT-6EC4F61199F29F68,2026-05-15T00:39:27.738-0400,safesoc-lnx-01,92604,Processes running for all users were queried with ps command.,C-LNX-01-CAL-R003
+ALERT-4BED18B3EE6420A6,2026-05-15T00:40:08.392-0400,safesoc-lnx-01,92604,Processes running for all users were queried with ps command.,C-LNX-01-CAL-R003
+ALERT-F02BE2253997F44A,2026-05-15T00:41:07.725-0400,safesoc-lnx-01,92604,Processes running for all users were queried with ps command.,C-LNX-01-CAL-R003
+ALERT-0F57925BED3D00B2,2026-05-15T00:42:09.736-0400,safesoc-lnx-01,92604,Processes running for all users were queried with ps command.,C-LNX-01-CAL-R003
+ALERT-29EB000C0A6C8CA7,2026-05-15T00:43:10.437-0400,safesoc-lnx-01,92604,Processes running for all users were queried with ps command.,C-LNX-01-CAL-R003
+ALERT-FB9B90C624B63F0B,2026-05-15T00:43:47.804-0400,safesoc-lnx-01,92604,Processes running for all users were queried with ps command.,C-LNX-01-CAL-R003
+ALERT-0425721CB796C438,2026-05-15T00:44:43.818-0400,safesoc-lnx-01,92604,Processes running for all users were queried with ps command.,C-LNX-01-CAL-R003
+ALERT-972B3F8C6FB1288B,2026-05-15T00:45:36.485-0400,safesoc-lnx-01,92604,Processes running for all users were queried with ps command.,C-LNX-01-CAL-R003
+ALERT-2E8CE9F4E335CC50,2026-05-15T00:46:22.534-0400,safesoc-lnx-01,92604,Processes running for all users were queried with ps command.,C-LNX-01-CAL-R003
+ALERT-919CC0AC33F6DA19,2026-05-15T00:47:18.510-0400,safesoc-lnx-01,92604,Processes running for all users were queried with ps command.,C-LNX-01-CAL-R003
+ALERT-E9391FBFA28E0F80,2026-05-15T00:47:51.834-0400,safesoc-lnx-01,92604,Processes running for all users were queried with ps command.,C-LNX-01-CAL-R003
+ALERT-5B22611803697B4C,2026-05-15T00:48:53.889-0400,safesoc-lnx-01,92604,Processes running for all users were queried with ps command.,C-LNX-01-CAL-R003
+ALERT-599856B22432307F,2026-05-15T00:49:49.910-0400,safesoc-lnx-01,92604,Processes running for all users were queried with ps command.,C-LNX-01-CAL-R003
+ALERT-4A4308F60C18E377,2026-05-15T00:50:41.923-0400,safesoc-lnx-01,92604,Processes running for all users were queried with ps command.,C-LNX-01-CAL-R003
+ALERT-564143E5F4909BB3,2026-05-15T00:51:31.933-0400,safesoc-lnx-01,92604,Processes running for all users were queried with ps command.,C-LNX-01-CAL-R003
+ALERT-0EA1ABDA3F8B8416,2026-05-15T00:52:31.930-0400,safesoc-lnx-01,92604,Processes running for all users were queried with ps command.,C-LNX-01-CAL-R003
+ALERT-ACC16580B4FF4CF4,2026-05-15T00:53:10.631-0400,safesoc-lnx-01,92604,Processes running for all users were queried with ps command.,C-LNX-01-CAL-R003
+ALERT-E0A836B687040340,2026-05-15T00:53:55.987-0400,safesoc-lnx-01,92604,Processes running for all users were queried with ps command.,C-LNX-01-CAL-R003
+ALERT-856AC44E235682C9,2026-05-15T00:54:54.005-0400,safesoc-lnx-01,92604,Processes running for all users were queried with ps command.,C-LNX-01-CAL-R003
+ALERT-DD345CD878810EDD,2026-05-15T00:55:36.666-0400,safesoc-lnx-01,92604,Processes running for all users were queried with ps command.,C-LNX-01-CAL-R003
+ALERT-8CC19D87B23E8B95,2026-05-15T00:00:01.795-0400,safesoc-lnx-01,80730,Auditd: SELinux permission check.,C-LNX-01-CAL-R003
+ALERT-241E8920F35C2DA1,2026-05-14T20:08:30.984-0400,safesoc-win-01,92021,Powershell was used to delete files or directories,C-WIN-01-CAL-R001
+ALERT-4F934C1BC754D7EF,2026-05-14T20:09:36.451-0400,safesoc-win-01,92058,Application Compatibility Database launched,C-WIN-01-CAL-R001
+ALERT-3DFDAB4E9559DAFC,2026-05-14T20:45:58.997-0400,safesoc-win-01,92021,Powershell was used to delete files or directories,C-WIN-01-CAL-R002
+ALERT-42D9340D3CF83762,2026-05-14T20:46:37.048-0400,safesoc-win-01,92004,Powershell process spawned Windows command shell instance,C-WIN-01-CAL-R002
+ALERT-E40DEFEAF83C1E68,2026-05-14T20:46:37.452-0400,safesoc-win-01,62123,Windows Defender: Antimalware platform detected  potentially unwanted software (),C-WIN-01-CAL-R002
+ALERT-E1FF02B179F073BC,2026-05-14T20:46:51.515-0400,safesoc-win-01,62123,Windows Defender: Antimalware platform detected  potentially unwanted software (),C-WIN-01-CAL-R002
+ALERT-1B9F355D1DC23D02,2026-05-14T20:46:51.517-0400,safesoc-win-01,62124,Windows Defender: Antimalware platform performed an action to protect you from potentially unwanted software (),C-WIN-01-CAL-R002
+ALERT-0BB2D7F4C63BC8C3,2026-05-14T20:47:29.069-0400,safesoc-win-01,92021,Powershell was used to delete files or directories,C-WIN-01-CAL-R002
+ALERT-5B67C23CBE5BA9DA,2026-05-14T20:47:29.714-0400,safesoc-win-01,62123,Windows Defender: Antimalware platform detected  potentially unwanted software (),C-WIN-01-CAL-R002
+ALERT-E67DFBFEE5EC95C9,2026-05-14T20:47:42.695-0400,safesoc-win-01,62124,Windows Defender: Antimalware platform performed an action to protect you from potentially unwanted software (),C-WIN-01-CAL-R002
+ALERT-4F09B55198EF9E18,2026-05-14T20:48:15.090-0400,safesoc-win-01,92029,Powershell executed script from suspicious location,C-WIN-01-CAL-R002
+ALERT-D3F89CEDA28377BE,2026-05-14T20:48:15.094-0400,safesoc-win-01,92027,Powershell process spawned powershell instance,C-WIN-01-CAL-R002
+ALERT-E24EB852CA6D13FA,2026-05-14T18:21:29.564-0400,safesoc-win-01,92033,Discovery activity spawned via powershell execution,S01-ART-R001
+ALERT-6BCE8985DD9D00FB,2026-05-14T18:21:29.593-0400,safesoc-win-01,92031,Discovery activity executed,S01-ART-R001
+ALERT-9E81834E9BF6C30C,2026-05-14T18:27:22.542-0400,safesoc-win-01,92021,Powershell was used to delete files or directories,S01-ART-R001
+ALERT-B6BF48E23EC3B438,2026-05-14T18:27:24.148-0400,safesoc-win-01,92066,C:\\Windows\\SysWOW64\\SecEdit.exe binary in a suspicious location launched by C:\\Windows\\SysWOW64\\WindowsPowerShell\\v1.0\\powershell.exe,S01-ART-R001
+ALERT-E5E4B6F2D41717CE,2026-05-14T18:27:25.315-0400,safesoc-win-01,92021,Powershell was used to delete files or directories,S01-ART-R001
+ALERT-3B389E7C40E54E20,2026-05-14T18:27:25.344-0400,safesoc-win-01,92066,C:\\Windows\\SysWOW64\\SecEdit.exe binary in a suspicious location launched by C:\\Windows\\SysWOW64\\WindowsPowerShell\\v1.0\\powershell.exe,S01-ART-R001
+ALERT-2A5360900AD00180,2026-05-14T18:27:26.578-0400,safesoc-win-01,92021,Powershell was used to delete files or directories,S01-ART-R001
+ALERT-40278F6DA081083B,2026-05-14T18:27:26.582-0400,safesoc-win-01,92066,C:\\Windows\\SysWOW64\\SecEdit.exe binary in a suspicious location launched by C:\\Windows\\SysWOW64\\WindowsPowerShell\\v1.0\\powershell.exe,S01-ART-R001
+ALERT-EE6AB8F5D152C84A,2026-05-14T18:27:27.775-0400,safesoc-win-01,92021,Powershell was used to delete files or directories,S01-ART-R001
+ALERT-B5E64ADDD32339AF,2026-05-14T18:27:27.788-0400,safesoc-win-01,92066,C:\\Windows\\SysWOW64\\SecEdit.exe binary in a suspicious location launched by C:\\Windows\\SysWOW64\\WindowsPowerShell\\v1.0\\powershell.exe,S01-ART-R001
+ALERT-C8CF0F3D84EAFBB9,2026-05-14T18:27:29.063-0400,safesoc-win-01,92021,Powershell was used to delete files or directories,S01-ART-R001
+ALERT-E507695BA2EA5C21,2026-05-14T18:27:29.109-0400,safesoc-win-01,92066,C:\\Windows\\SysWOW64\\SecEdit.exe binary in a suspicious location launched by C:\\Windows\\SysWOW64\\WindowsPowerShell\\v1.0\\powershell.exe,S01-ART-R001
+ALERT-249626574C110878,2026-05-14T18:27:30.382-0400,safesoc-win-01,92021,Powershell was used to delete files or directories,S01-ART-R001
+ALERT-46EA158D85B8F76F,2026-05-14T18:27:30.427-0400,safesoc-win-01,92066,C:\\Windows\\SysWOW64\\SecEdit.exe binary in a suspicious location launched by C:\\Windows\\SysWOW64\\WindowsPowerShell\\v1.0\\powershell.exe,S01-ART-R001
+ALERT-DCABB53231EA3EA2,2026-05-14T18:27:31.811-0400,safesoc-win-01,92021,Powershell was used to delete files or directories,S01-ART-R001
+ALERT-D1D8BC2ADAD974A8,2026-05-14T18:27:31.858-0400,safesoc-win-01,92066,C:\\Windows\\SysWOW64\\SecEdit.exe binary in a suspicious location launched by C:\\Windows\\SysWOW64\\WindowsPowerShell\\v1.0\\powershell.exe,S01-ART-R001
+ALERT-E9DE7AA21941DE66,2026-05-14T18:27:33.195-0400,safesoc-win-01,92021,Powershell was used to delete files or directories,S01-ART-R001
+ALERT-E571FCED542E953C,2026-05-14T18:27:33.245-0400,safesoc-win-01,92066,C:\\Windows\\SysWOW64\\SecEdit.exe binary in a suspicious location launched by C:\\Windows\\SysWOW64\\WindowsPowerShell\\v1.0\\powershell.exe,S01-ART-R001
+ALERT-240F855565506C86,2026-05-14T18:27:36.078-0400,safesoc-win-01,92031,Discovery activity executed,S01-ART-R001
+ALERT-00F0FC17A23D909B,2026-05-14T18:27:36.127-0400,safesoc-win-01,92031,Discovery activity executed,S01-ART-R001
+ALERT-01F1761453AFF7CE,2026-05-14T18:27:36.207-0400,safesoc-win-01,92031,Discovery activity executed,S01-ART-R001
+ALERT-16D1B7E7D6B6161A,2026-05-14T18:27:36.240-0400,safesoc-win-01,92031,Discovery activity executed,S01-ART-R001
+ALERT-7ABE50FA6F77102A,2026-05-14T18:29:34.495-0400,safesoc-win-01,92052,Windows command prompt started by an abnormal process,S01-ART-R001
+ALERT-B56038E825C98246,2026-05-14T18:29:34.513-0400,safesoc-win-01,92032,Suspicious Windows cmd shell execution,S01-ART-R001
+ALERT-E24EB852CA6D13FA,2026-05-14T18:21:29.564-0400,safesoc-win-01,92033,Discovery activity spawned via powershell execution,S02-ART-R001
+ALERT-6BCE8985DD9D00FB,2026-05-14T18:21:29.593-0400,safesoc-win-01,92031,Discovery activity executed,S02-ART-R001
+ALERT-9E81834E9BF6C30C,2026-05-14T18:27:22.542-0400,safesoc-win-01,92021,Powershell was used to delete files or directories,S02-ART-R001
+ALERT-B6BF48E23EC3B438,2026-05-14T18:27:24.148-0400,safesoc-win-01,92066,C:\\Windows\\SysWOW64\\SecEdit.exe binary in a suspicious location launched by C:\\Windows\\SysWOW64\\WindowsPowerShell\\v1.0\\powershell.exe,S02-ART-R001
+ALERT-E5E4B6F2D41717CE,2026-05-14T18:27:25.315-0400,safesoc-win-01,92021,Powershell was used to delete files or directories,S02-ART-R001
+ALERT-3B389E7C40E54E20,2026-05-14T18:27:25.344-0400,safesoc-win-01,92066,C:\\Windows\\SysWOW64\\SecEdit.exe binary in a suspicious location launched by C:\\Windows\\SysWOW64\\WindowsPowerShell\\v1.0\\powershell.exe,S02-ART-R001
+ALERT-2A5360900AD00180,2026-05-14T18:27:26.578-0400,safesoc-win-01,92021,Powershell was used to delete files or directories,S02-ART-R001
+ALERT-40278F6DA081083B,2026-05-14T18:27:26.582-0400,safesoc-win-01,92066,C:\\Windows\\SysWOW64\\SecEdit.exe binary in a suspicious location launched by C:\\Windows\\SysWOW64\\WindowsPowerShell\\v1.0\\powershell.exe,S02-ART-R001
+ALERT-EE6AB8F5D152C84A,2026-05-14T18:27:27.775-0400,safesoc-win-01,92021,Powershell was used to delete files or directories,S02-ART-R001
+ALERT-B5E64ADDD32339AF,2026-05-14T18:27:27.788-0400,safesoc-win-01,92066,C:\\Windows\\SysWOW64\\SecEdit.exe binary in a suspicious location launched by C:\\Windows\\SysWOW64\\WindowsPowerShell\\v1.0\\powershell.exe,S02-ART-R001
+ALERT-C8CF0F3D84EAFBB9,2026-05-14T18:27:29.063-0400,safesoc-win-01,92021,Powershell was used to delete files or directories,S02-ART-R001
+ALERT-E507695BA2EA5C21,2026-05-14T18:27:29.109-0400,safesoc-win-01,92066,C:\\Windows\\SysWOW64\\SecEdit.exe binary in a suspicious location launched by C:\\Windows\\SysWOW64\\WindowsPowerShell\\v1.0\\powershell.exe,S02-ART-R001
+ALERT-249626574C110878,2026-05-14T18:27:30.382-0400,safesoc-win-01,92021,Powershell was used to delete files or directories,S02-ART-R001
+ALERT-46EA158D85B8F76F,2026-05-14T18:27:30.427-0400,safesoc-win-01,92066,C:\\Windows\\SysWOW64\\SecEdit.exe binary in a suspicious location launched by C:\\Windows\\SysWOW64\\WindowsPowerShell\\v1.0\\powershell.exe,S02-ART-R001
+ALERT-DCABB53231EA3EA2,2026-05-14T18:27:31.811-0400,safesoc-win-01,92021,Powershell was used to delete files or directories,S02-ART-R001
+ALERT-D1D8BC2ADAD974A8,2026-05-14T18:27:31.858-0400,safesoc-win-01,92066,C:\\Windows\\SysWOW64\\SecEdit.exe binary in a suspicious location launched by C:\\Windows\\SysWOW64\\WindowsPowerShell\\v1.0\\powershell.exe,S02-ART-R001
+ALERT-E9DE7AA21941DE66,2026-05-14T18:27:33.195-0400,safesoc-win-01,92021,Powershell was used to delete files or directories,S02-ART-R001
+ALERT-E571FCED542E953C,2026-05-14T18:27:33.245-0400,safesoc-win-01,92066,C:\\Windows\\SysWOW64\\SecEdit.exe binary in a suspicious location launched by C:\\Windows\\SysWOW64\\WindowsPowerShell\\v1.0\\powershell.exe,S02-ART-R001
+ALERT-240F855565506C86,2026-05-14T18:27:36.078-0400,safesoc-win-01,92031,Discovery activity executed,S02-ART-R001
+ALERT-00F0FC17A23D909B,2026-05-14T18:27:36.127-0400,safesoc-win-01,92031,Discovery activity executed,S02-ART-R001
+ALERT-01F1761453AFF7CE,2026-05-14T18:27:36.207-0400,safesoc-win-01,92031,Discovery activity executed,S02-ART-R001
+ALERT-16D1B7E7D6B6161A,2026-05-14T18:27:36.240-0400,safesoc-win-01,92031,Discovery activity executed,S02-ART-R001
+ALERT-7ABE50FA6F77102A,2026-05-14T18:29:34.495-0400,safesoc-win-01,92052,Windows command prompt started by an abnormal process,S02-ART-R001
+ALERT-B56038E825C98246,2026-05-14T18:29:34.513-0400,safesoc-win-01,92032,Suspicious Windows cmd shell execution,S02-ART-R001
+ALERT-BC4DAC4A4440C939,2026-05-14T18:32:12.005-0400,safesoc-win-01,92052,Windows command prompt started by an abnormal process,S02-ART-R001
+ALERT-A24C16982EAFE1DE,2026-05-14T18:34:10.791-0400,safesoc-win-01,60642,Software protection service scheduled successfully.,S02-ART-R001
+ALERT-342C5B66225F7CE0,2026-05-14T18:34:55.379-0400,safesoc-win-01,92027,Powershell process spawned powershell instance,S02-ART-R001
+ALERT-B6C671251BE41A9A,2026-05-14T18:34:57.612-0400,safesoc-win-01,92052,Windows command prompt started by an abnormal process,S02-ART-R001
+ALERT-9177243BBEB9831F,2026-05-14T18:34:57.625-0400,safesoc-win-01,92032,Suspicious Windows cmd shell execution,S02-ART-R001
+ALERT-6AD5CB11EF0ED53E,2026-05-14T18:36:05.926-0400,safesoc-win-01,92027,Powershell process spawned powershell instance,S02-ART-R001
+ALERT-C761C5F3C81EFFAD,2026-05-14T18:36:06.132-0400,safesoc-win-01,92027,Powershell process spawned powershell instance,S02-ART-R001
+ALERT-3ACDFD8934976577,2026-05-14T18:36:08.048-0400,safesoc-win-01,92052,Windows command prompt started by an abnormal process,S02-ART-R001
+ALERT-3499DF86650D423B,2026-05-14T18:09:35.760-0400,safesoc-win-01,92058,Application Compatibility Database launched,S02-MAN-R001
+ALERT-1537C8F4E2257816,2026-05-14T18:09:55.448-0400,safesoc-win-01,23502,The CVE-2022-30168 that affected Photos was solved due to an update in the agent or feed.,S02-MAN-R001
+ALERT-A31799F239723742,2026-05-14T18:11:06.586-0400,safesoc-win-01,61104,Service startup type was changed,S02-MAN-R001
+ALERT-5A5F5204B91A7758,2026-05-14T18:15:06.597-0400,safesoc-win-01,92052,Windows command prompt started by an abnormal process,S02-MAN-R001
+ALERT-DA619709B127A6D7,2026-05-14T18:15:06.608-0400,safesoc-win-01,92032,Suspicious Windows cmd shell execution,S02-MAN-R001
+ALERT-E24EB852CA6D13FA,2026-05-14T18:21:29.564-0400,safesoc-win-01,92033,Discovery activity spawned via powershell execution,S02-MAN-R001
+ALERT-6BCE8985DD9D00FB,2026-05-14T18:21:29.593-0400,safesoc-win-01,92031,Discovery activity executed,S02-MAN-R001
+ALERT-85AB624AB4D8540D,2026-05-14T19:09:26.105-0400,safesoc-win-01,60642,Software protection service scheduled successfully.,S03-ART-R001
+ALERT-F54F32E684D07544,2026-05-14T19:09:36.255-0400,safesoc-win-01,92058,Application Compatibility Database launched,S03-ART-R001
+ALERT-91EC49D912E0873D,2026-05-14T19:15:49.231-0400,safesoc-win-01,92052,Windows command prompt started by an abnormal process,S03-ART-R001
+ALERT-FD81A1D265A7CB99,2026-05-14T19:15:49.231-0400,safesoc-win-01,92032,Suspicious Windows cmd shell execution,S03-ART-R001
+ALERT-37600BB7A7198A96,2026-05-14T19:15:49.248-0400,safesoc-win-01,92041,Value added to registry key has Base64-like pattern,S03-ART-R001
+ALERT-08737328FF06FC95,2026-05-14T19:15:49.279-0400,safesoc-win-01,92034,Discovery activity spawned via cmd shell execution,S03-ART-R001
+ALERT-6AE1CE3DFF951341,2026-05-14T19:15:49.310-0400,safesoc-win-01,92034,Discovery activity spawned via cmd shell execution,S03-ART-R001
+ALERT-D95F98C341361895,2026-05-14T19:17:18.486-0400,safesoc-win-01,60642,Software protection service scheduled successfully.,S03-ART-R001
+ALERT-F8DFC591808283C7,2026-05-14T19:32:11.048-0400,safesoc-win-01,92052,Windows command prompt started by an abnormal process,S04-ART-R001
+ALERT-9312495453C9CB65,2026-05-14T19:32:11.048-0400,safesoc-win-01,92032,Suspicious Windows cmd shell execution,S04-ART-R001
+ALERT-F4B0406EB0FA25A0,2026-05-14T19:32:11.063-0400,safesoc-win-01,92034,Discovery activity spawned via cmd shell execution,S04-ART-R001
+ALERT-7D877CF0FC9243F8,2026-05-14T19:33:20.190-0400,safesoc-win-01,92052,Windows command prompt started by an abnormal process,S04-ART-R001
+ALERT-375F64CDE85DB6DD,2026-05-14T19:33:20.190-0400,safesoc-win-01,92032,Suspicious Windows cmd shell execution,S04-ART-R001
+ALERT-5CBAF43094079D04,2026-05-14T19:33:34.223-0400,safesoc-win-01,92032,Suspicious Windows cmd shell execution,S04-ART-R001
+ALERT-DDDA5099D1461A64,2026-05-14T19:33:34.223-0400,safesoc-win-01,92052,Windows command prompt started by an abnormal process,S04-ART-R001
+ALERT-E0E059A849254989,2026-05-14T19:33:42.595-0400,safesoc-win-01,92052,Windows command prompt started by an abnormal process,S04-ART-R001
+ALERT-389565396AEBBC11,2026-05-14T19:33:42.626-0400,safesoc-win-01,92032,Suspicious Windows cmd shell execution,S04-ART-R001
+ALERT-2CBC009482D37896,2026-05-14T19:33:52.261-0400,safesoc-win-01,92052,Windows command prompt started by an abnormal process,S04-ART-R001
+ALERT-6FB9BE3CD8150C74,2026-05-14T19:33:52.261-0400,safesoc-win-01,92032,Suspicious Windows cmd shell execution,S04-ART-R001
+ALERT-9A2402FEA5735B75,2026-05-14T19:34:07.542-0400,safesoc-win-01,92027,Powershell process spawned powershell instance,S04-ART-R001
+ALERT-3D1146B8CFC8893B,2026-05-14T19:34:17.975-0400,safesoc-win-01,92052,Windows command prompt started by an abnormal process,S04-ART-R001
+ALERT-B97F52C7C8F22174,2026-05-14T19:34:17.975-0400,safesoc-win-01,92032,Suspicious Windows cmd shell execution,S04-ART-R001
+ALERT-2A545801CB2D335F,2026-05-14T19:34:17.997-0400,safesoc-win-01,92032,Suspicious Windows cmd shell execution,S04-ART-R001
+ALERT-B3296DE8409BC25A,2026-05-14T19:34:20.786-0400,safesoc-win-01,92027,Powershell process spawned powershell instance,S04-ART-R001
+ALERT-BB06733144048710,2026-05-14T21:43:36.453-0400,safesoc-lnx-01,5402,Successful sudo to ROOT executed.,S07-MAN-R001
+ALERT-BD62C9C01EF24601,2026-05-14T21:43:36.454-0400,safesoc-lnx-01,5501,PAM: Login session opened.,S07-MAN-R001
+ALERT-6584E66BFDB6753B,2026-05-14T21:43:36.692-0400,safesoc-lnx-01,5402,Successful sudo to ROOT executed.,S07-MAN-R001
+ALERT-DFA0EAE582A575A7,2026-05-14T21:43:36.692-0400,safesoc-lnx-01,5501,PAM: Login session opened.,S07-MAN-R001
+ALERT-4950AB929E1CEFC5,2026-05-14T21:45:59.557-0400,safesoc-lnx-01,5502,PAM: Login session closed.,S07-MAN-R001
+ALERT-5B5B46CAA3ADF5BA,2026-05-14T21:45:59.556-0400,safesoc-lnx-01,5502,PAM: Login session closed.,S07-MAN-R001
+ALERT-3815C4714914BE69,2026-05-14T21:46:08.532-0400,safesoc-lnx-01,100764,SafeAgentSOC S09 Linux discovery scenario marker,S07-MAN-R001
+ALERT-03B8AE134EA282B9,2026-05-14T21:46:08.532-0400,safesoc-lnx-01,100760,SafeAgentSOC run start marker observed,S07-MAN-R001
+ALERT-939838210113F0BE,2026-05-14T21:46:08.532-0400,safesoc-lnx-01,100761,SafeAgentSOC run end marker observed,S07-MAN-R001
+ALERT-377C4E024FC0B911,2026-05-14T21:46:08.801-0400,safesoc-lnx-01,100760,SafeAgentSOC run start marker observed,S07-MAN-R001
+ALERT-608CA00884F0BD0D,2026-05-14T21:46:08.804-0400,safesoc-lnx-01,100764,SafeAgentSOC S09 Linux discovery scenario marker,S07-MAN-R001
+ALERT-48F357A17DF717CF,2026-05-14T21:46:08.806-0400,safesoc-lnx-01,100761,SafeAgentSOC run end marker observed,S07-MAN-R001
+ALERT-3F21421AE050B140,2026-05-14T21:47:40.556-0400,safesoc-lnx-01,5710,sshd: Attempt to login using a non-existent user,S07-MAN-R001
+ALERT-8D873F0B03C40C05,2026-05-14T21:47:40.857-0400,safesoc-lnx-01,5710,sshd: Attempt to login using a non-existent user,S07-MAN-R001
+ALERT-5FA7918F56E09D1C,2026-05-14T21:47:44.557-0400,safesoc-lnx-01,5503,PAM: User login failed.,S07-MAN-R001
+ALERT-525293A39910B688,2026-05-14T21:47:44.858-0400,safesoc-lnx-01,5503,PAM: User login failed.,S07-MAN-R001
+ALERT-D5B808143FF1D02A,2026-05-14T21:47:46.557-0400,safesoc-lnx-01,5710,sshd: Attempt to login using a non-existent user,S07-MAN-R001
+ALERT-23EE2D62FADFE6C1,2026-05-14T21:47:46.858-0400,safesoc-lnx-01,5710,sshd: Attempt to login using a non-existent user,S07-MAN-R001
+ALERT-17BA9A86E47F34D4,2026-05-14T21:47:52.560-0400,safesoc-lnx-01,5710,sshd: Attempt to login using a non-existent user,S07-MAN-R001
+ALERT-E4D4E1B19F220B80,2026-05-14T21:47:52.860-0400,safesoc-lnx-01,5710,sshd: Attempt to login using a non-existent user,S07-MAN-R001
+ALERT-7C0D6E22CFB2AE36,2026-05-14T21:47:58.561-0400,safesoc-lnx-01,5710,sshd: Attempt to login using a non-existent user,S07-MAN-R001
+ALERT-1DEC75D2B59F158B,2026-05-14T21:47:58.863-0400,safesoc-lnx-01,5712,sshd: brute force trying to get access to the system. Non existent user.,S07-MAN-R001
+ALERT-B535D85C2D6341DF,2026-05-14T21:48:00.562-0400,safesoc-lnx-01,2502,syslog: User missed the password more than one time,S07-MAN-R001
+ALERT-D50622CD5E996274,2026-05-14T21:48:00.864-0400,safesoc-lnx-01,2502,syslog: User missed the password more than one time,S07-MAN-R001
+ALERT-C5713FBB17FDA7B5,2026-05-14T21:48:24.570-0400,safesoc-lnx-01,5402,Successful sudo to ROOT executed.,S07-MAN-R001
+ALERT-EC4CABF1FC783811,2026-05-14T21:48:24.570-0400,safesoc-lnx-01,5501,PAM: Login session opened.,S07-MAN-R001
+ALERT-3A661FD73ED474F4,2026-05-14T21:48:24.572-0400,safesoc-lnx-01,5502,PAM: Login session closed.,S07-MAN-R001
+ALERT-78DDC2547A2138AC,2026-05-14T21:48:24.870-0400,safesoc-lnx-01,5402,Successful sudo to ROOT executed.,S07-MAN-R001
+ALERT-1A4D337D9E1E3630,2026-05-14T21:48:24.870-0400,safesoc-lnx-01,5501,PAM: Login session opened.,S07-MAN-R001
+ALERT-47840C289D5FEC42,2026-05-14T21:48:24.873-0400,safesoc-lnx-01,5502,PAM: Login session closed.,S07-MAN-R001
+ALERT-DA19BBD1F2F23772,2026-05-14T21:49:10.895-0400,safesoc-lnx-01,5503,PAM: User login failed.,S07-MAN-R001
+ALERT-D011FF14D054B5C6,2026-05-14T21:49:10.937-0400,safesoc-lnx-01,5503,PAM: User login failed.,S07-MAN-R001
+ALERT-DC14E99B7429A350,2026-05-14T21:49:14.583-0400,safesoc-lnx-01,5760,sshd: authentication failed.,S07-MAN-R001
+ALERT-B6E6B4C249EE8C4B,2026-05-14T21:49:14.896-0400,safesoc-lnx-01,5760,sshd: authentication failed.,S07-MAN-R001
+ALERT-8637886942D256ED,2026-05-14T21:49:16.896-0400,safesoc-lnx-01,5760,sshd: authentication failed.,S07-MAN-R001
+ALERT-14B9A76E3575F0CD,2026-05-14T21:49:20.897-0400,safesoc-lnx-01,5760,sshd: authentication failed.,S07-MAN-R001
+ALERT-CDF636EC23F31EC2,2026-05-14T21:49:20.900-0400,safesoc-lnx-01,2502,syslog: User missed the password more than one time,S07-MAN-R001
+ALERT-E6CB8B15753257D7,2026-05-14T21:49:20.902-0400,safesoc-lnx-01,5760,sshd: authentication failed.,S07-MAN-R001
+ALERT-6ED4CE3012A0D207,2026-05-14T21:49:20.907-0400,safesoc-lnx-01,2502,syslog: User missed the password more than one time,S07-MAN-R001
+ALERT-E75C6E0B321AF020,2026-05-14T21:49:36.595-0400,safesoc-lnx-01,5402,Successful sudo to ROOT executed.,S07-MAN-R001
+ALERT-EC70056564D5A652,2026-05-14T21:49:36.637-0400,safesoc-lnx-01,5501,PAM: Login session opened.,S07-MAN-R001
+ALERT-5BC74D7C56A3C47C,2026-05-14T21:49:36.637-0400,safesoc-lnx-01,5502,PAM: Login session closed.,S07-MAN-R001
+ALERT-0B5A26813C5A5B76,2026-05-14T21:49:36.902-0400,safesoc-lnx-01,5402,Successful sudo to ROOT executed.,S07-MAN-R001
+ALERT-F65731C25ACFDC42,2026-05-14T21:49:36.902-0400,safesoc-lnx-01,5501,PAM: Login session opened.,S07-MAN-R001
+ALERT-37677A492E131114,2026-05-14T21:49:36.905-0400,safesoc-lnx-01,5502,PAM: Login session closed.,S07-MAN-R001
+ALERT-215232894CE9F86B,2026-05-14T21:49:50.912-0400,safesoc-lnx-01,40112,Multiple authentication failures followed by a success.,S07-MAN-R001
+ALERT-1B2B9D58954BE85D,2026-05-14T21:49:50.927-0400,safesoc-lnx-01,5501,PAM: Login session opened.,S07-MAN-R001
+ALERT-9767D74634A36B19,2026-05-14T21:49:50.937-0400,safesoc-lnx-01,5501,PAM: Login session opened.,S07-MAN-R001
+ALERT-228929E735F24711,2026-05-14T21:49:50.937-0400,safesoc-lnx-01,40112,Multiple authentication failures followed by a success.,S07-MAN-R001
+ALERT-265D00D8887681E3,2026-05-14T21:49:54.607-0400,safesoc-lnx-01,5502,PAM: Login session closed.,S07-MAN-R001
+ALERT-22F14DF0251575F6,2026-05-14T21:49:54.920-0400,safesoc-lnx-01,5502,PAM: Login session closed.,S07-MAN-R001
+ALERT-29A613460E37F06C,2026-05-14T22:06:14.918-0400,safesoc-lnx-01,5503,PAM: User login failed.,S07-MAN-R002
+ALERT-7DBA59F42C6904C5,2026-05-14T22:06:15.311-0400,safesoc-lnx-01,5503,PAM: User login failed.,S07-MAN-R002
+ALERT-7A93CBD9D111C7D8,2026-05-14T22:06:16.920-0400,safesoc-lnx-01,5760,sshd: authentication failed.,S07-MAN-R002
+ALERT-16FA975EB0AA3A33,2026-05-14T22:06:17.312-0400,safesoc-lnx-01,5760,sshd: authentication failed.,S07-MAN-R002
+ALERT-C30E3D3B080848AF,2026-05-14T22:06:23.314-0400,safesoc-lnx-01,5760,sshd: authentication failed.,S07-MAN-R002
+ALERT-034911B6B4BB567B,2026-05-14T22:06:26.924-0400,safesoc-lnx-01,5760,sshd: authentication failed.,S07-MAN-R002
+ALERT-462BA5BD8ADC0E7F,2026-05-14T22:06:26.935-0400,safesoc-lnx-01,2502,syslog: User missed the password more than one time,S07-MAN-R002
+ALERT-9A27C4C50BFB4057,2026-05-14T22:06:27.315-0400,safesoc-lnx-01,5760,sshd: authentication failed.,S07-MAN-R002
+ALERT-BCAA83BC085A4BC6,2026-05-14T22:06:27.317-0400,safesoc-lnx-01,2502,syslog: User missed the password more than one time,S07-MAN-R002
+ALERT-590F590C31DF1C20,2026-05-14T22:22:59.710-0400,safesoc-lnx-01,2501,syslog: User authentication failure.,S08-MAN-R001
+ALERT-EB3E7AA36FA6DBCE,2026-05-14T22:22:59.712-0400,safesoc-lnx-01,2501,syslog: User authentication failure.,S08-MAN-R001
+ALERT-194223BF77006246,2026-05-14T22:23:13.287-0400,safesoc-lnx-01,100763,SafeAgentSOC S08 Linux sudo authentication scenario marker,S08-MAN-R001
+ALERT-62E2E858CAB3F608,2026-05-14T22:23:13.287-0400,safesoc-lnx-01,100760,SafeAgentSOC run start marker observed,S08-MAN-R001
+ALERT-9A9E6FF74D5386F9,2026-05-14T22:23:13.708-0400,safesoc-lnx-01,100760,SafeAgentSOC run start marker observed,S08-MAN-R001
+ALERT-3E4C6DF06C67A67F,2026-05-14T22:23:13.708-0400,safesoc-lnx-01,100763,SafeAgentSOC S08 Linux sudo authentication scenario marker,S08-MAN-R001
+ALERT-1DBD087D1580A107,2026-05-14T22:23:15.288-0400,safesoc-lnx-01,5503,PAM: User login failed.,S08-MAN-R001
+ALERT-F7DCC591FB5E1780,2026-05-14T22:23:15.708-0400,safesoc-lnx-01,5503,PAM: User login failed.,S08-MAN-R001
+ALERT-4BEF8BFBF786AF69,2026-05-14T22:23:23.713-0400,safesoc-lnx-01,5401,Failed attempt to run sudo.,S08-MAN-R001
+ALERT-476B5C5EFEE0E695,2026-05-14T22:23:23.721-0400,safesoc-lnx-01,5401,Failed attempt to run sudo.,S08-MAN-R001
+ALERT-6ABFC29702332E2C,2026-05-14T22:23:29.712-0400,safesoc-lnx-01,5402,Successful sudo to ROOT executed.,S08-MAN-R001
+ALERT-54506003DC94EFA6,2026-05-14T22:23:29.715-0400,safesoc-lnx-01,5501,PAM: Login session opened.,S08-MAN-R001
+ALERT-13A0810F0BA1DEE3,2026-05-14T22:23:29.717-0400,safesoc-lnx-01,5502,PAM: Login session closed.,S08-MAN-R001
+ALERT-74F19672743A6728,2026-05-14T22:23:29.719-0400,safesoc-lnx-01,5402,Successful sudo to ROOT executed.,S08-MAN-R001
+ALERT-90E7A8712E8AFDC1,2026-05-14T22:23:29.722-0400,safesoc-lnx-01,5501,PAM: Login session opened.,S08-MAN-R001
+ALERT-E9772541DFAEF2BF,2026-05-14T22:23:29.724-0400,safesoc-lnx-01,5502,PAM: Login session closed.,S08-MAN-R001
+ALERT-02DA7D8938F83C62,2026-05-14T22:23:39.716-0400,safesoc-lnx-01,100761,SafeAgentSOC run end marker observed,S08-MAN-R001
+ALERT-404F7E3B12697218,2026-05-14T22:23:39.723-0400,safesoc-lnx-01,100761,SafeAgentSOC run end marker observed,S08-MAN-R001
+ALERT-8BDF322C7D91F24D,2026-05-14T22:39:33.566-0400,safesoc-lnx-01,5503,PAM: User login failed.,S08-MAN-R002
+ALERT-77E8E9497336FA3A,2026-05-14T22:39:33.566-0400,safesoc-lnx-01,100760,SafeAgentSOC run start marker observed,S08-MAN-R002
+ALERT-020D9218C34F59C1,2026-05-14T22:39:33.569-0400,safesoc-lnx-01,100763,SafeAgentSOC S08 Linux sudo authentication scenario marker,S08-MAN-R002
+ALERT-F37F25EB3CEA8D31,2026-05-14T22:39:34.047-0400,safesoc-lnx-01,100763,SafeAgentSOC S08 Linux sudo authentication scenario marker,S08-MAN-R002
+ALERT-1C935655C17C76E9,2026-05-14T22:39:34.047-0400,safesoc-lnx-01,100760,SafeAgentSOC run start marker observed,S08-MAN-R002
+ALERT-36FBFCA16BEEB93C,2026-05-14T22:39:34.051-0400,safesoc-lnx-01,5503,PAM: User login failed.,S08-MAN-R002
+ALERT-E7AE2570DD702B2F,2026-05-14T22:39:39.570-0400,safesoc-lnx-01,5401,Failed attempt to run sudo.,S08-MAN-R002
+ALERT-B4852305DEAA738A,2026-05-14T22:39:40.051-0400,safesoc-lnx-01,5401,Failed attempt to run sudo.,S08-MAN-R002
+ALERT-C40A999449F7D932,2026-05-14T22:39:44.052-0400,safesoc-lnx-01,100761,SafeAgentSOC run end marker observed,S08-MAN-R002
+ALERT-F1B7F067DC9A615C,2026-05-14T22:39:44.060-0400,safesoc-lnx-01,100761,SafeAgentSOC run end marker observed,S08-MAN-R002
+ALERT-F6DB451F113D8CFB,2026-05-14T22:55:45.867-0400,safesoc-lnx-01,100764,SafeAgentSOC S09 Linux discovery scenario marker,S09-MAN-R001
+ALERT-CCCA00ACF4D50157,2026-05-14T22:55:45.867-0400,safesoc-lnx-01,100760,SafeAgentSOC run start marker observed,S09-MAN-R001
+ALERT-007B56490C6ABD4A,2026-05-14T22:55:45.870-0400,safesoc-lnx-01,100761,SafeAgentSOC run end marker observed,S09-MAN-R001
+ALERT-7E9380A15A35204D,2026-05-14T22:55:45.913-0400,safesoc-lnx-01,92604,Processes running for all users were queried with ps command.,S09-MAN-R001
+ALERT-AB02635D7760E878,2026-05-14T22:55:46.377-0400,safesoc-lnx-01,100760,SafeAgentSOC run start marker observed,S09-MAN-R001
+ALERT-BACD3E3C0E124A84,2026-05-14T22:55:46.377-0400,safesoc-lnx-01,100764,SafeAgentSOC S09 Linux discovery scenario marker,S09-MAN-R001
+ALERT-09222B9543654CEC,2026-05-14T22:55:46.379-0400,safesoc-lnx-01,100761,SafeAgentSOC run end marker observed,S09-MAN-R001
+ALERT-4157B7B2C7472903,2026-05-14T22:56:26.387-0400,safesoc-lnx-01,5402,Successful sudo to ROOT executed.,S09-MAN-R001
+ALERT-25300E4C30925CF9,2026-05-14T22:56:26.388-0400,safesoc-lnx-01,5501,PAM: Login session opened.,S09-MAN-R001
+ALERT-0D545D149C0C27C2,2026-05-14T22:56:26.390-0400,safesoc-lnx-01,5502,PAM: Login session closed.,S09-MAN-R001
+ALERT-150FA5FB4ECF7E38,2026-05-14T22:56:26.392-0400,safesoc-lnx-01,5402,Successful sudo to ROOT executed.,S09-MAN-R001
+ALERT-A4D31CF99995BF2D,2026-05-14T22:56:26.394-0400,safesoc-lnx-01,5501,PAM: Login session opened.,S09-MAN-R001
+ALERT-2E2868D6973ACFDB,2026-05-14T22:56:26.396-0400,safesoc-lnx-01,5502,PAM: Login session closed.,S09-MAN-R001
+ALERT-CCA0A6BBD7E1C5FF,2026-05-14T23:02:29.983-0400,safesoc-lnx-01,100764,SafeAgentSOC S09 Linux discovery scenario marker,S09-MAN-R002
+ALERT-2CAC2FE2F7E944C7,2026-05-14T23:02:29.983-0400,safesoc-lnx-01,100760,SafeAgentSOC run start marker observed,S09-MAN-R002
+ALERT-D32E2C3F72683C3D,2026-05-14T23:02:29.997-0400,safesoc-lnx-01,100761,SafeAgentSOC run end marker observed,S09-MAN-R002
+ALERT-94C780327D1D63EF,2026-05-14T23:02:30.498-0400,safesoc-lnx-01,100760,SafeAgentSOC run start marker observed,S09-MAN-R002
+ALERT-E537FDFFD53889B2,2026-05-14T23:02:30.498-0400,safesoc-lnx-01,100764,SafeAgentSOC S09 Linux discovery scenario marker,S09-MAN-R002
+ALERT-F0CF479E2445DA6F,2026-05-14T23:02:30.510-0400,safesoc-lnx-01,100761,SafeAgentSOC run end marker observed,S09-MAN-R002
+ALERT-1633D25C528AC21C,2026-05-14T23:04:13.598-0400,safesoc-lnx-01,554,File added to the system.,S09-MAN-R002
+ALERT-30733DDE88169F30,2026-05-14T23:04:14.010-0400,safesoc-lnx-01,5402,Successful sudo to ROOT executed.,S09-MAN-R002
+ALERT-8799732B967FB730,2026-05-14T23:04:14.010-0400,safesoc-lnx-01,5501,PAM: Login session opened.,S09-MAN-R002
+ALERT-A86F8BE70ABAE69A,2026-05-14T23:04:14.012-0400,safesoc-lnx-01,5502,PAM: Login session closed.,S09-MAN-R002
+ALERT-1C1A11420A838A17,2026-05-14T23:04:14.014-0400,safesoc-lnx-01,5402,Successful sudo to ROOT executed.,S09-MAN-R002
+ALERT-D7FDAC9E31901D37,2026-05-14T23:04:14.016-0400,safesoc-lnx-01,5501,PAM: Login session opened.,S09-MAN-R002
+ALERT-627468661415508F,2026-05-14T23:04:14.019-0400,safesoc-lnx-01,5502,PAM: Login session closed.,S09-MAN-R002
+ALERT-88DA314F350F7925,2026-05-14T23:04:14.022-0400,safesoc-lnx-01,5402,Successful sudo to ROOT executed.,S09-MAN-R002
+ALERT-63E1506B000800FA,2026-05-14T23:04:14.024-0400,safesoc-lnx-01,5501,PAM: Login session opened.,S09-MAN-R002
+ALERT-AAE9F598E668B630,2026-05-14T23:04:14.026-0400,safesoc-lnx-01,5502,PAM: Login session closed.,S09-MAN-R002
+ALERT-3701B3C2571AFF94,2026-05-14T23:04:14.029-0400,safesoc-lnx-01,5402,Successful sudo to ROOT executed.,S09-MAN-R002
+ALERT-FBEE6AD5A558C5FE,2026-05-14T23:04:14.032-0400,safesoc-lnx-01,5501,PAM: Login session opened.,S09-MAN-R002
+ALERT-FA3FD4B2941B0642,2026-05-14T23:04:14.034-0400,safesoc-lnx-01,5502,PAM: Login session closed.,S09-MAN-R002
+ALERT-CA78BB173E271C81,2026-05-14T23:04:14.036-0400,safesoc-lnx-01,100760,SafeAgentSOC run start marker observed,S09-MAN-R002
+ALERT-24A91EC62FBDE9D9,2026-05-14T23:04:14.040-0400,safesoc-lnx-01,100765,SafeAgentSOC S10 Linux cron marker scenario,S09-MAN-R002
+ALERT-51C21D7433411002,2026-05-14T23:04:14.044-0400,safesoc-lnx-01,100761,SafeAgentSOC run end marker observed,S09-MAN-R002
+ALERT-DB76E45176C37092,2026-05-14T23:04:14.541-0400,safesoc-lnx-01,100760,SafeAgentSOC run start marker observed,S09-MAN-R002
+ALERT-4F7A5D508C67A0A2,2026-05-14T23:04:14.541-0400,safesoc-lnx-01,100765,SafeAgentSOC S10 Linux cron marker scenario,S09-MAN-R002
+ALERT-D76CD3E66B909AAA,2026-05-14T23:04:14.545-0400,safesoc-lnx-01,5402,Successful sudo to ROOT executed.,S09-MAN-R002
+ALERT-83B44B95E60B6585,2026-05-14T23:04:14.548-0400,safesoc-lnx-01,5501,PAM: Login session opened.,S09-MAN-R002
+ALERT-386FEC849F23D138,2026-05-14T23:04:14.550-0400,safesoc-lnx-01,5502,PAM: Login session closed.,S09-MAN-R002
+ALERT-B88C00DF957BC148,2026-05-14T23:04:14.553-0400,safesoc-lnx-01,5402,Successful sudo to ROOT executed.,S09-MAN-R002
+ALERT-C21CEAE28A9CE4C1,2026-05-14T23:04:14.556-0400,safesoc-lnx-01,5501,PAM: Login session opened.,S09-MAN-R002
+ALERT-EF0884FCFAF4CF26,2026-05-14T23:04:14.558-0400,safesoc-lnx-01,5502,PAM: Login session closed.,S09-MAN-R002
+ALERT-9E62F2C2DE8222C1,2026-05-14T23:04:14.560-0400,safesoc-lnx-01,5402,Successful sudo to ROOT executed.,S09-MAN-R002
+ALERT-DE01D26C61A51554,2026-05-14T23:04:14.562-0400,safesoc-lnx-01,5501,PAM: Login session opened.,S09-MAN-R002
+ALERT-655BF23B2B8DF1AA,2026-05-14T23:04:14.565-0400,safesoc-lnx-01,5502,PAM: Login session closed.,S09-MAN-R002
+ALERT-9565A462A8FB98AC,2026-05-14T23:04:14.568-0400,safesoc-lnx-01,5402,Successful sudo to ROOT executed.,S09-MAN-R002
+ALERT-DCAA33FE76D48242,2026-05-14T23:04:14.571-0400,safesoc-lnx-01,5501,PAM: Login session opened.,S09-MAN-R002
+ALERT-37324340E33FF18D,2026-05-14T23:04:14.573-0400,safesoc-lnx-01,5502,PAM: Login session closed.,S09-MAN-R002
+ALERT-8875603CC22FA59D,2026-05-14T23:04:14.576-0400,safesoc-lnx-01,100761,SafeAgentSOC run end marker observed,S09-MAN-R002
+ALERT-CCA0A6BBD7E1C5FF,2026-05-14T23:02:29.983-0400,safesoc-lnx-01,100764,SafeAgentSOC S09 Linux discovery scenario marker,S10-MAN-R001
+ALERT-2CAC2FE2F7E944C7,2026-05-14T23:02:29.983-0400,safesoc-lnx-01,100760,SafeAgentSOC run start marker observed,S10-MAN-R001
+ALERT-D32E2C3F72683C3D,2026-05-14T23:02:29.997-0400,safesoc-lnx-01,100761,SafeAgentSOC run end marker observed,S10-MAN-R001
+ALERT-94C780327D1D63EF,2026-05-14T23:02:30.498-0400,safesoc-lnx-01,100760,SafeAgentSOC run start marker observed,S10-MAN-R001
+ALERT-E537FDFFD53889B2,2026-05-14T23:02:30.498-0400,safesoc-lnx-01,100764,SafeAgentSOC S09 Linux discovery scenario marker,S10-MAN-R001
+ALERT-F0CF479E2445DA6F,2026-05-14T23:02:30.510-0400,safesoc-lnx-01,100761,SafeAgentSOC run end marker observed,S10-MAN-R001
+ALERT-1633D25C528AC21C,2026-05-14T23:04:13.598-0400,safesoc-lnx-01,554,File added to the system.,S10-MAN-R001
+ALERT-30733DDE88169F30,2026-05-14T23:04:14.010-0400,safesoc-lnx-01,5402,Successful sudo to ROOT executed.,S10-MAN-R001
+ALERT-8799732B967FB730,2026-05-14T23:04:14.010-0400,safesoc-lnx-01,5501,PAM: Login session opened.,S10-MAN-R001
+ALERT-A86F8BE70ABAE69A,2026-05-14T23:04:14.012-0400,safesoc-lnx-01,5502,PAM: Login session closed.,S10-MAN-R001
+ALERT-1C1A11420A838A17,2026-05-14T23:04:14.014-0400,safesoc-lnx-01,5402,Successful sudo to ROOT executed.,S10-MAN-R001
+ALERT-D7FDAC9E31901D37,2026-05-14T23:04:14.016-0400,safesoc-lnx-01,5501,PAM: Login session opened.,S10-MAN-R001
+ALERT-627468661415508F,2026-05-14T23:04:14.019-0400,safesoc-lnx-01,5502,PAM: Login session closed.,S10-MAN-R001
+ALERT-88DA314F350F7925,2026-05-14T23:04:14.022-0400,safesoc-lnx-01,5402,Successful sudo to ROOT executed.,S10-MAN-R001
+ALERT-63E1506B000800FA,2026-05-14T23:04:14.024-0400,safesoc-lnx-01,5501,PAM: Login session opened.,S10-MAN-R001
+ALERT-AAE9F598E668B630,2026-05-14T23:04:14.026-0400,safesoc-lnx-01,5502,PAM: Login session closed.,S10-MAN-R001
+ALERT-3701B3C2571AFF94,2026-05-14T23:04:14.029-0400,safesoc-lnx-01,5402,Successful sudo to ROOT executed.,S10-MAN-R001
+ALERT-FBEE6AD5A558C5FE,2026-05-14T23:04:14.032-0400,safesoc-lnx-01,5501,PAM: Login session opened.,S10-MAN-R001
+ALERT-FA3FD4B2941B0642,2026-05-14T23:04:14.034-0400,safesoc-lnx-01,5502,PAM: Login session closed.,S10-MAN-R001
+ALERT-CA78BB173E271C81,2026-05-14T23:04:14.036-0400,safesoc-lnx-01,100760,SafeAgentSOC run start marker observed,S10-MAN-R001
+ALERT-24A91EC62FBDE9D9,2026-05-14T23:04:14.040-0400,safesoc-lnx-01,100765,SafeAgentSOC S10 Linux cron marker scenario,S10-MAN-R001
+ALERT-51C21D7433411002,2026-05-14T23:04:14.044-0400,safesoc-lnx-01,100761,SafeAgentSOC run end marker observed,S10-MAN-R001
+ALERT-DB76E45176C37092,2026-05-14T23:04:14.541-0400,safesoc-lnx-01,100760,SafeAgentSOC run start marker observed,S10-MAN-R001
+ALERT-4F7A5D508C67A0A2,2026-05-14T23:04:14.541-0400,safesoc-lnx-01,100765,SafeAgentSOC S10 Linux cron marker scenario,S10-MAN-R001
+ALERT-D76CD3E66B909AAA,2026-05-14T23:04:14.545-0400,safesoc-lnx-01,5402,Successful sudo to ROOT executed.,S10-MAN-R001
+ALERT-83B44B95E60B6585,2026-05-14T23:04:14.548-0400,safesoc-lnx-01,5501,PAM: Login session opened.,S10-MAN-R001
+ALERT-386FEC849F23D138,2026-05-14T23:04:14.550-0400,safesoc-lnx-01,5502,PAM: Login session closed.,S10-MAN-R001
+ALERT-B88C00DF957BC148,2026-05-14T23:04:14.553-0400,safesoc-lnx-01,5402,Successful sudo to ROOT executed.,S10-MAN-R001
+ALERT-C21CEAE28A9CE4C1,2026-05-14T23:04:14.556-0400,safesoc-lnx-01,5501,PAM: Login session opened.,S10-MAN-R001
+ALERT-EF0884FCFAF4CF26,2026-05-14T23:04:14.558-0400,safesoc-lnx-01,5502,PAM: Login session closed.,S10-MAN-R001
+ALERT-9E62F2C2DE8222C1,2026-05-14T23:04:14.560-0400,safesoc-lnx-01,5402,Successful sudo to ROOT executed.,S10-MAN-R001
+ALERT-DE01D26C61A51554,2026-05-14T23:04:14.562-0400,safesoc-lnx-01,5501,PAM: Login session opened.,S10-MAN-R001
+ALERT-655BF23B2B8DF1AA,2026-05-14T23:04:14.565-0400,safesoc-lnx-01,5502,PAM: Login session closed.,S10-MAN-R001
+ALERT-9565A462A8FB98AC,2026-05-14T23:04:14.568-0400,safesoc-lnx-01,5402,Successful sudo to ROOT executed.,S10-MAN-R001
+ALERT-DCAA33FE76D48242,2026-05-14T23:04:14.571-0400,safesoc-lnx-01,5501,PAM: Login session opened.,S10-MAN-R001
+ALERT-37324340E33FF18D,2026-05-14T23:04:14.573-0400,safesoc-lnx-01,5502,PAM: Login session closed.,S10-MAN-R001
+ALERT-8875603CC22FA59D,2026-05-14T23:04:14.576-0400,safesoc-lnx-01,100761,SafeAgentSOC run end marker observed,S10-MAN-R001
+ALERT-877E1A66E236DCF9,2026-05-14T23:04:32.545-0400,safesoc-lnx-01,5402,Successful sudo to ROOT executed.,S10-MAN-R001
+ALERT-BD864A52EBFEF851,2026-05-14T23:04:32.564-0400,safesoc-lnx-01,5502,PAM: Login session closed.,S10-MAN-R001
+ALERT-A0973811D1270E07,2026-05-14T23:04:32.564-0400,safesoc-lnx-01,5501,PAM: Login session opened.,S10-MAN-R001
+ALERT-DADA7C811DA0FC62,2026-05-14T23:04:32.564-0400,safesoc-lnx-01,5402,Successful sudo to ROOT executed.,S10-MAN-R001
+ALERT-D81C9DDD5AC3D564,2026-05-14T23:04:32.564-0400,safesoc-lnx-01,5502,PAM: Login session closed.,S10-MAN-R001
+ALERT-B01F3878AF66F442,2026-05-14T23:04:32.564-0400,safesoc-lnx-01,5501,PAM: Login session opened.,S10-MAN-R001
+ALERT-81F56699D9429F80,2026-05-14T23:04:32.564-0400,safesoc-lnx-01,5502,PAM: Login session closed.,S10-MAN-R001
+ALERT-E14B0F23C0784FEF,2026-05-14T23:04:32.564-0400,safesoc-lnx-01,5501,PAM: Login session opened.,S10-MAN-R001
+ALERT-8F076B7DC7A4AAA1,2026-05-14T23:04:32.564-0400,safesoc-lnx-01,5402,Successful sudo to ROOT executed.,S10-MAN-R001
+ALERT-2D20DA0C85E79452,2026-05-14T23:04:32.576-0400,safesoc-lnx-01,5502,PAM: Login session closed.,S10-MAN-R001
+ALERT-702F3F34B40A486B,2026-05-14T23:04:32.576-0400,safesoc-lnx-01,5402,Successful sudo to ROOT executed.,S10-MAN-R001
+ALERT-D0D1A83024788728,2026-05-14T23:04:32.576-0400,safesoc-lnx-01,5501,PAM: Login session opened.,S10-MAN-R001
+ALERT-37E3830EA9324E48,2026-05-14T23:07:20.370-0400,safesoc-lnx-01,550,Integrity checksum changed.,S10-MAN-R002
+ALERT-7EC3ADA325C3D6E7,2026-05-14T23:07:20.595-0400,safesoc-lnx-01,100760,SafeAgentSOC run start marker observed,S10-MAN-R002
+ALERT-A5FA2F7F451F9EBC,2026-05-14T23:07:20.596-0400,safesoc-lnx-01,100765,SafeAgentSOC S10 Linux cron marker scenario,S10-MAN-R002
+ALERT-29B45491FC983DC0,2026-05-14T23:07:20.597-0400,safesoc-lnx-01,5402,Successful sudo to ROOT executed.,S10-MAN-R002
+ALERT-6A955F92B4B54CCB,2026-05-14T23:07:20.600-0400,safesoc-lnx-01,5501,PAM: Login session opened.,S10-MAN-R002
+ALERT-43CC99EC249CD254,2026-05-14T23:07:20.603-0400,safesoc-lnx-01,5502,PAM: Login session closed.,S10-MAN-R002
+ALERT-9D93A42BBD661942,2026-05-14T23:07:20.605-0400,safesoc-lnx-01,5402,Successful sudo to ROOT executed.,S10-MAN-R002
+ALERT-961E282D7B42CFA4,2026-05-14T23:07:20.607-0400,safesoc-lnx-01,5501,PAM: Login session opened.,S10-MAN-R002
+ALERT-65EB2373267ABF98,2026-05-14T23:07:20.610-0400,safesoc-lnx-01,5502,PAM: Login session closed.,S10-MAN-R002
+ALERT-B76402475D41E9D6,2026-05-14T23:07:20.612-0400,safesoc-lnx-01,100761,SafeAgentSOC run end marker observed,S10-MAN-R002
+ALERT-CA2AB0F00C28FBA5,2026-05-14T23:07:20.614-0400,safesoc-lnx-01,5402,Successful sudo to ROOT executed.,S10-MAN-R002
+ALERT-E8169796A24847AE,2026-05-14T23:07:20.616-0400,safesoc-lnx-01,5501,PAM: Login session opened.,S10-MAN-R002
+ALERT-F64B0DBCB6CDEE39,2026-05-14T23:07:20.619-0400,safesoc-lnx-01,5502,PAM: Login session closed.,S10-MAN-R002
+ALERT-AD2D661A26D7899B,2026-05-14T23:07:20.621-0400,safesoc-lnx-01,5402,Successful sudo to ROOT executed.,S10-MAN-R002
+ALERT-4D87EE792A261B20,2026-05-14T23:07:20.624-0400,safesoc-lnx-01,5501,PAM: Login session opened.,S10-MAN-R002
+ALERT-2C7F3D685D6B4E99,2026-05-14T23:07:20.627-0400,safesoc-lnx-01,5502,PAM: Login session closed.,S10-MAN-R002
+ALERT-92EB0E90D0811D9B,2026-05-14T23:07:20.629-0400,safesoc-lnx-01,100760,SafeAgentSOC run start marker observed,S10-MAN-R002
+ALERT-A702B59FE9A17DDE,2026-05-14T23:07:20.632-0400,safesoc-lnx-01,100765,SafeAgentSOC S10 Linux cron marker scenario,S10-MAN-R002
+ALERT-2D6B7EF88FEE612D,2026-05-14T23:07:20.634-0400,safesoc-lnx-01,100761,SafeAgentSOC run end marker observed,S10-MAN-R002
+ALERT-3DCEE0A14C0888F5,2026-05-14T23:08:44.087-0400,safesoc-lnx-01,5402,Successful sudo to ROOT executed.,S10-MAN-R002
+ALERT-6B3D2A309DE8E0E1,2026-05-14T23:08:44.088-0400,safesoc-lnx-01,5501,PAM: Login session opened.,S10-MAN-R002
+ALERT-87BD7300C5CA1557,2026-05-14T23:08:44.624-0400,safesoc-lnx-01,5402,Successful sudo to ROOT executed.,S10-MAN-R002
+ALERT-9F970EC8F54BF5DF,2026-05-14T23:08:44.624-0400,safesoc-lnx-01,5501,PAM: Login session opened.,S10-MAN-R002
+ALERT-38A2D2BCA8901407,2026-05-14T23:08:48.624-0400,safesoc-lnx-01,5502,PAM: Login session closed.,S10-MAN-R002
+ALERT-07D5347C4B298CF4,2026-05-14T23:08:48.624-0400,safesoc-lnx-01,5402,Successful sudo to ROOT executed.,S10-MAN-R002
+ALERT-CD34770696D94AC8,2026-05-14T23:08:48.627-0400,safesoc-lnx-01,5501,PAM: Login session opened.,S10-MAN-R002
+ALERT-8EE141AE7B87EFBB,2026-05-14T23:08:48.629-0400,safesoc-lnx-01,5502,PAM: Login session closed.,S10-MAN-R002
+ALERT-EC29C541248C8E23,2026-05-14T23:08:48.631-0400,safesoc-lnx-01,5402,Successful sudo to ROOT executed.,S10-MAN-R002
+ALERT-1FB22520B58CF686,2026-05-14T23:08:48.633-0400,safesoc-lnx-01,5501,PAM: Login session opened.,S10-MAN-R002
+ALERT-A49CA0A04A40629D,2026-05-14T23:08:50.637-0400,safesoc-lnx-01,2901,New dpkg (Debian Package) requested to install.,S10-MAN-R002
+ALERT-3600B682314B057F,2026-05-14T23:08:50.647-0400,safesoc-lnx-01,2904,Dpkg (Debian Package) half configured.,S10-MAN-R002
+ALERT-523320B258A6D028,2026-05-14T23:08:50.662-0400,safesoc-lnx-01,2904,Dpkg (Debian Package) half configured.,S10-MAN-R002
+ALERT-E3A847D40D2B30FD,2026-05-14T23:08:50.686-0400,safesoc-lnx-01,2904,Dpkg (Debian Package) half configured.,S10-MAN-R002
+ALERT-A2E7932E553EDDB0,2026-05-14T23:08:52.102-0400,safesoc-lnx-01,2904,Dpkg (Debian Package) half configured.,S10-MAN-R002
+ALERT-2AA7D03963502546,2026-05-14T23:08:52.104-0400,safesoc-lnx-01,2902,New dpkg (Debian Package) installed.,S10-MAN-R002
+ALERT-F6CB678A4883D47F,2026-05-14T23:08:52.111-0400,safesoc-lnx-01,2904,Dpkg (Debian Package) half configured.,S10-MAN-R002
+ALERT-04DC53E0EF0133D6,2026-05-14T23:08:52.113-0400,safesoc-lnx-01,2902,New dpkg (Debian Package) installed.,S10-MAN-R002
+ALERT-98E7C0AA2868892C,2026-05-14T23:08:52.121-0400,safesoc-lnx-01,2904,Dpkg (Debian Package) half configured.,S10-MAN-R002
+ALERT-7E1418296881EB6E,2026-05-14T23:08:52.124-0400,safesoc-lnx-01,2902,New dpkg (Debian Package) installed.,S10-MAN-R002
+ALERT-1C5817F35197392D,2026-05-14T23:08:52.131-0400,safesoc-lnx-01,2904,Dpkg (Debian Package) half configured.,S10-MAN-R002
+ALERT-2E4019D77DE65A69,2026-05-14T23:08:52.140-0400,safesoc-lnx-01,2904,Dpkg (Debian Package) half configured.,S10-MAN-R002
+ALERT-18C884183D8BC0F7,2026-05-14T23:08:52.143-0400,safesoc-lnx-01,2902,New dpkg (Debian Package) installed.,S10-MAN-R002
+ALERT-094C570D451EC4F3,2026-05-14T23:08:52.145-0400,safesoc-lnx-01,2902,New dpkg (Debian Package) installed.,S10-MAN-R002
+ALERT-31BDA23264661A4D,2026-05-14T23:08:52.150-0400,safesoc-lnx-01,2904,Dpkg (Debian Package) half configured.,S10-MAN-R002
+ALERT-D89C07029BDDD81F,2026-05-14T23:08:52.152-0400,safesoc-lnx-01,2902,New dpkg (Debian Package) installed.,S10-MAN-R002
+ALERT-A67188B95FA32BA2,2026-05-14T23:08:52.157-0400,safesoc-lnx-01,2904,Dpkg (Debian Package) half configured.,S10-MAN-R002
+ALERT-C0E4496A9B390EDA,2026-05-14T23:08:52.161-0400,safesoc-lnx-01,2902,New dpkg (Debian Package) installed.,S10-MAN-R002
+ALERT-73C2FAA9095F9A5E,2026-05-14T23:08:52.166-0400,safesoc-lnx-01,2904,Dpkg (Debian Package) half configured.,S10-MAN-R002
+ALERT-DE018F5BE4C32D2C,2026-05-14T23:08:52.169-0400,safesoc-lnx-01,2902,New dpkg (Debian Package) installed.,S10-MAN-R002
+ALERT-6CD6EADFDC1E87C0,2026-05-14T23:08:52.173-0400,safesoc-lnx-01,2904,Dpkg (Debian Package) half configured.,S10-MAN-R002
+ALERT-726D9F38918917BA,2026-05-14T23:08:52.176-0400,safesoc-lnx-01,2902,New dpkg (Debian Package) installed.,S10-MAN-R002
+ALERT-CEBC82E56783C27A,2026-05-14T23:08:52.180-0400,safesoc-lnx-01,2904,Dpkg (Debian Package) half configured.,S10-MAN-R002
+ALERT-5DA720038620613A,2026-05-14T23:08:52.184-0400,safesoc-lnx-01,2902,New dpkg (Debian Package) installed.,S10-MAN-R002
+ALERT-E1B7BECC5AEA3472,2026-05-14T23:08:52.191-0400,safesoc-lnx-01,2904,Dpkg (Debian Package) half configured.,S10-MAN-R002
+ALERT-698E51C9E94EAD66,2026-05-14T23:08:52.195-0400,safesoc-lnx-01,2902,New dpkg (Debian Package) installed.,S10-MAN-R002
+ALERT-C403B8E1143725A8,2026-05-14T23:08:54.092-0400,safesoc-lnx-01,5502,PAM: Login session closed.,S10-MAN-R002
+ALERT-75208DC6340F74AD,2026-05-14T23:08:54.630-0400,safesoc-lnx-01,5502,PAM: Login session closed.,S10-MAN-R002
+ALERT-E17FF0DD5917AA9A,2026-05-14T23:08:56.094-0400,safesoc-lnx-01,2901,New dpkg (Debian Package) requested to install.,S10-MAN-R002
+ALERT-B56F4CE694AF8520,2026-05-14T23:08:56.104-0400,safesoc-lnx-01,2904,Dpkg (Debian Package) half configured.,S10-MAN-R002
+ALERT-4FBEDCF4F54C6CBF,2026-05-14T23:08:56.106-0400,safesoc-lnx-01,2902,New dpkg (Debian Package) installed.,S10-MAN-R002
+ALERT-134134DE5783FFDE,2026-05-14T23:08:56.109-0400,safesoc-lnx-01,5402,Successful sudo to ROOT executed.,S10-MAN-R002
+ALERT-E06560E089BA9EDC,2026-05-14T23:08:56.112-0400,safesoc-lnx-01,5501,PAM: Login session opened.,S10-MAN-R002
+ALERT-1061D4794885C646,2026-05-14T23:08:56.115-0400,safesoc-lnx-01,5502,PAM: Login session closed.,S10-MAN-R002
+ALERT-1698394C55E19CDD,2026-05-14T23:08:56.116-0400,safesoc-lnx-01,5402,Successful sudo to ROOT executed.,S10-MAN-R002
+ALERT-82900B2DCD06C6AA,2026-05-14T23:08:56.119-0400,safesoc-lnx-01,5501,PAM: Login session opened.,S10-MAN-R002
+ALERT-92668E6AF0B729D9,2026-05-14T23:08:56.720-0400,safesoc-lnx-01,5402,Successful sudo to ROOT executed.,S10-MAN-R002
+ALERT-89E6C61D5F9FE8EF,2026-05-14T23:08:56.722-0400,safesoc-lnx-01,5501,PAM: Login session opened.,S10-MAN-R002
+ALERT-B23EB218D6AFC86B,2026-05-14T23:08:56.726-0400,safesoc-lnx-01,5502,PAM: Login session closed.,S10-MAN-R002
+ALERT-40352E6DCA1524B3,2026-05-14T23:08:56.729-0400,safesoc-lnx-01,5402,Successful sudo to ROOT executed.,S10-MAN-R002
+ALERT-2274C6B30F064BB0,2026-05-14T23:08:56.732-0400,safesoc-lnx-01,5501,PAM: Login session opened.,S10-MAN-R002
+ALERT-EF6D21DC16A2FCFC,2026-05-14T23:09:02.097-0400,safesoc-lnx-01,5502,PAM: Login session closed.,S10-MAN-R002
+ALERT-30AEFC500CDB60AD,2026-05-14T23:09:02.153-0400,safesoc-lnx-01,5402,Successful sudo to ROOT executed.,S10-MAN-R002
+ALERT-1073E553D5C8CD1F,2026-05-14T23:09:02.155-0400,safesoc-lnx-01,5501,PAM: Login session opened.,S10-MAN-R002
+ALERT-F1A719112FCB4702,2026-05-14T23:09:02.633-0400,safesoc-lnx-01,5502,PAM: Login session closed.,S10-MAN-R002
+ALERT-9E34C3791F1A8313,2026-05-14T23:09:02.633-0400,safesoc-lnx-01,5402,Successful sudo to ROOT executed.,S10-MAN-R002
+ALERT-AA58F6C8C7A1BA9A,2026-05-14T23:09:02.635-0400,safesoc-lnx-01,5501,PAM: Login session opened.,S10-MAN-R002
+ALERT-EFC4E471B6645354,2026-05-14T23:09:06.134-0400,safesoc-lnx-01,2901,New dpkg (Debian Package) requested to install.,S10-MAN-R002
+ALERT-412B9F23986634C4,2026-05-14T23:09:08.108-0400,safesoc-lnx-01,2904,Dpkg (Debian Package) half configured.,S10-MAN-R002
+ALERT-54EF232F5C732CA5,2026-05-14T23:09:08.111-0400,safesoc-lnx-01,2902,New dpkg (Debian Package) installed.,S10-MAN-R002
+ALERT-7F4E310203EEB4C4,2026-05-14T23:09:08.115-0400,safesoc-lnx-01,2904,Dpkg (Debian Package) half configured.,S10-MAN-R002
+ALERT-7AC8CEB86709173C,2026-05-14T23:09:08.118-0400,safesoc-lnx-01,2902,New dpkg (Debian Package) installed.,S10-MAN-R002
+ALERT-E8BF61B00A79CB23,2026-05-14T23:09:10.099-0400,safesoc-lnx-01,5502,PAM: Login session closed.,S10-MAN-R002
+ALERT-911BDA36E1F67252,2026-05-14T23:09:10.635-0400,safesoc-lnx-01,5502,PAM: Login session closed.,S10-MAN-R002
+ALERT-90653CCD5882B899,2026-05-14T15:25:40.630-0400,safesoc-lnx-01,2501,syslog: User authentication failure.,S11-MAN-R001
+ALERT-EC79E46654ADFBD8,2026-05-14T15:26:02.664-0400,safesoc-lnx-01,5501,PAM: Login session opened.,S11-MAN-R001
+ALERT-E3614545E8BB2F22,2026-05-14T15:26:02.664-0400,safesoc-lnx-01,5402,Successful sudo to ROOT executed.,S11-MAN-R001
+ALERT-01F7F7B418EA1BA8,2026-05-14T15:26:02.705-0400,safesoc-lnx-01,5502,PAM: Login session closed.,S11-MAN-R001
+ALERT-E440752721B80BAE,2026-05-14T15:26:06.320-0400,safesoc-lnx-01,506,Wazuh agent stopped.,S11-MAN-R001
+ALERT-313BE07552311522,2026-05-14T15:29:28.441-0400,safesoc-lnx-01,503,Wazuh agent started.,S11-MAN-R001
+ALERT-2417BF881D13D42F,2026-05-14T15:30:34.779-0400,safesoc-lnx-01,5501,PAM: Login session opened.,S11-MAN-R001
+ALERT-56F9FF34F052C301,2026-05-14T15:33:38.843-0400,safesoc-lnx-01,5402,Successful sudo to ROOT executed.,S11-MAN-R001
+ALERT-95A67E9B2252007D,2026-05-14T15:33:38.862-0400,safesoc-lnx-01,5501,PAM: Login session opened.,S11-MAN-R001
+ALERT-401EB5C8834FBE4E,2026-05-14T15:33:38.862-0400,safesoc-lnx-01,5402,Successful sudo to ROOT executed.,S11-MAN-R001
+ALERT-330C49559E6B9B86,2026-05-14T15:33:38.863-0400,safesoc-lnx-01,5502,PAM: Login session closed.,S11-MAN-R001
+ALERT-E8C9095A8F6CD9CF,2026-05-14T15:33:38.862-0400,safesoc-lnx-01,5502,PAM: Login session closed.,S11-MAN-R001
+ALERT-C24814892C12C435,2026-05-14T15:33:38.863-0400,safesoc-lnx-01,5402,Successful sudo to ROOT executed.,S11-MAN-R001
+ALERT-670DF2EE5CCFE610,2026-05-14T15:33:38.863-0400,safesoc-lnx-01,5502,PAM: Login session closed.,S11-MAN-R001
+ALERT-825F9BE6B0AA7646,2026-05-14T15:33:38.863-0400,safesoc-lnx-01,5501,PAM: Login session opened.,S11-MAN-R001
+ALERT-A2B537872431D6B8,2026-05-14T15:33:38.863-0400,safesoc-lnx-01,5501,PAM: Login session opened.,S11-MAN-R001
+ALERT-999DB7134627154F,2026-05-14T16:53:54.779-0400,safesoc-lnx-01,5402,Successful sudo to ROOT executed.,S11-MAN-R002
+ALERT-797A11529199F1D8,2026-05-14T16:53:54.799-0400,safesoc-lnx-01,5502,PAM: Login session closed.,S11-MAN-R002
+ALERT-62D3CCD6FB66D4E1,2026-05-14T16:53:54.799-0400,safesoc-lnx-01,5402,Successful sudo to ROOT executed.,S11-MAN-R002
+ALERT-6C1B11A8F32DEBF3,2026-05-14T16:53:54.799-0400,safesoc-lnx-01,5501,PAM: Login session opened.,S11-MAN-R002
+ALERT-AE6D51131D417C20,2026-05-14T16:53:54.799-0400,safesoc-lnx-01,5501,PAM: Login session opened.,S11-MAN-R002
+ALERT-AAE4D37C150811EF,2026-05-14T16:53:54.799-0400,safesoc-lnx-01,5502,PAM: Login session closed.,S11-MAN-R002
+ALERT-E7E65E78FD7260F6,2026-05-14T16:53:54.799-0400,safesoc-lnx-01,5501,PAM: Login session opened.,S11-MAN-R002
+ALERT-AAE2938733DA6349,2026-05-14T16:53:54.799-0400,safesoc-lnx-01,5502,PAM: Login session closed.,S11-MAN-R002
+ALERT-2D1DE45890DFAF45,2026-05-14T16:53:54.800-0400,safesoc-lnx-01,5402,Successful sudo to ROOT executed.,S11-MAN-R002
+ALERT-4A00C5BD5ED9101A,2026-05-14T16:53:54.819-0400,safesoc-lnx-01,5402,Successful sudo to ROOT executed.,S11-MAN-R002
+ALERT-0727514BED3D7ACF,2026-05-14T16:53:54.820-0400,safesoc-lnx-01,5402,Successful sudo to ROOT executed.,S11-MAN-R002
+ALERT-275E1F745C70B209,2026-05-14T16:53:54.820-0400,safesoc-lnx-01,5501,PAM: Login session opened.,S11-MAN-R002
+ALERT-AC5B4561838DB9EB,2026-05-14T16:53:54.820-0400,safesoc-lnx-01,5501,PAM: Login session opened.,S11-MAN-R002
+ALERT-4A471406C58F17D9,2026-05-14T16:53:54.820-0400,safesoc-lnx-01,5502,PAM: Login session closed.,S11-MAN-R002
+ALERT-8E5AE47AC2F43C8D,2026-05-14T16:54:04.782-0400,safesoc-lnx-01,5502,PAM: Login session closed.,S11-MAN-R002
+ALERT-C50A439C08730050,2026-05-14T16:54:34.791-0400,safesoc-lnx-01,5501,PAM: Login session opened.,S11-MAN-R002
+ALERT-92297CEE59389E00,2026-05-14T17:19:39.478-0400,safesoc-lnx-01,2501,syslog: User authentication failure.,S11-MAN-R003
+ALERT-9A61D0E89964F5E4,2026-05-14T17:20:17.491-0400,safesoc-lnx-01,5402,Successful sudo to ROOT executed.,S11-MAN-R003
+ALERT-EBD9A0D5CC10B7BA,2026-05-14T17:20:17.510-0400,safesoc-lnx-01,5501,PAM: Login session opened.,S11-MAN-R003
+ALERT-7489B38C9FBE24BE,2026-05-14T17:20:17.510-0400,safesoc-lnx-01,5502,PAM: Login session closed.,S11-MAN-R003
+ALERT-43CFD998529CB2FA,2026-05-14T17:20:17.510-0400,safesoc-lnx-01,5501,PAM: Login session opened.,S11-MAN-R003
+ALERT-382C03DA33C13559,2026-05-14T17:20:17.511-0400,safesoc-lnx-01,5502,PAM: Login session closed.,S11-MAN-R003
+ALERT-637FD5711DE1B824,2026-05-14T17:20:17.511-0400,safesoc-lnx-01,5402,Successful sudo to ROOT executed.,S11-MAN-R003
+ALERT-B56BA1117DD0095F,2026-05-14T17:20:17.511-0400,safesoc-lnx-01,5502,PAM: Login session closed.,S11-MAN-R003
+ALERT-F26619E4D5449D91,2026-05-14T17:20:17.511-0400,safesoc-lnx-01,5402,Successful sudo to ROOT executed.,S11-MAN-R003
+ALERT-C4C1978CAF207791,2026-05-14T17:20:17.511-0400,safesoc-lnx-01,5501,PAM: Login session opened.,S11-MAN-R003
+ALERT-A60A1B0E19654F98,2026-05-14T17:20:17.552-0400,safesoc-lnx-01,5501,PAM: Login session opened.,S11-MAN-R003
+ALERT-826676CB86DEC9D0,2026-05-14T17:20:17.551-0400,safesoc-lnx-01,5402,Successful sudo to ROOT executed.,S11-MAN-R003
+ALERT-C77D92AFF2AEF8EA,2026-05-14T17:20:17.552-0400,safesoc-lnx-01,5502,PAM: Login session closed.,S11-MAN-R003
+ALERT-EF5E25D946A2D478,2026-05-14T17:20:17.552-0400,safesoc-lnx-01,5502,PAM: Login session closed.,S11-MAN-R003
+ALERT-2A4B4C6F511011AB,2026-05-14T17:20:17.552-0400,safesoc-lnx-01,5402,Successful sudo to ROOT executed.,S11-MAN-R003
+ALERT-D8C02F0F7B7029AD,2026-05-14T17:20:17.552-0400,safesoc-lnx-01,5501,PAM: Login session opened.,S11-MAN-R003
+ALERT-2DB795B95EB2E1FF,2026-05-14T17:24:35.958-0400,safesoc-win-01,60642,Software protection service scheduled successfully.,S12-MAN-R002
+ALERT-C5DFF3BB4D851D00,2026-05-14T17:25:56.303-0400,safesoc-win-01,60132,System time changed,S12-MAN-R002
+ALERT-D7783450A3D89584,2026-05-14T17:31:31.350-0400,safesoc-win-01,60122,Logon Failure - Unknown user or bad password,S12-MAN-R002
+ALERT-0E1E9FDB187AA7CD,2026-05-14T17:31:58.726-0400,safesoc-win-01,60118,Windows Workstation Logon Success,S12-MAN-R002
+ALERT-B29D1AEF2CB7574F,2026-05-14T17:31:58.772-0400,safesoc-win-01,60118,Windows Workstation Logon Success,S12-MAN-R002
+ALERT-0C88D1D5A8134920,2026-05-14T17:31:58.819-0400,safesoc-win-01,67028,Special privileges assigned to new logon.,S12-MAN-R002
+ALERT-DA9A9B287CC78B86,2026-05-14T17:31:58.834-0400,safesoc-win-01,67023,Non service account logged off.,S12-MAN-R002
+ALERT-38E0BF8311F09DE9,2026-05-14T17:31:58.851-0400,safesoc-win-01,67023,Non service account logged off.,S12-MAN-R002
+ALERT-F011A7533F386CB3,2026-05-14T17:32:30.458-0400,safesoc-win-01,60122,Logon Failure - Unknown user or bad password,S12-MAN-R002
+ALERT-C1E4AAFE61EAF26B,2026-05-14T17:32:35.493-0400,safesoc-win-01,60118,Windows Workstation Logon Success,S12-MAN-R002
+ALERT-C34A66E2285F6961,2026-05-14T17:32:35.688-0400,safesoc-win-01,60118,Windows Workstation Logon Success,S12-MAN-R002
+ALERT-AEDABD5E395F0083,2026-05-14T17:32:35.815-0400,safesoc-win-01,67028,Special privileges assigned to new logon.,S12-MAN-R002
+ALERT-48E9832264003FCA,2026-05-14T17:32:36.004-0400,safesoc-win-01,67023,Non service account logged off.,S12-MAN-R002
+ALERT-8C67BD1F628DBFBF,2026-05-14T17:32:36.421-0400,safesoc-win-01,67023,Non service account logged off.,S12-MAN-R002

@@ -1,0 +1,285 @@
+timestamp,agent.name,rule.description,rule.level,rule.id
+"May 14, 2026 @ 23:07:20.634",safesoc-lnx-01,SafeAgentSOC run end marker observed,3,100761
+"May 14, 2026 @ 23:07:20.632",safesoc-lnx-01,SafeAgentSOC S10 Linux cron marker scenario,7,100765
+"May 14, 2026 @ 23:07:20.629",safesoc-lnx-01,SafeAgentSOC run start marker observed,3,100760
+"May 14, 2026 @ 23:07:20.627",safesoc-lnx-01,PAM: Login session closed.,3,5502
+"May 14, 2026 @ 23:07:20.624",safesoc-lnx-01,PAM: Login session opened.,3,5501
+"May 14, 2026 @ 23:07:20.621",safesoc-lnx-01,Successful sudo to ROOT executed.,3,5402
+"May 14, 2026 @ 23:07:20.619",safesoc-lnx-01,PAM: Login session closed.,3,5502
+"May 14, 2026 @ 23:07:20.616",safesoc-lnx-01,PAM: Login session opened.,3,5501
+"May 14, 2026 @ 23:07:20.614",safesoc-lnx-01,Successful sudo to ROOT executed.,3,5402
+"May 14, 2026 @ 23:07:20.612",safesoc-lnx-01,SafeAgentSOC run end marker observed,3,100761
+"May 14, 2026 @ 23:07:20.610",safesoc-lnx-01,PAM: Login session closed.,3,5502
+"May 14, 2026 @ 23:07:20.607",safesoc-lnx-01,PAM: Login session opened.,3,5501
+"May 14, 2026 @ 23:07:20.605",safesoc-lnx-01,Successful sudo to ROOT executed.,3,5402
+"May 14, 2026 @ 23:07:20.603",safesoc-lnx-01,PAM: Login session closed.,3,5502
+"May 14, 2026 @ 23:07:20.600",safesoc-lnx-01,PAM: Login session opened.,3,5501
+"May 14, 2026 @ 23:07:20.597",safesoc-lnx-01,Successful sudo to ROOT executed.,3,5402
+"May 14, 2026 @ 23:07:20.596",safesoc-lnx-01,SafeAgentSOC S10 Linux cron marker scenario,7,100765
+"May 14, 2026 @ 23:07:20.595",safesoc-lnx-01,SafeAgentSOC run start marker observed,3,100760
+"May 14, 2026 @ 23:07:20.370",safesoc-lnx-01,Integrity checksum changed.,7,550
+"May 14, 2026 @ 23:04:32.576",safesoc-lnx-01,PAM: Login session closed.,3,5502
+"May 14, 2026 @ 23:04:32.576",safesoc-lnx-01,Successful sudo to ROOT executed.,3,5402
+"May 14, 2026 @ 23:04:32.576",safesoc-lnx-01,PAM: Login session opened.,3,5501
+"May 14, 2026 @ 23:04:32.564",safesoc-lnx-01,PAM: Login session closed.,3,5502
+"May 14, 2026 @ 23:04:32.564",safesoc-lnx-01,PAM: Login session opened.,3,5501
+"May 14, 2026 @ 23:04:32.564",safesoc-lnx-01,Successful sudo to ROOT executed.,3,5402
+"May 14, 2026 @ 23:04:32.564",safesoc-lnx-01,PAM: Login session opened.,3,5501
+"May 14, 2026 @ 23:04:32.564",safesoc-lnx-01,Successful sudo to ROOT executed.,3,5402
+"May 14, 2026 @ 23:04:32.564",safesoc-lnx-01,PAM: Login session closed.,3,5502
+"May 14, 2026 @ 23:04:32.564",safesoc-lnx-01,PAM: Login session closed.,3,5502
+"May 14, 2026 @ 23:04:32.564",safesoc-lnx-01,PAM: Login session opened.,3,5501
+"May 14, 2026 @ 23:04:32.545",safesoc-lnx-01,Successful sudo to ROOT executed.,3,5402
+"May 14, 2026 @ 23:04:14.576",safesoc-lnx-01,SafeAgentSOC run end marker observed,3,100761
+"May 14, 2026 @ 23:04:14.573",safesoc-lnx-01,PAM: Login session closed.,3,5502
+"May 14, 2026 @ 23:04:14.571",safesoc-lnx-01,PAM: Login session opened.,3,5501
+"May 14, 2026 @ 23:04:14.568",safesoc-lnx-01,Successful sudo to ROOT executed.,3,5402
+"May 14, 2026 @ 23:04:14.565",safesoc-lnx-01,PAM: Login session closed.,3,5502
+"May 14, 2026 @ 23:04:14.562",safesoc-lnx-01,PAM: Login session opened.,3,5501
+"May 14, 2026 @ 23:04:14.560",safesoc-lnx-01,Successful sudo to ROOT executed.,3,5402
+"May 14, 2026 @ 23:04:14.558",safesoc-lnx-01,PAM: Login session closed.,3,5502
+"May 14, 2026 @ 23:04:14.556",safesoc-lnx-01,PAM: Login session opened.,3,5501
+"May 14, 2026 @ 23:04:14.553",safesoc-lnx-01,Successful sudo to ROOT executed.,3,5402
+"May 14, 2026 @ 23:04:14.550",safesoc-lnx-01,PAM: Login session closed.,3,5502
+"May 14, 2026 @ 23:04:14.548",safesoc-lnx-01,PAM: Login session opened.,3,5501
+"May 14, 2026 @ 23:04:14.545",safesoc-lnx-01,Successful sudo to ROOT executed.,3,5402
+"May 14, 2026 @ 23:04:14.541",safesoc-lnx-01,SafeAgentSOC run start marker observed,3,100760
+"May 14, 2026 @ 23:04:14.541",safesoc-lnx-01,SafeAgentSOC S10 Linux cron marker scenario,7,100765
+"May 14, 2026 @ 23:04:14.044",safesoc-lnx-01,SafeAgentSOC run end marker observed,3,100761
+"May 14, 2026 @ 23:04:14.040",safesoc-lnx-01,SafeAgentSOC S10 Linux cron marker scenario,7,100765
+"May 14, 2026 @ 23:04:14.036",safesoc-lnx-01,SafeAgentSOC run start marker observed,3,100760
+"May 14, 2026 @ 23:04:14.034",safesoc-lnx-01,PAM: Login session closed.,3,5502
+"May 14, 2026 @ 23:04:14.032",safesoc-lnx-01,PAM: Login session opened.,3,5501
+"May 14, 2026 @ 23:04:14.029",safesoc-lnx-01,Successful sudo to ROOT executed.,3,5402
+"May 14, 2026 @ 23:04:14.026",safesoc-lnx-01,PAM: Login session closed.,3,5502
+"May 14, 2026 @ 23:04:14.024",safesoc-lnx-01,PAM: Login session opened.,3,5501
+"May 14, 2026 @ 23:04:14.022",safesoc-lnx-01,Successful sudo to ROOT executed.,3,5402
+"May 14, 2026 @ 23:04:14.019",safesoc-lnx-01,PAM: Login session closed.,3,5502
+"May 14, 2026 @ 23:04:14.016",safesoc-lnx-01,PAM: Login session opened.,3,5501
+"May 14, 2026 @ 23:04:14.014",safesoc-lnx-01,Successful sudo to ROOT executed.,3,5402
+"May 14, 2026 @ 23:04:14.012",safesoc-lnx-01,PAM: Login session closed.,3,5502
+"May 14, 2026 @ 23:04:14.010",safesoc-lnx-01,Successful sudo to ROOT executed.,3,5402
+"May 14, 2026 @ 23:04:14.010",safesoc-lnx-01,PAM: Login session opened.,3,5501
+"May 14, 2026 @ 23:04:13.598",safesoc-lnx-01,File added to the system.,5,554
+"May 14, 2026 @ 23:02:30.510",safesoc-lnx-01,SafeAgentSOC run end marker observed,3,100761
+"May 14, 2026 @ 23:02:30.498",safesoc-lnx-01,SafeAgentSOC S09 Linux discovery scenario marker,5,100764
+"May 14, 2026 @ 23:02:30.498",safesoc-lnx-01,SafeAgentSOC run start marker observed,3,100760
+"May 14, 2026 @ 23:02:29.997",safesoc-lnx-01,SafeAgentSOC run end marker observed,3,100761
+"May 14, 2026 @ 23:02:29.983",safesoc-lnx-01,SafeAgentSOC run start marker observed,3,100760
+"May 14, 2026 @ 23:02:29.983",safesoc-lnx-01,SafeAgentSOC S09 Linux discovery scenario marker,5,100764
+"May 14, 2026 @ 22:56:26.396",safesoc-lnx-01,PAM: Login session closed.,3,5502
+"May 14, 2026 @ 22:56:26.394",safesoc-lnx-01,PAM: Login session opened.,3,5501
+"May 14, 2026 @ 22:56:26.392",safesoc-lnx-01,Successful sudo to ROOT executed.,3,5402
+"May 14, 2026 @ 22:56:26.390",safesoc-lnx-01,PAM: Login session closed.,3,5502
+"May 14, 2026 @ 22:56:26.388",safesoc-lnx-01,PAM: Login session opened.,3,5501
+"May 14, 2026 @ 22:56:26.387",safesoc-lnx-01,Successful sudo to ROOT executed.,3,5402
+"May 14, 2026 @ 22:55:46.379",safesoc-lnx-01,SafeAgentSOC run end marker observed,3,100761
+"May 14, 2026 @ 22:55:46.377",safesoc-lnx-01,SafeAgentSOC S09 Linux discovery scenario marker,5,100764
+"May 14, 2026 @ 22:55:46.377",safesoc-lnx-01,SafeAgentSOC run start marker observed,3,100760
+"May 14, 2026 @ 22:55:45.913",safesoc-lnx-01,Processes running for all users were queried with ps command.,6,92604
+"May 14, 2026 @ 22:55:45.870",safesoc-lnx-01,SafeAgentSOC run end marker observed,3,100761
+"May 14, 2026 @ 22:55:45.867",safesoc-lnx-01,SafeAgentSOC S09 Linux discovery scenario marker,5,100764
+"May 14, 2026 @ 22:55:45.867",safesoc-lnx-01,SafeAgentSOC run start marker observed,3,100760
+"May 14, 2026 @ 22:39:44.060",safesoc-lnx-01,SafeAgentSOC run end marker observed,3,100761
+"May 14, 2026 @ 22:39:44.052",safesoc-lnx-01,SafeAgentSOC run end marker observed,3,100761
+"May 14, 2026 @ 22:39:40.051",safesoc-lnx-01,Failed attempt to run sudo.,5,5401
+"May 14, 2026 @ 22:39:39.570",safesoc-lnx-01,Failed attempt to run sudo.,5,5401
+"May 14, 2026 @ 22:39:34.051",safesoc-lnx-01,PAM: User login failed.,5,5503
+"May 14, 2026 @ 22:39:34.047",safesoc-lnx-01,SafeAgentSOC S08 Linux sudo authentication scenario marker,6,100763
+"May 14, 2026 @ 22:39:34.047",safesoc-lnx-01,SafeAgentSOC run start marker observed,3,100760
+"May 14, 2026 @ 22:39:33.569",safesoc-lnx-01,SafeAgentSOC S08 Linux sudo authentication scenario marker,6,100763
+"May 14, 2026 @ 22:39:33.566",safesoc-lnx-01,PAM: User login failed.,5,5503
+"May 14, 2026 @ 22:39:33.566",safesoc-lnx-01,SafeAgentSOC run start marker observed,3,100760
+"May 14, 2026 @ 22:23:39.723",safesoc-lnx-01,SafeAgentSOC run end marker observed,3,100761
+"May 14, 2026 @ 22:23:39.716",safesoc-lnx-01,SafeAgentSOC run end marker observed,3,100761
+"May 14, 2026 @ 22:23:29.724",safesoc-lnx-01,PAM: Login session closed.,3,5502
+"May 14, 2026 @ 22:23:29.722",safesoc-lnx-01,PAM: Login session opened.,3,5501
+"May 14, 2026 @ 22:23:29.719",safesoc-lnx-01,Successful sudo to ROOT executed.,3,5402
+"May 14, 2026 @ 22:23:29.717",safesoc-lnx-01,PAM: Login session closed.,3,5502
+"May 14, 2026 @ 22:23:29.715",safesoc-lnx-01,PAM: Login session opened.,3,5501
+"May 14, 2026 @ 22:23:29.712",safesoc-lnx-01,Successful sudo to ROOT executed.,3,5402
+"May 14, 2026 @ 22:23:23.721",safesoc-lnx-01,Failed attempt to run sudo.,5,5401
+"May 14, 2026 @ 22:23:23.713",safesoc-lnx-01,Failed attempt to run sudo.,5,5401
+"May 14, 2026 @ 22:23:15.708",safesoc-lnx-01,PAM: User login failed.,5,5503
+"May 14, 2026 @ 22:23:15.288",safesoc-lnx-01,PAM: User login failed.,5,5503
+"May 14, 2026 @ 22:23:13.708",safesoc-lnx-01,SafeAgentSOC run start marker observed,3,100760
+"May 14, 2026 @ 22:23:13.708",safesoc-lnx-01,SafeAgentSOC S08 Linux sudo authentication scenario marker,6,100763
+"May 14, 2026 @ 22:23:13.287",safesoc-lnx-01,SafeAgentSOC run start marker observed,3,100760
+"May 14, 2026 @ 22:23:13.287",safesoc-lnx-01,SafeAgentSOC S08 Linux sudo authentication scenario marker,6,100763
+"May 14, 2026 @ 22:22:59.712",safesoc-lnx-01,syslog: User authentication failure.,5,2501
+"May 14, 2026 @ 22:22:59.710",safesoc-lnx-01,syslog: User authentication failure.,5,2501
+"May 14, 2026 @ 22:06:27.317",safesoc-lnx-01,syslog: User missed the password more than one time,10,2502
+"May 14, 2026 @ 22:06:27.315",safesoc-lnx-01,sshd: authentication failed.,5,5760
+"May 14, 2026 @ 22:06:26.935",safesoc-lnx-01,syslog: User missed the password more than one time,10,2502
+"May 14, 2026 @ 22:06:26.924",safesoc-lnx-01,sshd: authentication failed.,5,5760
+"May 14, 2026 @ 22:06:23.314",safesoc-lnx-01,sshd: authentication failed.,5,5760
+"May 14, 2026 @ 22:06:17.312",safesoc-lnx-01,sshd: authentication failed.,5,5760
+"May 14, 2026 @ 22:06:16.920",safesoc-lnx-01,sshd: authentication failed.,5,5760
+"May 14, 2026 @ 22:06:15.311",safesoc-lnx-01,PAM: User login failed.,5,5503
+"May 14, 2026 @ 22:06:14.918",safesoc-lnx-01,PAM: User login failed.,5,5503
+"May 14, 2026 @ 21:49:54.920",safesoc-lnx-01,PAM: Login session closed.,3,5502
+"May 14, 2026 @ 21:49:54.607",safesoc-lnx-01,PAM: Login session closed.,3,5502
+"May 14, 2026 @ 21:49:50.937",safesoc-lnx-01,PAM: Login session opened.,3,5501
+"May 14, 2026 @ 21:49:50.937",safesoc-lnx-01,Multiple authentication failures followed by a success.,12,40112
+"May 14, 2026 @ 21:49:50.927",safesoc-lnx-01,PAM: Login session opened.,3,5501
+"May 14, 2026 @ 21:49:50.912",safesoc-lnx-01,Multiple authentication failures followed by a success.,12,40112
+"May 14, 2026 @ 21:49:36.905",safesoc-lnx-01,PAM: Login session closed.,3,5502
+"May 14, 2026 @ 21:49:36.902",safesoc-lnx-01,PAM: Login session opened.,3,5501
+"May 14, 2026 @ 21:49:36.902",safesoc-lnx-01,Successful sudo to ROOT executed.,3,5402
+"May 14, 2026 @ 21:49:36.637",safesoc-lnx-01,PAM: Login session opened.,3,5501
+"May 14, 2026 @ 21:49:36.637",safesoc-lnx-01,PAM: Login session closed.,3,5502
+"May 14, 2026 @ 21:49:36.595",safesoc-lnx-01,Successful sudo to ROOT executed.,3,5402
+"May 14, 2026 @ 21:49:20.907",safesoc-lnx-01,syslog: User missed the password more than one time,10,2502
+"May 14, 2026 @ 21:49:20.902",safesoc-lnx-01,sshd: authentication failed.,5,5760
+"May 14, 2026 @ 21:49:20.900",safesoc-lnx-01,syslog: User missed the password more than one time,10,2502
+"May 14, 2026 @ 21:49:20.897",safesoc-lnx-01,sshd: authentication failed.,5,5760
+"May 14, 2026 @ 21:49:16.896",safesoc-lnx-01,sshd: authentication failed.,5,5760
+"May 14, 2026 @ 21:49:14.896",safesoc-lnx-01,sshd: authentication failed.,5,5760
+"May 14, 2026 @ 21:49:14.583",safesoc-lnx-01,sshd: authentication failed.,5,5760
+"May 14, 2026 @ 21:49:10.937",safesoc-lnx-01,PAM: User login failed.,5,5503
+"May 14, 2026 @ 21:49:10.895",safesoc-lnx-01,PAM: User login failed.,5,5503
+"May 14, 2026 @ 21:48:24.873",safesoc-lnx-01,PAM: Login session closed.,3,5502
+"May 14, 2026 @ 21:48:24.870",safesoc-lnx-01,PAM: Login session opened.,3,5501
+"May 14, 2026 @ 21:48:24.870",safesoc-lnx-01,Successful sudo to ROOT executed.,3,5402
+"May 14, 2026 @ 21:48:24.572",safesoc-lnx-01,PAM: Login session closed.,3,5502
+"May 14, 2026 @ 21:48:24.570",safesoc-lnx-01,Successful sudo to ROOT executed.,3,5402
+"May 14, 2026 @ 21:48:24.570",safesoc-lnx-01,PAM: Login session opened.,3,5501
+"May 14, 2026 @ 21:48:00.864",safesoc-lnx-01,syslog: User missed the password more than one time,10,2502
+"May 14, 2026 @ 21:48:00.562",safesoc-lnx-01,syslog: User missed the password more than one time,10,2502
+"May 14, 2026 @ 21:47:58.863",safesoc-lnx-01,sshd: brute force trying to get access to the system. Non existent user.,10,5712
+"May 14, 2026 @ 21:47:58.561",safesoc-lnx-01,sshd: Attempt to login using a non-existent user,5,5710
+"May 14, 2026 @ 21:47:52.860",safesoc-lnx-01,sshd: Attempt to login using a non-existent user,5,5710
+"May 14, 2026 @ 21:47:52.560",safesoc-lnx-01,sshd: Attempt to login using a non-existent user,5,5710
+"May 14, 2026 @ 21:47:46.858",safesoc-lnx-01,sshd: Attempt to login using a non-existent user,5,5710
+"May 14, 2026 @ 21:47:46.557",safesoc-lnx-01,sshd: Attempt to login using a non-existent user,5,5710
+"May 14, 2026 @ 21:47:44.858",safesoc-lnx-01,PAM: User login failed.,5,5503
+"May 14, 2026 @ 21:47:44.557",safesoc-lnx-01,PAM: User login failed.,5,5503
+"May 14, 2026 @ 21:47:40.857",safesoc-lnx-01,sshd: Attempt to login using a non-existent user,5,5710
+"May 14, 2026 @ 21:47:40.556",safesoc-lnx-01,sshd: Attempt to login using a non-existent user,5,5710
+"May 14, 2026 @ 21:46:08.806",safesoc-lnx-01,SafeAgentSOC run end marker observed,3,100761
+"May 14, 2026 @ 21:46:08.804",safesoc-lnx-01,SafeAgentSOC S09 Linux discovery scenario marker,5,100764
+"May 14, 2026 @ 21:46:08.801",safesoc-lnx-01,SafeAgentSOC run start marker observed,3,100760
+"May 14, 2026 @ 21:46:08.532",safesoc-lnx-01,SafeAgentSOC run start marker observed,3,100760
+"May 14, 2026 @ 21:46:08.532",safesoc-lnx-01,SafeAgentSOC S09 Linux discovery scenario marker,5,100764
+"May 14, 2026 @ 21:46:08.532",safesoc-lnx-01,SafeAgentSOC run end marker observed,3,100761
+"May 14, 2026 @ 21:45:59.557",safesoc-lnx-01,PAM: Login session closed.,3,5502
+"May 14, 2026 @ 21:45:59.556",safesoc-lnx-01,PAM: Login session closed.,3,5502
+"May 14, 2026 @ 21:43:36.692",safesoc-lnx-01,Successful sudo to ROOT executed.,3,5402
+"May 14, 2026 @ 21:43:36.692",safesoc-lnx-01,PAM: Login session opened.,3,5501
+"May 14, 2026 @ 21:43:36.454",safesoc-lnx-01,PAM: Login session opened.,3,5501
+"May 14, 2026 @ 21:43:36.453",safesoc-lnx-01,Successful sudo to ROOT executed.,3,5402
+"May 14, 2026 @ 21:25:32.382",safesoc-lnx-01,SCA summary: CIS Ubuntu Linux 24.04 LTS Benchmark v1.0.0.: Score less than 50% (45),7,19004
+"May 14, 2026 @ 21:25:26.370",safesoc-lnx-01,PAM: Login session opened.,3,5501
+"May 14, 2026 @ 21:25:26.370",safesoc-lnx-01,PAM: Login session closed.,3,5502
+"May 14, 2026 @ 21:25:26.329",safesoc-lnx-01,Successful sudo to ROOT executed.,3,5402
+"May 14, 2026 @ 21:25:26.182",safesoc-lnx-01,PAM: Login session opened.,3,5501
+"May 14, 2026 @ 21:25:26.182",safesoc-lnx-01,PAM: Login session closed.,3,5502
+"May 14, 2026 @ 21:25:26.172",safesoc-lnx-01,Successful sudo to ROOT executed.,3,5402
+"May 14, 2026 @ 21:25:25.134",safesoc-lnx-01,CIS Ubuntu Linux 24.04 LTS Benchmark v1.0.0.: Ensure audit tools group owner is configured.: Status changed from failed to passed,3,19010
+"May 14, 2026 @ 21:25:25.133",safesoc-lnx-01,CIS Ubuntu Linux 24.04 LTS Benchmark v1.0.0.: Ensure audit tools owner is configured.: Status changed from failed to passed,3,19010
+"May 14, 2026 @ 21:25:25.111",safesoc-lnx-01,CIS Ubuntu Linux 24.04 LTS Benchmark v1.0.0.: Ensure audit tools mode is configured.: Status changed from passed to failed,9,19011
+"May 14, 2026 @ 21:25:25.080",safesoc-lnx-01,CIS Ubuntu Linux 24.04 LTS Benchmark v1.0.0.: Ensure audit configuration files mode is configured.: Status changed from passed to failed,9,19011
+"May 14, 2026 @ 21:25:25.080",safesoc-lnx-01,CIS Ubuntu Linux 24.04 LTS Benchmark v1.0.0.: Ensure audit log files group owner is configured.: Status changed from 'not applicable' to passed,3,19015
+"May 14, 2026 @ 21:25:25.059",safesoc-lnx-01,CIS Ubuntu Linux 24.04 LTS Benchmark v1.0.0.: Ensure the audit configuration is immutable.: Status changed from 'not applicable' to failed,9,19014
+"May 14, 2026 @ 21:25:25.059",safesoc-lnx-01,CIS Ubuntu Linux 24.04 LTS Benchmark v1.0.0.: Ensure the running and on disk configuration is the same.: Status changed from 'not applicable' to passed,3,19015
+"May 14, 2026 @ 21:25:25.037",safesoc-lnx-01,CIS Ubuntu Linux 24.04 LTS Benchmark v1.0.0.: Ensure kernel module loading unloading and modification is collected.: Status changed from 'not applicable' to failed,9,19014
+"May 14, 2026 @ 21:25:25.037",safesoc-lnx-01,CIS Ubuntu Linux 24.04 LTS Benchmark v1.0.0.: Ensure successful and unsuccessful attempts to use the usermod command are collected.: Status changed from 'not applicable' to failed,9,19014
+"May 14, 2026 @ 21:25:25.015",safesoc-lnx-01,CIS Ubuntu Linux 24.04 LTS Benchmark v1.0.0.: Ensure successful and unsuccessful attempts to use the chacl command are collected.: Status changed from 'not applicable' to failed,9,19014
+"May 14, 2026 @ 21:25:25.005",safesoc-lnx-01,CIS Ubuntu Linux 24.04 LTS Benchmark v1.0.0.: Ensure successful and unsuccessful attempts to use the setfacl command are collected.: Status changed from 'not applicable' to failed,9,19014
+"May 14, 2026 @ 21:25:25.004",safesoc-lnx-01,CIS Ubuntu Linux 24.04 LTS Benchmark v1.0.0.: Ensure successful and unsuccessful attempts to use the chcon command are collected.: Status changed from 'not applicable' to failed,9,19014
+"May 14, 2026 @ 21:25:24.983",safesoc-lnx-01,CIS Ubuntu Linux 24.04 LTS Benchmark v1.0.0.: Ensure events that modify the system's Mandatory Access Controls are collected.: Status changed from 'not applicable' to failed,9,19014
+"May 14, 2026 @ 21:25:24.977",safesoc-lnx-01,CIS Ubuntu Linux 24.04 LTS Benchmark v1.0.0.: Ensure file deletion events by users are collected.: Status changed from 'not applicable' to failed,9,19014
+"May 14, 2026 @ 21:25:24.962",safesoc-lnx-01,CIS Ubuntu Linux 24.04 LTS Benchmark v1.0.0.: Ensure session initiation information is collected.: Status changed from 'not applicable' to failed,9,19014
+"May 14, 2026 @ 21:25:24.962",safesoc-lnx-01,CIS Ubuntu Linux 24.04 LTS Benchmark v1.0.0.: Ensure login and logout events are collected.: Status changed from 'not applicable' to failed,9,19014
+"May 14, 2026 @ 21:25:24.940",safesoc-lnx-01,CIS Ubuntu Linux 24.04 LTS Benchmark v1.0.0.: Ensure successful file system mounts are collected.: Status changed from 'not applicable' to failed,9,19014
+"May 14, 2026 @ 21:25:24.930",safesoc-lnx-01,CIS Ubuntu Linux 24.04 LTS Benchmark v1.0.0.: Ensure discretionary access control permission modification events are collected.: Status changed from 'not applicable' to failed,9,19014
+"May 14, 2026 @ 21:25:24.919",safesoc-lnx-01,CIS Ubuntu Linux 24.04 LTS Benchmark v1.0.0.: Ensure events that modify user/group information are collected.: Status changed from 'not applicable' to failed,9,19014
+"May 14, 2026 @ 21:25:24.908",safesoc-lnx-01,CIS Ubuntu Linux 24.04 LTS Benchmark v1.0.0.: Ensure unsuccessful file access attempts are collected.: Status changed from 'not applicable' to failed,9,19014
+"May 14, 2026 @ 21:25:24.897",safesoc-lnx-01,CIS Ubuntu Linux 24.04 LTS Benchmark v1.0.0.: Ensure events that modify the system's network environment are collected.: Status changed from 'not applicable' to failed,9,19014
+"May 14, 2026 @ 21:25:24.887",safesoc-lnx-01,CIS Ubuntu Linux 24.04 LTS Benchmark v1.0.0.: Ensure events that modify date and time information are collected.: Status changed from 'not applicable' to failed,9,19014
+"May 14, 2026 @ 21:25:24.877",safesoc-lnx-01,CIS Ubuntu Linux 24.04 LTS Benchmark v1.0.0.: Ensure events that modify the sudo log file are collected.: Status changed from 'not applicable' to failed,9,19014
+"May 14, 2026 @ 21:25:24.876",safesoc-lnx-01,CIS Ubuntu Linux 24.04 LTS Benchmark v1.0.0.: Ensure actions as another user are always logged.: Status changed from 'not applicable' to failed,9,19014
+"May 14, 2026 @ 21:25:24.854",safesoc-lnx-01,CIS Ubuntu Linux 24.04 LTS Benchmark v1.0.0.: Ensure system warns when audit logs are low on space.: Status changed from 'not applicable' to failed,9,19014
+"May 14, 2026 @ 21:25:24.854",safesoc-lnx-01,CIS Ubuntu Linux 24.04 LTS Benchmark v1.0.0.: Ensure changes to system administration scope (sudoers) is collected.: Status changed from 'not applicable' to failed,9,19014
+"May 14, 2026 @ 21:25:24.834",safesoc-lnx-01,CIS Ubuntu Linux 24.04 LTS Benchmark v1.0.0.: Ensure audit logs are not automatically deleted.: Status changed from 'not applicable' to failed,9,19014
+"May 14, 2026 @ 21:25:24.834",safesoc-lnx-01,CIS Ubuntu Linux 24.04 LTS Benchmark v1.0.0.: Ensure system is disabled when audit logs are full.: Status changed from 'not applicable' to failed,9,19014
+"May 14, 2026 @ 21:25:24.834",safesoc-lnx-01,CIS Ubuntu Linux 24.04 LTS Benchmark v1.0.0.: Ensure audit log storage size is configured.: Status changed from 'not applicable' to passed,3,19015
+"May 14, 2026 @ 21:25:24.791",safesoc-lnx-01,CIS Ubuntu Linux 24.04 LTS Benchmark v1.0.0.: Ensure auditd service is enabled and active.: Status changed from failed to passed,3,19010
+"May 14, 2026 @ 21:25:24.770",safesoc-lnx-01,CIS Ubuntu Linux 24.04 LTS Benchmark v1.0.0.: Ensure auditd packages are installed.: Status changed from failed to passed,3,19010
+"May 14, 2026 @ 21:25:22.792",safesoc-lnx-01,CIS Ubuntu Linux 24.04 LTS Benchmark v1.0.0.: Ensure all AppArmor Profiles are in enforce or complain mode.: Status changed from passed to failed,9,19011
+"May 14, 2026 @ 21:25:18.365",safesoc-lnx-01,PAM: Login session closed.,3,5502
+"May 14, 2026 @ 21:25:18.342",safesoc-lnx-01,PAM: Login session opened.,3,5501
+"May 14, 2026 @ 21:25:18.341",safesoc-lnx-01,PAM: Login session closed.,3,5502
+"May 14, 2026 @ 21:25:18.341",safesoc-lnx-01,First time user executed sudo.,4,5403
+"May 14, 2026 @ 21:25:18.341",safesoc-lnx-01,PAM: Login session closed.,3,5502
+"May 14, 2026 @ 21:25:18.341",safesoc-lnx-01,Successful sudo to ROOT executed.,3,5402
+"May 14, 2026 @ 21:25:18.340",safesoc-lnx-01,PAM: Login session opened.,3,5501
+"May 14, 2026 @ 21:25:18.340",safesoc-lnx-01,PAM: Login session closed.,3,5502
+"May 14, 2026 @ 21:25:13.110",safesoc-lnx-01,Wazuh agent started.,3,503
+"May 14, 2026 @ 21:25:11.013",safesoc-lnx-01,Wazuh agent stopped.,3,506
+"May 14, 2026 @ 21:25:01.749",safesoc-lnx-01,PAM: Login session closed.,3,5502
+"May 14, 2026 @ 21:25:01.747",safesoc-lnx-01,PAM: Login session opened.,3,5501
+"May 14, 2026 @ 21:25:01.747",safesoc-lnx-01,Successful sudo to ROOT executed.,3,5402
+"May 14, 2026 @ 21:24:55.787",safesoc-lnx-01,PAM: Login session opened.,3,5501
+"May 14, 2026 @ 21:24:55.787",safesoc-lnx-01,PAM: Login session closed.,3,5502
+"May 14, 2026 @ 21:24:55.745",safesoc-lnx-01,Successful sudo to ROOT executed.,3,5402
+"May 14, 2026 @ 21:24:45.785",safesoc-lnx-01,PAM: Login session closed.,3,5502
+"May 14, 2026 @ 21:24:45.785",safesoc-lnx-01,PAM: Login session opened.,3,5501
+"May 14, 2026 @ 21:24:45.743",safesoc-lnx-01,Successful sudo to ROOT executed.,3,5402
+"May 14, 2026 @ 21:23:53.768",safesoc-lnx-01,PAM: Login session closed.,3,5502
+"May 14, 2026 @ 21:23:53.767",safesoc-lnx-01,PAM: Login session opened.,3,5501
+"May 14, 2026 @ 21:23:53.726",safesoc-lnx-01,Successful sudo to ROOT executed.,3,5402
+"May 14, 2026 @ 21:22:11.688",safesoc-lnx-01,PAM: Login session closed.,3,5502
+"May 14, 2026 @ 21:21:39.722",safesoc-lnx-01,PAM: Login session opened.,3,5501
+"May 14, 2026 @ 21:21:39.681",safesoc-lnx-01,Successful sudo to ROOT executed.,3,5402
+"May 14, 2026 @ 21:21:31.679",safesoc-lnx-01,PAM: Login session closed.,3,5502
+"May 14, 2026 @ 21:20:51.620",safesoc-lnx-01,PAM: Login session opened.,3,5501
+"May 14, 2026 @ 21:20:51.620",safesoc-lnx-01,Successful sudo to ROOT executed.,3,5402
+"May 14, 2026 @ 21:20:49.619",safesoc-lnx-01,PAM: Login session closed.,3,5502
+"May 14, 2026 @ 21:20:09.601",safesoc-lnx-01,Successful sudo to ROOT executed.,3,5402
+"May 14, 2026 @ 21:20:09.601",safesoc-lnx-01,PAM: Login session opened.,3,5501
+"May 14, 2026 @ 21:19:43.603",safesoc-lnx-01,PAM: Login session closed.,3,5502
+"May 14, 2026 @ 21:19:43.601",safesoc-lnx-01,PAM: Login session opened.,3,5501
+"May 14, 2026 @ 21:19:43.598",safesoc-lnx-01,Successful sudo to ROOT executed.,3,5402
+"May 14, 2026 @ 21:19:43.596",safesoc-lnx-01,PAM: Login session closed.,3,5502
+"May 14, 2026 @ 21:19:43.594",safesoc-lnx-01,PAM: Login session opened.,3,5501
+"May 14, 2026 @ 21:19:43.593",safesoc-lnx-01,Successful sudo to ROOT executed.,3,5402
+"May 14, 2026 @ 21:19:37.634",safesoc-lnx-01,PAM: Login session closed.,3,5502
+"May 14, 2026 @ 21:19:37.634",safesoc-lnx-01,PAM: Login session opened.,3,5501
+"May 14, 2026 @ 21:19:37.593",safesoc-lnx-01,Successful sudo to ROOT executed.,3,5402
+"May 14, 2026 @ 21:18:39.578",safesoc-lnx-01,PAM: Login session opened.,3,5501
+"May 14, 2026 @ 21:18:23.595",safesoc-lnx-01,PAM: Login session closed.,3,5502
+"May 14, 2026 @ 21:18:23.593",safesoc-lnx-01,PAM: Login session opened.,3,5501
+"May 14, 2026 @ 21:18:23.591",safesoc-lnx-01,Successful sudo to ROOT executed.,3,5402
+"May 14, 2026 @ 21:18:23.582",safesoc-lnx-01,PAM: Login session closed.,3,5502
+"May 14, 2026 @ 21:18:23.579",safesoc-lnx-01,PAM: Login session opened.,3,5501
+"May 14, 2026 @ 21:18:23.577",safesoc-lnx-01,Successful sudo to ROOT executed.,3,5402
+"May 14, 2026 @ 21:18:23.574",safesoc-lnx-01,PAM: Login session closed.,3,5502
+"May 14, 2026 @ 21:18:23.572",safesoc-lnx-01,Successful sudo to ROOT executed.,3,5402
+"May 14, 2026 @ 21:18:23.572",safesoc-lnx-01,PAM: Login session opened.,3,5501
+"May 14, 2026 @ 21:18:19.608",safesoc-lnx-01,PAM: Login session closed.,3,5502
+"May 14, 2026 @ 21:18:19.605",safesoc-lnx-01,PAM: Login session opened.,3,5501
+"May 14, 2026 @ 21:18:19.603",safesoc-lnx-01,Successful sudo to ROOT executed.,3,5402
+"May 14, 2026 @ 21:18:19.601",safesoc-lnx-01,PAM: Login session closed.,3,5502
+"May 14, 2026 @ 21:18:19.567",safesoc-lnx-01,PAM: Login session opened.,3,5501
+"May 14, 2026 @ 21:18:19.566",safesoc-lnx-01,PAM: Login session closed.,3,5502
+"May 14, 2026 @ 21:18:19.565",safesoc-lnx-01,Successful sudo to ROOT executed.,3,5402
+"May 14, 2026 @ 21:18:16.480",safesoc-lnx-01,New dpkg (Debian Package) installed.,7,2902
+"May 14, 2026 @ 21:18:16.477",safesoc-lnx-01,Dpkg (Debian Package) half configured.,7,2904
+"May 14, 2026 @ 21:18:16.474",safesoc-lnx-01,New dpkg (Debian Package) installed.,7,2902
+"May 14, 2026 @ 21:18:16.466",safesoc-lnx-01,Dpkg (Debian Package) half configured.,7,2904
+"May 14, 2026 @ 21:18:16.466",safesoc-lnx-01,Dpkg (Debian Package) half configured.,7,2904
+"May 14, 2026 @ 21:18:16.466",safesoc-lnx-01,New dpkg (Debian Package) installed.,7,2902
+"May 14, 2026 @ 21:18:16.425",safesoc-lnx-01,New dpkg (Debian Package) installed.,7,2902
+"May 14, 2026 @ 21:18:15.600",safesoc-lnx-01,Dpkg (Debian Package) half configured.,7,2904
+"May 14, 2026 @ 21:18:15.593",safesoc-lnx-01,New dpkg (Debian Package) installed.,7,2902
+"May 14, 2026 @ 21:18:15.590",safesoc-lnx-01,Dpkg (Debian Package) half configured.,7,2904
+"May 14, 2026 @ 21:18:15.576",safesoc-lnx-01,New dpkg (Debian Package) requested to install.,3,2901
+"May 14, 2026 @ 21:18:15.566",safesoc-lnx-01,New dpkg (Debian Package) requested to install.,3,2901
+"May 14, 2026 @ 21:18:15.556",safesoc-lnx-01,New dpkg (Debian Package) requested to install.,3,2901
+"May 14, 2026 @ 21:18:13.539",safesoc-lnx-01,PAM: Login session opened.,3,5501
+"May 14, 2026 @ 21:18:13.536",safesoc-lnx-01,Successful sudo to ROOT executed.,3,5402
+"May 14, 2026 @ 21:18:13.534",safesoc-lnx-01,PAM: Login session closed.,3,5502
+"May 14, 2026 @ 21:18:07.544",safesoc-lnx-01,PAM: Login session opened.,3,5501
+"May 14, 2026 @ 21:18:07.503",safesoc-lnx-01,Successful sudo to ROOT executed.,3,5402
+"May 14, 2026 @ 21:17:32.031",safesoc-lnx-01,Wazuh agent started.,3,503

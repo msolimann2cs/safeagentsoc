@@ -1,0 +1,14 @@
+execution_mode,event_role,count
+atomic_red_team,duplicate,60
+atomic_red_team,supporting,4
+atomic_red_team,trigger,4
+atomic_red_team,unrelated,12
+background_sample,unrelated,205
+caldera,duplicate,103
+caldera,supporting,63
+caldera,trigger,10
+manual,duplicate,51
+manual,noise,5
+manual,supporting,222
+manual,trigger,31
+manual,unrelated,30

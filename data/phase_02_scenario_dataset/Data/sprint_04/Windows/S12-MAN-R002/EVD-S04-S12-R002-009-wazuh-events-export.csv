@@ -1,0 +1,1 @@
+S12-MAN-R002,S12,,Authentication typo noise,ambiguous_noise,noise,manual,manual,,,,,safesoc-win-01,msolimann,START_TIME,END_TIME,S12_commands.txt,EVD-S04-S12-R002-001;EVD-S04-S12-R002-005;EVD-S04-S12-R002-006,"agent.name:\"safesoc-win-01\" AND authentication",Windows login typo authentication noise,not_required,Controlled Windows login typo followed by successful login

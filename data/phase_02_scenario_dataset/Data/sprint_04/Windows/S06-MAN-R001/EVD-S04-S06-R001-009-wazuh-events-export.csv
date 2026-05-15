@@ -1,0 +1,1 @@
+S06-MAN-R001,S06,,Windows repeated benign process noise,noise,noise,manual,manual,,,,,safesoc-win-01,msolimann,START_TIME,END_TIME,S06_commands.txt,EVD-S04-S06-R001-001;EVD-S04-S06-R001-008;EVD-S04-S06-R001-009,"agent.name:\"safesoc-win-01\" AND discovery",Repeated benign Windows discovery noise,not_required,Repeated benign cmd.exe discovery commands for alert-fatigue baseline

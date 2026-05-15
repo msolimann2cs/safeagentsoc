@@ -1,0 +1,15 @@
+timestamp,agent.name,rule.description,rule.level,rule.id
+"May 14, 2026 @ 17:32:36.421",safesoc-win-01,Non service account logged off.,3,67023
+"May 14, 2026 @ 17:32:36.004",safesoc-win-01,Non service account logged off.,3,67023
+"May 14, 2026 @ 17:32:35.815",safesoc-win-01,Special privileges assigned to new logon.,3,67028
+"May 14, 2026 @ 17:32:35.688",safesoc-win-01,Windows Workstation Logon Success,3,60118
+"May 14, 2026 @ 17:32:35.493",safesoc-win-01,Windows Workstation Logon Success,3,60118
+"May 14, 2026 @ 17:32:30.458",safesoc-win-01,Logon Failure - Unknown user or bad password,5,60122
+"May 14, 2026 @ 17:31:58.851",safesoc-win-01,Non service account logged off.,3,67023
+"May 14, 2026 @ 17:31:58.834",safesoc-win-01,Non service account logged off.,3,67023
+"May 14, 2026 @ 17:31:58.819",safesoc-win-01,Special privileges assigned to new logon.,3,67028
+"May 14, 2026 @ 17:31:58.772",safesoc-win-01,Windows Workstation Logon Success,3,60118
+"May 14, 2026 @ 17:31:58.726",safesoc-win-01,Windows Workstation Logon Success,3,60118
+"May 14, 2026 @ 17:31:31.350",safesoc-win-01,Logon Failure - Unknown user or bad password,5,60122
+"May 14, 2026 @ 17:25:56.303",safesoc-win-01,System time changed,5,60132
+"May 14, 2026 @ 17:24:35.958",safesoc-win-01,Software protection service scheduled successfully.,3,60642

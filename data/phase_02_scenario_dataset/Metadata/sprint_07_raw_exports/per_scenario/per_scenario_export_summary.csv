@@ -1,0 +1,11 @@
+scenario_id,alert_count,file
+S01,24,06_data\phase_02_scenario_dataset\sprint_07_raw_exports\per_scenario\S01_alerts.jsonl
+S02,39,06_data\phase_02_scenario_dataset\sprint_07_raw_exports\per_scenario\S02_alerts.jsonl
+S03,8,06_data\phase_02_scenario_dataset\sprint_07_raw_exports\per_scenario\S03_alerts.jsonl
+S04,16,06_data\phase_02_scenario_dataset\sprint_07_raw_exports\per_scenario\S04_alerts.jsonl
+S07,60,06_data\phase_02_scenario_dataset\sprint_07_raw_exports\per_scenario\S07_alerts.jsonl
+S08,28,06_data\phase_02_scenario_dataset\sprint_07_raw_exports\per_scenario\S08_alerts.jsonl
+S09,50,06_data\phase_02_scenario_dataset\sprint_07_raw_exports\per_scenario\S09_alerts.jsonl
+S10,132,06_data\phase_02_scenario_dataset\sprint_07_raw_exports\per_scenario\S10_alerts.jsonl
+S11,48,06_data\phase_02_scenario_dataset\sprint_07_raw_exports\per_scenario\S11_alerts.jsonl
+S12,14,06_data\phase_02_scenario_dataset\sprint_07_raw_exports\per_scenario\S12_alerts.jsonl

@@ -1,0 +1,44 @@
+timestamp,agent.name,rule.description,rule.level,rule.id
+"May 14, 2026 @ 23:04:32.576",safesoc-lnx-01,PAM: Login session closed.,3,5502
+"May 14, 2026 @ 23:04:32.576",safesoc-lnx-01,Successful sudo to ROOT executed.,3,5402
+"May 14, 2026 @ 23:04:32.576",safesoc-lnx-01,PAM: Login session opened.,3,5501
+"May 14, 2026 @ 23:04:32.564",safesoc-lnx-01,PAM: Login session opened.,3,5501
+"May 14, 2026 @ 23:04:32.564",safesoc-lnx-01,Successful sudo to ROOT executed.,3,5402
+"May 14, 2026 @ 23:04:32.564",safesoc-lnx-01,PAM: Login session closed.,3,5502
+"May 14, 2026 @ 23:04:32.564",safesoc-lnx-01,PAM: Login session closed.,3,5502
+"May 14, 2026 @ 23:04:32.564",safesoc-lnx-01,PAM: Login session opened.,3,5501
+"May 14, 2026 @ 23:04:32.564",safesoc-lnx-01,PAM: Login session closed.,3,5502
+"May 14, 2026 @ 23:04:32.564",safesoc-lnx-01,PAM: Login session opened.,3,5501
+"May 14, 2026 @ 23:04:32.564",safesoc-lnx-01,Successful sudo to ROOT executed.,3,5402
+"May 14, 2026 @ 23:04:32.545",safesoc-lnx-01,Successful sudo to ROOT executed.,3,5402
+"May 14, 2026 @ 23:04:14.576",safesoc-lnx-01,SafeAgentSOC run end marker observed,3,100761
+"May 14, 2026 @ 23:04:14.573",safesoc-lnx-01,PAM: Login session closed.,3,5502
+"May 14, 2026 @ 23:04:14.571",safesoc-lnx-01,PAM: Login session opened.,3,5501
+"May 14, 2026 @ 23:04:14.568",safesoc-lnx-01,Successful sudo to ROOT executed.,3,5402
+"May 14, 2026 @ 23:04:14.565",safesoc-lnx-01,PAM: Login session closed.,3,5502
+"May 14, 2026 @ 23:04:14.562",safesoc-lnx-01,PAM: Login session opened.,3,5501
+"May 14, 2026 @ 23:04:14.560",safesoc-lnx-01,Successful sudo to ROOT executed.,3,5402
+"May 14, 2026 @ 23:04:14.558",safesoc-lnx-01,PAM: Login session closed.,3,5502
+"May 14, 2026 @ 23:04:14.556",safesoc-lnx-01,PAM: Login session opened.,3,5501
+"May 14, 2026 @ 23:04:14.553",safesoc-lnx-01,Successful sudo to ROOT executed.,3,5402
+"May 14, 2026 @ 23:04:14.550",safesoc-lnx-01,PAM: Login session closed.,3,5502
+"May 14, 2026 @ 23:04:14.548",safesoc-lnx-01,PAM: Login session opened.,3,5501
+"May 14, 2026 @ 23:04:14.545",safesoc-lnx-01,Successful sudo to ROOT executed.,3,5402
+"May 14, 2026 @ 23:04:14.541",safesoc-lnx-01,SafeAgentSOC run start marker observed,3,100760
+"May 14, 2026 @ 23:04:14.541",safesoc-lnx-01,SafeAgentSOC S10 Linux cron marker scenario,7,100765
+"May 14, 2026 @ 23:04:14.044",safesoc-lnx-01,SafeAgentSOC run end marker observed,3,100761
+"May 14, 2026 @ 23:04:14.040",safesoc-lnx-01,SafeAgentSOC S10 Linux cron marker scenario,7,100765
+"May 14, 2026 @ 23:04:14.036",safesoc-lnx-01,SafeAgentSOC run start marker observed,3,100760
+"May 14, 2026 @ 23:04:14.034",safesoc-lnx-01,PAM: Login session closed.,3,5502
+"May 14, 2026 @ 23:04:14.032",safesoc-lnx-01,PAM: Login session opened.,3,5501
+"May 14, 2026 @ 23:04:14.029",safesoc-lnx-01,Successful sudo to ROOT executed.,3,5402
+"May 14, 2026 @ 23:04:14.026",safesoc-lnx-01,PAM: Login session closed.,3,5502
+"May 14, 2026 @ 23:04:14.024",safesoc-lnx-01,PAM: Login session opened.,3,5501
+"May 14, 2026 @ 23:04:14.022",safesoc-lnx-01,Successful sudo to ROOT executed.,3,5402
+"May 14, 2026 @ 23:04:14.019",safesoc-lnx-01,PAM: Login session closed.,3,5502
+"May 14, 2026 @ 23:04:14.016",safesoc-lnx-01,PAM: Login session opened.,3,5501
+"May 14, 2026 @ 23:04:14.014",safesoc-lnx-01,Successful sudo to ROOT executed.,3,5402
+"May 14, 2026 @ 23:04:14.012",safesoc-lnx-01,PAM: Login session closed.,3,5502
+"May 14, 2026 @ 23:04:14.010",safesoc-lnx-01,PAM: Login session opened.,3,5501
+"May 14, 2026 @ 23:04:14.010",safesoc-lnx-01,Successful sudo to ROOT executed.,3,5402
+"May 14, 2026 @ 23:04:13.598",safesoc-lnx-01,File added to the system.,5,554
