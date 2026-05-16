@@ -1,0 +1,41 @@
+mitre_field,value,alert_count,alert_percent
+rule.mitre.id,T1565.001,528,7.66
+rule.mitre.id,T1059.003,231,3.35
+rule.mitre.id,T1078,165,2.39
+rule.mitre.id,T1087,141,2.05
+rule.mitre.id,T1548.003,134,1.94
+rule.mitre.id,T1057,103,1.49
+rule.mitre.id,T1059.001,65,0.94
+rule.mitre.id,T1070.004,58,0.84
+rule.mitre.id,T1112,57,0.83
+rule.mitre.id,T1110.001,39,0.57
+rule.mitre.id,T1021.004,23,0.33
+rule.mitre.id,T1485,15,0.22
+rule.mitre.id,T1574.001,14,0.20
+rule.mitre.id,T1562.001,14,0.20
+rule.mitre.id,T1546.011,9,0.13
+rule.mitre.id,T1110,9,0.13
+rule.mitre.id,T1082,6,0.09
+rule.mitre.id,T1033,6,0.09
+rule.mitre.id,T1016,6,0.09
+rule.mitre.id,T1021,5,0.07
+rule.mitre.id,T1136,4,0.06
+rule.mitre.id,T1484,4,0.06
+rule.mitre.id,T1053.003,4,0.06
+rule.mitre.id,T1003,4,0.06
+rule.mitre.id,T1070.002,4,0.06
+rule.mitre.id,T1543.003,4,0.06
+rule.mitre.id,T1531,3,0.04
+rule.mitre.id,T1135,3,0.04
+rule.mitre.id,T1055,1,0.01
+rule.mitre.id,T1027,1,0.01
+rule.mitre.id,T1529,1,0.01
+rule.mitre.tactic,Impact,547,7.94
+rule.mitre.tactic,Defense Evasion,451,6.54
+rule.mitre.tactic,Privilege Escalation,335,4.86
+rule.mitre.tactic,Execution,300,4.35
+rule.mitre.tactic,Discovery,253,3.67
+rule.mitre.tactic,Persistence,200,2.90
+rule.mitre.tactic,Initial Access,165,2.39
+rule.mitre.tactic,Credential Access,52,0.75
+rule.mitre.tactic,Lateral Movement,28,0.41

@@ -75,13 +75,6 @@ SafeAgentSOC-VMs/
 *.pcapng
 *.log
 
-# Allow small intentional samples only
-!data/samples/**/*.jsonl
-!data/samples/**/*.json
-!data/schemas/**/*.json
-!data/schemas/**/*.yaml
-!data/schemas/**/*.yml
-!data/schemas/**/*.csv
 
 # SafeAgentSOC Sprint 8 raw/private labels
 06_data/phase_02_scenario_dataset/sprint_08_ground_truth/raw_alerts_full.jsonl

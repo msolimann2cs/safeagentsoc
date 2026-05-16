@@ -1,0 +1,23 @@
+phase: phase_03_alert_normalization_storage
+batch_id: phase3_v1
+status: lineage_generated
+created_at_utc: 2026-05-16T02:20:33+00:00
+source_system: wazuh
+source_adapter: wazuh_jsonl_v1
+normalizer_version: not_normalized_yet
+uid_strategy_version: alert_uid_v1
+input:
+  file_name: raw_alerts_full.jsonl
+  source_path: 'C:\D-Drive\Seneca\Co op\SafeAgentSOC\05_code\safeagentsoc\data\phase_02_scenario_dataset\Metadata\sprint_08_ground_truth\raw_alerts_full.jsonl'
+  raw_file_sha256: 44ef71b93bbc663fb35db71f4ff129833bc83d244b8a133e83753fee7fe0c0bf
+counts:
+  total_lines: 6893
+  parsed_alerts: 6893
+  invalid_json_lines: 0
+  blank_lines: 0
+  unique_alert_uids: 6893
+  natural_duplicate_groups: 126
+  alerts_disambiguated_by_line: 253
+outputs:
+  raw_alert_lineage: 06_data/phase_03_alert_normalization_storage/lineage/raw_alert_lineage.csv
+  evidence_reference: 06_data/phase_03_alert_normalization_storage/lineage/evidence_reference.csv

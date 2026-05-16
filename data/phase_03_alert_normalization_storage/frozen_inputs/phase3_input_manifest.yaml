@@ -1,0 +1,61 @@
+phase: phase_03_alert_normalization_storage
+batch_id: phase3_v1
+created_by: Mohamed Soliman
+status: draft
+
+artifacts:
+  - name: raw_alerts_full.jsonl
+    classification: private
+    pipeline_zone: runtime
+    required: true
+    expected_count: 6893
+    notes: "Raw Wazuh JSONL alerts from Phase 2."
+
+  - name: ground_truth_labels.csv
+    classification: private
+    pipeline_zone: evaluation_only
+    required: true
+    expected_count: 800
+    notes: "Hidden benchmark labels. Must not be exposed to runtime or AI."
+
+  - name: casebook.csv
+    classification: private
+    pipeline_zone: evaluation_only
+    required: true
+    expected_count: 50
+    notes: "Gold casebook. Used only for evaluation."
+
+  - name: alert_fatigue_baseline.csv
+    classification: private
+    pipeline_zone: evaluation_only
+    required: true
+    expected_count: null
+    notes: "Baseline Wazuh-only comparison data."
+
+  - name: dataset_qa_report.md
+    classification: internal
+    pipeline_zone: documentation
+    required: true
+    expected_count: null
+    notes: "Phase 2 dataset QA summary."
+
+  - name: phase_03_normalization_requirements.md
+    classification: internal
+    pipeline_zone: design
+    required: true
+    expected_count: null
+    notes: "Normalization requirements for Phase 3."
+
+  - name: scenario_run_log_frozen.csv
+    classification: private
+    pipeline_zone: evaluation_only
+    required: true
+    expected_count: null
+    notes: "Frozen scenario execution log."
+
+  - name: detection_gap_register.csv
+    classification: private
+    pipeline_zone: evaluation_only
+    required: false
+    expected_count: null
+    notes: "Known detection gaps. Optional for Phase 3."

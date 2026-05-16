@@ -1,0 +1,7 @@
+check_name,artifact,status,exposure_count,matched_terms,details,checked_at_utc
+normalized_runtime_jsonl_forbidden_terms,C:\D-Drive\Seneca\Co op\SafeAgentSOC\06_data\phase_03_alert_normalization_storage\normalized\normalized_alerts_v1.jsonl,pass,0,,Runtime normalized alerts must not contain ground-truth or answer-key fields.,2026-05-16T04:06:00+00:00
+runtime_schema_forbidden_terms,C:\D-Drive\Seneca\Co op\SafeAgentSOC\05_code\safeagentsoc\db\schemas\runtime_schema.sql,pass,0,,Runtime SQL schema must not define evaluation-only columns or tables.,2026-05-16T04:06:00+00:00
+runtime_views_forbidden_terms,C:\D-Drive\Seneca\Co op\SafeAgentSOC\05_code\safeagentsoc\db\schemas\views_runtime.sql,pass,0,,Runtime views must not reference eval schema or answer-key terms.,2026-05-16T04:06:00+00:00
+runtime_api_routes_alerts_forbidden_terms,C:\D-Drive\Seneca\Co op\SafeAgentSOC\05_code\safeagentsoc\src\safeagentsoc\api\routes_alerts.py,pass,0,,Runtime API route file must not expose evaluation-only data.,2026-05-16T04:06:00+00:00
+runtime_api_routes_evidence_forbidden_terms,C:\D-Drive\Seneca\Co op\SafeAgentSOC\05_code\safeagentsoc\src\safeagentsoc\api\routes_evidence.py,pass,0,,Runtime API route file must not expose evaluation-only data.,2026-05-16T04:06:00+00:00
+runtime_api_routes_metrics_forbidden_terms,C:\D-Drive\Seneca\Co op\SafeAgentSOC\05_code\safeagentsoc\src\safeagentsoc\api\routes_metrics.py,pass,0,,Runtime API route file must not expose evaluation-only data.,2026-05-16T04:06:00+00:00

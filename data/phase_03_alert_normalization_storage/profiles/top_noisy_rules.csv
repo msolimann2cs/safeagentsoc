@@ -1,0 +1,26 @@
+rule_id,rule_level,rule_description,alert_count,alert_percent
+2904,7,Dpkg (Debian Package) half configured.,688,9.98
+550,7,Integrity checksum changed.,481,6.98
+2902,7,New dpkg (Debian Package) installed.,438,6.35
+5501,3,PAM: Login session opened.,150,2.18
+5502,3,PAM: Login session closed.,140,2.03
+5402,3,Successful sudo to ROOT executed.,122,1.77
+92604,6,Processes running for all users were queried with ps command.,103,1.49
+92032,3,Suspicious Windows cmd shell execution,101,1.47
+92004,4,Powershell process spawned Windows command shell instance,97,1.41
+554,5,File added to the system.,52,0.75
+92021,3,Powershell was used to delete files or directories,43,0.62
+92066,4,C:\\Windows\\SysWOW64\\SecEdit.exe binary in a suspicious location launched by C:\\Windows\\SysWOW64\\WindowsPowerShell\\v1.0\\powershell.exe,40,0.58
+92031,3,Discovery activity executed,37,0.54
+60642,3,Software protection service scheduled successfully.,30,0.44
+2901,3,New dpkg (Debian Package) requested to install.,28,0.41
+594,5,Registry Key Integrity Checksum Changed,25,0.36
+52002,3,Apparmor DENIED,24,0.35
+750,5,Registry Value Integrity Checksum Changed,22,0.32
+92027,4,Powershell process spawned powershell instance,21,0.30
+61104,3,Service startup type was changed,19,0.28
+92052,4,Windows command prompt started by an abnormal process,19,0.28
+5503,5,PAM: User login failed.,16,0.23
+553,7,File deleted.,15,0.22
+92036,3,A C:\\Windows\\System32\\net.exe binary was started by a Windows cmd shell,14,0.20
+100760,3,SafeAgentSOC run start marker observed,14,0.20

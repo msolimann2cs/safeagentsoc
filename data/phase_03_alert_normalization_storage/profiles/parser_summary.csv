@@ -1,0 +1,2 @@
+input_file,total_lines,parsed_alerts,invalid_json_lines,blank_lines
+C:\D-Drive\Seneca\Co op\SafeAgentSOC\05_code\safeagentsoc\data\phase_02_scenario_dataset\Metadata\sprint_08_ground_truth\raw_alerts_full.jsonl,6893,6893,0,0

@@ -1,0 +1,2 @@
+batch_id,parsed_alerts,invalid_json_lines,lineage_rows,raw_alerts_inserted,evidence_references_inserted,normalized_alerts_inserted,normalization_warnings_inserted,normalization_errors_inserted,rule_reference_upserts,mitre_technique_upserts,db_raw_alerts_for_batch,db_normalized_alerts_for_batch,db_evidence_references_for_batch
+phase3_v1,6893,0,6893,6893,6893,6893,6185,0,97,31,6893,6893,6893

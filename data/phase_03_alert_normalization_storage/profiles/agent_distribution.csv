@@ -1,0 +1,6 @@
+agent_name,agent_id,agent_ip,alert_count,alert_percent
+safesoc-lnx-01,002,10.10.10.31,5337,77.43
+safesoc-win-01,001,10.10.10.21,1038,15.06
+safesoc-wazuh-01,000,unknown,513,7.44
+safesoc-win-01,001,unknown,4,0.06
+safesoc-lnx-01,002,unknown,1,0.01

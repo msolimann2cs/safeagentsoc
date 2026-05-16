@@ -1,0 +1,12 @@
+metric,value,numerator,denominator,target,status,notes
+parse_success_rate,100.00,6893,6893,>=99.00,pass,0 invalid JSON lines; 0 blank lines.
+normalization_success_rate,100.00,6893,6893,>=95.00,pass,Measured as normalized records generated per parsed raw alert.
+required_field_completeness,100.00,6893,6893,>=95.00,pass,Required top-level canonical runtime fields are present.
+timestamp_normalization_rate,100.00,6893,6893,100.00 for valid timestamps,pass,All generated normalized alerts must have parseable event_time_utc.
+raw_lineage_coverage,100.00,6893,6893,100.00,pass,Evidence and lineage rows match normalized alert evidence references.
+mitre_preservation_rate,20.86,1438,6893,measured,measured,Percent of normalized alerts with Wazuh MITRE IDs or tactics preserved.
+runtime_ground_truth_exposure_count,0,0,runtime normalized artifact,0,pass,Forbidden answer-key terms scanned in normalized runtime output.
+label_linkage_rate,not_available,not_loaded,800 expected labels,100.00 after eval load,not_available,Evaluation loading is intentionally separate from runtime ingestion.
+casebook_linkage_rate,not_available,not_loaded,50 expected cases,100.00 after eval load,not_available,Evaluation loading is intentionally separate from runtime ingestion.
+normalization_warning_count,6185,6185,6893,measured,measured,"Warnings are expected for missing MITRE metadata, missing agent IP, or unmapped categories."
+normalization_error_count,0,0,6893,0 preferred,pass,Errors are recorded instead of hidden.

@@ -1,0 +1,2 @@
+input_file,total_alerts,valid_timestamp_count,invalid_timestamp_count,earliest_event_time_utc,latest_event_time_utc
+C:\D-Drive\Seneca\Co op\SafeAgentSOC\05_code\safeagentsoc\data\phase_02_scenario_dataset\Metadata\sprint_08_ground_truth\raw_alerts_full.jsonl,6893,6893,0,2026-05-13T19:00:45.141000+00:00,2026-05-15T05:31:16.616000+00:00
