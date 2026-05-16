@@ -1,0 +1,17 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "$id": "https://safeagentsoc.local/schemas/evidence_reference.schema.json",
+  "title": "SafeAgentSOC Evidence Reference",
+  "type": "object",
+  "additionalProperties": false,
+  "required": ["evidence_id", "raw_alert_sha256", "raw_file_name", "raw_line_number", "ingestion_batch_id"],
+  "properties": {
+    "evidence_id": { "type": "string" },
+    "raw_alert_sha256": { "type": "string" },
+    "raw_file_sha256": { "type": ["string", "null"] },
+    "raw_file_name": { "type": "string" },
+    "raw_line_number": { "type": "integer", "minimum": 1 },
+    "ingestion_batch_id": { "type": "string" },
+    "evidence_confidence": { "type": "string", "enum": ["high", "medium", "low", "unknown"] }
+  }
+}

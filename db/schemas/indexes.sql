@@ -1,0 +1,26 @@
+CREATE INDEX IF NOT EXISTS idx_runtime_raw_alerts_batch ON safeagentsoc_runtime.raw_alerts (ingestion_batch_id);
+CREATE INDEX IF NOT EXISTS idx_runtime_raw_alerts_file_line ON safeagentsoc_runtime.raw_alerts (raw_file_sha256, raw_line_number);
+CREATE INDEX IF NOT EXISTS idx_runtime_evidence_alert_uid ON safeagentsoc_runtime.evidence_references (alert_uid);
+CREATE INDEX IF NOT EXISTS idx_runtime_normalized_event_time ON safeagentsoc_runtime.normalized_alerts (event_time_utc);
+CREATE INDEX IF NOT EXISTS idx_runtime_normalized_agent_name ON safeagentsoc_runtime.normalized_alerts (agent_name);
+CREATE INDEX IF NOT EXISTS idx_runtime_normalized_platform ON safeagentsoc_runtime.normalized_alerts (platform);
+CREATE INDEX IF NOT EXISTS idx_runtime_normalized_rule_id ON safeagentsoc_runtime.normalized_alerts (rule_id);
+CREATE INDEX IF NOT EXISTS idx_runtime_normalized_rule_level ON safeagentsoc_runtime.normalized_alerts (rule_level);
+CREATE INDEX IF NOT EXISTS idx_runtime_normalized_decoder ON safeagentsoc_runtime.normalized_alerts (decoder_name);
+CREATE INDEX IF NOT EXISTS idx_runtime_normalized_event_category ON safeagentsoc_runtime.normalized_alerts (event_category);
+CREATE INDEX IF NOT EXISTS idx_runtime_normalized_severity ON safeagentsoc_runtime.normalized_alerts (severity_normalized);
+CREATE INDEX IF NOT EXISTS idx_runtime_normalized_status ON safeagentsoc_runtime.normalized_alerts (normalization_status);
+CREATE INDEX IF NOT EXISTS idx_runtime_normalized_mitre ON safeagentsoc_runtime.normalized_alerts USING GIN (mitre_technique_ids);
+CREATE INDEX IF NOT EXISTS idx_runtime_warnings_alert_uid ON safeagentsoc_runtime.normalization_warnings (alert_uid);
+CREATE INDEX IF NOT EXISTS idx_runtime_warnings_type ON safeagentsoc_runtime.normalization_warnings (warning_type);
+CREATE INDEX IF NOT EXISTS idx_runtime_errors_alert_uid ON safeagentsoc_runtime.normalization_errors (alert_uid);
+CREATE INDEX IF NOT EXISTS idx_runtime_errors_type ON safeagentsoc_runtime.normalization_errors (error_type);
+
+CREATE INDEX IF NOT EXISTS idx_eval_labels_alert_uid ON safeagentsoc_eval.ground_truth_labels (alert_uid);
+CREATE INDEX IF NOT EXISTS idx_eval_labels_case_id ON safeagentsoc_eval.ground_truth_labels (case_id);
+CREATE INDEX IF NOT EXISTS idx_eval_labels_run_id ON safeagentsoc_eval.ground_truth_labels (run_id);
+CREATE INDEX IF NOT EXISTS idx_eval_case_links_alert_uid ON safeagentsoc_eval.alert_case_links_gold (alert_uid);
+CREATE INDEX IF NOT EXISTS idx_eval_case_links_case_id ON safeagentsoc_eval.alert_case_links_gold (case_id);
+CREATE INDEX IF NOT EXISTS idx_eval_scenario_run_log_scenario ON safeagentsoc_eval.scenario_run_log (scenario_id);
+CREATE INDEX IF NOT EXISTS idx_eval_detection_gap_technique ON safeagentsoc_eval.detection_gap_register (technique_id);
+CREATE INDEX IF NOT EXISTS idx_eval_fatigue_rule ON safeagentsoc_eval.alert_fatigue_baseline (rule_id);

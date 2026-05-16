@@ -1,0 +1,15 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "$id": "https://safeagentsoc.local/schemas/siem_adapter_output.schema.json",
+  "title": "SafeAgentSOC SIEM Adapter Output",
+  "type": "object",
+  "additionalProperties": false,
+  "required": ["normalized_alert", "raw_alert_reference", "evidence_reference", "warnings", "errors"],
+  "properties": {
+    "normalized_alert": { "$ref": "normalized_alert.schema.json" },
+    "raw_alert_reference": { "$ref": "raw_alert_reference.schema.json" },
+    "evidence_reference": { "$ref": "evidence_reference.schema.json" },
+    "warnings": { "type": "array", "items": { "$ref": "normalization_warning.schema.json" } },
+    "errors": { "type": "array", "items": { "$ref": "normalization_error.schema.json" } }
+  }
+}

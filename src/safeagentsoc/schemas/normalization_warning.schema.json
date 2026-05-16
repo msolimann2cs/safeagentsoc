@@ -1,0 +1,17 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "$id": "https://safeagentsoc.local/schemas/normalization_warning.schema.json",
+  "title": "SafeAgentSOC Normalization Warning",
+  "type": "object",
+  "additionalProperties": false,
+  "required": ["warning_id", "alert_uid", "warning_type", "warning_message", "created_at_utc"],
+  "properties": {
+    "warning_id": { "type": "string" },
+    "alert_uid": { "type": ["string", "null"] },
+    "raw_reference_id": { "type": ["string", "null"] },
+    "warning_type": { "type": "string", "examples": ["missing_field", "type_mismatch", "unmapped_category", "missing_mitre", "partial_metadata"] },
+    "field_path": { "type": ["string", "null"] },
+    "warning_message": { "type": "string" },
+    "created_at_utc": { "type": "string", "format": "date-time" }
+  }
+}

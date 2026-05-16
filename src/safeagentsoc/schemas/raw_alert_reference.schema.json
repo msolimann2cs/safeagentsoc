@@ -1,0 +1,15 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "$id": "https://safeagentsoc.local/schemas/raw_alert_reference.schema.json",
+  "title": "SafeAgentSOC Raw Alert Reference",
+  "type": "object",
+  "additionalProperties": false,
+  "required": ["raw_alert_sha256", "raw_file_name", "raw_line_number", "ingestion_batch_id"],
+  "properties": {
+    "raw_alert_sha256": { "type": "string" },
+    "raw_file_sha256": { "type": ["string", "null"] },
+    "raw_file_name": { "type": "string" },
+    "raw_line_number": { "type": "integer", "minimum": 1 },
+    "ingestion_batch_id": { "type": "string" }
+  }
+}

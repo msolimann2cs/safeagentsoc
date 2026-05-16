@@ -1,0 +1,17 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "$id": "https://safeagentsoc.local/schemas/normalization_error.schema.json",
+  "title": "SafeAgentSOC Normalization Error",
+  "type": "object",
+  "additionalProperties": false,
+  "required": ["error_id", "alert_uid", "error_type", "error_message", "created_at_utc"],
+  "properties": {
+    "error_id": { "type": "string" },
+    "alert_uid": { "type": ["string", "null"] },
+    "raw_reference_id": { "type": ["string", "null"] },
+    "error_type": { "type": "string" },
+    "field_path": { "type": ["string", "null"] },
+    "error_message": { "type": "string" },
+    "created_at_utc": { "type": "string", "format": "date-time" }
+  }
+}

@@ -1,0 +1,23 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "$id": "https://safeagentsoc.local/schemas/evaluation_label_reference.schema.json",
+  "title": "SafeAgentSOC Evaluation Label Reference",
+  "description": "Evaluation-only label object. Must never be loaded by runtime or AI modules.",
+  "type": "object",
+  "additionalProperties": false,
+  "required": ["alert_uid", "label", "event_role", "confidence", "evaluation_source"],
+  "properties": {
+    "alert_uid": { "type": "string" },
+    "label": {
+      "type": "string",
+      "enum": ["benign", "noise", "ambiguous_noise", "attack_like", "attack_like_failed", "simulated_only", "unrelated_background"]
+    },
+    "event_role": { "type": "string", "enum": ["trigger", "supporting", "duplicate", "noise", "unrelated"] },
+    "confidence": { "type": "string", "enum": ["high", "medium", "low"] },
+    "scenario_id": { "type": ["string", "null"] },
+    "campaign_id": { "type": ["string", "null"] },
+    "run_id": { "type": ["string", "null"] },
+    "case_id": { "type": ["string", "null"] },
+    "evaluation_source": { "type": "string", "examples": ["ground_truth_labels.csv", "casebook.csv"] }
+  }
+}

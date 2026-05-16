@@ -1,0 +1,184 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "$id": "https://safeagentsoc.local/schemas/normalized_alert.schema.json",
+  "title": "SafeAgentSOC Normalized Alert",
+  "description": "Canonical runtime alert object used internally by SafeAgentSOC. Must not contain ground-truth labels or expected conclusions.",
+  "type": "object",
+  "additionalProperties": false,
+  "required": [
+    "alert_uid",
+    "schema_version",
+    "source",
+    "timestamps",
+    "host",
+    "rule",
+    "event",
+    "severity",
+    "mitre",
+    "entities",
+    "scenario_context",
+    "evidence",
+    "normalization"
+  ],
+  "properties": {
+    "alert_uid": { "type": "string" },
+    "schema_version": { "type": "string", "const": "1.0.0" },
+    "source": {
+      "type": "object",
+      "additionalProperties": false,
+      "required": ["source_system", "source_adapter", "source_type"],
+      "properties": {
+        "source_system": { "type": "string", "examples": ["wazuh", "splunk", "sentinel", "elastic", "defender", "crowdstrike"] },
+        "source_adapter": { "type": "string", "examples": ["wazuh_jsonl_v1"] },
+        "source_type": { "type": "string", "enum": ["siem", "xdr", "edr", "ids", "log_source", "unknown"] },
+        "source_event_id": { "type": ["string", "null"] },
+        "source_location": { "type": ["string", "null"] },
+        "source_rule_engine": { "type": ["string", "null"], "examples": ["wazuh_ruleset"] }
+      }
+    },
+    "timestamps": {
+      "type": "object",
+      "additionalProperties": false,
+      "required": ["event_time_utc"],
+      "properties": {
+        "event_time_utc": { "type": "string", "format": "date-time" },
+        "source_time_raw": { "type": ["string", "null"] },
+        "ingested_at_utc": { "type": ["string", "null"], "format": "date-time" },
+        "normalized_at_utc": { "type": ["string", "null"], "format": "date-time" }
+      }
+    },
+    "host": {
+      "type": "object",
+      "additionalProperties": false,
+      "required": ["hostname", "platform"],
+      "properties": {
+        "hostname": { "type": ["string", "null"] },
+        "agent_id": { "type": ["string", "null"] },
+        "agent_name": { "type": ["string", "null"] },
+        "agent_ip": { "type": ["string", "null"] },
+        "platform": { "type": "string", "enum": ["windows", "linux", "macos", "network", "cloud", "unknown"] },
+        "asset_role": { "type": ["string", "null"], "examples": ["endpoint", "server", "domain_controller", "siem", "unknown"] }
+      }
+    },
+    "rule": {
+      "type": "object",
+      "additionalProperties": false,
+      "required": ["rule_id", "rule_level"],
+      "properties": {
+        "rule_id": { "type": ["string", "null"] },
+        "rule_level": { "type": ["integer", "null"] },
+        "rule_description": { "type": ["string", "null"] },
+        "rule_groups": { "type": "array", "items": { "type": "string" } },
+        "rule_firedtimes": { "type": ["integer", "null"] }
+      }
+    },
+    "decoder": {
+      "type": "object",
+      "additionalProperties": false,
+      "properties": {
+        "decoder_name": { "type": ["string", "null"] },
+        "decoder_parent": { "type": ["string", "null"] }
+      }
+    },
+    "event": {
+      "type": "object",
+      "additionalProperties": false,
+      "required": ["category", "action", "outcome", "kind"],
+      "properties": {
+        "kind": { "type": "string", "enum": ["alert", "event", "state", "metric", "unknown"] },
+        "category": {
+          "type": "string",
+          "enum": [
+            "authentication",
+            "process_execution",
+            "privilege_activity",
+            "persistence",
+            "discovery",
+            "collection_or_staging",
+            "network_activity",
+            "file_activity",
+            "system_activity",
+            "monitoring_internal",
+            "background",
+            "unknown"
+          ]
+        },
+        "action": { "type": "string" },
+        "outcome": { "type": "string", "enum": ["success", "failure", "suspicious", "blocked", "unknown"] },
+        "description": { "type": ["string", "null"] }
+      }
+    },
+    "severity": {
+      "type": "object",
+      "additionalProperties": false,
+      "required": ["normalized"],
+      "properties": {
+        "original_level": { "type": ["integer", "null"] },
+        "original_label": { "type": ["string", "null"] },
+        "normalized": { "type": "string", "enum": ["low", "medium", "high", "critical", "unknown"] },
+        "normalized_score": { "type": ["number", "null"], "minimum": 0, "maximum": 100 }
+      }
+    },
+    "mitre": {
+      "type": "object",
+      "additionalProperties": false,
+      "required": ["technique_ids", "tactics"],
+      "properties": {
+        "technique_ids": { "type": "array", "items": { "type": "string" } },
+        "technique_names": { "type": "array", "items": { "type": "string" } },
+        "tactics": { "type": "array", "items": { "type": "string" } },
+        "mapping_source": { "type": ["string", "null"], "examples": ["wazuh_rule", "manual_mapping", "atomic_metadata", "caldera_metadata", "none"] }
+      }
+    },
+    "entities": {
+      "type": "object",
+      "additionalProperties": false,
+      "required": ["user", "process", "network", "file"],
+      "properties": {
+        "user": { "type": "object", "additionalProperties": false, "properties": { "username": { "type": ["string", "null"] }, "domain": { "type": ["string", "null"] }, "user_id": { "type": ["string", "null"] }, "privilege_hint": { "type": ["string", "null"] } } },
+        "process": { "type": "object", "additionalProperties": false, "properties": { "name": { "type": ["string", "null"] }, "path": { "type": ["string", "null"] }, "command_line": { "type": ["string", "null"] }, "pid": { "type": ["integer", "null"] }, "parent_name": { "type": ["string", "null"] }, "parent_path": { "type": ["string", "null"] }, "parent_pid": { "type": ["integer", "null"] } } },
+        "network": { "type": "object", "additionalProperties": false, "properties": { "src_ip": { "type": ["string", "null"] }, "src_port": { "type": ["integer", "null"] }, "dst_ip": { "type": ["string", "null"] }, "dst_port": { "type": ["integer", "null"] }, "protocol": { "type": ["string", "null"] } } },
+        "file": { "type": "object", "additionalProperties": false, "properties": { "path": { "type": ["string", "null"] }, "name": { "type": ["string", "null"] }, "extension": { "type": ["string", "null"] }, "hash_sha256": { "type": ["string", "null"] } } }
+      }
+    },
+    "scenario_context": {
+      "type": "object",
+      "description": "Runtime-safe context references only. This must not include labels, expected conclusions, or gold answers.",
+      "additionalProperties": false,
+      "required": ["benchmark_link_available"],
+      "properties": {
+        "scenario_id": { "type": ["string", "null"], "examples": ["S01", "S09", "S12"] },
+        "campaign_id": { "type": ["string", "null"], "examples": ["C-WIN-01", "C-LNX-01"] },
+        "run_id": { "type": ["string", "null"] },
+        "execution_mode": { "type": ["string", "null"], "enum": ["manual", "atomic_red_team", "caldera", "simulated_only", "benign", "noise", null] },
+        "metadata_quality": { "type": "string", "enum": ["complete", "partial", "not_recovered", "not_applicable", "unknown"] },
+        "benchmark_link_available": { "type": "boolean" }
+      }
+    },
+    "evidence": {
+      "type": "object",
+      "additionalProperties": false,
+      "required": ["evidence_id", "raw_alert_sha256", "raw_file_name", "raw_line_number", "ingestion_batch_id"],
+      "properties": {
+        "evidence_id": { "type": "string" },
+        "raw_alert_sha256": { "type": "string" },
+        "raw_file_sha256": { "type": ["string", "null"] },
+        "raw_file_name": { "type": "string" },
+        "raw_line_number": { "type": "integer", "minimum": 1 },
+        "ingestion_batch_id": { "type": "string" },
+        "evidence_confidence": { "type": "string", "enum": ["high", "medium", "low", "unknown"] }
+      }
+    },
+    "normalization": {
+      "type": "object",
+      "additionalProperties": false,
+      "required": ["status", "normalizer_version"],
+      "properties": {
+        "status": { "type": "string", "enum": ["success", "partial", "failed"] },
+        "normalizer_version": { "type": "string" },
+        "warnings": { "type": "array", "items": { "type": "string" } },
+        "errors": { "type": "array", "items": { "type": "string" } }
+      }
+    }
+  }
+}

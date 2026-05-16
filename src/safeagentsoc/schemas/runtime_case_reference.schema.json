@@ -1,0 +1,16 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "$id": "https://safeagentsoc.local/schemas/runtime_case_reference.schema.json",
+  "title": "SafeAgentSOC Runtime Case Reference",
+  "type": "object",
+  "additionalProperties": false,
+  "required": ["case_id", "case_schema_version", "created_from_alert_uids"],
+  "properties": {
+    "case_id": { "type": "string" },
+    "case_schema_version": { "type": "string" },
+    "created_from_alert_uids": { "type": "array", "items": { "type": "string" } },
+    "case_created_at_utc": { "type": ["string", "null"], "format": "date-time" },
+    "runtime_summary": { "type": ["string", "null"] },
+    "benchmark_link_available": { "type": "boolean" }
+  }
+}
