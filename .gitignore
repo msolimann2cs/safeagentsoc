@@ -11,6 +11,7 @@ local_notes/
 admin/secrets/
 secrets/
 
+
 # VM files
 *.vdi
 *.vmdk
@@ -103,3 +104,15 @@ SafeAgentSOC-VMs/
 06_data/phase_02_scenario_dataset/sprint_09_casebook/ground_truth_labels.csv
 06_data/phase_02_scenario_dataset/sprint_09_casebook/casebook_detailed.jsonl
 06_data/phase_02_scenario_dataset/phase_02_final_package/*.jsonl
+
+# SafeAgentSOC private research data
+/../../06_data/
+/../../07_evidence/
+
+# Phase 3 private artifacts
+**/raw_alerts_full.jsonl
+**/ground_truth_labels.csv
+**/casebook.csv
+**/scenario_run_log_frozen.csv
+**/detection_gap_register.csv
+**/alert_fatigue_baseline.csv
