@@ -1,0 +1,23 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "title": "SafeAgentSOC Phase 6 Timeline Step",
+  "type": "object",
+  "required": ["case_id", "step_id", "step_order", "step_type", "claim_type", "alert_uids", "evidence_ids"],
+  "properties": {
+    "case_id": {"type": "string"},
+    "step_id": {"type": "string"},
+    "event_time_utc": {"type": ["string", "null"]},
+    "step_order": {"type": "integer"},
+    "step_type": {"type": "string"},
+    "tactic": {"type": ["string", "null"]},
+    "technique_id": {"type": ["string", "null"]},
+    "technique_name": {"type": ["string", "null"]},
+    "claim_type": {"enum": ["observed", "inferred", "not_observed", "unknown"]},
+    "confidence_score": {"type": ["number", "null"]},
+    "confidence_label": {"type": ["string", "null"]},
+    "alert_uids": {"type": "array", "items": {"type": "string"}},
+    "evidence_ids": {"type": "array", "items": {"type": "string"}},
+    "limitations": {"type": "array", "items": {"type": "string"}}
+  },
+  "additionalProperties": true
+}

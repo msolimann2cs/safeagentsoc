@@ -16,7 +16,7 @@ from safeagentsoc.context.graph_projection import run_graph_projection
 
 
 def build_parser() -> argparse.ArgumentParser:
-    context_root = WORKSPACE_ROOT / "03_data" / "context"
+    context_root = WORKSPACE_ROOT / "06_data" / "Phase4" / "context"
     parser = argparse.ArgumentParser(description="Export Phase 4 graph seed nodes and edges from context-enriched alerts.")
     parser.add_argument("--enriched-alerts", type=Path, default=context_root / "exports" / "context_enriched_alerts_with_risk.jsonl")
     parser.add_argument("--output-dir", type=Path, default=context_root / "graph_seed")

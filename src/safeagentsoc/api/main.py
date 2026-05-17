@@ -8,6 +8,8 @@ from safeagentsoc.api.context_routes import router as context_router
 from safeagentsoc.api.routes_eval import router as eval_router
 from safeagentsoc.api.routes_evidence import router as evidence_router
 from safeagentsoc.api.routes_metrics import router as metrics_router
+from safeagentsoc.api.reason_routes import router as reason_router
+from safeagentsoc.api.timeline_routes import router as timeline_router
 
 
 app = FastAPI(
@@ -24,6 +26,8 @@ def health() -> dict[str, str]:
 
 app.include_router(context_router)
 app.include_router(case_router)
+app.include_router(timeline_router)
+app.include_router(reason_router)
 app.include_router(alerts_router)
 app.include_router(evidence_router)
 app.include_router(metrics_router)

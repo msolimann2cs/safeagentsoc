@@ -1,0 +1,16 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "title": "SafeAgentSOC Phase 6 Case Timeline",
+  "type": "object",
+  "required": ["case_id", "case_title", "timeline_steps"],
+  "properties": {
+    "case_id": {"type": "string"},
+    "case_title": {"type": "string"},
+    "case_priority_label": {"type": "string"},
+    "timeline_step_count": {"type": "integer"},
+    "technique_claim_count": {"type": "integer"},
+    "kill_chain_progression": {"type": "string"},
+    "timeline_steps": {"type": "array", "items": {"$ref": "timeline_step.schema.json"}}
+  },
+  "additionalProperties": true
+}

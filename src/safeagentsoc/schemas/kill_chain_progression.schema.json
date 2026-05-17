@@ -1,0 +1,16 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "title": "SafeAgentSOC Phase 6 Kill Chain Progression",
+  "type": "object",
+  "required": ["case_id", "observed_stages", "inferred_stages", "not_observed_stages", "progression_depth", "progression_confidence"],
+  "properties": {
+    "case_id": {"type": "string"},
+    "observed_stages": {"type": "array", "items": {"type": "string"}},
+    "inferred_stages": {"type": "array", "items": {"type": "string"}},
+    "not_observed_stages": {"type": "array", "items": {"type": "string"}},
+    "progression_depth": {"type": "string"},
+    "progression_confidence": {"type": "number"},
+    "reason": {"type": "string"}
+  },
+  "additionalProperties": false
+}

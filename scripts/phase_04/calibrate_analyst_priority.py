@@ -201,7 +201,7 @@ def write_report(
 
 def build_parser() -> argparse.ArgumentParser:
     metadata_root = REPO_ROOT / "data" / "phase_02_scenario_dataset" / "Metadata"
-    context_root = WORKSPACE_ROOT / "03_data" / "context"
+    context_root = WORKSPACE_ROOT / "06_data" / "Phase4" / "context"
     parser = argparse.ArgumentParser(description="Offline calibration for Phase 4 analyst priority.")
     parser.add_argument("--ground-truth", type=Path, default=metadata_root / "sprint_08_ground_truth" / "ground_truth_labels.csv")
     parser.add_argument("--casebook", type=Path, default=metadata_root / "sprint_09_casebook" / "casebook.csv")

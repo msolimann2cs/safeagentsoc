@@ -1,0 +1,21 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "title": "SafeAgentSOC Phase 6 Attack Story",
+  "type": "object",
+  "required": ["case_id", "story_type", "executive_summary", "analyst_summary", "safe_conclusion", "evidence_ids", "missing_evidence"],
+  "properties": {
+    "case_id": {"type": "string"},
+    "case_title": {"type": "string"},
+    "story_type": {"const": "deterministic_template"},
+    "executive_summary": {"type": "string"},
+    "analyst_summary": {"type": "string"},
+    "observed_chain": {"type": "array", "items": {"type": "string"}},
+    "inferred_chain": {"type": "array", "items": {"type": "string"}},
+    "not_observed": {"type": "array", "items": {"type": "string"}},
+    "missing_evidence": {"type": "array"},
+    "evidence_ids": {"type": "array", "items": {"type": "string"}},
+    "safe_conclusion": {"type": "string"},
+    "llm_forbidden_claims": {"type": "array", "items": {"type": "string"}}
+  },
+  "additionalProperties": true
+}

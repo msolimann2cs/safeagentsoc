@@ -23,7 +23,7 @@ def build_parser() -> argparse.ArgumentParser:
     parser.add_argument(
         "--enriched-alerts",
         type=Path,
-        default=WORKSPACE_ROOT / "03_data" / "context" / "exports" / "context_enriched_alerts_with_risk.jsonl",
+        default=WORKSPACE_ROOT / "06_data" / "Phase4" / "context" / "exports" / "context_enriched_alerts_with_risk.jsonl",
     )
     parser.add_argument("--output-root", type=Path, default=phase5_root)
     parser.add_argument("--database-url", default=None)

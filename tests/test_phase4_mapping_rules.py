@@ -12,8 +12,8 @@ if str(SRC_DIR) not in sys.path:
 from safeagentsoc.context.mapping_rules import load_mapping_rules, select_mapping_rule, validate_mapping_rules
 
 
-MAPPING_RULES = WORKSPACE_ROOT / "03_data" / "context" / "mappings" / "context_mapping_rules.csv"
-SEED_DIR = WORKSPACE_ROOT / "03_data" / "context" / "seed"
+MAPPING_RULES = WORKSPACE_ROOT / "06_data" / "Phase4" / "context" / "mappings" / "context_mapping_rules.csv"
+SEED_DIR = WORKSPACE_ROOT / "06_data" / "Phase4" / "context" / "seed"
 
 
 def test_phase4_mapping_rules_validate():

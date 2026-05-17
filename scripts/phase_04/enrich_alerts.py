@@ -16,7 +16,7 @@ from safeagentsoc.context.enrichment_engine import run_enrichment
 
 
 def build_parser() -> argparse.ArgumentParser:
-    context_root = WORKSPACE_ROOT / "03_data" / "context"
+    context_root = WORKSPACE_ROOT / "06_data" / "Phase4" / "context"
     parser = argparse.ArgumentParser(description="Run Phase 4 context enrichment and business-risk scoring.")
     parser.add_argument("--database-url", default=None)
     parser.add_argument("--output-dir", type=Path, default=context_root / "exports")

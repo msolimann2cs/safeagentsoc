@@ -1,0 +1,31 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "$id": "https://safeagentsoc.local/schemas/ai_decision_ledger.schema.json",
+  "title": "SafeAgentSOC Phase 7 AI Decision Ledger Entry",
+  "type": "object",
+  "additionalProperties": false,
+  "required": [
+    "decision_id",
+    "case_id",
+    "agent_id",
+    "input_hash",
+    "raw_output_hash",
+    "validated_output_hash",
+    "schema_validation_status",
+    "evidence_validation_status",
+    "unsupported_claim_count",
+    "created_at_utc"
+  ],
+  "properties": {
+    "decision_id": {"type": "string"},
+    "case_id": {"type": "string"},
+    "agent_id": {"type": "string"},
+    "input_hash": {"type": "string"},
+    "raw_output_hash": {"type": "string"},
+    "validated_output_hash": {"type": "string"},
+    "schema_validation_status": {"type": "string"},
+    "evidence_validation_status": {"type": "string"},
+    "unsupported_claim_count": {"type": "integer", "minimum": 0},
+    "created_at_utc": {"type": "string"}
+  }
+}

@@ -134,8 +134,8 @@ def get_case_evidence(case_id: str, db: Any = Depends(get_db)) -> dict[str, Any]
     return row
 
 
-@router.get("/cases/{case_id}/timeline")
-def get_case_timeline(case_id: str, db: Any = Depends(get_db)) -> dict[str, Any]:
+@router.get("/cases/{case_id}/alert-lineage")
+def get_case_alert_lineage(case_id: str, db: Any = Depends(get_db)) -> dict[str, Any]:
     rows = cursor_all(
         runtime_query(
             db,
@@ -148,7 +148,7 @@ def get_case_timeline(case_id: str, db: Any = Depends(get_db)) -> dict[str, Any]
             {"case_id": case_id},
         )
     )
-    return {"case_id": case_id, "count": len(rows), "timeline": rows}
+    return {"case_id": case_id, "count": len(rows), "alert_lineage": rows}
 
 
 @router.get("/metrics/case-builder")

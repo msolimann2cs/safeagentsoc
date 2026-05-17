@@ -13,8 +13,8 @@ from safeagentsoc.context.context_loader import load_csv
 from safeagentsoc.context.context_validator import validate_seed_package
 
 
-SEED_DIR = WORKSPACE_ROOT / "03_data" / "context" / "seed"
-OBSERVED_HOSTS = WORKSPACE_ROOT / "03_data" / "context" / "exports" / "observed_hosts.csv"
+SEED_DIR = WORKSPACE_ROOT / "06_data" / "Phase4" / "context" / "seed"
+OBSERVED_HOSTS = WORKSPACE_ROOT / "06_data" / "Phase4" / "context" / "exports" / "observed_hosts.csv"
 
 
 def test_phase4_context_seed_package_validates():

@@ -16,7 +16,7 @@ from safeagentsoc.cases.case_builder import build_case_outputs
 
 def main() -> int:
     output_root = WORKSPACE_ROOT / "06_data" / "phase_05_case_builder_alert_compression"
-    enriched_alerts = WORKSPACE_ROOT / "03_data" / "context" / "exports" / "context_enriched_alerts_with_risk.jsonl"
+    enriched_alerts = WORKSPACE_ROOT / "06_data" / "Phase4" / "context" / "exports" / "context_enriched_alerts_with_risk.jsonl"
     result = build_case_outputs(enriched_alerts, output_root)
     print(f"[OK] Regenerated Phase 5 QA for {result.metrics['total_generated_cases']} cases")
     return 0

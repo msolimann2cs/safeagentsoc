@@ -16,8 +16,8 @@ from safeagentsoc.context.repositories import (
 )
 
 
-SEED_DIR = WORKSPACE_ROOT / "03_data" / "context" / "seed"
-MAPPING_RULES = WORKSPACE_ROOT / "03_data" / "context" / "mappings" / "context_mapping_rules.csv"
+SEED_DIR = WORKSPACE_ROOT / "06_data" / "Phase4" / "context" / "seed"
+MAPPING_RULES = WORKSPACE_ROOT / "06_data" / "Phase4" / "context" / "mappings" / "context_mapping_rules.csv"
 MIGRATION = REPO_ROOT / "db" / "migrations" / "0002_phase4_context_tables.sql"
 
 

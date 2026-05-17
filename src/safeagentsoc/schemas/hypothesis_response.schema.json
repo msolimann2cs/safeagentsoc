@@ -1,0 +1,19 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "$id": "https://safeagentsoc.local/schemas/hypothesis_response.schema.json",
+  "title": "SafeAgentSOC Phase 7 Hypothesis Response",
+  "type": "object",
+  "additionalProperties": false,
+  "required": ["case_id", "provider", "generated_at_utc", "hypotheses"],
+  "properties": {
+    "case_id": {"type": "string"},
+    "provider": {"type": "string"},
+    "generated_at_utc": {"type": "string"},
+    "hypotheses": {
+      "type": "array",
+      "minItems": 2,
+      "maxItems": 4,
+      "items": {"$ref": "hypothesis_item.schema.json"}
+    }
+  }
+}

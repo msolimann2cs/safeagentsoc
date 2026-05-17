@@ -1,0 +1,19 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "title": "SafeAgentSOC Phase 6 MITRE Coverage Row",
+  "type": "object",
+  "required": ["tactic", "technique_id", "case_count", "avg_confidence", "observed_count", "inferred_count"],
+  "properties": {
+    "tactic": {"type": "string"},
+    "technique_id": {"type": "string"},
+    "technique_name": {"type": "string"},
+    "case_count": {"type": "integer"},
+    "alert_count": {"type": "integer"},
+    "trigger_count": {"type": "integer"},
+    "supporting_count": {"type": "integer"},
+    "avg_confidence": {"type": "number"},
+    "observed_count": {"type": "integer"},
+    "inferred_count": {"type": "integer"}
+  },
+  "additionalProperties": false
+}

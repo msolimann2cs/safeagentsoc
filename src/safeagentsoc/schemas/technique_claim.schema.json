@@ -1,0 +1,20 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "title": "SafeAgentSOC Phase 6 Technique Claim",
+  "type": "object",
+  "required": ["case_id", "technique_id", "tactic", "mapping_source", "claim_type", "confidence_score", "evidence_ids"],
+  "properties": {
+    "case_id": {"type": "string"},
+    "technique_id": {"type": "string"},
+    "technique_name": {"type": "string"},
+    "tactic": {"type": "string"},
+    "mapping_source": {"enum": ["direct_mitre", "rule_inferred", "behavior_inferred", "unknown"]},
+    "claim_type": {"enum": ["observed", "inferred", "not_observed", "unknown"]},
+    "confidence_score": {"type": "number"},
+    "confidence_label": {"enum": ["high", "medium", "low", "weak"]},
+    "evidence_ids": {"type": "array", "items": {"type": "string"}},
+    "alert_uids": {"type": "array", "items": {"type": "string"}},
+    "limitations": {"type": "array", "items": {"type": "string"}}
+  },
+  "additionalProperties": true
+}

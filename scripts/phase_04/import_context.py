@@ -21,7 +21,7 @@ from safeagentsoc.context.repositories import (
 
 
 def default_paths() -> dict[str, Path]:
-    context_root = WORKSPACE_ROOT / "03_data" / "context"
+    context_root = WORKSPACE_ROOT / "06_data" / "Phase4" / "context"
     return {
         "seed_dir": context_root / "seed",
         "mapping_rules": context_root / "mappings" / "context_mapping_rules.csv",

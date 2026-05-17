@@ -14,7 +14,7 @@ from safeagentsoc.context.context_validator import validate_schema_package
 from safeagentsoc.context.schemas import REQUIRED_CONTEXT_SCHEMA_FILES
 
 
-SCHEMA_DIR = WORKSPACE_ROOT / "03_data" / "context" / "schemas"
+SCHEMA_DIR = WORKSPACE_ROOT / "06_data" / "Phase4" / "context" / "schemas"
 
 
 def test_phase4_required_context_schemas_exist_and_load():

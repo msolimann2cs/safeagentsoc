@@ -1,0 +1,15 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "$id": "https://safeagentsoc.local/schemas/hypothesis_validation.schema.json",
+  "title": "SafeAgentSOC Phase 7 Hypothesis Validation",
+  "type": "object",
+  "additionalProperties": true,
+  "required": ["case_id", "schema_validation_status", "schema_valid", "schema_errors"],
+  "properties": {
+    "case_id": {"type": "string"},
+    "schema_validation_status": {"type": "string", "enum": ["passed", "failed"]},
+    "schema_valid": {"type": "boolean"},
+    "schema_errors": {"type": "array", "items": {"type": "string"}},
+    "provider_error": {"type": ["string", "null"]}
+  }
+}

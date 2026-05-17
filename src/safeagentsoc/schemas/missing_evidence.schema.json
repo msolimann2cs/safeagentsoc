@@ -1,0 +1,15 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "title": "SafeAgentSOC Phase 6 Missing Evidence",
+  "type": "object",
+  "required": ["case_id", "missing_evidence_type", "status", "reason", "visibility_limitation", "recommended_check_for_phase7"],
+  "properties": {
+    "case_id": {"type": "string"},
+    "missing_evidence_type": {"type": "string"},
+    "status": {"enum": ["observed", "not_observed", "unknown"]},
+    "reason": {"type": "string"},
+    "visibility_limitation": {"type": "string"},
+    "recommended_check_for_phase7": {"type": "string"}
+  },
+  "additionalProperties": false
+}

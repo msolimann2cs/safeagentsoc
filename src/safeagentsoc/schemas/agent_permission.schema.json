@@ -1,0 +1,15 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "$id": "https://safeagentsoc.local/schemas/agent_permission.schema.json",
+  "title": "SafeAgentSOC Phase 7 Agent Permission",
+  "type": "object",
+  "additionalProperties": false,
+  "required": ["agent_id", "can_read", "can_write", "cannot_read", "cannot_write"],
+  "properties": {
+    "agent_id": {"type": "string"},
+    "can_read": {"type": "array", "items": {"type": "string"}},
+    "can_write": {"type": "array", "items": {"type": "string"}},
+    "cannot_read": {"type": "array", "items": {"type": "string"}},
+    "cannot_write": {"type": "array", "items": {"type": "string"}}
+  }
+}
