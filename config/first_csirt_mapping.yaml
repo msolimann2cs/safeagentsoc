@@ -1,0 +1,5 @@
+{
+  "Incident Management": ["incident summary", "scope", "containment options", "communications status"],
+  "Analysis": ["timeline", "evidence list", "graph validation"],
+  "Coordination": ["owners", "approval requirements", "next 30/60/120 minute actions"]
+}

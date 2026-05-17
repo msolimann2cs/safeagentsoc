@@ -1,0 +1,20 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "title": "Phase 9 Policy Decision",
+  "type": "object",
+  "required": ["decision_id", "case_id", "action_id", "policy_decision", "policy_ids", "reason", "evidence_ids", "graph_validation_status"],
+  "properties": {
+    "decision_id": {"type": "string"},
+    "case_id": {"type": "string"},
+    "action_id": {"type": "string"},
+    "policy_decision": {"type": "string", "enum": ["allowed", "approval_required", "blocked", "monitor_only", "retry_required", "insufficient_evidence"]},
+    "policy_ids": {"type": "array", "items": {"type": "string"}},
+    "reason": {"type": "string"},
+    "approver_required": {"type": ["string", "null"]},
+    "evidence_ids": {"type": "array", "items": {"type": "string"}},
+    "graph_validation_status": {"type": "string"},
+    "confidence_score": {"type": "number"},
+    "safer_alternatives": {"type": "array", "items": {"type": "string"}}
+  },
+  "additionalProperties": true
+}

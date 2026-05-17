@@ -1,0 +1,7 @@
+{
+  "Govern": ["approval matrix", "policy engine", "risk ownership"],
+  "Identify": ["asset criticality", "business impact", "blast radius"],
+  "Detect": ["case evidence", "alerts", "graph validation"],
+  "Respond": ["CSIRT pack", "safe recommendations", "SOAR dry-run"],
+  "Recover": ["rollback plans", "recovery communication"]
+}

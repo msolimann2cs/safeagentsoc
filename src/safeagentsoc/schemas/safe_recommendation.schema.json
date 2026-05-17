@@ -1,0 +1,24 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "title": "Phase 9 Safe Recommendation",
+  "type": "object",
+  "required": ["recommendation_id", "case_id", "recommended_action_id", "policy_decision", "evidence_ids", "why_recommended", "safer_alternatives"],
+  "properties": {
+    "recommendation_id": {"type": "string"},
+    "case_id": {"type": "string"},
+    "recommended_action_id": {"type": "string"},
+    "recommendation_rank": {"type": "integer"},
+    "policy_decision": {"type": "string"},
+    "risk_reduction_potential": {"type": "string"},
+    "business_disruption": {"type": "string"},
+    "reversibility": {"type": "string"},
+    "confidence_required": {"type": "number"},
+    "current_confidence": {"type": "number"},
+    "evidence_ids": {"type": "array", "items": {"type": "string"}},
+    "why_recommended": {"type": "string"},
+    "why_not_stronger_action": {"type": "string"},
+    "approver_required": {"type": ["string", "null"]},
+    "safer_alternatives": {"type": "array", "items": {"type": "string"}}
+  },
+  "additionalProperties": true
+}

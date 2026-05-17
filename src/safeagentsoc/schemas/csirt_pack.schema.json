@@ -1,0 +1,25 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "title": "Phase 9 CSIRT Pack",
+  "type": "object",
+  "required": ["case_id", "csirt_status", "scope", "evidence_ids", "graph_validation_status", "containment_options", "open_questions"],
+  "properties": {
+    "case_id": {"type": "string"},
+    "csirt_status": {"type": "string"},
+    "incident_commander_needed": {"type": "boolean"},
+    "scope": {"type": "string"},
+    "affected_assets": {"type": "array", "items": {"type": "string"}},
+    "affected_identities": {"type": "array", "items": {"type": "string"}},
+    "evidence_ids": {"type": "array", "items": {"type": "string"}},
+    "graph_validation_status": {"type": "string"},
+    "risk_label": {"type": "string"},
+    "uncertainty_label": {"type": "string"},
+    "containment_options": {"type": "array", "items": {"type": "string"}},
+    "blocked_actions": {"type": "array", "items": {"type": "string"}},
+    "approval_requirements": {"type": "array", "items": {"type": "string"}},
+    "communications_status": {"type": "string"},
+    "open_questions": {"type": "array", "items": {"type": "string"}},
+    "next_30_60_120_minute_actions": {"type": "object"}
+  },
+  "additionalProperties": true
+}

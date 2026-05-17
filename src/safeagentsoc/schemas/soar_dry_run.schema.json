@@ -1,0 +1,19 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "title": "Phase 9 SOAR Dry Run",
+  "type": "object",
+  "required": ["dry_run_id", "case_id", "action_id", "dry_run_status", "would_call", "policy_decision", "audit_note"],
+  "properties": {
+    "dry_run_id": {"type": "string"},
+    "case_id": {"type": "string"},
+    "action_id": {"type": "string"},
+    "dry_run_status": {"type": "string", "const": "not_executed"},
+    "would_call": {"type": "string"},
+    "required_approval": {"type": ["string", "null"]},
+    "policy_decision": {"type": "string"},
+    "business_impact": {"type": "string"},
+    "rollback_plan": {"type": "string"},
+    "audit_note": {"type": "string"}
+  },
+  "additionalProperties": true
+}

@@ -1,0 +1,19 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "title": "Phase 9 Stakeholder Message",
+  "type": "object",
+  "required": ["message_id", "case_id", "audience", "classification", "approval_required", "allowed_claims", "forbidden_claims", "evidence_basis", "uncertainty", "message"],
+  "properties": {
+    "message_id": {"type": "string"},
+    "case_id": {"type": "string"},
+    "audience": {"type": "string"},
+    "classification": {"type": "string"},
+    "approval_required": {"type": "boolean"},
+    "allowed_claims": {"type": "array", "items": {"type": "string"}},
+    "forbidden_claims": {"type": "array", "items": {"type": "string"}},
+    "evidence_basis": {"type": "array", "items": {"type": "string"}},
+    "uncertainty": {"type": "string"},
+    "message": {"type": "string"}
+  },
+  "additionalProperties": true
+}

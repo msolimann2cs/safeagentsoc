@@ -1,0 +1,22 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "title": "Phase 9 Incident Risk Score",
+  "type": "object",
+  "required": ["case_id", "risk_score", "risk_label", "confidence_score", "uncertainty_label", "graph_feasibility_status", "risk_drivers", "evidence_ids"],
+  "properties": {
+    "case_id": {"type": "string"},
+    "risk_score": {"type": "number", "minimum": 0, "maximum": 100},
+    "risk_label": {"type": "string", "enum": ["low", "medium", "high", "critical"]},
+    "confidence_score": {"type": "number", "minimum": 0, "maximum": 1},
+    "uncertainty_label": {"type": "string"},
+    "business_impact_score": {"type": "number"},
+    "technical_severity_score": {"type": "number"},
+    "graph_feasibility_status": {"type": "string"},
+    "policy_sensitivity": {"type": "string"},
+    "risk_drivers": {"type": "array", "items": {"type": "string"}},
+    "uncertainty_drivers": {"type": "array", "items": {"type": "string"}},
+    "evidence_ids": {"type": "array", "items": {"type": "string"}},
+    "alert_uids": {"type": "array", "items": {"type": "string"}}
+  },
+  "additionalProperties": true
+}

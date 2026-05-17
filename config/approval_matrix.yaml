@@ -1,0 +1,10 @@
+{
+  "low_risk_investigation": ["SOC Analyst"],
+  "tier2_investigation": ["SOC Lead"],
+  "endpoint_isolation": ["SOC Lead", "CSIRT Lead"],
+  "critical_server_isolation": ["CISO or delegate", "IT Operations owner"],
+  "disable_privileged_user": ["CISO or delegate", "Identity owner"],
+  "employee_impacting_action": ["HR", "Legal"],
+  "public_statement": ["Legal", "PR / Communications", "CISO"],
+  "material_incident_escalation": ["CISO", "Legal", "Executive Team"]
+}

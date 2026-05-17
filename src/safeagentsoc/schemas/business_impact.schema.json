@@ -1,0 +1,17 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "title": "Phase 9 Business Impact",
+  "type": "object",
+  "required": ["case_id", "business_impact_score", "business_impact_label", "blast_radius", "business_impact_summary"],
+  "properties": {
+    "case_id": {"type": "string"},
+    "affected_asset": {"type": ["string", "null"]},
+    "business_service": {"type": ["string", "null"]},
+    "business_unit": {"type": ["string", "null"]},
+    "business_impact_score": {"type": "number", "minimum": 0, "maximum": 100},
+    "business_impact_label": {"type": "string"},
+    "blast_radius": {"type": "object"},
+    "business_impact_summary": {"type": "string"}
+  },
+  "additionalProperties": true
+}

@@ -1,0 +1,15 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "title": "Phase 9 Approval Decision",
+  "type": "object",
+  "required": ["approval_id", "case_id", "action_id", "approval_status", "required_approvers", "approval_reason"],
+  "properties": {
+    "approval_id": {"type": "string"},
+    "case_id": {"type": "string"},
+    "action_id": {"type": "string"},
+    "approval_status": {"type": "string"},
+    "required_approvers": {"type": "array", "items": {"type": "string"}},
+    "approval_reason": {"type": "string"}
+  },
+  "additionalProperties": true
+}

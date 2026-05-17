@@ -1,0 +1,17 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "title": "Phase 9 Uncertainty Assessment",
+  "type": "object",
+  "required": ["case_id", "uncertainty_score", "uncertainty_label", "confidence_score", "evidence_sufficiency", "not_sufficient_for", "graph_validation_status"],
+  "properties": {
+    "case_id": {"type": "string"},
+    "uncertainty_score": {"type": "number", "minimum": 0, "maximum": 1},
+    "uncertainty_label": {"type": "string"},
+    "confidence_score": {"type": "number", "minimum": 0, "maximum": 1},
+    "evidence_sufficiency": {"type": "string"},
+    "uncertainty_drivers": {"type": "array", "items": {"type": "string"}},
+    "not_sufficient_for": {"type": "array", "items": {"type": "string"}},
+    "graph_validation_status": {"type": "string"}
+  },
+  "additionalProperties": true
+}

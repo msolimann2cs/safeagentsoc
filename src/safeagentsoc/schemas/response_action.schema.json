@@ -1,0 +1,21 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "title": "Phase 9 Response Action",
+  "type": "object",
+  "required": ["action_id", "description", "tier", "risk_level", "requires_approval", "allowed_graph_statuses", "minimum_confidence", "would_call"],
+  "properties": {
+    "action_id": {"type": "string"},
+    "description": {"type": "string"},
+    "tier": {"type": "integer", "minimum": 0, "maximum": 4},
+    "risk_level": {"type": "string"},
+    "reversibility": {"type": "string"},
+    "business_disruption": {"type": "string"},
+    "requires_approval": {"type": "boolean"},
+    "required_approver": {"type": ["string", "null"]},
+    "allowed_graph_statuses": {"type": "array", "items": {"type": "string"}},
+    "minimum_confidence": {"type": "number"},
+    "safer_alternatives": {"type": "array", "items": {"type": "string"}},
+    "would_call": {"type": "string"}
+  },
+  "additionalProperties": true
+}

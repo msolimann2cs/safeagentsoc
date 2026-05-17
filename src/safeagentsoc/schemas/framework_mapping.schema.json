@@ -1,0 +1,15 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "title": "Phase 9 Framework Mapping",
+  "type": "object",
+  "required": ["mapping_id", "case_id", "framework", "function_or_domain", "mapped_outputs", "evidence"],
+  "properties": {
+    "mapping_id": {"type": "string"},
+    "case_id": {"type": "string"},
+    "framework": {"type": "string"},
+    "function_or_domain": {"type": "string"},
+    "mapped_outputs": {"type": "array", "items": {"type": "string"}},
+    "evidence": {"type": "array", "items": {"type": "string"}}
+  },
+  "additionalProperties": true
+}

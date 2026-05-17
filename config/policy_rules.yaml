@@ -1,0 +1,9 @@
+{
+  "POL-ACTION-001": "Block high-impact action on non-feasible graph evidence.",
+  "POL-ACTION-002": "Require approval for privileged identity containment.",
+  "POL-ACTION-003": "Public communication requires Legal, PR, and CISO approval.",
+  "POL-ACTION-004": "Block or downgrade action when confidence is below threshold.",
+  "POL-ACTION-005": "Block payroll or finance-sensitive identity disruption without stronger evidence.",
+  "POL-ACTION-006": "Honor action metadata approval requirement.",
+  "POL-ACTION-007": "Require CISO or delegate approval for high-impact business disruption."
+}

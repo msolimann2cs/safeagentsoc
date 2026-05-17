@@ -1,0 +1,7 @@
+{
+  "ticketing_system": ["Ticketing.create_task", "Ticketing.open_it_ticket"],
+  "identity_provider": ["IdP.force_mfa_reauth", "IdP.disable_active_sessions", "IdP.disable_user"],
+  "edr": ["EDR.open_host_timeline", "EDR.request_scan", "EDR.isolate_host"],
+  "siem": ["SIEM.open_evidence_view", "SIEM.search_related_alerts"],
+  "communications": ["Comms.prepare_holding_statement", "Comms.prepare_public_draft"]
+}

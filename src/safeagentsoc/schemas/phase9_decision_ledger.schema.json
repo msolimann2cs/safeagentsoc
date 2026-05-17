@@ -1,0 +1,19 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "title": "Phase 9 Decision Ledger Entry",
+  "type": "object",
+  "required": ["decision_id", "case_id", "object_type", "object_id", "decision", "reason", "evidence_ids", "input_hash", "output_hash", "created_at_utc"],
+  "properties": {
+    "decision_id": {"type": "string"},
+    "case_id": {"type": "string"},
+    "object_type": {"type": "string"},
+    "object_id": {"type": "string"},
+    "decision": {"type": "string"},
+    "reason": {"type": "string"},
+    "evidence_ids": {"type": "array", "items": {"type": "string"}},
+    "input_hash": {"type": "string"},
+    "output_hash": {"type": "string"},
+    "created_at_utc": {"type": "string"}
+  },
+  "additionalProperties": true
+}

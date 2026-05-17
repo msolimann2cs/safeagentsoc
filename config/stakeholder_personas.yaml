@@ -1,0 +1,18 @@
+{
+  "CISO": {
+    "needs": ["business impact", "risk level", "confidence", "decision required", "blocked unsafe actions", "residual risk"],
+    "forbidden_content": ["unsupported compromise claims", "unapproved public statements"]
+  },
+  "CSIRT Lead": {
+    "needs": ["scope", "timeline", "evidence", "containment options", "communications state", "open questions"],
+    "forbidden_content": ["unsupported certainty", "raw labels"]
+  },
+  "Legal / Privacy": {
+    "needs": ["potential data exposure", "materiality indicators", "evidence preservation", "approval status"],
+    "forbidden_content": ["unsupported breach conclusions"]
+  },
+  "SOC Analyst": {
+    "needs": ["evidence", "next checks", "confidence", "what not to claim"],
+    "forbidden_content": ["final legal or business conclusions"]
+  }
+}

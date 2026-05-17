@@ -1,0 +1,6 @@
+{
+  "Govern": ["agent permissions", "approval workflow", "decision ledger"],
+  "Map": ["AI use case context", "stakeholder impact"],
+  "Measure": ["unsupported claim rate", "unsafe action block rate"],
+  "Manage": ["policy decisions", "blocked actions", "human approval"]
+}

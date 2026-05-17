@@ -6,6 +6,7 @@ from safeagentsoc.api.case_routes import router as case_router
 from safeagentsoc.api.routes_alerts import router as alerts_router
 from safeagentsoc.api.context_routes import router as context_router
 from safeagentsoc.api.graph_routes import router as graph_router
+from safeagentsoc.api.govern_routes import router as govern_router
 from safeagentsoc.api.routes_eval import router as eval_router
 from safeagentsoc.api.routes_evidence import router as evidence_router
 from safeagentsoc.api.routes_metrics import router as metrics_router
@@ -30,6 +31,7 @@ app.include_router(case_router)
 app.include_router(timeline_router)
 app.include_router(reason_router)
 app.include_router(graph_router)
+app.include_router(govern_router)
 app.include_router(alerts_router)
 app.include_router(evidence_router)
 app.include_router(metrics_router)

@@ -1,0 +1,25 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "title": "Phase 9 CISO Decision Brief",
+  "type": "object",
+  "required": ["case_id", "risk_label", "risk_score", "confidence_score", "uncertainty_label", "situation", "business_impact", "recommended_decision", "board_narrative"],
+  "properties": {
+    "case_id": {"type": "string"},
+    "risk_label": {"type": "string"},
+    "risk_score": {"type": "number"},
+    "confidence_score": {"type": "number"},
+    "uncertainty_label": {"type": "string"},
+    "situation": {"type": "string"},
+    "business_impact": {"type": "string"},
+    "evidence_basis": {"type": "array", "items": {"type": "string"}},
+    "confirmed": {"type": "array", "items": {"type": "string"}},
+    "not_confirmed": {"type": "array", "items": {"type": "string"}},
+    "recommended_decision": {"type": "string"},
+    "blocked_actions": {"type": "array", "items": {"type": "string"}},
+    "approval_required": {"type": "array", "items": {"type": "string"}},
+    "residual_risk": {"type": "string"},
+    "next_update_trigger": {"type": "string"},
+    "board_narrative": {"type": "string"}
+  },
+  "additionalProperties": true
+}
