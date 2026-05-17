@@ -1,0 +1,15 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "title": "Phase 8 Claim Entity Resolution",
+  "type": "object",
+  "required": ["claim_id", "case_id", "hypothesis_id", "resolved_entities", "entity_resolution_score", "unresolved_entities"],
+  "properties": {
+    "claim_id": {"type": "string"},
+    "case_id": {"type": "string"},
+    "hypothesis_id": {"type": "string"},
+    "resolved_entities": {"type": "object"},
+    "entity_resolution_score": {"type": "number", "minimum": 0, "maximum": 1},
+    "unresolved_entities": {"type": "array"}
+  },
+  "additionalProperties": true
+}

@@ -1,0 +1,14 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "title": "Phase 8 Enterprise Graph Node",
+  "type": "object",
+  "required": ["node_id", "node_type", "label", "properties"],
+  "properties": {
+    "node_id": {"type": "string"},
+    "node_type": {"type": "string"},
+    "label": {"type": "string"},
+    "case_id": {"type": "string"},
+    "properties": {"type": "object"}
+  },
+  "additionalProperties": true
+}

@@ -1,0 +1,21 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "title": "Phase 8 Graph Validation Metrics",
+  "type": "object",
+  "required": ["phase", "total_hypotheses_validated", "total_claims_validated", "runtime_ground_truth_exposure_count"],
+  "properties": {
+    "phase": {"type": "string"},
+    "graph_validation_run_id": {"type": "string"},
+    "total_validated_phase7_cases": {"type": "integer"},
+    "total_skipped_failed_phase7_cases": {"type": "integer"},
+    "total_hypotheses_validated": {"type": "integer"},
+    "total_claims_validated": {"type": "integer"},
+    "claim_status_counts": {"type": "object"},
+    "hypothesis_status_counts": {"type": "object"},
+    "average_feasibility_score": {"type": "number"},
+    "graph_explanation_coverage": {"type": "number"},
+    "hallucination_reduction_rate": {"type": "number"},
+    "runtime_ground_truth_exposure_count": {"type": "integer"}
+  },
+  "additionalProperties": true
+}

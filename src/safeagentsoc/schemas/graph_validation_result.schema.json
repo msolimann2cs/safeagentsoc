@@ -1,0 +1,26 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "title": "Phase 8 Graph Validation Result",
+  "type": "object",
+  "required": ["case_id", "hypothesis_id", "claim_id", "claim_type", "graph_validation_status", "feasibility_score", "graph_explanation"],
+  "properties": {
+    "case_id": {"type": "string"},
+    "hypothesis_id": {"type": "string"},
+    "claim_id": {"type": "string"},
+    "claim_type": {"type": "string"},
+    "graph_validation_status": {
+      "type": "string",
+      "enum": ["feasible", "conditional", "infeasible", "unsupported", "not_enough_graph_context", "mixed", "retry_required"]
+    },
+    "feasibility_score": {"type": "number", "minimum": 0, "maximum": 1},
+    "validated_claims": {"type": "array", "items": {"type": "string"}},
+    "conditional_claims": {"type": "array", "items": {"type": "string"}},
+    "rejected_claims": {"type": "array", "items": {"type": "string"}},
+    "missing_graph_requirements": {"type": "array", "items": {"type": "string"}},
+    "graph_explanation": {"type": "string"},
+    "evidence_ids": {"type": "array", "items": {"type": "string"}},
+    "alert_uids": {"type": "array", "items": {"type": "string"}},
+    "mitre_techniques": {"type": "array", "items": {"type": "string"}}
+  },
+  "additionalProperties": true
+}

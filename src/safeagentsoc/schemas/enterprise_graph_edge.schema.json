@@ -1,0 +1,15 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "title": "Phase 8 Enterprise Graph Edge",
+  "type": "object",
+  "required": ["edge_id", "source", "target", "relationship"],
+  "properties": {
+    "edge_id": {"type": "string"},
+    "source": {"type": "string"},
+    "target": {"type": "string"},
+    "relationship": {"type": "string"},
+    "weight": {"type": "number"},
+    "properties": {"type": "object"}
+  },
+  "additionalProperties": true
+}

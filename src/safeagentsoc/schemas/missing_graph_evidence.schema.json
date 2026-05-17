@@ -1,0 +1,15 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "title": "Phase 8 Missing Graph Evidence",
+  "type": "object",
+  "required": ["case_id", "hypothesis_id", "claim_id", "missing_type", "reason", "effect"],
+  "properties": {
+    "case_id": {"type": "string"},
+    "hypothesis_id": {"type": "string"},
+    "claim_id": {"type": "string"},
+    "missing_type": {"type": "string"},
+    "reason": {"type": "string"},
+    "effect": {"type": "string"}
+  },
+  "additionalProperties": false
+}

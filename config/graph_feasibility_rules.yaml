@@ -1,0 +1,75 @@
+execution_claim:
+  required: [evidence_exists, asset_or_host_exists, technique_present]
+  optional: [process_or_file_evidence]
+  feasible_threshold: 0.78
+  conditional_threshold: 0.50
+persistence_claim:
+  required: [evidence_exists, asset_or_host_exists, technique_present]
+  optional: [process_or_file_evidence, privileged_identity]
+  feasible_threshold: 0.78
+  conditional_threshold: 0.52
+privilege_claim:
+  required: [evidence_exists, identity_exists, asset_or_host_exists]
+  optional: [privilege_edge, technique_present]
+  feasible_threshold: 0.82
+  conditional_threshold: 0.55
+credential_access_claim:
+  required: [evidence_exists, identity_exists, technique_present]
+  optional: [auth_context, privileged_identity]
+  feasible_threshold: 0.82
+  conditional_threshold: 0.55
+lateral_movement_claim:
+  required: [evidence_exists, source_asset_exists, target_asset_exists, remote_service_or_lateral_movement_technique]
+  optional: [network_zone_reachability, identity_access_edge, cross_host_evidence]
+  feasible_threshold: 0.80
+  conditional_threshold: 0.55
+network_reachability_claim:
+  required: [evidence_exists, network_zone_exists]
+  optional: [external_destination, zone_reachability]
+  feasible_threshold: 0.78
+  conditional_threshold: 0.52
+exfiltration_claim:
+  required: [evidence_exists, external_destination, exfiltration_technique_or_rule]
+  optional: [outbound_transfer_evidence, sensitive_asset]
+  feasible_threshold: 0.85
+  conditional_threshold: 0.60
+impact_claim:
+  required: [evidence_exists, asset_or_host_exists, impact_technique]
+  optional: [critical_asset, destructive_signal]
+  feasible_threshold: 0.85
+  conditional_threshold: 0.58
+defense_evasion_claim:
+  required: [evidence_exists, asset_or_host_exists, technique_present]
+  optional: [process_or_file_evidence]
+  feasible_threshold: 0.78
+  conditional_threshold: 0.50
+identity_claim:
+  required: [evidence_exists, identity_exists]
+  optional: [identity_access_edge, privileged_identity]
+  feasible_threshold: 0.75
+  conditional_threshold: 0.48
+host_claim:
+  required: [evidence_exists, host_exists]
+  optional: [asset_exists, network_zone_exists]
+  feasible_threshold: 0.75
+  conditional_threshold: 0.48
+asset_claim:
+  required: [evidence_exists, asset_exists]
+  optional: [business_context, network_zone_exists]
+  feasible_threshold: 0.75
+  conditional_threshold: 0.48
+business_context_claim:
+  required: [asset_exists, business_service_exists]
+  optional: [business_unit_exists, policy_exists]
+  feasible_threshold: 0.72
+  conditional_threshold: 0.48
+technique_claim:
+  required: [evidence_exists, technique_present]
+  optional: [asset_or_host_exists]
+  feasible_threshold: 0.72
+  conditional_threshold: 0.48
+telemetry_backlog_claim:
+  required: [evidence_exists]
+  optional: [case_volume_context, monitoring_asset]
+  feasible_threshold: 0.70
+  conditional_threshold: 0.45

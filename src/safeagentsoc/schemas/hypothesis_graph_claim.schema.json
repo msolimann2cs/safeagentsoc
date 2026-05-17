@@ -1,0 +1,19 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "title": "Phase 8 Hypothesis Graph Claim",
+  "type": "object",
+  "required": ["claim_id", "case_id", "hypothesis_id", "claim_type", "claim_text", "evidence_ids", "alert_uids"],
+  "properties": {
+    "claim_id": {"type": "string"},
+    "case_id": {"type": "string"},
+    "hypothesis_id": {"type": "string"},
+    "claim_type": {"type": "string"},
+    "claim_text": {"type": "string"},
+    "techniques": {"type": "array", "items": {"type": "string"}},
+    "evidence_ids": {"type": "array", "items": {"type": "string"}},
+    "alert_uids": {"type": "array", "items": {"type": "string"}},
+    "claim_source": {"type": "string"},
+    "critical": {"type": "boolean"}
+  },
+  "additionalProperties": true
+}
