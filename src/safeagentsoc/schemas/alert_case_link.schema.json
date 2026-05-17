@@ -1,0 +1,36 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "$id": "https://safeagentsoc.local/schemas/alert_case_link.schema.json",
+  "title": "SafeAgentSOC Alert Case Link",
+  "type": "object",
+  "additionalProperties": true,
+  "required": [
+    "case_id",
+    "alert_uid",
+    "evidence_id",
+    "runtime_alert_role",
+    "visibility_level",
+    "case_affinity_score"
+  ],
+  "properties": {
+    "case_id": { "type": "string" },
+    "alert_uid": { "type": "string" },
+    "evidence_id": { "type": "string" },
+    "runtime_alert_role": {
+      "type": "string",
+      "enum": ["trigger", "supporting", "duplicate", "noise", "context", "unrelated"]
+    },
+    "visibility_level": {
+      "type": "string",
+      "enum": ["visible_primary", "visible_supporting", "collapsed_duplicate", "collapsed_noise", "excluded"]
+    },
+    "role_confidence": { "type": "number", "minimum": 0, "maximum": 1 },
+    "role_reason": { "type": "string" },
+    "case_affinity_score": { "type": "number", "minimum": 0, "maximum": 1 },
+    "suppression_safe": { "type": "boolean" },
+    "suppression_reason": { "type": ["string", "null"] },
+    "must_remain_visible_reason": { "type": ["string", "null"] },
+    "preserved_unique_evidence_types": { "type": "array", "items": { "type": "string" } }
+  }
+}
+

@@ -137,8 +137,10 @@ def build_candidate_links(
     case_candidates: dict[str, list[dict[str, Any]]] = {}
 
     for index, seed in enumerate(seeds):
+        if seed.seed_alert_uid in linked_alerts:
+            continue
         seed_alert = alerts_by_uid[seed.seed_alert_uid]
-        case_id = f"case_rt_{index + 1:06d}"
+        case_id = f"case_rt_{len(case_candidates) + 1:06d}"
         seed_duplicate_group = duplicate_group_by_alert.get(seed.seed_alert_uid)
         candidates: list[dict[str, Any]] = []
 

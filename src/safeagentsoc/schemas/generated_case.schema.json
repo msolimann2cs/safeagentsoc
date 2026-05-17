@@ -1,0 +1,45 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "$id": "https://safeagentsoc.local/schemas/generated_case.schema.json",
+  "title": "SafeAgentSOC Generated Runtime Case",
+  "type": "object",
+  "additionalProperties": true,
+  "required": [
+    "case_id",
+    "case_schema_version",
+    "case_status",
+    "case_created_at_utc",
+    "case_start_time_utc",
+    "case_end_time_utc",
+    "case_priority_score",
+    "case_priority_label",
+    "alert_count_total",
+    "visible_alert_count",
+    "suppressed_alert_count",
+    "evidence_ids",
+    "case_alerts"
+  ],
+  "properties": {
+    "case_id": { "type": "string" },
+    "case_schema_version": { "type": "string" },
+    "case_status": { "type": "string", "enum": ["generated"] },
+    "case_created_at_utc": { "type": "string", "format": "date-time" },
+    "case_start_time_utc": { "type": "string" },
+    "case_end_time_utc": { "type": "string" },
+    "primary_asset_id": { "type": ["string", "null"] },
+    "primary_identity_id": { "type": ["string", "null"] },
+    "business_unit": { "type": ["string", "null"] },
+    "business_service": { "type": ["string", "null"] },
+    "case_priority_score": { "type": "number", "minimum": 0, "maximum": 100 },
+    "case_priority_label": { "type": "string", "enum": ["P1 critical", "P2 high", "P3 medium", "P4 low"] },
+    "case_confidence": { "type": "number", "minimum": 0, "maximum": 1 },
+    "alert_count_total": { "type": "integer", "minimum": 1 },
+    "visible_alert_count": { "type": "integer", "minimum": 0 },
+    "suppressed_alert_count": { "type": "integer", "minimum": 0 },
+    "evidence_ids": { "type": "array", "items": { "type": "string" } },
+    "mitre_technique_ids": { "type": "array", "items": { "type": "string" } },
+    "mitre_tactics": { "type": "array", "items": { "type": "string" } },
+    "case_alerts": { "type": "array", "items": { "$ref": "alert_case_link.schema.json" } }
+  }
+}
+

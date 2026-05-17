@@ -59,6 +59,7 @@ def score_case(case_id: str, rows: list[dict[str, Any]]) -> dict[str, Any]:
     priority_score = round(max(0.0, min(priority_score, 100.0)), 2)
     start_time = min(str(alert.get("event_time_utc") or "") for alert in alerts)
     end_time = max(str(alert.get("event_time_utc") or "") for alert in alerts)
+    duration_minutes = calculate_duration_minutes(start_time, end_time)
     asset = trigger_alert.get("asset_context") or {}
     identity = trigger_alert.get("identity_context") or {}
     summary = trigger_alert.get("original_alert_summary") or {}
@@ -72,7 +73,7 @@ def score_case(case_id: str, rows: list[dict[str, Any]]) -> dict[str, Any]:
         "case_created_at_utc": datetime.now(UTC).isoformat(),
         "case_start_time_utc": start_time,
         "case_end_time_utc": end_time,
-        "case_duration_minutes": 0.0,
+        "case_duration_minutes": duration_minutes,
         "primary_asset_id": asset.get("asset_id"),
         "primary_identity_id": identity.get("identity_id"),
         "business_unit": asset.get("business_unit"),
@@ -105,8 +106,75 @@ def score_case(case_id: str, rows: list[dict[str, Any]]) -> dict[str, Any]:
 
 def build_case_title(asset: dict[str, Any], summary: dict[str, Any]) -> str:
     asset_name = asset.get("logical_asset_name") or summary.get("agent_name") or "observed asset"
-    description = str(summary.get("rule_description") or summary.get("event_category") or "security activity")
-    return f"{description[:70]} on {asset_name}"
+    text = str(summary.get("rule_description") or summary.get("event_category") or "security activity").lower()
+    process = summary.get("process") or {}
+    process_text = " ".join(str(process.get(key) or "") for key in ["name", "command_line"]).lower()
+    combined = f"{text} {process_text}"
+    if "secedit" in combined:
+        description = "Suspicious SecEdit execution"
+    elif "application compatibility database" in combined or "sdbinst" in combined:
+        description = "Application Compatibility Database execution"
+    elif "powershell" in combined and ("delete" in combined or "remove" in combined):
+        description = "PowerShell file deletion activity"
+    elif "powershell" in combined:
+        description = "PowerShell activity"
+    elif "command prompt" in combined or "cmd.exe" in combined:
+        description = "Windows command shell activity"
+    elif "sudo to root" in combined:
+        description = "Successful sudo to ROOT activity"
+    elif "authentication failure" in combined or "login failed" in combined:
+        description = "Authentication failure activity"
+    elif "processes running" in combined or "ps command" in combined:
+        description = "Process discovery activity"
+    elif "service startup type" in combined:
+        description = "Windows service configuration change"
+    elif "integrity checksum" in combined:
+        description = "Integrity monitoring change"
+    elif " was solved due to an update in the agent or feed" in combined and "affected " in combined:
+        description = vulnerability_title(raw=str(summary.get("rule_description") or ""), solved=True)
+    elif "cve-" in combined and " affects " in combined:
+        description = vulnerability_title(raw=str(summary.get("rule_description") or ""), solved=False)
+    else:
+        raw = str(summary.get("rule_description") or summary.get("event_category") or "Security activity").strip()
+        description = clean_title_fragment(raw)
+    return f"{description} on {asset_name}"
+
+
+def clean_title_fragment(value: str, max_length: int = 68) -> str:
+    normalized = " ".join(value.replace("\\\\", "/").split())
+    if len(normalized) <= max_length:
+        return normalized
+    truncated = normalized[: max_length + 1].rsplit(" ", 1)[0].rstrip(".,:- ")
+    return truncated or normalized[:max_length].rstrip(".,:- ")
+
+
+def calculate_duration_minutes(start_time: str, end_time: str) -> float:
+    try:
+        start = datetime.fromisoformat(start_time.replace("Z", "+00:00"))
+        end = datetime.fromisoformat(end_time.replace("Z", "+00:00"))
+    except ValueError:
+        return 0.0
+    return round(max((end - start).total_seconds(), 0.0) / 60.0, 2)
+
+
+def vulnerability_title(raw: str, *, solved: bool) -> str:
+    text = " ".join(raw.split())
+    cve = ""
+    package = ""
+    parts = text.split()
+    for item in parts:
+        if item.startswith("CVE-"):
+            cve = item
+            break
+    if solved and " affected " in text and " was solved" in text:
+        package = text.split(" affected ", 1)[1].split(" was solved", 1)[0].strip()
+    elif not solved and " affects " in text:
+        package = text.split(" affects ", 1)[1].split(" (", 1)[0].strip()
+    if solved and cve and package:
+        return f"Resolved vulnerability backlog for {package} ({cve})"
+    if cve and package:
+        return f"Vulnerability backlog for {package} ({cve})"
+    return clean_title_fragment(text)
 
 
 def build_case_summary(asset: dict[str, Any], rows: list[dict[str, Any]], mitre_values: list[str]) -> str:

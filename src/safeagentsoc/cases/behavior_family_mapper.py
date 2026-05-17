@@ -33,8 +33,6 @@ def map_behavior_family(alert: dict[str, Any]) -> str:
         return "sca_compliance_backlog"
     if "defender" in text or "pua" in text or "potentially unwanted" in text:
         return "windows_defender_pua"
-    if service == "security monitoring" or "wazuh" in text or "siem" in asset_role:
-        return "wazuh_security_infrastructure"
     if "dpkg" in text or "package" in text or rule_id in {"2901", "2902", "2903", "2904"}:
         return "linux_package_management"
     if "pam" in text or "login" in text or "session" in text or "authentication" in text or "sshd" in text:
@@ -49,6 +47,8 @@ def map_behavior_family(alert: dict[str, Any]) -> str:
         return "windows_suspicious_execution" if platform == "windows" else "linux_privilege_activity"
     if "syscheck" in text or "integrity" in text or "file added" in text or "file modified" in text:
         return "linux_integrity_monitoring"
+    if (service == "security monitoring" and platform == "linux") or "wazuh" in text or "siem" in asset_role:
+        return "wazuh_security_infrastructure"
     if "network" in text or "connection" in text or "firewall" in text:
         return "network_activity"
     return "unknown_low_signal"

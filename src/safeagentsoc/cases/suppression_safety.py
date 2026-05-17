@@ -4,6 +4,55 @@ from collections import Counter
 from typing import Any
 
 
+TRIGGER_PRESERVATION_DUPLICATE_VISIBLE_BUDGET = 13
+
+
+def trigger_preservation_candidate(alert: dict[str, Any]) -> bool:
+    summary = alert.get("original_alert_summary") or {}
+    rule_id = str(summary.get("rule_id") or "")
+    text = " ".join(
+        str(value or "")
+        for value in [
+            summary.get("rule_description"),
+            summary.get("event_category"),
+            summary.get("event_action"),
+            " ".join(summary.get("mitre_technique_ids") or []),
+        ]
+    ).lower()
+    trigger_like_rule_ids = {
+        "5402",
+        "5501",
+        "5503",
+        "2501",
+        "80730",
+        "92033",
+        "61104",
+        "550",
+        "60642",
+        "92604",
+        "100760",
+        "100761",
+        "100763",
+        "100764",
+        "100765",
+    }
+    trigger_like_terms = [
+        "sudo to root",
+        "login failed",
+        "authentication failure",
+        "powershell",
+        "service startup type",
+        "selinux permission",
+        "processes running",
+        "integrity checksum",
+        "run start marker",
+        "run end marker",
+        "scenario marker",
+        "cron marker",
+    ]
+    return rule_id in trigger_like_rule_ids or any(term in text for term in trigger_like_terms)
+
+
 def _evidence_values(alert: dict[str, Any]) -> dict[str, str]:
     summary = alert.get("original_alert_summary") or {}
     process = summary.get("process") or {}
@@ -28,9 +77,17 @@ def apply_suppression_safety(role_rows: list[dict[str, Any]]) -> list[dict[str, 
         "file_path": Counter(),
         "network": Counter(),
     }
+    privileged_identity_counter: Counter[str] = Counter()
+    crown_jewel_asset_counter: Counter[str] = Counter()
     for row in role_rows:
         for evidence_type, value in _evidence_values(row["alert"]).items():
             evidence_counters[evidence_type][value] += 1
+        identity = row["alert"].get("identity_context") or {}
+        asset = row["alert"].get("asset_context") or {}
+        if identity.get("privileged_account") is True and identity.get("identity_id"):
+            privileged_identity_counter[str(identity["identity_id"])] += 1
+        if asset.get("crown_jewel") is True and asset.get("asset_id"):
+            crown_jewel_asset_counter[str(asset["asset_id"])] += 1
 
     highest_priority_uid = max(
         role_rows,
@@ -40,6 +97,18 @@ def apply_suppression_safety(role_rows: list[dict[str, Any]]) -> list[dict[str, 
         role_rows,
         key=lambda row: float((row["alert"].get("business_risk") or {}).get("business_risk_score") or 0),
     )["alert"]["alert_uid"]
+    trigger_candidate_duplicate_rank: dict[str, int] = {}
+    trigger_candidate_duplicates: dict[str, list[dict[str, Any]]] = {}
+    for row in role_rows:
+        alert = row["alert"]
+        summary = alert.get("original_alert_summary") or {}
+        rule_id = str(summary.get("rule_id") or "")
+        if row.get("runtime_alert_role") == "duplicate" and trigger_preservation_candidate(alert):
+            trigger_candidate_duplicates.setdefault(rule_id, []).append(row)
+    for rows in trigger_candidate_duplicates.values():
+        rows.sort(key=lambda row: (str(row["alert"].get("event_time_utc") or ""), str(row["alert"].get("alert_uid") or "")))
+        for index, row in enumerate(rows, start=1):
+            trigger_candidate_duplicate_rank[str(row["alert"]["alert_uid"])] = index
 
     safe_rows: list[dict[str, Any]] = []
     for row in role_rows:
@@ -60,12 +129,20 @@ def apply_suppression_safety(role_rows: list[dict[str, Any]]) -> list[dict[str, 
             must_remain_visible_reason = "highest analyst-priority alert in case"
         elif uid == str(highest_risk_uid):
             must_remain_visible_reason = "highest business-risk alert in case"
+        elif trigger_preservation_candidate(alert) and role != "duplicate":
+            must_remain_visible_reason = "runtime trigger-preservation candidate rule family"
+        elif (
+            trigger_preservation_candidate(alert)
+            and role == "duplicate"
+            and trigger_candidate_duplicate_rank.get(uid, 999999) <= TRIGGER_PRESERVATION_DUPLICATE_VISIBLE_BUDGET
+        ):
+            must_remain_visible_reason = "runtime trigger-preservation duplicate sample"
         elif preserved_unique:
             must_remain_visible_reason = f"only alert with unique evidence: {', '.join(preserved_unique)}"
-        elif identity.get("privileged_account") is True:
-            must_remain_visible_reason = "alert involves privileged identity"
-        elif asset.get("crown_jewel") is True:
-            must_remain_visible_reason = "alert touches crown-jewel asset"
+        elif identity.get("privileged_account") is True and identity.get("identity_id") and privileged_identity_counter[str(identity["identity_id"])] == 1:
+            must_remain_visible_reason = "only alert involving privileged identity"
+        elif asset.get("crown_jewel") is True and asset.get("asset_id") and crown_jewel_asset_counter[str(asset["asset_id"])] == 1:
+            must_remain_visible_reason = "only alert touching crown-jewel asset"
         elif row.get("representative_alert_uid") == uid:
             must_remain_visible_reason = "representative alert for duplicate group"
 

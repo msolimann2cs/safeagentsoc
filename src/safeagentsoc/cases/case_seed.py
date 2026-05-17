@@ -63,7 +63,9 @@ def generate_case_seeds(alerts: list[dict[str, Any]]) -> list[CaseSeed]:
         security_monitoring_seed = (
             asset.get("business_service") == "Security Monitoring"
             and business_risk.get("business_risk_label") in {"high", "critical"}
+            and priority_label in {"medium", "high", "critical"}
             and behavior_family in security_seed_families
+            and _has_runtime_evidence(alert)
         )
         if priority_label in {"high", "critical"} and gate_passed and not weak_fallback:
             selected = True
